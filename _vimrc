@@ -5,8 +5,6 @@ filetype on
 " 根据侦测到的不同类型加载对应的插件
 filetype plugin on
 
-" 其他
-
 " 开启实时搜索功能
 set incsearch
 
@@ -23,48 +21,13 @@ set wildmenu
 " >>>>
 " 插件安装
 
-" vundle 环境设置
-filetype off
-set rtp+=D:\programming\gvim_8.0.0003_x64\vim\vimfiles\bundle\Vundle.vim
-" vundle 管理的插件列表必须位于 vundle#begin() 和 vundle#end() 之间
-call vundle#begin('D:\programming\gvim_8.0.0003_x64\vim\vimfiles\bundle')
+call plug#begin('~/.vim/plugged')
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'altercation/vim-colors-solarized'
-" Plugin 'altercation/solarized'
-Plugin 'tomasr/molokai'
-Plugin 'vim-scripts/phd'
-"Plugin 'Lokaltog/vim-powerline'
-Plugin 'octol/vim-cpp-enhanced-highlight'
-Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'derekwyatt/vim-fswitch'
-Plugin 'kshenoy/vim-signature'
-Plugin 'vim-scripts/BOOKMARKS--Mark-and-Highlight-Full-Lines'
-"Plugin 'majutsushi/tagbar'
-Plugin 'vim-scripts/indexer.tar.gz'
-Plugin 'vim-scripts/DfrankUtil'
-Plugin 'vim-scripts/vimprj'
-Plugin 'dyng/ctrlsf.vim'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'vim-scripts/DrawIt'
-Plugin 'SirVer/ultisnips'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'derekwyatt/vim-protodef'
-Plugin 'scrooloose/nerdtree'
-Plugin 'fholgado/minibufexpl.vim'
-Plugin 'gcmt/wildfire.vim'
-Plugin 'sjl/gundo.vim'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'suan/vim-instant-markdown'
-Plugin 'lilydjwg/fcitx.vim'
-"22
-Plugin 'kristijanhusak/vim-hybrid-material'
-Plugin 'ashfinal/vim-colors-violet'
-Plugin 'morhetz/gruvbox'
-"233
-" 插件列表结束
-call vundle#end()
+Plug 'morhetz/gruvbox'
+Plug 'Valloric/YouCompleteMe'
+
+call plug#end()
+
 filetype plugin indent on
 " <<<<
 
@@ -74,9 +37,6 @@ set background=light
 colorscheme gruvbox
 "colorscheme molokai
 "colorscheme phd
-
-" >>
-" 营造专注气氛
 
 " 禁止光标闪烁
 set gcr=a:block-blinkon0
@@ -134,8 +94,6 @@ syntax enable
 " 允许用指定语法高亮配色方案替换默认方案
 syntax on
 
-" <<
-
 " >>
 " 缩进
 
@@ -180,39 +138,6 @@ set nofoldenable
 " *.cpp 和 *.h 间切换
 nmap <silent> <Leader>sw :FSHere<cr>
 
-" <<
-
-" >>
-" 代码收藏
-
-" 自定义 vim-signature 快捷键
-let g:SignatureMap = {
-        \ 'Leader'             :  "m",
-        \ 'PlaceNextMark'      :  "m,",
-        \ 'ToggleMarkAtLine'   :  "m.",
-        \ 'PurgeMarksAtLine'   :  "m-",
-        \ 'DeleteMark'         :  "dm",
-        \ 'PurgeMarks'         :  "mda",
-        \ 'PurgeMarkers'       :  "m<BS>",
-        \ 'GotoNextLineAlpha'  :  "']",
-        \ 'GotoPrevLineAlpha'  :  "'[",
-        \ 'GotoNextSpotAlpha'  :  "`]",
-        \ 'GotoPrevSpotAlpha'  :  "`[",
-        \ 'GotoNextLineByPos'  :  "]'",
-        \ 'GotoPrevLineByPos'  :  "['",
-        \ 'GotoNextSpotByPos'  :  "mn",
-        \ 'GotoPrevSpotByPos'  :  "mp",
-        \ 'GotoNextMarker'     :  "[+",
-        \ 'GotoPrevMarker'     :  "[-",
-        \ 'GotoNextMarkerAny'  :  "]=",
-        \ 'GotoPrevMarkerAny'  :  "[=",
-        \ 'ListLocalMarks'     :  "ms",
-        \ 'ListLocalMarkers'   :  "m?"
-        \ }
-
-" <<
-
-" >>
 " 标签列表
 
 " 设置 tagbar 子窗口的位置出现在主编辑区的左边
