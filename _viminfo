@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/number
+~Msle0~/\<flag\>
 
 # Last Substitute Search Pattern:
 ~MSle0&course
@@ -21,11 +21,19 @@ $tb_info
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1508329067,,"wq"
+|2,0,1508467710,,"wq"
 :w
-|2,0,1508329035,,"w"
+|2,0,1508467699,,"w"
+:%s/-/*/gc
+|2,0,1508415898,,"%s/-/*/gc"
 :set relativenumber
-|2,0,1508328916,,"set relativenumber"
+|2,0,1508375304,,"set relativenumber"
+:echo $MYVIMRC
+|2,0,1508330240,,"echo $MYVIMRC"
+:echo $HOME
+|2,0,1508330228,,"echo $HOME"
+:echo $Vim
+|2,0,1508329606,,"echo $Vim"
 :w!
 |2,0,1508319480,,"w!"
 :%s/\r//gc
@@ -112,16 +120,36 @@ $tb_info
 |2,0,1504230370,,"bd 4"
 :db! 2
 |2,0,1503990966,,"db! 2"
-:w addTeacher.scss
-|2,0,1503901556,,"w addTeacher.scss"
-:ser relativenumber
-|2,0,1503728773,,"ser relativenumber"
-:set relavtienumber
-|2,0,1503715751,,"set relavtienumber"
-:set relativenumber;
-|2,0,1503637457,,"set relativenumber;"
 
 # Search String History (newest to oldest):
+?/admin
+|2,1,1508467662,47,"admin"
+? \<jsp\>
+|2,1,1508466159,,"\\<jsp\\>"
+?/jsp
+|2,1,1508466149,47,"jsp"
+?/choose
+|2,1,1508466039,47,"choose"
+?/*
+|2,1,1508416356,47,"*"
+? \<喜欢串串\>
+|2,1,1508416351,,"\\<喜欢串串\\>"
+? -
+|2,1,1508415898,,"-"
+? \<flag\>
+|2,1,1508412396,,"\\<flag\\>"
+?/flag
+|2,1,1508412385,47,"flag"
+?/flog
+|2,1,1508412381,47,"flog"
+?/hello
+|2,1,1508411178,47,"hello"
+? \<junit\>
+|2,1,1508409520,,"\\<junit\\>"
+? \<JUnit\>
+|2,1,1508409516,,"\\<JUnit\\>"
+?/junit
+|2,1,1508409478,47,"junit"
 ?/avatar
 |2,1,1508327164,47,"avatar"
 ? \<post_asset_folder\>
@@ -194,34 +222,6 @@ $tb_info
 |2,1,1502026956,47,"p {"
 ?/p
 |2,1,1502026938,47,"p"
-?/slider_main
-|2,1,1501735982,47,"slider_main"
-?/user
-|2,1,1501737610,47,"user"
-?/fs_col3
-|2,1,1501722186,47,"fs_col3"
-?/row
-|2,1,1501721726,47,"row"
-?/col
-|2,1,1501721243,47,"col"
-?/slider_bi_img
-|2,1,1501719931,47,"slider_bi_img"
-?/slider_bi:w
-|2,1,1501719907,47,"slider_bi:w"
-?/slider
-|2,1,1501680739,47,"slider"
-?/col2
-|2,1,1501720805,47,"col2"
-?/*
-|2,1,1501678965,47,"*"
-?/hot_
-|2,1,1501678648,47,"hot_"
-? \<nav_items\>
-|2,1,1501676795,,"\\<nav_items\\>"
-?/.nav_items
-|2,1,1501676654,47,".nav_items"
-?/hot
-|2,1,1501676532,47,"hot"
 
 # Expression History (newest to oldest):
 =<div></div>
@@ -241,33 +241,38 @@ $tb_info
 |3,0,0,1,1,0,1507195696,"                                    <td></td>"
 "1	LINE	0
 	
-|3,0,1,1,1,0,1508329029,""
+|3,0,1,1,1,0,1508465419,""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1508328717,""
+	c12cbb144cb460b79ecd4dd884ac3d945157bdbc
+|3,0,2,1,1,0,1508465407,"c12cbb144cb460b79ecd4dd884ac3d945157bdbc"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1508328716,""
+	w
+|3,0,3,1,1,0,1508411391,"w"
 "4	LINE	0
 	
-	-
-|3,0,4,1,2,0,1508328005,"","-"
+|3,0,4,1,1,0,1508411251,""
 "5	LINE	0
-	## 备注
-	
-|3,0,5,1,2,0,1508328003,"## 备注",""
+	        model.addAttribute("name", "tigger");
+	        List<String> fruitList = Arrays.asList("香蕉", "李子", "桃子");
+	        model.addAttribute("fruits", fruitList);
+	        return "home";
+|3,0,5,1,4,0,1508411248,"        model.addAttribute(\"name\", \"tigger\");","        List<String> fruitList = Arrays.asList(\"香蕉\", \"李子\", \"桃子\");","        model.addAttribute(\"fruits\", fruitList);","        return \"home\";"
 "6	LINE	0
 	
-|3,0,6,1,1,0,1508327196,""
+	    @GetMapping("/home")
+|3,0,6,1,2,0,1508411142,"","    @GetMapping(\"/home\")"
 "7	LINE	0
+	    @SuppressWarnings("unused")
+	    @Autowired
+	    private UserService userService;
 	
-|3,0,7,1,1,0,1508327181,""
+|3,0,7,1,4,0,1508411138,"    @SuppressWarnings(\"unused\")","    @Autowired","    private UserService userService;",""
 "8	LINE	0
-	.git
-|3,0,8,1,1,0,1508318637,".git"
+	
+|3,0,8,1,1,0,1508384224,""
 "9	LINE	0
-	    public List
-|3,0,9,1,1,0,1508317684,"    public List"
+	
+|3,0,9,1,1,0,1508382478,""
 "a	CHAR	0
 	odi�kb�kb<div></div>2a2@aSd�kb<><>i/div:w2F<adiv:w71GS<div></div>:w��b��aki class = main:wj2F>
 |3,0,10,0,1,0,1501496725,"odi�kb�kb<div></div>2a2@aSd�kb<><>i/div:w2F<adiv:w71GS<div></div>:w��b��aki class = main:wj2F>"
@@ -279,238 +284,334 @@ $tb_info
 <putpltbTnfafatafaFatafa��b��a:hle�kb�kbelp usr_02.txxt�kb�kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:��2��4��b��a:q
 |3,0,29,0,1,0,1500516520,"putpltbTnfafatafaFatafa��b��a:hle�kb�kbelp usr_02.txxt�kb�kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:��2��4��b��a:q"
 "-	CHAR	0
-	w
-|3,0,36,0,1,0,1508329033,"w"
+	session
+|3,0,36,0,1,0,1508467193,"session"
 
 # 文件标记:
-'0  23  20  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\UserServiceImpl.java
-|4,48,23,20,1508329067,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\UserServiceImpl.java"
-'1  7  31  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\UserService.java
-|4,49,7,31,1508328873,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\UserService.java"
-'2  8  10  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\UserDAOImpl.java
-|4,50,8,10,1508328801,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\UserDAOImpl.java"
-'3  5  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,51,5,0,1508328725,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
-'4  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,52,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
-'5  84  66  D:\Users\79001\git\blog\_config.yml
-|4,53,84,66,1508327238,"D:\\Users\\79001\\git\\blog\\_config.yml"
-'6  1  0  D:\Users\79001\git\blog\source\_posts\小雨使用手册.md
-|4,54,1,0,1508325832,"D:\\Users\\79001\\git\\blog\\source\\_posts\\小雨使用手册.md"
-'7  37  22  D:\Users\79001\git\blog\_config.yml
-|4,55,37,22,1508324165,"D:\\Users\\79001\\git\\blog\\_config.yml"
-'8  37  22  D:\Users\79001\git\blog\_config.yml
-|4,56,37,22,1508324165,"D:\\Users\\79001\\git\\blog\\_config.yml"
-'9  26  10  ~\.gitignore
-|4,57,26,10,1508320075,"~\\.gitignore"
+'0  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
+|4,48,1,0,1508471239,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\User.java"
+'1  43  28  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
+|4,49,43,28,1508467710,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\User.java"
+'2  43  28  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
+|4,50,43,28,1508467710,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\User.java"
+'3  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
+|4,51,1,0,1508467365,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\User.java"
+'4  24  32  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,52,24,32,1508467297,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+'5  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,53,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+'6  8  2  D:\360Downloads\house1706\java验证annotation.md
+|4,54,8,2,1508465491,"D:\\360Downloads\\house1706\\java验证annotation.md"
+'7  22  14  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
+|4,55,22,14,1508416418,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
+'8  52  31  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\UserServiceImpl.java
+|4,56,52,31,1508414263,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\UserServiceImpl.java"
+'9  33  29  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,57,33,29,1508412103,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
 
 # 跳转列表 (从新到旧):
--'  23  20  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\UserServiceImpl.java
-|4,39,23,20,1508329067,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\UserServiceImpl.java"
--'  24  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\UserServiceImpl.java
-|4,39,24,0,1508329056,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\UserServiceImpl.java"
--'  19  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\UserServiceImpl.java
-|4,39,19,0,1508329017,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\UserServiceImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\UserServiceImpl.java
-|4,39,1,0,1508328911,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\UserServiceImpl.java"
--'  7  31  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\UserService.java
-|4,39,7,31,1508328873,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\UserService.java"
--'  7  31  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\UserService.java
-|4,39,7,31,1508328873,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\UserService.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\UserService.java
-|4,39,1,0,1508328824,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\UserService.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\UserService.java
-|4,39,1,0,1508328824,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\UserService.java"
--'  8  10  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\UserDAOImpl.java
-|4,39,8,10,1508328801,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\UserDAOImpl.java"
--'  8  10  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\UserDAOImpl.java
-|4,39,8,10,1508328801,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\UserDAOImpl.java"
--'  8  10  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\UserDAOImpl.java
-|4,39,8,10,1508328801,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\UserDAOImpl.java"
--'  8  10  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\UserDAOImpl.java
-|4,39,8,10,1508328801,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\UserDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\UserDAOImpl.java
-|4,39,1,0,1508328741,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\UserDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\UserDAOImpl.java
-|4,39,1,0,1508328741,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\UserDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\UserDAOImpl.java
-|4,39,1,0,1508328741,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\UserDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\UserDAOImpl.java
-|4,39,1,0,1508328741,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\UserDAOImpl.java"
--'  5  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,5,0,1508328725,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  5  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,5,0,1508328725,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  5  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,5,0,1508328725,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  5  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,5,0,1508328725,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  5  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,5,0,1508328725,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  5  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,5,0,1508328725,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  5  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,5,0,1508328725,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  5  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,5,0,1508328725,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,1,0,1508328653,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,1,0,1508328653,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,1,0,1508328653,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,1,0,1508328653,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,1,0,1508328653,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,1,0,1508328653,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,1,0,1508328653,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\LoginLogDAOImpl.java
-|4,39,1,0,1508328653,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\LoginLogDAOImpl.java"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  34  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,34,0,1508328012,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  4  4  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,4,4,1508327843,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  9  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,9,0,1508327669,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-|4,39,1,0,1508327466,"D:\\Users\\79001\\git\\blog\\source\\_posts\\雨雨使用手册.md"
--'  84  66  D:\Users\79001\git\blog\_config.yml
-|4,39,84,66,1508327238,"D:\\Users\\79001\\git\\blog\\_config.yml"
--'  84  66  D:\Users\79001\git\blog\_config.yml
-|4,39,84,66,1508327238,"D:\\Users\\79001\\git\\blog\\_config.yml"
--'  84  66  D:\Users\79001\git\blog\_config.yml
-|4,39,84,66,1508327238,"D:\\Users\\79001\\git\\blog\\_config.yml"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
+|4,39,1,0,1508471239,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\User.java"
+-'  43  28  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
+|4,39,43,28,1508467710,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\User.java"
+-'  43  28  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
+|4,39,43,28,1508467710,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\User.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
+|4,39,1,0,1508467662,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\User.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
+|4,39,1,0,1508467365,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\User.java"
+-'  24  32  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,24,32,1508467297,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  24  32  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,24,32,1508467297,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  24  32  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,24,32,1508467297,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  24  32  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,24,32,1508467297,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  24  32  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,24,32,1508467297,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  24  32  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,24,32,1508467297,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,1,0,1508467152,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,1,0,1508467152,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,1,0,1508467152,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,1,0,1508467152,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,1,0,1508467152,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,39,1,0,1508467152,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  2  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,2,47,1508466164,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  32  33  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,32,33,1508466149,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  29  38  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,29,38,1508466128,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  25  50  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,25,50,1508466119,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  24  63  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,24,63,1508466070,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  22  29  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+|4,39,22,29,1508466039,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+-'  8  2  D:\360Downloads\house1706\java验证annotation.md
+|4,39,8,2,1508465491,"D:\\360Downloads\\house1706\\java验证annotation.md"
+-'  8  2  D:\360Downloads\house1706\java验证annotation.md
+|4,39,8,2,1508465491,"D:\\360Downloads\\house1706\\java验证annotation.md"
+-'  8  2  D:\360Downloads\house1706\java验证annotation.md
+|4,39,8,2,1508465491,"D:\\360Downloads\\house1706\\java验证annotation.md"
+-'  8  2  D:\360Downloads\house1706\java验证annotation.md
+|4,39,8,2,1508465491,"D:\\360Downloads\\house1706\\java验证annotation.md"
+-'  8  2  D:\360Downloads\house1706\java验证annotation.md
+|4,39,8,2,1508465491,"D:\\360Downloads\\house1706\\java验证annotation.md"
+-'  8  2  D:\360Downloads\house1706\java验证annotation.md
+|4,39,8,2,1508465491,"D:\\360Downloads\\house1706\\java验证annotation.md"
+-'  8  2  D:\360Downloads\house1706\java验证annotation.md
+|4,39,8,2,1508465491,"D:\\360Downloads\\house1706\\java验证annotation.md"
+-'  8  2  D:\360Downloads\house1706\java验证annotation.md
+|4,39,8,2,1508465491,"D:\\360Downloads\\house1706\\java验证annotation.md"
+-'  8  2  D:\360Downloads\house1706\java验证annotation.md
+|4,39,8,2,1508465491,"D:\\360Downloads\\house1706\\java验证annotation.md"
+-'  8  2  D:\360Downloads\house1706\java验证annotation.md
+|4,39,8,2,1508465491,"D:\\360Downloads\\house1706\\java验证annotation.md"
 
 # 文件内的标记历史记录 (从新到旧):
 
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
+	*	1508471236	0
+	"	1	0
+	^	43	29
+	.	43	28
+	+	16	0
+	+	23	26
+	+	24	24
+	+	43	28
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+	*	1508467296	0
+	"	24	32
+	^	24	32
+	.	24	31
+	+	1	32
+	+	35	0
+	+	9	23
+	+	10	73
+	+	18	0
+	+	11	31
+	+	15	0
+	+	12	33
+	+	13	44
+	+	14	37
+	+	16	57
+	+	17	24
+	+	14	19
+	+	20	21
+	+	28	0
+	+	21	46
+	+	22	34
+	+	25	0
+	+	23	22
+	+	24	36
+	+	26	78
+	+	27	23
+	+	30	23
+	+	34	0
+	+	31	46
+	+	32	28
+	+	33	29
+	+	21	63
+	+	24	31
+
+> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
+	*	1508466161	0
+	"	2	47
+	^	2	47
+	.	2	47
+	+	24	63
+	+	25	49
+	+	29	37
+	+	32	32
+	+	2	47
+
+> D:\360Downloads\house1706\java验证annotation.md
+	*	1508465489	0
+	"	8	2
+	^	2	40
+	.	2	40
+	+	3	0
+	+	7	30
+	+	3	6
+	+	8	2
+	+	2	40
+
+> D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
+	*	1508416417	0
+	"	22	14
+	^	22	17
+	.	22	14
+	+	6	5
+	+	11	9
+	+	25	11
+	+	4	5
+	+	11	0
+	+	16	14
+	+	31	1
+	+	42	0
+	+	41	0
+	+	15	0
+	+	16	0
+	+	25	0
+	+	31	0
+	+	35	0
+	+	39	0
+	+	27	14
+	+	28	0
+	+	20	17
+	+	21	17
+	+	31	1
+	+	35	1
+	+	39	1
+	+	22	14
+
 > D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\UserServiceImpl.java
-	*	1508329066	0
-	"	23	20
-	^	23	21
-	.	23	21
+	*	1508412493	0
+	"	52	31
+	^	52	31
+	.	52	30
 	+	8	51
 	+	14	36
 	+	19	0
@@ -521,6 +622,171 @@ $tb_info
 	+	24	0
 	+	22	37
 	+	23	21
+	+	27	45
+	+	5	0
+	+	27	60
+	+	40	0
+	+	28	23
+	+	29	61
+	+	30	47
+	+	39	0
+	+	31	19
+	+	36	51
+	+	37	45
+	+	38	42
+	+	41	19
+	+	46	60
+	+	51	0
+	+	47	23
+	+	48	61
+	+	49	31
+	+	50	44
+	+	54	5
+	+	53	20
+	+	34	38
+	+	35	50
+	+	52	30
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\HomeController.java
+	*	1508411308	0
+	"	35	24
+	^	35	24
+	.	35	23
+	+	10	36
+	+	12	21
+	+	15	0
+	+	14	22
+	+	19	23
+	+	24	0
+	+	19	44
+	+	24	0
+	+	20	41
+	+	21	71
+	+	22	33
+	+	23	19
+	+	18	0
+	+	18	28
+	+	28	24
+	+	29	24
+	+	30	20
+	+	33	22
+	+	36	0
+	+	35	23
+
+> D:\File\Java_workspace\houseManagement\pom.xml
+	*	1508409548	0
+	"	29	18
+	.	21	0
+	+	2	0
+	+	21	0
+
+> D:\Users\79001\git\blog\_config.yml
+	*	1508385115	0
+	"	1	0
+	^	84	67
+	.	84	8
+	+	82	2
+	+	82	0
+	+	15	37
+	+	82	7
+	+	15	4
+	+	82	7
+	+	82	16
+	+	82	0
+	+	81	33
+	+	82	14
+	+	81	0
+	+	37	22
+	+	84	8
+
+> D:\File\Java_workspace\houseManagement\src\test\java\snippets\jee\service\UserServiceTest.java
+	*	1508384408	0
+	"	26	34
+	^	26	35
+	.	26	34
+	+	5	37
+	+	17	50
+	+	32	36
+	+	38	5
+	+	36	42
+	+	37	32
+	+	3	37
+	+	4	51
+	+	16	5
+	+	13	36
+	+	14	33
+	+	15	29
+	+	28	0
+	+	27	0
+	+	21	28
+	+	22	33
+	+	23	29
+	+	24	31
+	+	25	26
+	+	26	34
+
+> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\web.xml
+	*	1508382845	0
+	"	38	0
+	^	35	15
+	.	32	51
+	+	2	227
+	+	2	267
+	+	2	264
+	+	2	266
+	+	2	227
+	+	2	238
+	+	2	0
+	+	32	51
+
+> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\home.jsp
+	*	1508382563	0
+	"	13	16
+	^	13	16
+	.	13	0
+	+	1	63
+	+	3	0
+	+	2	59
+	+	3	14
+	+	10	26
+	+	11	12
+	+	15	0
+	+	12	53
+	+	14	0
+	+	13	0
+
+> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\fontController-servlet.xml
+	*	1508382280	0
+	"	24	0
+
+> ~\_vimrc
+	*	1508375252	0
+	"	456	0
+	^	109	12
+	.	130	0
+	+	1	0
+	+	33	24
+	+	8	2
+	+	8	1
+	+	4	1
+	+	6	1
+	+	4	2
+	+	8	2
+	+	4	0
+	+	6	0
+	+	8	0
+	+	8	1
+	+	8	31
+	+	8	0
+	+	8	3
+	+	1	0
+	+	8	0
+	+	22	0
+	+	94	0
+	+	100	0
+	+	109	11
+	+	118	0
+	+	130	0
 
 > D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\UserService.java
 	*	1508328872	0
@@ -545,40 +811,6 @@ $tb_info
 	+	3	10
 	+	4	92
 	+	5	0
-
-> D:\Users\79001\git\blog\source\_posts\雨雨使用手册.md
-	*	1508328009	0
-	"	34	0
-	^	34	0
-	.	34	0
-	+	6	5
-	+	11	9
-	+	20	11
-	+	4	5
-	+	11	0
-	+	16	14
-	+	24	1
-	+	35	0
-	+	34	0
-
-> D:\Users\79001\git\blog\_config.yml
-	*	1508327236	0
-	"	84	66
-	^	84	67
-	.	84	8
-	+	82	2
-	+	82	0
-	+	15	37
-	+	82	7
-	+	15	4
-	+	82	7
-	+	82	16
-	+	82	0
-	+	81	33
-	+	82	14
-	+	81	0
-	+	37	22
-	+	84	8
 
 > D:\Users\79001\git\blog\source\_posts\小雨使用手册.md
 	*	1508325829	0
@@ -698,16 +930,6 @@ $tb_info
 	+	2	0
 	+	5	0
 
-> ~\_vimrc
-	*	1508314946	0
-	"	21	2
-	^	21	2
-	.	21	1
-	+	6	0
-	+	84	24
-	+	20	2
-	+	21	1
-
 > D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\BaseDAOAdapter
 	*	1508313290	0
 	"	1	6
@@ -754,32 +976,9 @@ $tb_info
 	+	15	19
 	+	17	21
 
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
-	*	1508305820	0
-	"	24	25
-	^	24	25
-	.	24	24
-	+	16	0
-	+	23	26
-	+	24	24
-
 > ~\.ssh\id_rsa.pub
 	*	1508303367	0
 	"	1	0
-
-> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\web.xml
-	*	1508298585	0
-	"	35	14
-	^	35	15
-	.	32	51
-	+	2	227
-	+	2	267
-	+	2	264
-	+	2	266
-	+	2	227
-	+	2	238
-	+	2	0
-	+	32	51
 
 > D:\Users\79001\git\blog\.gitignore
 	*	1508297149	0
@@ -807,13 +1006,6 @@ $tb_info
 	+	22	11
 	+	21	21
 	+	3	0
-	+	2	0
-
-> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\home.jsp
-	*	1508292572	0
-	"	1	63
-	.	2	0
-	+	1	63
 	+	2	0
 
 > D:\Users\79001\blog\.gitignore
@@ -872,13 +1064,6 @@ $tb_info
 	"	1	0
 	.	5	0
 	+	5	0
-
-> D:\File\Java_workspace\houseManagement\pom.xml
-	*	1508221739	0
-	"	1	0
-	.	21	0
-	+	2	0
-	+	21	0
 
 > D:\File\Java_workspace\houseManagement\src\main\resources\app.xml
 	*	1508204502	0
@@ -985,18 +1170,6 @@ $tb_info
 > D:\File\Java_workspace\springioc\src\test\java\com\qfedu\springioc\service\UserServiceTest.java
 	*	1508136955	0
 	"	1	0
-
-> D:\File\Java_workspace\houseManagement\src\test\java\snippets\jee\service\UserServiceTest.java
-	*	1508136952	0
-	"	13	33
-	^	13	33
-	.	13	32
-	+	3	37
-	+	4	50
-	+	8	36
-	+	14	5
-	+	12	42
-	+	13	32
 
 > D:\File\Java_workspace\springioc\pom.xml
 	*	1508134646	0
@@ -1527,41 +1700,3 @@ $tb_info
 > D:\Program Files\client\user-rule.txt
 	*	1507426881	0
 	"	1	0
-
-> D:\Program Files\client\pac.txt
-	*	1507426844	0
-	"	99	0
-
-> D:\File\Java_workspace\CourseManagementRESTClient\pom.xml
-	*	1507335577	0
-	"	1	0
-	.	20	0
-	+	2	0
-	+	20	0
-
-> D:\File\Java_workspace\CourseManagementRESTClient\.gitignore
-	*	1507299873	0
-	"	23	4
-	^	23	5
-	.	25	0
-	+	1	0
-	+	24	0
-	+	25	0
-
-> D:\File\Java_workspace\CourseManagementREST\services_course_get_10.json
-	*	1507277122	0
-	"	9	0
-	^	9	0
-	.	8	5
-	+	1	1
-	+	2	12
-	+	3	23
-	+	4	16
-	+	5	16
-	+	6	15
-	+	7	25
-	+	8	5
-
-> D:\programming\mysql-5.7.14-winx64\bin\car_test.sql
-	*	1507258383	0
-	"	96	0
