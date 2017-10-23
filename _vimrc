@@ -25,6 +25,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
 Plug 'Valloric/YouCompleteMe'
+Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
@@ -32,9 +33,14 @@ filetype plugin indent on
 " <<<<
 
 " ÅäÉ«·½°¸
-set background=light
-"colorscheme solarized
-colorscheme gruvbox
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
+
+colorscheme solarized
+"colorscheme gruvbox
 "colorscheme molokai
 "colorscheme phd
 

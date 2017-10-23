@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ycm
+~MSle0~/background
 
 # Last Substitute Search Pattern:
 ~MSle0&course
@@ -21,15 +21,17 @@ $tb_info
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1508492566,,"wq"
+|2,0,1508743701,,"wq"
 :w
-|2,0,1508492539,,"w"
+|2,0,1508743523,,"w"
 :q
-|2,0,1508491088,,"q"
+|2,0,1508741681,,"q"
+:q!
+|2,0,1508740788,,"q!"
+:w MyExceptionAdvice.java
+|2,0,1508666750,,"w MyExceptionAdvice.java"
 :PlugInstall
 |2,0,1508491077,,"PlugInstall"
-:q!
-|2,0,1508489177,,"q!"
 :Plug install
 |2,0,1508489091,,"Plug install"
 :%s/-/*/gc
@@ -118,10 +120,32 @@ $tb_info
 |2,0,1504924856,,"vimtutor zh"
 :set relativenmuber
 |2,0,1504664779,,"set relativenmuber"
-:set reltivenumber
-|2,0,1504491703,,"set reltivenumber"
 
 # Search String History (newest to oldest):
+?/background
+|2,1,1508743334,47,"background"
+?/syntax
+|2,1,1508743318,47,"syntax"
+?/message
+|2,1,1508740056,47,"message"
+?/submit
+|2,1,1508738850,47,"submit"
+?/name
+|2,1,1508727811,47,"name"
+?/registerForm
+|2,1,1508727677,47,"registerForm"
+?/user
+|2,1,1508727568,47,"user"
+?/code
+|2,1,1508663832,47,"code"
+?/password
+|2,1,1508496952,47,"password"
+?/currentUid
+|2,1,1508496787,47,"currentUid"
+? \<getPassword\>
+|2,1,1508496453,,"\\<getPassword\\>"
+?/username
+|2,1,1508496293,47,"username"
 ?/ycm
 |2,1,1508489287,47,"ycm"
 ?/input
@@ -198,30 +222,6 @@ $tb_info
 |2,1,1504606087,47,"jpda_transport"
 ? \<JPDA_SUSPEND\>
 |2,1,1504601190,,"\\<JPDA_SUSPEND\\>"
-?/jpda_suspend
-|2,1,1504601147,47,"jpda_suspend"
-? \<JPDA_ADDRESS\>
-|2,1,1504600940,,"\\<JPDA_ADDRESS\\>"
-?/JPDA_address
-|2,1,1504600918,47,"JPDA_address"
-? \<distributed\>
-|2,1,1503810462,,"\\<distributed\\>"
-?/is
-|2,1,1503810458,47,"is"
-?/ISO
-|2,1,1503810406,47,"ISO"
-? \<URIEncoding\>
-|2,1,1503810395,,"\\<URIEncoding\\>"
-?/URIE
-|2,1,1503810392,47,"URIE"
-? \<8080\>
-|2,1,1503747170,,"\\<8080\\>"
-?/8080
-|2,1,1503747160,47,"8080"
-? =""
-|2,1,1503281245,,"=\"\""
-? \<Using\>
-|2,1,1502438883,,"\\<Using\\>"
 
 # Expression History (newest to oldest):
 =<div></div>
@@ -240,69 +240,58 @@ $tb_info
 	" Plugin 'Valloric/YouCompleteMe'
 |3,0,0,1,1,0,1508489311,"\" Plugin 'Valloric/YouCompleteMe'"
 ""1	LINE	0
-	 call vundle#end()
-|3,1,1,1,1,0,1508492507," call vundle#end()"
-"2	CHAR	0
-	" Plugin 'VundleVim/Vundle.vim'
-	" Plugin 'altercation/vim-colors-solarized'
-	" " Plugin 'altercation/solarized'
-	" Plugin 'tomasr/molokai'
-	" Plugin 'vim-scripts/phd'
-	" "Plugin 'Lokaltog/vim-powerline'
-	" Plugin 'octol/vim-cpp-enhanced-highlight'
-	" Plugin 'nathanaelkane/vim-indent-guides'
-	" Plugin 'derekwyatt/vim-fswitch'
-	" Plugin 'kshenoy/vim-signature'
-	" Plugin 'vim-scripts/BOOKMARKS--Mark-and-Highlight-Full-Lines'
-	" "Plugin 'majutsushi/tagbar'
-	" Plugin 'vim-scripts/indexer.tar.gz'
-	" Plugin 'vim-scripts/DfrankUtil'
-	" Plugin 'vim-scripts/vimprj'
-	" Plugin 'dyng/ctrlsf.vim'
-	" Plugin 'terryma/vim-multiple-cursors'
-	" Plugin 'scrooloose/nerdcommenter'
-	" Plugin 'vim-scripts/DrawIt'
-	" Plugin 'SirVer/ultisnips'
-	" Plugin 'Valloric/YouCompleteMe'
-	" Plugin 'derekwyatt/vim-protodef'
-	" Plugin 'scrooloose/nerdtree'
-	" Plugin 'fholgado/minibufexpl.vim'
-	" Plugin 'gcmt/wildfire.vim'
-	" Plugin 'sjl/gundo.vim'
-	" Plugin 'Lokaltog/vim-easymotion'
-	" Plugin 'suan/vim-instant-markdown'
-	" Plugin 'lilydjwg/fcitx.vim'
-	" "22
-	" Plugin 'kristijanhusak/vim-hybrid-material'
-	" Plugin 'ashfinal/vim-colors-violet'
-	" Plugin 'morhetz/gruvbox'
-	" "233
-	" " æ’ä»¶åˆ—è¡¨ç»“æŸ
-	"
-|3,0,2,0,36,0,1508492504,"\" Plugin 'VundleVim/Vundle.vim'","\" Plugin 'altercation/vim-colors-solarized'","\" \" Plugin 'altercation/solarized'","\" Plugin 'tomasr/molokai'","\" Plugin 'vim-scripts/phd'","\" \"Plugin 'Lokaltog/vim-powerline'","\" Plugin 'octol/vim-cpp-enhanced-highlight'","\" Plugin 'nathanaelkane/vim-indent-guides'","\" Plugin 'derekwyatt/vim-fswitch'","\" Plugin 'kshenoy/vim-signature'",>66
-|<"\" Plugin 'vim-scripts/BOOKMARKS--Mark-and-Highlight-Full-Lines'","\" \"Plugin 'majutsushi/tagbar'","\" Plugin 'vim-scripts/indexer.tar.gz'","\" Plugin 'vim-scripts/DfrankUtil'","\" Plugin 'vim-scripts/vimprj'","\" Plugin 'dyng/ctrlsf.vim'","\" Plugin 'terryma/vim-multiple-cursors'","\" Plugin 'scrooloose/nerdcommenter'","\" Plugin 'vim-scripts/DrawIt'","\" Plugin 'SirVer/ultisnips'","\" Plugin 'Valloric/YouCompleteMe'","\" Plugin 'derekwyatt/vim-protodef'",>33
-|<"\" Plugin 'scrooloose/nerdtree'","\" Plugin 'fholgado/minibufexpl.vim'","\" Plugin 'gcmt/wildfire.vim'","\" Plugin 'sjl/gundo.vim'","\" Plugin 'Lokaltog/vim-easymotion'","\" Plugin 'suan/vim-instant-markdown'","\" Plugin 'lilydjwg/fcitx.vim'","\" \"22","\" Plugin 'kristijanhusak/vim-hybrid-material'","\" Plugin 'ashfinal/vim-colors-violet'","\" Plugin 'morhetz/gruvbox'","\" \"233","\" \" æ’ä»¶åˆ—è¡¨ç»“æŸ","\""
-"3	LINE	0
-	" 
-|3,0,3,1,1,0,1508492495,"\" "
-"4	LINE	0
-	" call vundle#begin('D:\programming\gvim_8.0.0003_x64\vim\vimfiles\bundle')
-|3,0,4,1,1,0,1508492493,"\" call vundle#begin('D:\\programming\\gvim_8.0.0003_x64\\vim\\vimfiles\\bundle')"
+	set background=light
+|3,1,1,1,1,0,1508743521,"set background=light"
+"2	LINE	0
+	
+|3,0,2,1,1,0,1508743498,""
+"3	CHAR	0
+	{
+	                    url: 'check.do',
+	                    data: { 'username': username },
+	                    success: function(data) {
+	                        if (data.indexOf('used') >= 0) {
+	                            showErrorHint();
+	                        } else {
+	                            showCorrectHint();
+	                        }
+	                    }
+	                }
+|3,0,3,0,11,0,1508741238,"{","                    url: 'check.do',","                    data: { 'username': username },","                    success: function(data) {","                        if (data.indexOf('used') >= 0) {","                            showErrorHint();","                        } else {","                            showCorrectHint();","                        }","                    }","                }"
+"4	CHAR	0
+	'blur', function() {
+	                var username = $(this).val();
+	                $.ajax({
+	                    url: 'check.do',
+	                    data: { 'username': username },
+	                    success: function(data) {
+	                        if (data.indexOf('used') >= 0) {
+	                            showErrorHint();
+	                        } else {
+	                            showCorrectHint();
+	                        }
+	                    }
+	                });
+	            }
+|3,0,4,0,14,0,1508741225,"'blur', function() {","                var username = $(this).val();","                $.ajax({","                    url: 'check.do',","                    data: { 'username': username },","                    success: function(data) {","                        if (data.indexOf('used') >= 0) {","                            showErrorHint();","                        } else {","                            showCorrectHint();",>27
+|<"                        }","                    }","                });","            }"
 "5	LINE	0
-	" " vundle ç®¡ç†çš„æ’ä»¶åˆ—è¡¨å¿…é¡»ä½äºŽ vundle#begin() å’Œ vundle#end() ä¹‹é—´
-|3,0,5,1,1,0,1508492493,"\" \" vundle ç®¡ç†çš„æ’ä»¶åˆ—è¡¨å¿…é¡»ä½äºŽ vundle#begin() å’Œ vundle#end() ä¹‹é—´"
+	                // 
+|3,0,5,1,1,0,1508740873,"                // "
 "6	LINE	0
-	" set rtp+=D:\programming\gvim_8.0.0003_x64\vim\vimfiles\bundle\Vundle.vim
-|3,0,6,1,1,0,1508492492,"\" set rtp+=D:\\programming\\gvim_8.0.0003_x64\\vim\\vimfiles\\bundle\\Vundle.vim"
+	                    this.submit();
+|3,0,6,1,1,0,1508740855,"                    this.submit();"
 "7	LINE	0
-	" filetype off
-|3,0,7,1,1,0,1508492492,"\" filetype off"
+	
+	        return false;
+|3,0,7,1,2,0,1508739797,"","        return false;"
 "8	LINE	0
-	" vundle çŽ¯å¢ƒè®¾ç½®
-|3,0,8,1,1,0,1508492492,"\" vundle çŽ¯å¢ƒè®¾ç½®"
-"9	LINE	0
-	<tbald
-|3,0,9,1,1,0,1508489246,"<tbald"
+	        // TODO Auto-generated method stub
+|3,0,8,1,1,0,1508739789,"        // TODO Auto-generated method stub"
+"9	CHAR	0
+	
+	    
+|3,0,9,0,2,0,1508726940,"","    "
 "a	CHAR	0
 	odi€kb€kb<div></div>2a2@aSd€kb<><>i/div:w2F<adiv:w71GS<div></div>:w€ýb€ýaki class = main:wj2F>
 |3,0,10,0,1,0,1501496725,"odi€kb€kb<div></div>2a2@aSd€kb<><>i/div:w2F<adiv:w71GS<div></div>:w€ýb€ýaki class = main:wj2F>"
@@ -314,242 +303,242 @@ $tb_info
 <putpltbTnfafatafaFatafa€ýb€ýa:hle€kb€kbelp usr_02.txxt€kb€kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:€ý2€ý4€ýb€ýa:q
 |3,0,29,0,1,0,1500516520,"putpltbTnfafatafaFatafa€ýb€ýa:hle€kb€kbelp usr_02.txxt€kb€kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:€ý2€ý4€ýb€ýa:q"
 "-	CHAR	0
-	in
-|3,0,36,0,1,0,1508489330,"in"
+	"
+|3,0,36,0,1,0,1508743437,"\""
 
 # æ–‡ä»¶æ ‡è®°:
-'0  381  0  ~\_vimrc
-|4,48,381,0,1508492566,"~\\_vimrc"
-'1  27  4  ~\_vimrc
-|4,49,27,4,1508489382,"~\\_vimrc"
-'2  27  4  ~\_vimrc
-|4,50,27,4,1508489382,"~\\_vimrc"
-'3  101  0  D:\File\Java_workspace\houseManagement\pom.xml
-|4,51,101,0,1508489251,"D:\\File\\Java_workspace\\houseManagement\\pom.xml"
-'4  26  6  ~\_vimrc
-|4,52,26,6,1508489098,"~\\_vimrc"
-'5  26  6  ~\_vimrc
-|4,53,26,6,1508489098,"~\\_vimrc"
-'6  26  6  ~\_vimrc
-|4,54,26,6,1508489098,"~\\_vimrc"
-'7  26  6  ~\_vimrc
-|4,55,26,6,1508489098,"~\\_vimrc"
-'8  30  0  ~\_vimrc
-|4,56,30,0,1508488685,"~\\_vimrc"
-'9  23  0  ~\_vimrc
-|4,57,23,0,1508488685,"~\\_vimrc"
+'0  39  22  ~\_vimrc
+|4,48,39,22,1508743701,"~\\_vimrc"
+'1  5  50  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\CityDAO.java
+|4,49,5,50,1508742713,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\CityDAO.java"
+'2  25  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\Province.java
+|4,50,25,0,1508742621,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\Province.java"
+'3  18  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,51,18,0,1508742195,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+'4  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,52,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+'5  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,53,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+'6  90  88  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\register.jsp
+|4,54,90,88,1508741461,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\register.jsp"
+'7  2  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
+|4,55,2,0,1508740788,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\UserController.java"
+'8  66  19  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\HomeController.java
+|4,56,66,19,1508740699,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\HomeController.java"
+'9  18  32  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\frontController-servlet.xml
+|4,57,18,32,1508740074,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\frontController-servlet.xml"
 
 # è·³è½¬åˆ—è¡¨ (ä»Žæ–°åˆ°æ—§):
--'  381  0  ~\_vimrc
-|4,39,381,0,1508492566,"~\\_vimrc"
+-'  39  22  ~\_vimrc
+|4,39,39,22,1508743701,"~\\_vimrc"
+-'  42  0  ~\_vimrc
+|4,39,42,0,1508743439,"~\\_vimrc"
+-'  26  6  ~\_vimrc
+|4,39,26,6,1508743347,"~\\_vimrc"
+-'  99  0  ~\_vimrc
+|4,39,99,0,1508743334,"~\\_vimrc"
+-'  28  5  ~\_vimrc
+|4,39,28,5,1508743282,"~\\_vimrc"
 -'  1  0  ~\_vimrc
-|4,39,1,0,1508492473,"~\\_vimrc"
--'  27  4  ~\_vimrc
-|4,39,27,4,1508489382,"~\\_vimrc"
--'  27  4  ~\_vimrc
-|4,39,27,4,1508489382,"~\\_vimrc"
--'  27  4  ~\_vimrc
-|4,39,27,4,1508489382,"~\\_vimrc"
--'  27  4  ~\_vimrc
-|4,39,27,4,1508489382,"~\\_vimrc"
--'  27  4  ~\_vimrc
-|4,39,27,4,1508489382,"~\\_vimrc"
--'  369  17  ~\_vimrc
-|4,39,369,17,1508489298,"~\\_vimrc"
--'  411  17  ~\_vimrc
-|4,39,411,17,1508489298,"~\\_vimrc"
--'  411  17  ~\_vimrc
-|4,39,411,17,1508489298,"~\\_vimrc"
--'  411  17  ~\_vimrc
-|4,39,411,17,1508489298,"~\\_vimrc"
--'  411  17  ~\_vimrc
-|4,39,411,17,1508489298,"~\\_vimrc"
--'  267  6  ~\_vimrc
-|4,39,267,6,1508489292,"~\\_vimrc"
--'  264  6  ~\_vimrc
-|4,39,264,6,1508489292,"~\\_vimrc"
--'  309  6  ~\_vimrc
-|4,39,309,6,1508489292,"~\\_vimrc"
--'  306  6  ~\_vimrc
-|4,39,306,6,1508489292,"~\\_vimrc"
--'  309  6  ~\_vimrc
-|4,39,309,6,1508489292,"~\\_vimrc"
--'  306  6  ~\_vimrc
-|4,39,306,6,1508489292,"~\\_vimrc"
--'  309  6  ~\_vimrc
-|4,39,309,6,1508489292,"~\\_vimrc"
--'  306  6  ~\_vimrc
-|4,39,306,6,1508489292,"~\\_vimrc"
--'  309  6  ~\_vimrc
-|4,39,309,6,1508489292,"~\\_vimrc"
--'  306  6  ~\_vimrc
-|4,39,306,6,1508489292,"~\\_vimrc"
--'  261  6  ~\_vimrc
-|4,39,261,6,1508489291,"~\\_vimrc"
--'  254  2  ~\_vimrc
-|4,39,254,2,1508489291,"~\\_vimrc"
--'  252  6  ~\_vimrc
-|4,39,252,6,1508489291,"~\\_vimrc"
--'  251  9  ~\_vimrc
-|4,39,251,9,1508489291,"~\\_vimrc"
--'  249  6  ~\_vimrc
-|4,39,249,6,1508489291,"~\\_vimrc"
--'  248  21  ~\_vimrc
-|4,39,248,21,1508489291,"~\\_vimrc"
--'  303  6  ~\_vimrc
-|4,39,303,6,1508489291,"~\\_vimrc"
--'  296  2  ~\_vimrc
-|4,39,296,2,1508489291,"~\\_vimrc"
--'  294  6  ~\_vimrc
-|4,39,294,6,1508489291,"~\\_vimrc"
--'  293  9  ~\_vimrc
-|4,39,293,9,1508489291,"~\\_vimrc"
--'  291  6  ~\_vimrc
-|4,39,291,6,1508489291,"~\\_vimrc"
--'  290  21  ~\_vimrc
-|4,39,290,21,1508489291,"~\\_vimrc"
--'  303  6  ~\_vimrc
-|4,39,303,6,1508489291,"~\\_vimrc"
--'  296  2  ~\_vimrc
-|4,39,296,2,1508489291,"~\\_vimrc"
--'  294  6  ~\_vimrc
-|4,39,294,6,1508489291,"~\\_vimrc"
--'  293  9  ~\_vimrc
-|4,39,293,9,1508489291,"~\\_vimrc"
--'  291  6  ~\_vimrc
-|4,39,291,6,1508489291,"~\\_vimrc"
--'  290  21  ~\_vimrc
-|4,39,290,21,1508489291,"~\\_vimrc"
--'  303  6  ~\_vimrc
-|4,39,303,6,1508489291,"~\\_vimrc"
--'  296  2  ~\_vimrc
-|4,39,296,2,1508489291,"~\\_vimrc"
--'  294  6  ~\_vimrc
-|4,39,294,6,1508489291,"~\\_vimrc"
--'  293  9  ~\_vimrc
-|4,39,293,9,1508489291,"~\\_vimrc"
--'  291  6  ~\_vimrc
-|4,39,291,6,1508489291,"~\\_vimrc"
--'  290  21  ~\_vimrc
-|4,39,290,21,1508489291,"~\\_vimrc"
--'  303  6  ~\_vimrc
-|4,39,303,6,1508489291,"~\\_vimrc"
--'  296  2  ~\_vimrc
-|4,39,296,2,1508489291,"~\\_vimrc"
--'  294  6  ~\_vimrc
-|4,39,294,6,1508489291,"~\\_vimrc"
--'  293  9  ~\_vimrc
-|4,39,293,9,1508489291,"~\\_vimrc"
--'  291  6  ~\_vimrc
-|4,39,291,6,1508489291,"~\\_vimrc"
--'  290  21  ~\_vimrc
-|4,39,290,21,1508489291,"~\\_vimrc"
--'  246  6  ~\_vimrc
-|4,39,246,6,1508489290,"~\\_vimrc"
--'  239  2  ~\_vimrc
-|4,39,239,2,1508489290,"~\\_vimrc"
--'  288  6  ~\_vimrc
-|4,39,288,6,1508489290,"~\\_vimrc"
--'  281  2  ~\_vimrc
-|4,39,281,2,1508489290,"~\\_vimrc"
--'  288  6  ~\_vimrc
-|4,39,288,6,1508489290,"~\\_vimrc"
--'  281  2  ~\_vimrc
-|4,39,281,2,1508489290,"~\\_vimrc"
--'  288  6  ~\_vimrc
-|4,39,288,6,1508489290,"~\\_vimrc"
--'  281  2  ~\_vimrc
-|4,39,281,2,1508489290,"~\\_vimrc"
--'  288  6  ~\_vimrc
-|4,39,288,6,1508489290,"~\\_vimrc"
--'  281  2  ~\_vimrc
-|4,39,281,2,1508489290,"~\\_vimrc"
--'  237  2  ~\_vimrc
-|4,39,237,2,1508489289,"~\\_vimrc"
--'  279  2  ~\_vimrc
-|4,39,279,2,1508489289,"~\\_vimrc"
--'  279  2  ~\_vimrc
-|4,39,279,2,1508489289,"~\\_vimrc"
--'  279  2  ~\_vimrc
-|4,39,279,2,1508489289,"~\\_vimrc"
--'  279  2  ~\_vimrc
-|4,39,279,2,1508489289,"~\\_vimrc"
--'  230  27  ~\_vimrc
-|4,39,230,27,1508489288,"~\\_vimrc"
--'  176  21  ~\_vimrc
-|4,39,176,21,1508489288,"~\\_vimrc"
--'  174  21  ~\_vimrc
-|4,39,174,21,1508489288,"~\\_vimrc"
--'  272  27  ~\_vimrc
-|4,39,272,27,1508489288,"~\\_vimrc"
--'  218  21  ~\_vimrc
-|4,39,218,21,1508489288,"~\\_vimrc"
--'  216  21  ~\_vimrc
-|4,39,216,21,1508489288,"~\\_vimrc"
--'  272  27  ~\_vimrc
-|4,39,272,27,1508489288,"~\\_vimrc"
--'  218  21  ~\_vimrc
-|4,39,218,21,1508489288,"~\\_vimrc"
--'  216  21  ~\_vimrc
-|4,39,216,21,1508489288,"~\\_vimrc"
--'  272  27  ~\_vimrc
-|4,39,272,27,1508489288,"~\\_vimrc"
--'  218  21  ~\_vimrc
-|4,39,218,21,1508489288,"~\\_vimrc"
--'  216  21  ~\_vimrc
-|4,39,216,21,1508489288,"~\\_vimrc"
--'  272  27  ~\_vimrc
-|4,39,272,27,1508489288,"~\\_vimrc"
--'  218  21  ~\_vimrc
-|4,39,218,21,1508489288,"~\\_vimrc"
--'  216  21  ~\_vimrc
-|4,39,216,21,1508489288,"~\\_vimrc"
--'  164  33  ~\_vimrc
-|4,39,164,33,1508489287,"~\\_vimrc"
--'  31  0  ~\_vimrc
-|4,39,31,0,1508489287,"~\\_vimrc"
--'  206  33  ~\_vimrc
-|4,39,206,33,1508489287,"~\\_vimrc"
--'  55  0  ~\_vimrc
-|4,39,55,0,1508489287,"~\\_vimrc"
--'  206  33  ~\_vimrc
-|4,39,206,33,1508489287,"~\\_vimrc"
--'  55  0  ~\_vimrc
-|4,39,55,0,1508489287,"~\\_vimrc"
--'  206  33  ~\_vimrc
-|4,39,206,33,1508489287,"~\\_vimrc"
--'  55  0  ~\_vimrc
-|4,39,55,0,1508489287,"~\\_vimrc"
--'  206  33  ~\_vimrc
-|4,39,206,33,1508489287,"~\\_vimrc"
--'  55  0  ~\_vimrc
-|4,39,55,0,1508489287,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1508489271,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1508489271,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1508489271,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1508489271,"~\\_vimrc"
--'  101  0  D:\File\Java_workspace\houseManagement\pom.xml
-|4,39,101,0,1508489251,"D:\\File\\Java_workspace\\houseManagement\\pom.xml"
--'  101  0  D:\File\Java_workspace\houseManagement\pom.xml
-|4,39,101,0,1508489251,"D:\\File\\Java_workspace\\houseManagement\\pom.xml"
--'  101  0  D:\File\Java_workspace\houseManagement\pom.xml
-|4,39,101,0,1508489251,"D:\\File\\Java_workspace\\houseManagement\\pom.xml"
--'  101  0  D:\File\Java_workspace\houseManagement\pom.xml
-|4,39,101,0,1508489251,"D:\\File\\Java_workspace\\houseManagement\\pom.xml"
+|4,39,1,0,1508743177,"~\\_vimrc"
+-'  5  50  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\CityDAO.java
+|4,39,5,50,1508742713,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\CityDAO.java"
+-'  5  50  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\CityDAO.java
+|4,39,5,50,1508742713,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\CityDAO.java"
+-'  7  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\CityDAO.java
+|4,39,7,0,1508742668,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\CityDAO.java"
+-'  7  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\CityDAO.java
+|4,39,7,0,1508742668,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\CityDAO.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\CityDAO.java
+|4,39,1,0,1508742646,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\CityDAO.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\CityDAO.java
+|4,39,1,0,1508742646,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\CityDAO.java"
+-'  25  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\Province.java
+|4,39,25,0,1508742621,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\Province.java"
+-'  25  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\Province.java
+|4,39,25,0,1508742621,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\Province.java"
+-'  25  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\Province.java
+|4,39,25,0,1508742621,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\Province.java"
+-'  25  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\Province.java
+|4,39,25,0,1508742621,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\Province.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\Province.java
+|4,39,1,0,1508742488,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\Province.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\Province.java
+|4,39,1,0,1508742488,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\Province.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\Province.java
+|4,39,1,0,1508742488,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\Province.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\Province.java
+|4,39,1,0,1508742488,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\Province.java"
+-'  18  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,18,0,1508742195,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  18  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,18,0,1508742195,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  18  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,18,0,1508742195,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  18  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,18,0,1508742195,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  18  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,18,0,1508742195,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  18  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,18,0,1508742195,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  18  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,18,0,1508742195,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  18  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,18,0,1508742195,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,1,0,1508741865,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,1,0,1508741865,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,1,0,1508741865,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,1,0,1508741865,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,1,0,1508741865,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,1,0,1508741865,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,1,0,1508741865,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+|4,39,1,0,1508741865,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\HouseType.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  21  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,21,0,1508741787,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+|4,39,1,0,1508741694,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\District.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
+-'  35  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+|4,39,35,0,1508741681,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\entity\\City.java"
 
 # æ–‡ä»¶å†…çš„æ ‡è®°åŽ†å²è®°å½• (ä»Žæ–°åˆ°æ—§):
 
 > ~\_vimrc
-	*	1508492563	0
-	"	381	0
-	^	26	6
-	.	31	0
+	*	1508743698	0
+	"	39	22
+	^	39	23
+	.	41	0
 	+	1	0
-	+	31	24
+	+	32	24
 	+	8	2
 	+	8	1
 	+	4	1
@@ -566,41 +555,117 @@ $tb_info
 	+	1	0
 	+	8	0
 	+	20	0
-	+	54	0
 	+	60	0
-	+	69	11
-	+	78	0
-	+	90	0
+	+	66	0
+	+	75	11
+	+	84	0
+	+	96	0
 	+	8	0
-	+	41	0
-	+	97	0
-	+	141	0
-	+	31	0
+	+	47	0
+	+	103	0
+	+	147	0
+	+	32	0
 	+	1	0
 	+	24	30
-	+	29	14
-	+	28	0
+	+	30	14
+	+	29	0
 	+	26	6
 	+	27	4
-	+	31	0
+	+	32	0
+	+	28	6
+	+	26	6
+	+	42	0
+	+	26	6
+	+	43	1
+	+	41	0
+	+	36	18
+	+	37	23
+	+	38	4
+	+	40	4
+	+	41	0
 
-> D:\File\Java_workspace\houseManagement\pom.xml
-	*	1508489247	0
-	"	101	0
-	^	101	0
-	.	102	0
-	+	2	0
-	+	21	0
-	+	58	0
-	+	102	0
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\CityDAO.java
+	*	1508742708	0
+	"	5	50
+	^	5	50
+	.	5	49
+	+	7	0
+	+	3	55
+	+	5	49
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\Province.java
+	*	1508742620	0
+	"	25	0
+	.	16	0
+	+	16	0
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
+	*	1508742178	0
+	"	18	0
+	.	16	0
+	+	16	0
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
+	*	1508741694	0
+	"	21	0
+	.	16	0
+	+	16	0
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
+	*	1508741516	0
+	"	35	0
+	.	26	0
+	+	26	0
+
+> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\register.jsp
+	*	1508741460	0
+	"	90	88
+	^	90	88
+	.	90	87
+	+	22	45
+	+	74	87
+	+	85	30
+	+	85	0
+	+	85	30
+	+	94	0
+	+	95	0
+	+	94	0
+	+	85	30
+	+	85	0
+	+	95	0
+	+	96	0
+	+	98	0
+	+	100	0
+	+	84	16
+	+	76	30
+	+	83	0
+	+	76	0
+	+	78	67
+	+	82	16
+	+	80	33
+	+	82	18
+	+	32	0
+	+	32	86
+	+	32	0
+	+	22	41
+	+	78	31
+	+	61	52
+	+	77	35
+	+	81	39
+	+	85	30
+	+	92	0
+	+	87	72
+	+	91	0
+	+	89	53
+	+	90	87
 
 > D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\UserController.java
-	*	1508480925	0
-	"	24	49
-	^	24	49
-	.	24	48
+	*	1508740783	0
+	"	2	0
+	^	29	48
+	.	30	41
 	+	1	32
-	+	36	0
+	+	55	0
 	+	9	23
 	+	10	73
 	+	18	0
@@ -613,67 +678,144 @@ $tb_info
 	+	17	24
 	+	14	19
 	+	20	21
-	+	29	0
+	+	33	101
 	+	21	46
 	+	22	34
-	+	26	0
-	+	23	22
-	+	25	36
-	+	27	78
-	+	28	23
-	+	31	23
-	+	35	0
-	+	32	46
-	+	33	28
-	+	34	29
+	+	33	101
+	+	32	22
+	+	33	137
+	+	33	179
+	+	33	124
+	+	54	0
+	+	33	147
+	+	33	129
+	+	53	29
 	+	21	63
-	+	25	31
-	+	24	48
+	+	33	132
+	+	33	48
+	+	22	59
+	+	33	0
+	+	33	101
+	+	33	30
+	+	33	153
+	+	33	101
+	+	33	138
+	+	33	162
+	+	33	123
+	+	33	101
+	+	33	164
+	+	20	0
+	+	33	179
+	+	33	101
+	+	33	160
+	+	33	165
+	+	33	125
+	+	33	101
+	+	33	129
+	+	33	168
+	+	33	127
+	+	33	101
+	+	33	113
+	+	33	162
+	+	33	125
+	+	33	149
+	+	33	164
+	+	33	176
+	+	33	130
+	+	33	0
+	+	52	0
+	+	52	11
+	+	52	0
+	+	33	40
+	+	24	22
+	+	31	0
+	+	26	52
+	+	28	99
+	+	30	19
+	+	29	0
+	+	30	41
 
-> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\login.jsp
-	*	1508480231	0
-	"	95	60
-	^	95	61
-	.	95	60
-	+	20	34
-	+	25	63
-	+	76	21
-	+	98	0
-	+	77	13
-	+	98	0
-	+	77	22
-	+	98	0
-	+	97	0
-	+	77	0
-	+	85	27
-	+	78	24
-	+	36	82
-	+	78	53
-	+	85	13
-	+	78	52
-	+	79	37
-	+	80	52
-	+	81	42
-	+	84	16
-	+	82	68
-	+	83	33
-	+	97	0
-	+	85	15
-	+	92	12
-	+	87	43
-	+	88	52
-	+	89	77
-	+	91	27
-	+	90	0
-	+	94	47
-	+	96	12
-	+	95	60
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\HomeController.java
+	*	1508740696	0
+	"	66	19
+	^	66	19
+	.	66	18
+	+	14	36
+	+	16	21
+	+	24	0
+	+	18	22
+	+	38	23
+	+	43	0
+	+	38	44
+	+	43	0
+	+	39	41
+	+	40	71
+	+	41	33
+	+	42	19
+	+	36	0
+	+	36	28
+	+	45	24
+	+	46	24
+	+	47	20
+	+	50	22
+	+	53	0
+	+	52	23
+	+	12	44
+	+	23	0
+	+	19	21
+	+	22	0
+	+	20	69
+	+	21	25
+	+	10	45
+	+	27	21
+	+	34	0
+	+	28	69
+	+	29	56
+	+	30	40
+	+	31	37
+	+	32	74
+	+	33	62
+	+	38	23
+	+	37	16
+	+	36	53
+	+	43	55
+	+	64	21
+	+	67	0
+	+	66	18
+
+> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\frontController-servlet.xml
+	*	1508740073	0
+	"	18	32
+	^	18	32
+	.	18	31
+	+	14	21
+	+	14	46
+	+	20	0
+	+	15	56
+	+	14	23
+	+	19	0
+	+	16	95
+	+	17	25
+	+	18	31
+
+> D:\File\Java_workspace\houseManagement\src\main\resources\app.xml
+	*	1508740015	0
+	"	1	0
+	^	9	58
+	.	3	0
+	+	3	0
+	+	11	0
+	+	9	10
+	+	11	0
+	+	10	0
+	+	9	57
+	+	3	0
 
 > D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\UserServiceImpl.java
-	*	1508478937	0
-	"	41	12
-	^	41	13
-	.	38	56
+	*	1508739817	0
+	"	61	55
+	^	61	55
+	.	61	54
 	+	8	51
 	+	14	36
 	+	19	0
@@ -709,27 +851,279 @@ $tb_info
 	+	35	50
 	+	52	30
 	+	38	56
+	+	61	0
+	+	61	54
 
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
-	*	1508471236	0
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\CheckResult.java
+	*	1508739481	0
+	"	9	0
+	^	9	0
+	.	9	0
+	+	9	0
+
+> ~\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.0\_remote.repositories
+	*	1508730300	0
+	"	5	10
+
+> D:\File\Java_workspace\houseManagement\pom.xml
+	*	1508730197	0
 	"	1	0
-	^	43	29
-	.	43	28
-	+	16	0
-	+	23	26
-	+	24	24
-	+	43	28
+	^	101	0
+	.	101	0
+	+	2	0
+	+	21	0
+	+	58	0
+	+	102	0
+	+	101	0
+
+> D:\File\Java_workspace\houseManagement\src\test\java\snippets\jee\service\UserServiceTest.java
+	*	1508728059	0
+	"	25	38
+	^	25	38
+	.	25	37
+	+	5	37
+	+	17	50
+	+	34	36
+	+	40	5
+	+	38	42
+	+	39	32
+	+	3	37
+	+	4	51
+	+	16	5
+	+	13	36
+	+	14	33
+	+	15	29
+	+	30	0
+	+	29	0
+	+	21	28
+	+	22	33
+	+	23	29
+	+	26	31
+	+	27	26
+	+	28	34
+	+	24	33
+	+	25	37
 
 > D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-	*	1508466161	0
-	"	2	47
-	^	2	47
-	.	2	47
+	*	1508727636	0
+	"	24	59
+	^	33	59
+	.	33	58
 	+	24	63
 	+	25	49
 	+	29	37
 	+	32	32
 	+	2	47
+	+	24	65
+	+	25	48
+	+	33	58
+
+> D:\File\Java_workspace\houseManagement\src\main\webapp\404.html
+	*	1508724005	0
+	"	390	0
+	^	390	0
+	.	389	11
+	+	8	0
+	+	9	0
+	+	10	0
+	+	13	0
+	+	14	0
+	+	17	0
+	+	18	0
+	+	21	0
+	+	22	0
+	+	25	0
+	+	26	0
+	+	1	5
+	+	137	1
+	+	6	8
+	+	136	5
+	+	1	0
+	+	2	9
+	+	5	0
+	+	4	30
+	+	7	0
+	+	4	0
+	+	3	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	246	0
+	+	247	0
+	+	248	0
+	+	250	0
+	+	251	0
+	+	252	0
+	+	255	0
+	+	256	0
+	+	257	0
+	+	385	0
+	+	389	11
+
+> D:\File\Java_workspace\houseManagement\src\main\webapp\css\404.less
+	*	1508722371	0
+	"	159	0
+	.	1	0
+	+	1	0
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\UserLoginDTO.java
+	*	1508672767	0
+	"	16	27
+	^	16	28
+	.	17	28
+	+	7	31
+	+	10	26
+	+	15	0
+	+	5	0
+	+	6	0
+	+	17	28
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\MyExceptionAdvice.java
+	*	1508671711	0
+	"	6	26
+	^	6	26
+	.	6	25
+	+	8	0
+	+	4	37
+	+	7	0
+	+	5	41
+	+	6	25
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\MyExceptionAdvice
+	*	1508666750	0
+	"	1	0
+
+> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\login.jsp
+	*	1508658111	0
+	"	115	12
+	^	115	12
+	.	115	12
+	+	20	34
+	+	25	63
+	+	78	21
+	+	117	0
+	+	79	13
+	+	117	0
+	+	79	22
+	+	117	0
+	+	79	21
+	+	79	0
+	+	79	48
+	+	79	45
+	+	36	82
+	+	79	74
+	+	79	34
+	+	79	73
+	+	79	58
+	+	79	73
+	+	79	63
+	+	79	37
+	+	79	89
+	+	79	54
+	+	79	21
+	+	79	36
+	+	79	33
+	+	79	64
+	+	79	73
+	+	79	98
+	+	79	48
+	+	79	21
+	+	79	68
+	+	79	33
+	+	79	81
+	+	37	96
+	+	43	47
+	+	45	0
+	+	44	88
+	+	79	65
+	+	79	53
+	+	79	54
+	+	79	33
+	+	79	68
+	+	79	0
+	+	89	48
+	+	96	0
+	+	91	12
+	+	90	44
+	+	93	50
+	+	95	14
+	+	94	42
+	+	107	12
+	+	104	43
+	+	106	91
+	+	116	12
+	+	113	51
+	+	115	15
+	+	116	0
+	+	113	0
+	+	114	39
+	+	115	12
+
+> D:\Users\79001\git\blog\_config.yml
+	*	1508642522	0
+	"	6	0
+	^	84	67
+	.	84	8
+	+	82	2
+	+	82	0
+	+	15	37
+	+	82	7
+	+	15	4
+	+	82	7
+	+	82	16
+	+	82	0
+	+	81	33
+	+	82	14
+	+	81	0
+	+	37	22
+	+	84	8
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\util\CommonUtil.java
+	*	1508504305	0
+	"	31	50
+	^	31	50
+	.	34	23
+	+	38	6
+	+	37	6
+	+	38	6
+	+	39	6
+	+	39	0
+	+	38	40
+	+	39	0
+	+	41	55
+	+	8	49
+	+	7	24
+	+	20	5
+	+	16	39
+	+	17	51
+	+	23	67
+	+	24	49
+	+	17	45
+	+	24	33
+	+	25	29
+	+	26	37
+	+	27	28
+	+	28	29
+	+	29	50
+	+	33	0
+	+	30	45
+	+	31	55
+	+	32	61
+	+	34	23
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\User.java
+	*	1508496499	0
+	"	26	27
+	^	26	27
+	.	26	26
+	+	16	0
+	+	23	26
+	+	24	24
+	+	45	28
+	+	33	30
+	+	66	20
+	+	26	26
 
 > D:\360Downloads\house1706\javaéªŒè¯annotation.md
 	*	1508465489	0
@@ -770,77 +1164,6 @@ $tb_info
 	+	35	1
 	+	39	1
 	+	22	14
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\HomeController.java
-	*	1508411308	0
-	"	35	24
-	^	35	24
-	.	35	23
-	+	10	36
-	+	12	21
-	+	15	0
-	+	14	22
-	+	19	23
-	+	24	0
-	+	19	44
-	+	24	0
-	+	20	41
-	+	21	71
-	+	22	33
-	+	23	19
-	+	18	0
-	+	18	28
-	+	28	24
-	+	29	24
-	+	30	20
-	+	33	22
-	+	36	0
-	+	35	23
-
-> D:\Users\79001\git\blog\_config.yml
-	*	1508385115	0
-	"	1	0
-	^	84	67
-	.	84	8
-	+	82	2
-	+	82	0
-	+	15	37
-	+	82	7
-	+	15	4
-	+	82	7
-	+	82	16
-	+	82	0
-	+	81	33
-	+	82	14
-	+	81	0
-	+	37	22
-	+	84	8
-
-> D:\File\Java_workspace\houseManagement\src\test\java\snippets\jee\service\UserServiceTest.java
-	*	1508384408	0
-	"	26	34
-	^	26	35
-	.	26	34
-	+	5	37
-	+	17	50
-	+	32	36
-	+	38	5
-	+	36	42
-	+	37	32
-	+	3	37
-	+	4	51
-	+	16	5
-	+	13	36
-	+	14	33
-	+	15	29
-	+	28	0
-	+	27	0
-	+	21	28
-	+	22	33
-	+	23	29
-	+	24	31
-	+	25	26
-	+	26	34
 
 > D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\web.xml
 	*	1508382845	0
@@ -1100,12 +1423,6 @@ $tb_info
 	*	1508292349	0
 	"	1	0
 
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\Province.java
-	*	1508288243	0
-	"	1	0
-	.	16	0
-	+	16	0
-
 > D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\LoginLog.java
 	*	1508288115	0
 	"	31	0
@@ -1152,19 +1469,6 @@ $tb_info
 	"	1	0
 	.	5	0
 	+	5	0
-
-> D:\File\Java_workspace\houseManagement\src\main\resources\app.xml
-	*	1508204502	0
-	"	1	0
-	^	9	58
-	.	3	0
-	+	3	0
-	+	11	0
-	+	9	10
-	+	11	0
-	+	10	0
-	+	9	57
-	+	3	0
 
 > D:\File\Java_workspace\CourseManagementWS\pom.xml
 	*	1508203399	0
@@ -1284,12 +1588,6 @@ $tb_info
 	*	1508114871	0
 	"	1	0
 
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HouseType.java
-	*	1508074059	0
-	"	1	0
-	.	16	0
-	+	16	0
-
 > D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\HousePhoto.java
 	*	1508074041	0
 	"	1	0
@@ -1301,18 +1599,6 @@ $tb_info
 	"	231	0
 	.	17	0
 	+	17	0
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\District.java
-	*	1508073999	0
-	"	25	0
-	.	16	0
-	+	16	0
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\City.java
-	*	1508073987	0
-	"	1	0
-	.	26	0
-	+	26	0
 
 > D:\File\Java_workspace\houseManagement\src\main\java\META-INF\persistence.xml
 	*	1508073964	0
@@ -1549,238 +1835,3 @@ $tb_info
 	+	11	23
 	+	12	11
 	+	15	0
-
-> D:\File\Java_workspace\hirExample\src\main\java\snippets\jee\jpa\Country.java
-	*	1507551494	0
-	"	18	20
-	^	18	20
-	.	18	19
-	+	3	6
-	+	4	44
-	+	6	11
-	+	13	51
-	+	14	19
-	+	17	12
-	+	18	21
-	+	21	25
-	+	18	19
-
-> D:\File\Java_workspace\hirExample\src\main\resources\hibernate.cfg.xml
-	*	1507541183	0
-	"	8	2
-	^	8	2
-	.	8	1
-	+	8	1
-
-> D:\360Downloads\hibernate-release-5.2.10.Final\documentation\quickstart\html_single\hibernate-tutorials\basic\src\test\resources\hibernate.cfg.xml
-	*	1507541092	0
-	"	9	8
-	^	9	8
-	.	8	1
-	+	8	39
-	+	8	105
-	+	8	108
-	+	8	107
-	+	10	0
-	+	8	1
-
-> D:\360Downloads\hibernate-release-5.2.10.Final\documentation\quickstart\html_single\hibernate-tutorials\basic\src\test\java\org\hibernate\tutorial\hbm\Event.hbm.xml
-	*	1507532579	0
-	"	1	0
-
-> D:\File\Java_workspace\CourseManagementRESTClient\src\main\java\snippets\rest\ws\client\CourseManagementClient.java
-	*	1507458914	0
-	"	101	59
-	^	101	59
-	.	101	58
-	+	2	0
-	+	1	31
-	+	3	33
-	+	8	2
-	+	7	26
-	+	112	0
-	+	13	0
-	+	11	41
-	+	12	27
-	+	15	39
-	+	10	0
-	+	111	0
-	+	18	50
-	+	20	102
-	+	22	49
-	+	111	0
-	+	108	79
-	+	112	0
-	+	110	38
-	+	23	109
-	+	25	0
-	+	22	51
-	+	26	78
-	+	39	38
-	+	73	0
-	+	40	39
-	+	41	111
-	+	72	18
-	+	105	58
-	+	28	78
-	+	29	0
-	+	34	0
-	+	31	38
-	+	32	112
-	+	33	18
-	+	37	58
-	+	42	59
-	+	71	0
-	+	49	106
-	+	55	42
-	+	71	0
-	+	55	72
-	+	58	109
-	+	71	0
-	+	67	0
-	+	60	34
-	+	61	38
-	+	63	154
-	+	65	62
-	+	66	18
-	+	70	58
-	+	74	67
-	+	102	0
-	+	81	106
-	+	85	35
-	+	86	31
-	+	89	112
-	+	98	0
-	+	92	38
-	+	94	154
-	+	96	62
-	+	97	18
-	+	101	58
-
-> D:\File\Java_workspace\CourseManagementREST\src\main\java\snippets\jee\rest\ws\services\CourseService.java
-	*	1507457875	0
-	"	60	0
-	^	72	77
-	.	72	76
-	+	3	13
-	+	7	39
-	+	8	23
-	+	28	0
-	+	9	57
-	+	13	60
-	+	15	72
-	+	15	0
-	+	28	40
-	+	28	23
-	+	28	0
-	+	16	40
-	+	17	23
-	+	20	0
-	+	18	61
-	+	20	0
-	+	19	0
-	+	20	0
-	+	19	34
-	+	23	39
-	+	24	23
-	+	27	0
-	+	25	59
-	+	26	34
-	+	35	0
-	+	29	43
-	+	30	52
-	+	32	59
-	+	34	76
-	+	38	41
-	+	39	40
-	+	38	33
-	+	40	13
-	+	48	0
-	+	41	41
-	+	43	74
-	+	45	28
-	+	47	21
-	+	61	0
-	+	50	61
-	+	55	82
-	+	57	43
-	+	62	0
-	+	60	17
-	+	66	51
-	+	67	13
-	+	68	139
-	+	73	0
-	+	70	41
-	+	71	0
-	+	69	0
-	+	72	76
-
-> D:\File\Java_workspace\CourseManagementREST\src\main\webapp\addCourse.html
-	*	1507456613	0
-	"	10	64
-	^	10	64
-	.	10	64
-	+	3	0
-	+	8	14
-	+	12	8
-	+	9	18
-	+	10	19
-	+	11	31
-	+	10	59
-	+	9	93
-	+	10	64
-
-> D:\File\Java_workspace\CourseManagementREST\src\main\webapp\addCourseSuccess.html
-	*	1507452155	0
-	"	8	37
-	^	8	37
-	.	8	36
-	+	3	0
-	+	8	36
-
-> D:\File\Java_workspace\CourseManagementREST\t4v0p0ns.gcd.txt
-	*	1507449595	0
-	"	7	0
-
-> D:\File\Java_workspace\CourseManagementREST\src\main\webapp\addCourseJSON.html
-	*	1507444770	0
-	"	25	0
-	^	33	43
-	.	33	42
-	+	3	0
-	+	5	31
-	+	11	16
-	+	46	8
-	+	12	42
-	+	31	0
-	+	11	36
-	+	17	0
-	+	16	79
-	+	17	41
-	+	31	0
-	+	18	32
-	+	30	0
-	+	29	21
-	+	27	50
-	+	26	64
-	+	28	92
-	+	31	13
-	+	34	72
-	+	35	98
-	+	37	65
-	+	47	0
-	+	39	77
-	+	40	52
-	+	43	0
-	+	42	33
-	+	41	0
-	+	45	41
-	+	8	88
-	+	10	32
-	+	33	42
-
-> D:\File\Java_workspace\CourseManagementRESTClient\.gitmodules
-	*	1507428871	0
-	"	1	0
-	.	1	0
-	+	1	0
