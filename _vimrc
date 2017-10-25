@@ -26,6 +26,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'Valloric/YouCompleteMe'
 Plug 'altercation/vim-colors-solarized'
+Plug 'nathanaelkane/vim-indent-guides'
 
 call plug#end()
 
