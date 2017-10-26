@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/index
+~MSle0~/getcourses
 
 # Last Substitute Search Pattern:
 ~MSle0&course
@@ -20,14 +20,14 @@
 $tb_info
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1509022483,,"wq"
+:w
+|2,0,1509022296,,"w"
 :q
-|2,0,1508893414,,"q"
+|2,0,1509010328,,"q"
 :PlugInstall
 |2,0,1508893287,,"PlugInstall"
-:w
-|2,0,1508892979,,"w"
-:wq
-|2,0,1508849243,,"wq"
 :wq!
 |2,0,1508815282,,"wq!"
 :colorscheme solarized
@@ -122,6 +122,36 @@ $tb_info
 |2,0,1505043063,,"register"
 
 # Search String History (newest to oldest):
+?/getcourses
+|2,1,1509003572,47,"getcourses"
+?/binding
+|2,1,1509000133,47,"binding"
+?/port
+|2,1,1509000118,47,"port"
+?/service
+|2,1,1509000089,47,"service"
+?/element
+|2,1,1508999950,47,"element"
+?/http
+|2,1,1508999852,47,"http"
+?/input
+|2,1,1508999772,47,"input"
+?/getcourseresponse
+|2,1,1508998906,47,"getcourseresponse"
+?/getcourse
+|2,1,1508998801,47,"getcourse"
+?/houseService
+|2,1,1508980985,47,"houseService"
+?/search
+|2,1,1508902777,47,"search"
+?/addCondition
+|2,1,1508901011,47,"addCondition"
+?/orderBy
+|2,1,1508900710,47,"orderBy"
+?/getCountString
+|2,1,1508900445,47,"getCountString"
+?/getQueryString
+|2,1,1508900393,47,"getQueryString"
 ?/index
 |2,1,1508849208,47,"index"
 ?/images
@@ -192,36 +222,6 @@ $tb_info
 |2,1,1508496952,47,"password"
 ?/currentUid
 |2,1,1508496787,47,"currentUid"
-? \<getPassword\>
-|2,1,1508496453,,"\\<getPassword\\>"
-?/username
-|2,1,1508496293,47,"username"
-?/ycm
-|2,1,1508489287,47,"ycm"
-?/input
-|2,1,1508479384,47,"input"
-?/red
-|2,1,1508479101,47,"red"
-?/loginForm
-|2,1,1508479094,47,"loginForm"
-?/admin
-|2,1,1508467662,47,"admin"
-? \<jsp\>
-|2,1,1508466159,,"\\<jsp\\>"
-?/jsp
-|2,1,1508466149,47,"jsp"
-?/choose
-|2,1,1508466039,47,"choose"
-?/*
-|2,1,1508416356,47,"*"
-? \<å–œæ¬¢ä¸²ä¸²\>
-|2,1,1508416351,,"\\<å–œæ¬¢ä¸²ä¸²\\>"
-? -
-|2,1,1508415898,,"-"
-? \<flag\>
-|2,1,1508412396,,"\\<flag\\>"
-?/flag
-|2,1,1508412385,47,"flag"
 
 # Expression History (newest to oldest):
 =<div></div>
@@ -239,46 +239,173 @@ $tb_info
 "0	LINE	0
 	" Plugin 'Valloric/YouCompleteMe'
 |3,0,0,1,1,0,1508489311,"\" Plugin 'Valloric/YouCompleteMe'"
-"1	LINE	0
-	        // TODO Auto-generated method stub
-	        return null;
-|3,0,1,1,2,0,1508849028,"        // TODO Auto-generated method stub","        return null;"
+""1	LINE	0
+	                                                                                                                                           minusButton.on('click', function() {
+|3,1,1,1,1,0,1509022397,"                                                                                                                                           minusButton.on('click', function() {"
 "2	LINE	0
 	
-|3,0,2,1,1,0,1508848065,""
+|3,0,2,1,1,0,1509010646,""
 "3	LINE	0
-	    
-|3,0,3,1,1,0,1508847397,"    "
+	
+|3,0,3,1,1,0,1509010275,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1508847032,""
-"5	CHAR	0
-	{
-	        PageBean<House> pageBean = houseService.listHousesByPage(page, size);
+|3,0,4,1,1,0,1509010041,""
+"5	LINE	0
 	
-	        model.addAttribute("houseList", pageBean.getDataModel(());
-	
-	        return "index";
-	    }
-|3,0,5,0,7,0,1508846465,"{","        PageBean<House> pageBean = houseService.listHousesByPage(page, size);","","        model.addAttribute(\"houseList\", pageBean.getDataModel(());","","        return \"index\";","    }"
+|3,0,5,1,1,0,1509010012,""
 "6	LINE	0
+	target/
+	pom.xml.tag
+	pom.xml.releaseBackup
+	pom.xml.versionsBackup
+	pom.xml.next
+	release.properties
+	dependency-reduced-pom.xml
+	buildNumber.properties
+	.mvn/timing.properties
 	
+	# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+	!/.mvn/wrapper/maven-wrapper.jar
+	# Compiled class file
+	*.class
 	
-|3,0,6,1,2,0,1508846399,"",""
+	# Log file
+	*.log
+	
+	# BlueJ files
+	*.ctxt
+	
+	# Mobile Tools for Java (J2ME)
+	.mtj.tmp/
+	
+	# Package Files #
+	*.jar
+	*.war
+	*.ear
+	*.zip
+	*.tar.gz
+	*.rar
+	
+	# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+	hs_err_pid*
+	/target/
+	pom.xml.tag
+	pom.xml.releaseBackup
+	pom.xml.versionsBackup
+	pom.xml.next
+	release.properties
+	dependency-reduced-pom.xml
+	buildNumber.properties
+	.mvn/timing.properties
+	
+	# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+	!/.mvn/wrapper/maven-wrapper.jar
+	
+|3,0,6,1,47,0,1509006327,"target/","pom.xml.tag","pom.xml.releaseBackup","pom.xml.versionsBackup","pom.xml.next","release.properties","dependency-reduced-pom.xml","buildNumber.properties",".mvn/timing.properties","","# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)","!/.mvn/wrapper/maven-wrapper.jar","# Compiled class file","*.class","","# Log file","*.log","","# BlueJ files","*.ctxt","","# Mobile Tools for Java (J2ME)",".mtj.tmp/","",>19
+|<"# Package Files #","*.jar","*.war","*.ear","*.zip","*.tar.gz","*.rar","","# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml","hs_err_pid*","/target/","pom.xml.tag","pom.xml.releaseBackup","pom.xml.versionsBackup","pom.xml.next","release.properties","dependency-reduced-pom.xml","buildNumber.properties",".mvn/timing.properties","","# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)","!/.mvn/wrapper/maven-wrapper.jar",""
 "7	LINE	0
-	
-	
-	        return "index";
-|3,0,7,1,3,0,1508846391,"","","        return \"index\";"
+	/target/
+|3,0,7,1,1,0,1509004264,"/target/"
 "8	LINE	0
-	
-	        // TODO Auto-generated method stub
-	        return "";
-|3,0,8,1,3,0,1508808489,"","        // TODO Auto-generated method stub","        return \"\";"
+	<!--
+	 Published by JAX-WS RI (http://jax-ws.java.net). RI's version is JAX-WS RI 2.3.0 svn-revision#3528ea595bd29309f69172d231bbce272d21035c. 
+	-->
+	<!--
+	 Generated by JAX-WS RI (http://javaee.github.io/metro-jax-ws). RI's version is JAX-WS RI 2.3.0 svn-revision#3528ea595bd29309f69172d231bbce272d21035c. 
+	-->
+	536
+<<definitions xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://soap.ws.jee.snippets/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://soap.ws.jee.snippets/" name="CourseManagementServiceService">
+	<types>
+	<xsd:schema>
+	<xsd:import namespace="http://soap.ws.jee.snippets/" schemaLocation="http://localhost:8080/CourseManagementWS/courseService?xsd=1"/>
+	</xsd:schema>
+	</types>
+	<message name="getCourses">
+	<part name="parameters" element="tns:getCourses"/>
+	</message>
+	<message name="getCoursesResponse">
+	<part name="parameters" element="tns:getCoursesResponse"/>
+	</message>
+	<message name="getCourse">
+	<part name="parameters" element="tns:getCourse"/>
+	</message>
+	<message name="getCourseResponse">
+	<part name="parameters" element="tns:getCourseResponse"/>
+	</message>
+	<portType name="CourseManagementService">
+	<operation name="getCourses">
+	<input wsam:Action="http://soap.ws.jee.snippets/CourseManagementService/getCoursesRequest" message="tns:getCourses"/>
+	<output wsam:Action="http://soap.ws.jee.snippets/CourseManagementService/getCoursesResponse" message="tns:getCoursesResponse"/>
+	</operation>
+	<operation name="getCourse">
+	<input wsam:Action="http://soap.ws.jee.snippets/CourseManagementService/getCourseRequest" message="tns:getCourse"/>
+	<output wsam:Action="http://soap.ws.jee.snippets/CourseManagementService/getCourseResponse" message="tns:getCourseResponse"/>
+	</operation>
+	</portType>
+	<binding name="CourseManagementServicePortBinding" type="tns:CourseManagementService">
+	<soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+	<operation name="getCourses">
+	<soap:operation soapAction=""/>
+	<input>
+	<soap:body use="literal"/>
+	</input>
+	<output>
+	<soap:body use="literal"/>
+	</output>
+	</operation>
+	<operation name="getCourse">
+	<soap:operation soapAction=""/>
+	<input>
+	<soap:body use="literal"/>
+	</input>
+|3,0,8,1,50,0,1509000011,"<!--"," Published by JAX-WS RI (http://jax-ws.java.net). RI's version is JAX-WS RI 2.3.0 svn-revision#3528ea595bd29309f69172d231bbce272d21035c. ","-->","<!--"," Generated by JAX-WS RI (http://javaee.github.io/metro-jax-ws). RI's version is JAX-WS RI 2.3.0 svn-revision#3528ea595bd29309f69172d231bbce272d21035c. ","-->",>555
+|<"<definitions xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" xmlns:wsp=\"http://www.w3.org/ns/ws-policy\" xmlns:wsp1_2=\"http://schemas.xmlsoap.org/ws/2004/09/policy\" xmlns:wsam=\"http://www.w3.org/2007/05/addressing/metadata\" xmlns:soap=\"http://schemas.xmlsoap.org/wsdl/soap/\" xmlns:tns=\"http://soap.ws.jee.snippets/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns=\"http://schemas.xmlsoap.org/wsdl/\" targetNamespace=\"http://s
+|<oap.ws.jee.snippets/\" name=\"CourseManagementServiceService\">","<types>","<xsd:schema>","<xsd:import namespace=\"http://soap.ws.jee.snippets/\" schemaLocation=\"http://localhost:8080/CourseManagementWS/courseService?xsd=1\"/>","</xsd:schema>","</types>","<message name=\"getCourses\">","<part name=\"parameters\" element=\"tns:getCourses\"/>","</message>","<message name=\"getCoursesResponse\">","<part name=\"parameters\" element=\"tns:getCoursesResponse\"/>","</message>",>30
+|<"<message name=\"getCourse\">","<part name=\"parameters\" element=\"tns:getCourse\"/>","</message>","<message name=\"getCourseResponse\">","<part name=\"parameters\" element=\"tns:getCourseResponse\"/>","</message>","<portType name=\"CourseManagementService\">","<operation name=\"getCourses\">","<input wsam:Action=\"http://soap.ws.jee.snippets/CourseManagementService/getCoursesRequest\" message=\"tns:getCourses\"/>",>133
+|<"<output wsam:Action=\"http://soap.ws.jee.snippets/CourseManagementService/getCoursesResponse\" message=\"tns:getCoursesResponse\"/>","</operation>","<operation name=\"getCourse\">","<input wsam:Action=\"http://soap.ws.jee.snippets/CourseManagementService/getCourseRequest\" message=\"tns:getCourse\"/>","<output wsam:Action=\"http://soap.ws.jee.snippets/CourseManagementService/getCourseResponse\" message=\"tns:getCourseResponse\"/>","</operation>","</portType>",>92
+|<"<binding name=\"CourseManagementServicePortBinding\" type=\"tns:CourseManagementService\">","<soap:binding transport=\"http://schemas.xmlsoap.org/soap/http\" style=\"document\"/>","<operation name=\"getCourses\">","<soap:operation soapAction=\"\"/>","<input>","<soap:body use=\"literal\"/>","</input>","<output>","<soap:body use=\"literal\"/>","</output>","</operation>","<operation name=\"getCourse\">","<soap:operation soapAction=\"\"/>","<input>","<soap:body use=\"literal\"/>",>10
+|<"</input>"
 "9	LINE	0
-	        // TODO Auto-generated method stub
-	        return "";
-|3,0,9,1,2,0,1508808409,"        // TODO Auto-generated method stub","        return \"\";"
+	This XML file does not appear to have any style information associated with it. The document tree is shown below.
+	<!--
+	 Published by JAX-WS RI (http://jax-ws.java.net). RI's version is JAX-WS RI 2.3.0 svn-revision#3528ea595bd29309f69172d231bbce272d21035c. 
+	-->
+	<xs:schema xmlns:tns="http://soap.ws.jee.snippets/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://soap.ws.jee.snippets/">
+	    <xs:element name="getCourse" type="tns:getCourse"/>
+	    <xs:element name="getCourseResponse" type="tns:getCourseResponse"/>
+	    <xs:element name="getCourses" type="tns:getCourses"/>
+	    <xs:element name="getCoursesResponse" type="tns:getCoursesResponse"/>
+	    <xs:complexType name="getCourses">
+	        <xs:sequence/>
+	    </xs:complexType>
+	    <xs:complexType name="getCoursesResponse">
+	        <xs:sequence>
+	            <xs:element name="return" type="tns:course" minOccurs="0" maxOccurs="unbounded"/>
+	        </xs:sequence>
+	    </xs:complexType>
+	    <xs:complexType name="course">
+	        <xs:sequence>
+	            <xs:element name="credits" type="xs:int"/>
+	            <xs:element name="id" type="xs:int"/>
+	            <xs:element name="name" type="xs:string" minOccurs="0"/>
+	        </xs:sequence>
+	    </xs:complexType>
+	    <xs:complexType name="getCourse">
+	        <xs:sequence>
+	            <xs:element name="arg0" type="xs:int"/>
+	        </xs:sequence>
+	    </xs:complexType>
+	    <xs:complexType name="getCourseResponse">
+	        <xs:sequence>
+	            <xs:element name="return" type="tns:course" minOccurs="0"/>
+	        </xs:sequence>
+	    </xs:complexType>
+	</xs:schema>
+|3,0,9,1,35,0,1508999998,"This XML file does not appear to have any style information associated with it. The document tree is shown below.","<!--"," Published by JAX-WS RI (http://jax-ws.java.net). RI's version is JAX-WS RI 2.3.0 svn-revision#3528ea595bd29309f69172d231bbce272d21035c. ","-->","<xs:schema xmlns:tns=\"http://soap.ws.jee.snippets/\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" version=\"1.0\" targetNamespace=\"http://soap.ws.jee.snippets/\">",>61
+|<"    <xs:element name=\"getCourse\" type=\"tns:getCourse\"/>","    <xs:element name=\"getCourseResponse\" type=\"tns:getCourseResponse\"/>","    <xs:element name=\"getCourses\" type=\"tns:getCourses\"/>","    <xs:element name=\"getCoursesResponse\" type=\"tns:getCoursesResponse\"/>","    <xs:complexType name=\"getCourses\">","        <xs:sequence/>","    </xs:complexType>","    <xs:complexType name=\"getCoursesResponse\">","        <xs:sequence>",>103
+|<"            <xs:element name=\"return\" type=\"tns:course\" minOccurs=\"0\" maxOccurs=\"unbounded\"/>","        </xs:sequence>","    </xs:complexType>","    <xs:complexType name=\"course\">","        <xs:sequence>","            <xs:element name=\"credits\" type=\"xs:int\"/>","            <xs:element name=\"id\" type=\"xs:int\"/>","            <xs:element name=\"name\" type=\"xs:string\" minOccurs=\"0\"/>","        </xs:sequence>","    </xs:complexType>",>41
+|<"    <xs:complexType name=\"getCourse\">","        <xs:sequence>","            <xs:element name=\"arg0\" type=\"xs:int\"/>","        </xs:sequence>","    </xs:complexType>","    <xs:complexType name=\"getCourseResponse\">","        <xs:sequence>","            <xs:element name=\"return\" type=\"tns:course\" minOccurs=\"0\"/>","        </xs:sequence>","    </xs:complexType>","</xs:schema>"
 "a	CHAR	0
 	odi€kb€kb<div></div>2a2@aSd€kb<><>i/div:w2F<adiv:w71GS<div></div>:w€ýb€ýaki class = main:wj2F>
 |3,0,10,0,1,0,1501496725,"odi€kb€kb<div></div>2a2@aSd€kb<><>i/div:w2F<adiv:w71GS<div></div>:w€ýb€ýaki class = main:wj2F>"
@@ -289,233 +416,749 @@ $tb_info
 	354
 <putpltbTnfafatafaFatafa€ýb€ýa:hle€kb€kbelp usr_02.txxt€kb€kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:€ý2€ý4€ýb€ýa:q
 |3,0,29,0,1,0,1500516520,"putpltbTnfafatafaFatafa€ýb€ýa:hle€kb€kbelp usr_02.txxt€kb€kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:€ý2€ý4€ýb€ýa:q"
-""-	CHAR	0
-	index
-|3,1,36,0,1,0,1508849238,"index"
+"-	CHAR	0
+	1.i
+|3,0,36,0,1,0,1509004354,"1.i"
 
 # æ–‡ä»¶æ ‡è®°:
-'0  380  15  ~\_vimrc
-|4,48,380,15,1508893256,"~\\_vimrc"
-'1  152  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,49,152,37,1508849243,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
-'2  37  34  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,50,37,34,1508849067,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
-'3  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,51,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
-'4  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,52,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
-'5  7  49  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\HouseDAO.java
-|4,53,7,49,1508847591,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\HouseDAO.java"
-'6  17  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,54,17,0,1508847498,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
-'7  17  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,55,17,0,1508847498,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
-'8  41  8  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\HouseController.java
-|4,56,41,8,1508847272,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\HouseController.java"
-'9  39  63  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\HomeController.java
-|4,57,39,63,1508846575,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\controller\\HomeController.java"
+'0  177  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,48,177,20,1509022483,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'1  2  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\package-info.java
+|4,49,2,0,1509010648,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\package-info.java"
+'2  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\package-info.java
+|4,50,1,0,1509010643,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\package-info.java"
+'3  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,51,115,0,1509010606,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+'4  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,52,115,0,1509010606,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+'5  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,53,1,0,1509010602,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+'6  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,54,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+'7  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,55,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+'8  32  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCourses.java
+|4,56,32,0,1509010507,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCourses.java"
+'9  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCourses.java
+|4,57,1,0,1509010503,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCourses.java"
 
 # è·³è½¬åˆ—è¡¨ (ä»Žæ–°åˆ°æ—§):
--'  380  15  ~\_vimrc
-|4,39,380,15,1508893256,"~\\_vimrc"
--'  380  15  ~\_vimrc
-|4,39,380,15,1508893256,"~\\_vimrc"
--'  29  37  ~\_vimrc
-|4,39,29,37,1508893251,"~\\_vimrc"
--'  29  37  ~\_vimrc
-|4,39,29,37,1508893251,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1508892955,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1508892955,"~\\_vimrc"
--'  152  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,152,37,1508849243,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  152  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,152,37,1508849243,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  152  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,152,37,1508849243,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  152  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,152,37,1508849243,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  150  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,150,37,1508849236,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  150  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,150,37,1508849236,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  150  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,150,37,1508849236,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  150  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,150,37,1508849236,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  147  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,147,37,1508849233,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  147  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,147,37,1508849233,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  147  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,147,37,1508849233,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  147  37  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,147,37,1508849233,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  145  53  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,145,53,1508849230,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  145  53  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,145,53,1508849230,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  145  53  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,145,53,1508849230,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  145  53  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,145,53,1508849230,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  121  54  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,121,54,1508849208,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  121  54  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,121,54,1508849208,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  121  54  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,121,54,1508849208,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  121  54  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,121,54,1508849208,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  20  26  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,20,26,1508849181,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  20  26  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,20,26,1508849181,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  20  26  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,20,26,1508849181,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  20  26  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,20,26,1508849181,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  12  84  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,12,84,1508849166,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  12  84  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,12,84,1508849166,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  12  84  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,12,84,1508849166,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  12  84  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,12,84,1508849166,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,1,0,1508849165,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,1,0,1508849165,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,1,0,1508849165,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\index.jsp
-|4,39,1,0,1508849165,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
--'  37  34  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,37,34,1508849067,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  37  34  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,37,34,1508849067,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  37  34  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,37,34,1508849067,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  37  34  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,37,34,1508849067,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  37  34  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,37,34,1508849067,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  37  34  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,37,34,1508849067,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  37  34  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,37,34,1508849067,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  37  34  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,37,34,1508849067,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  40  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,40,0,1508849025,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  40  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,40,0,1508849025,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  40  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,40,0,1508849025,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  40  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,40,0,1508849025,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  40  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,40,0,1508849025,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  40  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,40,0,1508849025,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  40  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,40,0,1508849025,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  40  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,40,0,1508849025,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  1  33  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,1,33,1508849021,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  1  33  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,1,33,1508849021,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  1  33  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,1,33,1508849021,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  1  33  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,1,33,1508849021,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  1  33  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,1,33,1508849021,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  1  33  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,1,33,1508849021,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  1  33  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,1,33,1508849021,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  1  33  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-|4,39,1,33,1508849021,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\service\\impl\\HouseServiceImpl.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-|4,39,1,0,1508848503,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\dto\\PageBean.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
--'  23  62  D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-|4,39,23,62,1508848144,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\java\\snippets\\jee\\persistence\\impl\\HouseDAOImpl.java"
+-'  177  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,177,20,1509022483,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  175  139  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,175,139,1509022400,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  1  1  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,1,1,1509021935,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  2  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\package-info.java
+|4,39,2,0,1509010648,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\package-info.java"
+-'  2  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\package-info.java
+|4,39,2,0,1509010648,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\package-info.java"
+-'  3  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\package-info.java
+|4,39,3,0,1509010646,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\package-info.java"
+-'  3  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\package-info.java
+|4,39,3,0,1509010646,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\package-info.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\package-info.java
+|4,39,1,0,1509010643,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\package-info.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\package-info.java
+|4,39,1,0,1509010643,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\package-info.java"
+-'  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,115,0,1509010606,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,115,0,1509010606,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,115,0,1509010606,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,115,0,1509010606,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,115,0,1509010606,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,115,0,1509010606,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,115,0,1509010606,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,115,0,1509010606,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509010602,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509010602,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509010602,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509010602,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509010602,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509010602,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509010602,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509010602,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509010602,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509010602,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,1,0,1509010596,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,1,0,1509010596,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,1,0,1509010596,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,1,0,1509010596,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,1,0,1509010596,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,1,0,1509010596,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,1,0,1509010596,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+|4,39,1,0,1509010596,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\ObjectFactory.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,69,0,1509010546,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,1,0,1509010543,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,1,0,1509010539,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  4  16  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,4,16,1509010539,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,1,0,1509010539,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
+-'  4  16  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+|4,39,4,16,1509010539,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCoursesResponse.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+|4,39,1,0,1509010539,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\GetCoursesResponse.java"
 
 # æ–‡ä»¶å†…çš„æ ‡è®°åŽ†å²è®°å½• (ä»Žæ–°åˆ°æ—§):
+
+> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+	*	1509022481	0
+	"	177	20
+	^	177	20
+	.	177	0
+	+	26	41
+	+	38	80
+	+	66	93
+	+	67	58
+	+	113	61
+	+	138	39
+	+	148	42
+	+	1	1
+	+	209	0
+	+	130	0
+	+	132	0
+	+	133	0
+	+	134	0
+	+	135	0
+	+	136	0
+	+	137	0
+	+	138	0
+	+	139	0
+	+	140	0
+	+	139	0
+	+	140	0
+	+	141	0
+	+	142	0
+	+	143	0
+	+	144	0
+	+	145	0
+	+	146	0
+	+	147	0
+	+	148	0
+	+	149	0
+	+	150	0
+	+	151	0
+	+	152	0
+	+	153	0
+	+	154	0
+	+	155	0
+	+	156	0
+	+	149	0
+	+	150	0
+	+	151	0
+	+	152	0
+	+	153	0
+	+	154	0
+	+	155	0
+	+	157	0
+	+	146	0
+	+	147	0
+	+	148	0
+	+	149	0
+	+	150	0
+	+	151	0
+	+	152	0
+	+	153	0
+	+	154	0
+	+	155	0
+	+	156	0
+	+	158	0
+	+	159	0
+	+	163	0
+	+	164	0
+	+	165	0
+	+	166	0
+	+	167	0
+	+	168	0
+	+	169	0
+	+	170	0
+	+	163	0
+	+	170	0
+	+	171	0
+	+	172	0
+	+	173	0
+	+	174	0
+	+	175	0
+	+	176	0
+	+	177	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\package-info.java
+	*	1509010647	0
+	"	2	0
+	.	3	0
+	+	1	0
+	+	3	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\package-info.java
+	*	1509010642	0
+	"	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
+	*	1509010604	0
+	"	115	0
+	.	1	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+	*	1509010601	0
+	"	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
+	*	1509010544	0
+	"	69	0
+	.	1	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
+	*	1509010542	0
+	"	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCourses.java
+	*	1509010505	0
+	"	32	0
+	.	1	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCourses.java
+	*	1509010502	0
+	"	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCourseResponse.java
+	*	1509010461	0
+	"	61	0
+	.	1	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCourseResponse.java
+	*	1509010459	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCourse.java
+	*	1509010426	0
+	"	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCourse.java
+	*	1509010424	0
+	"	52	0
+	^	52	1
+	.	1	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+	*	1509010389	0
+	"	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\CourseManagementServiceService.java
+	*	1509010387	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\CourseManagementService.java
+	*	1509010349	0
+	"	55	0
+	.	1	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementService.java
+	*	1509010345	0
+	"	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\Course.java
+	*	1509010301	0
+	"	97	0
+	.	1	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\Course.java
+	*	1509010288	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> E:\courseService.xml
+	*	1509010250	0
+	"	43	13
+	^	1	0
+	.	9	0
+	+	1	0
+	+	1	4
+	+	1	0
+	+	9	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\bark.java
+	*	1509010213	0
+	"	45	0
+	.	1	0
+	+	1	0
+	+	62	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\dona.jav
+	*	1509009973	0
+	"	1	0
+
+> D:\360Downloads\ssm1706\.gitignore
+	*	1509006330	0
+	"	35	0
+	^	35	0
+	.	1	0
+	+	36	0
+	+	1	0
+
+> D:\360Downloads\.gitignore
+	*	1509006269	0
+	"	1	0
+	^	1	0
+	.	23	0
+	+	23	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\pom.xml
+	*	1509004356	0
+	"	14	31
+	^	14	31
+	.	14	30
+	+	2	0
+	+	12	31
+	+	15	0
+	+	13	30
+	+	14	30
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\.gitignore
+	*	1509004267	0
+	"	34	31
+	^	34	32
+	.	1	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWS\src\main\java\snippets\jee\ws\soap\CourseManagementService.java
+	*	1509003229	0
+	"	9	73
+	^	9	73
+	.	9	72
+	+	8	75
+	+	9	72
+
+> D:\File\Java_workspace\CourseManagementWS\src\main\java\snippets\jee\ws\soap\ICourseManagementService.java
+	*	1509003082	0
+	"	1	0
+	^	7	11
+	.	7	10
+	+	3	10
+	+	6	36
+	+	3	11
+	+	3	80
+	+	5	80
+	+	7	10
+
+> D:\File\Java_workspace\CourseManagementWS\src\main\java\snippets\jee\ws\soap\[Command Line]
+	*	1509002203	0
+	"	1	0
+
+> D:\File\Java_workspace\houseManagement\src\test\java\snippets\jee\persistence\impl\UserDAOImplTest.java
+	*	1508985944	0
+	"	32	34
+	^	32	35
+	.	32	34
+	+	18	38
+	+	33	0
+	+	31	31
+	+	21	35
+	+	27	19
+	+	28	31
+	+	29	0
+	+	32	34
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\JPAEntityFactoryBean.java
+	*	1508983839	0
+	"	20	35
+	^	20	36
+	.	20	35
+	+	5	53
+	+	13	0
+	+	12	84
+	+	21	0
+	+	20	35
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
+	*	1508981219	0
+	"	1	0
+	^	41	55
+	.	41	54
+	+	18	31
+	+	24	34
+	+	21	29
+	+	29	17
+	+	32	43
+	+	47	44
+	+	44	33
+	+	42	0
+	+	37	86
+	+	38	57
+	+	39	71
+	+	40	0
+	+	39	61
+	+	40	60
+	+	41	54
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\HouseService.java
+	*	1508981196	0
+	"	1	0
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
+	*	1508981165	0
+	"	12	0
+	^	23	62
+	.	23	61
+	+	6	0
+	+	5	0
+	+	1	26
+	+	4	84
+	+	24	0
+	+	12	56
+	+	14	78
+	+	15	44
+	+	16	30
+	+	17	29
+	+	20	68
+	+	21	0
+	+	18	0
+	+	21	38
+	+	22	47
+	+	23	61
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\HouseDAO.java
+	*	1508981144	0
+	"	1	0
+	^	7	49
+	.	7	48
+	+	4	0
+	+	8	0
+	+	7	48
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
+	*	1508981049	0
+	"	11	0
+	^	17	0
+	.	17	0
+	+	18	0
+	+	10	4
+	+	8	25
+	+	9	0
+	+	8	11
+	+	15	0
+	+	10	83
+	+	14	33
+	+	17	0
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\HomeController.java
+	*	1508981029	0
+	"	41	0
+	^	39	63
+	.	39	62
+	+	14	36
+	+	16	21
+	+	24	0
+	+	18	22
+	+	46	23
+	+	51	0
+	+	46	44
+	+	51	0
+	+	47	41
+	+	48	71
+	+	49	33
+	+	50	19
+	+	44	0
+	+	44	28
+	+	59	24
+	+	60	24
+	+	61	20
+	+	64	22
+	+	67	0
+	+	66	23
+	+	12	44
+	+	23	0
+	+	19	21
+	+	22	0
+	+	20	69
+	+	21	25
+	+	10	45
+	+	27	21
+	+	34	128
+	+	28	69
+	+	29	56
+	+	32	40
+	+	33	37
+	+	34	74
+	+	34	190
+	+	46	23
+	+	45	16
+	+	44	53
+	+	51	55
+	+	78	21
+	+	81	0
+	+	80	18
+	+	54	26
+	+	58	0
+	+	56	48
+	+	57	57
+	+	31	37
+	+	1	0
+	+	34	128
+	+	34	125
+	+	34	128
+	+	34	202
+	+	34	140
+	+	34	128
+	+	34	191
+	+	34	0
+	+	37	60
+	+	38	66
+	+	39	62
+
+> D:\File\Java_workspace\houseManagement\pom.xml
+	*	1508914597	0
+	"	1	0
+	^	101	0
+	.	21	0
+	+	2	0
+	+	21	0
+	+	58	0
+	+	102	0
+	+	101	0
+	+	21	0
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\util\HQLQueryBean.java
+	*	1508911172	0
+	"	31	71
+	^	31	71
+	.	31	70
+	+	55	67
+	+	61	0
+	+	60	66
+	+	9	32
+	+	16	0
+	+	15	0
+	+	14	27
+	+	13	32
+	+	14	63
+	+	23	4
+	+	28	15
+	+	30	0
+	+	28	32
+	+	29	77
+	+	31	61
+	+	30	15
+	+	32	8
+	+	31	0
+	+	33	19
+	+	44	19
+	+	40	0
+	+	38	30
+	+	39	48
+	+	31	26
+	+	11	53
+	+	39	48
+	+	39	47
+	+	40	32
+	+	42	0
+	+	41	48
+	+	42	0
+	+	43	0
+	+	40	0
+	+	26	23
+	+	33	18
+	+	25	14
+	+	27	0
+	+	25	16
+	+	15	66
+	+	29	29
+	+	31	65
+	+	32	8
+	+	31	70
+
+> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\util\QueryBean.java
+	*	1508900121	0
+	"	13	0
+	^	13	44
+	.	13	43
+	+	20	13
+	+	23	0
+	+	22	57
+	+	10	56
+	+	26	6
+	+	25	22
+	+	12	42
+	+	16	29
+	+	10	13
+	+	12	13
+	+	16	13
+	+	8	32
+	+	12	64
+	+	14	0
+	+	14	42
+	+	18	0
+	+	18	27
+	+	16	23
+	+	18	44
+	+	16	11
+	+	2	0
+	+	5	2
+	+	4	18
+	+	14	0
+	+	18	0
+	+	13	0
+	+	18	5
+	+	17	0
+	+	18	0
+	+	13	43
 
 > ~\_vimrc
 	*	1508893251	0
@@ -595,65 +1238,6 @@ $tb_info
 	+	150	36
 	+	152	36
 
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\impl\HouseServiceImpl.java
-	*	1508849066	0
-	"	37	34
-	^	37	34
-	.	37	33
-	+	18	31
-	+	24	34
-	+	21	29
-	+	29	17
-	+	32	43
-	+	40	44
-	+	37	33
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\dto\PageBean.java
-	*	1508848498	0
-	"	1	0
-	^	17	0
-	.	17	0
-	+	18	0
-	+	10	4
-	+	8	25
-	+	9	0
-	+	8	11
-	+	15	0
-	+	10	83
-	+	14	33
-	+	17	0
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HouseDAOImpl.java
-	*	1508848143	0
-	"	23	62
-	^	23	62
-	.	23	61
-	+	6	0
-	+	5	0
-	+	1	26
-	+	4	84
-	+	24	0
-	+	12	56
-	+	14	78
-	+	15	44
-	+	16	30
-	+	17	29
-	+	20	68
-	+	21	0
-	+	18	0
-	+	21	38
-	+	22	47
-	+	23	61
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\HouseDAO.java
-	*	1508847590	0
-	"	7	49
-	^	7	49
-	.	7	48
-	+	4	0
-	+	8	0
-	+	7	48
-
 > D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\HouseController.java
 	*	1508847189	0
 	"	41	8
@@ -685,83 +1269,6 @@ $tb_info
 	+	33	22
 	+	36	0
 
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\controller\HomeController.java
-	*	1508846574	0
-	"	39	63
-	^	39	63
-	.	39	62
-	+	14	36
-	+	16	21
-	+	24	0
-	+	18	22
-	+	46	23
-	+	51	0
-	+	46	44
-	+	51	0
-	+	47	41
-	+	48	71
-	+	49	33
-	+	50	19
-	+	44	0
-	+	44	28
-	+	59	24
-	+	60	24
-	+	61	20
-	+	64	22
-	+	67	0
-	+	66	23
-	+	12	44
-	+	23	0
-	+	19	21
-	+	22	0
-	+	20	69
-	+	21	25
-	+	10	45
-	+	27	21
-	+	34	128
-	+	28	69
-	+	29	56
-	+	32	40
-	+	33	37
-	+	34	74
-	+	34	190
-	+	46	23
-	+	45	16
-	+	44	53
-	+	51	55
-	+	78	21
-	+	81	0
-	+	80	18
-	+	54	26
-	+	58	0
-	+	56	48
-	+	57	57
-	+	31	37
-	+	1	0
-	+	34	128
-	+	34	125
-	+	34	128
-	+	34	202
-	+	34	140
-	+	34	128
-	+	34	191
-	+	34	0
-	+	37	60
-	+	38	66
-	+	39	62
-
-> D:\File\Java_workspace\houseManagement\pom.xml
-	*	1508828595	0
-	"	1	0
-	^	101	0
-	.	21	0
-	+	2	0
-	+	21	0
-	+	58	0
-	+	102	0
-	+	101	0
-	+	21	0
-
 > D:\File\Java_workspace\freemarker\pom.xml
 	*	1508827461	0
 	"	13	0
@@ -784,19 +1291,6 @@ $tb_info
 	+	38	24
 	+	39	0
 	+	38	64
-
-> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-	*	1508815281	0
-	"	148	43
-	^	148	43
-	.	148	42
-	+	26	41
-	+	38	80
-	+	66	93
-	+	67	58
-	+	113	61
-	+	138	39
-	+	148	42
 
 > D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\login.jsp
 	*	1508813776	0
@@ -931,10 +1425,6 @@ $tb_info
 	+	58	0
 	+	58	50
 	+	59	91
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\service\HouseService.java
-	*	1508807831	0
-	"	2	0
 
 > D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\impl\HousePhotoDAOImpl.java
 	*	1508807764	0
@@ -1729,239 +2219,3 @@ $tb_info
 	+	18	0
 	+	15	19
 	+	17	21
-
-> ~\.ssh\id_rsa.pub
-	*	1508303367	0
-	"	1	0
-
-> D:\Users\79001\git\blog\.gitignore
-	*	1508297149	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	2	6
-	+	4	9
-	+	1	6
-	+	25	0
-	+	24	0
-	+	25	0
-	+	5	0
-	+	25	0
-	+	10	28
-	+	11	0
-	+	5	0
-	+	27	0
-	+	5	0
-	+	6	0
-	+	7	6
-	+	11	9
-	+	19	5
-	+	21	88
-	+	22	11
-	+	21	21
-	+	3	0
-	+	2	0
-
-> D:\Users\79001\blog\.gitignore
-	*	1508292349	0
-	"	1	0
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\LoginLog.java
-	*	1508288115	0
-	"	31	0
-	.	16	0
-	+	16	0
-
-> D:\Users\79001\git\blog\source\_posts\hello-world.md
-	*	1508246245	0
-	"	22	0
-
-> D:\Users\79001\git\790013438.github.io\.nojekyll
-	*	1508238719	0
-	"	1	0
-
-> D:\File\Java_workspace\Downloads\Java EE Development, Second Edition_Code\Chapter 9\CourseMgmtWSProject\pom.xml
-	*	1508238159	0
-	"	1	0
-	^	1	0
-	.	3	0
-	+	1	0
-	+	10	7
-	+	3	0
-
-> D:\File\Java_workspace\houseManagement\src\main\webapp\register.jsp
-	*	1508222869	0
-	"	1	0
-	.	4	0
-	+	4	0
-
-> D:\File\Java_workspace\houseManagement\src\main\webapp\pub.jsp
-	*	1508222861	0
-	"	1	3
-	.	5	0
-	+	5	0
-
-> D:\File\Java_workspace\houseManagement\src\main\webapp\login.jsp
-	*	1508222249	0
-	"	1	0
-	.	11	0
-	+	11	0
-
-> D:\File\Java_workspace\houseManagement\src\main\webapp\index.jsp
-	*	1508221990	0
-	"	1	0
-	.	5	0
-	+	5	0
-
-> D:\File\Java_workspace\CourseManagementWS\pom.xml
-	*	1508203399	0
-	"	1	0
-	.	22	0
-	+	2	0
-	+	25	0
-	+	21	0
-	+	22	0
-
-> D:\File\Java_workspace\Downloads\Java EE Development, Second Edition_Code\Chapter 9\CourseMgmtWSProject\src\main\webapp\WEB-INF\sun-jaxws.xml
-	*	1508158780	0
-	"	1	0
-
-> D:\File\Java_workspace\Downloads\Java EE Development, Second Edition_Code\Chapter 9\CourseMgmtWSProject\src\main\java\packt\jee\eclipse\ws\soap\CourseManagementService.java
-	*	1508156404	0
-	"	38	0
-
-> D:\File\Java_workspace\Downloads\Java EE Development, Second Edition_Code\Chapter 9\CourseMgmtWSProject\src\main\java\packt\jee\eclipse\ws\soap\Courses.java
-	*	1508156396	0
-	"	5	0
-
-> D:\File\Java_workspace\Downloads\Java EE Development, Second Edition_Code\Chapter 9\CourseMgmtWSProject\src\main\java\packt\jee\eclipse\ws\soap\Course.java
-	*	1508156139	0
-	"	15	0
-
-> D:\File\Java_workspace\houseManagement\src\test\java\snippets\jee\aspectj\TxSideTest.java
-	*	1508143412	0
-	"	9	1
-	^	6	0
-	.	8	11
-	+	3	37
-	+	4	50
-	+	8	11
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\aspectj\TxSide.java
-	*	1508142972	0
-	"	10	53
-	^	10	53
-	.	10	52
-	+	3	10
-	+	4	6
-	+	26	0
-	+	7	73
-	+	25	1
-	+	9	0
-	+	23	0
-	+	22	37
-	+	18	23
-	+	19	53
-	+	9	0
-	+	10	17
-	+	12	0
-	+	24	4
-	+	13	0
-	+	11	73
-	+	15	27
-	+	25	0
-	+	15	0
-	+	20	19
-	+	15	41
-	+	16	43
-	+	17	41
-	+	10	52
-
-> D:\File\Java_workspace\houseManagement\src\test\java\snippets\jee\aspectj\HintAspectTest.java
-	*	1508139346	0
-	"	7	50
-	^	7	50
-	.	7	49
-	+	6	37
-	+	7	49
-
-> D:\File\Java_workspace\springioc\src\main\java\app.xml
-	*	1508138112	0
-	"	1	0
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\aspectj\HintAspect.java
-	*	1508137904	0
-	"	7	52
-	^	7	52
-	.	7	51
-	+	3	9
-	+	4	6
-	+	10	0
-	+	9	40
-	+	7	25
-	+	10	0
-	+	7	51
-
-> D:\File\Java_workspace\springioc\src\test\java\com\qfedu\springioc\service\UserServiceTest.java
-	*	1508136955	0
-	"	1	0
-
-> D:\File\Java_workspace\springioc\pom.xml
-	*	1508134646	0
-	"	1	0
-	.	2	0
-	+	2	0
-
-> D:\File\Java_workspace\CourseManagementSpringMVCJPA\src\main\webapp\WEB-INF\spring\appServlet\servlet-context.xml
-	*	1508132876	0
-	"	1	0
-
-> D:\File\Java_workspace\CourseManagementSpringMVCJPA\pom.xml
-	*	1508124651	0
-	"	149	0
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\entity\JPAEntityFactoryBean.java
-	*	1508115228	0
-	"	5	53
-	^	5	54
-	.	5	53
-	+	5	53
-
-> D:\File\Java_workspace\SpringMaven\src\main\java\snippets\spring\SpringMain.java
-	*	1508114871	0
-	"	1	0
-
-> D:\File\Java_workspace\houseManagement\src\main\java\META-INF\persistence.xml
-	*	1508073964	0
-	"	1	0
-	.	3	0
-	+	3	0
-
-> D:\360Downloads\.gitignore
-	*	1508072505	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWS\src\main\webapp\WEB-INF\web.xml
-	*	1507974167	0
-	"	1	0
-
-> D:\File\Java_workspace\CourseManagementWS\src\main\webapp\WEB-INF\sun-jaxws.xml
-	*	1507973957	0
-	"	4	4
-	^	4	4
-	.	4	0
-	+	1	34
-	+	6	0
-	+	1	36
-	+	2	78
-	+	5	0
-	+	3	97
-	+	4	0
-	+	3	123
-	+	4	0
-
-> ~\vimfiles\autoload\plug.vim
-	*	1507970512	0
-	"	223	0
