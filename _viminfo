@@ -11,23 +11,25 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/plug
+~MSle0~/color
 
 # Last Substitute Search Pattern:
-~MSle0&course
+~MSle0&\t
 
 # Last Substitute String:
-$tb_info
+$ 
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1509068539,,"q"
-:q!
-|2,0,1509068349,,"q!"
 :wq
-|2,0,1509068237,,"wq"
+|2,0,1509084170,,"wq"
 :w
-|2,0,1509068036,,"w"
+|2,0,1509084080,,"w"
+:q!
+|2,0,1509075707,,"q!"
+:q
+|2,0,1509075700,,"q"
+:%s/\t/ /gc
+|2,0,1509072743,,"%s/\\t/ /gc"
 :PlugInstall
 |2,0,1509067685,,"PlugInstall"
 :q！
@@ -118,10 +120,30 @@ $tb_info
 |2,0,1505443139,,"PluginUpdate"
 :set relativnumber
 |2,0,1505437659,,"set relativnumber"
-:w courses.scss
-|2,0,1505352794,,"w courses.scss"
 
 # Search String History (newest to oldest):
+?/color
+|2,1,1509083845,47,"color"
+?/cities
+|2,1,1509072841,47,"cities"
+?/id
+|2,1,1509072832,47,"id"
+?/detail
+|2,1,1509072830,47,"detail"
+?/applicationScope
+|2,1,1509072800,47,"applicationScope"
+?/houeType
+|2,1,1509072792,47,"houeType"
+?/addhouse
+|2,1,1509072777,47,"addhouse"
+? \t
+|2,1,1509072743,,"\\t"
+?/set
+|2,1,1509069700,47,"set"
+?/auto
+|2,1,1509069391,47,"auto"
+?/indent
+|2,1,1509069359,47,"indent"
 ?/plug
 |2,1,1509023020,47,"plug"
 ?/getcourses
@@ -164,8 +186,6 @@ $tb_info
 |2,1,1508815662,47,"listener"
 ?/district
 |2,1,1508815240,47,"district"
-?/cities
-|2,1,1508815175,47,"cities"
 ?/introduction
 |2,1,1508815148,47,"introduction"
 ?/provList
@@ -182,8 +202,6 @@ $tb_info
 |2,1,1508807937,47,"houseDAO"
 ?/user
 |2,1,1508756981,47,"user"
-?/detail
-|2,1,1508756971,47,"detail"
 ?/date
 |2,1,1508756941,47,"date"
 ?/otherPhotos
@@ -204,24 +222,6 @@ $tb_info
 |2,1,1508756613,47,"area"
 ?/title
 |2,1,1508756511,47,"title"
-?/toPub
-|2,1,1508747293,47,"toPub"
-?/background
-|2,1,1508743334,47,"background"
-?/syntax
-|2,1,1508743318,47,"syntax"
-?/message
-|2,1,1508740056,47,"message"
-?/submit
-|2,1,1508738850,47,"submit"
-?/name
-|2,1,1508727811,47,"name"
-?/registerForm
-|2,1,1508727677,47,"registerForm"
-?/code
-|2,1,1508663832,47,"code"
-?/password
-|2,1,1508496952,47,"password"
 
 # Expression History (newest to oldest):
 =<div></div>
@@ -236,36 +236,38 @@ $tb_info
 # Debug Line History (newest to oldest):
 
 # 寄存器:
-"0	LINE	0
-	" Plugin 'Valloric/YouCompleteMe'
-|3,0,0,1,1,0,1508489311,"\" Plugin 'Valloric/YouCompleteMe'"
+"0	CHAR	0
+	;
+|3,0,0,0,1,0,1509072760,";"
 "1	LINE	0
 	
-|3,0,1,1,1,0,1509065737,""
+|3,0,1,1,1,0,1509075755,""
 "2	LINE	0
+	        
 	
-|3,0,2,1,1,0,1509023307,""
+	
+|3,0,2,1,3,0,1509069851,"        ","",""
 "3	LINE	0
-	" <<
-|3,0,3,1,1,0,1509023306,"\" <<"
+	
+|3,0,3,1,1,0,1509065737,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1509023305,""
+|3,0,4,1,1,0,1509023307,""
 "5	LINE	0
-	set nofoldenable
-|3,0,5,1,1,0,1509023302,"set nofoldenable"
+	" <<
+|3,0,5,1,1,0,1509023306,"\" <<"
 "6	LINE	0
-	" 启动 vim 时关闭折叠代码
-|3,0,6,1,1,0,1509023301,"\" 启动 vim 时关闭折叠代码"
+	
+|3,0,6,1,1,0,1509023305,""
 "7	LINE	0
-	set foldmethod=syntax
-|3,0,7,1,1,0,1509023300,"set foldmethod=syntax"
+	set nofoldenable
+|3,0,7,1,1,0,1509023302,"set nofoldenable"
 "8	LINE	0
-	"set foldmethod=indent
-|3,0,8,1,1,0,1509023299,"\"set foldmethod=indent"
+	" 启动 vim 时关闭折叠代码
+|3,0,8,1,1,0,1509023301,"\" 启动 vim 时关闭折叠代码"
 "9	LINE	0
-	" 基于缩进或语法进行代码折叠
-|3,0,9,1,1,0,1509023298,"\" 基于缩进或语法进行代码折叠"
+	set foldmethod=syntax
+|3,0,9,1,1,0,1509023300,"set foldmethod=syntax"
 "a	CHAR	0
 	odi�kb�kb<div></div>2a2@aSd�kb<><>i/div:w2F<adiv:w71GS<div></div>:w��b��aki class = main:wj2F>
 |3,0,10,0,1,0,1501496725,"odi�kb�kb<div></div>2a2@aSd�kb<><>i/div:w2F<adiv:w71GS<div></div>:w��b��aki class = main:wj2F>"
@@ -277,245 +279,337 @@ $tb_info
 <putpltbTnfafatafaFatafa��b��a:hle�kb�kbelp usr_02.txxt�kb�kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:��2��4��b��a:q
 |3,0,29,0,1,0,1500516520,"putpltbTnfafatafaFatafa��b��a:hle�kb�kbelp usr_02.txxt�kb�kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:��2��4��b��a:q"
 ""-	CHAR	0
-	¦
-|3,1,36,0,1,0,1509068311,"¦"
+	#EEE8D5
+|3,1,36,0,1,0,1509084162,"#EEE8D5"
 
 # 文件标记:
-'0  74  40  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,48,74,40,1509068539,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'1  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,49,1,0,1509068385,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'2  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,50,1,0,1509068385,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'3  96  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,51,96,12,1509068377,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'4  96  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,52,96,12,1509068377,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'5  96  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,53,96,12,1509068377,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'6  96  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,54,96,12,1509068377,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'7  121  32  ~\_vimrc
-|4,55,121,32,1509068350,"~\\_vimrc"
-'8  121  34  ~\_vimrc
-|4,56,121,34,1509068237,"~\\_vimrc"
-'9  121  31  ~\vimrc
-|4,57,121,31,1509068039,"~\\vimrc"
+'0  229  62  ~\_vimrc
+|4,48,229,62,1509084170,"~\\_vimrc"
+'1  83  4  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,49,83,4,1509081377,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+'2  88  12  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,50,88,12,1509075810,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+'3  54  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCourseResponse.java
+|4,51,54,0,1509075707,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\GetCourseResponse.java"
+'4  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,52,1,0,1509072918,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'5  148  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,53,148,0,1509072904,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'6  148  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,54,148,0,1509072904,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'7  347  0  ~\_vimrc
+|4,55,347,0,1509071403,"~\\_vimrc"
+'8  347  0  ~\_vimrc
+|4,56,347,0,1509071403,"~\\_vimrc"
+'9  14  4  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\error\hint.jsp
+|4,57,14,4,1509069877,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\error\\hint.jsp"
 
 # 跳转列表 (从新到旧):
--'  74  40  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,74,40,1509068539,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,1,0,1509068511,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,1,0,1509068385,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  96  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,96,12,1509068377,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  96  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,96,12,1509068377,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  96  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,96,12,1509068377,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  121  32  ~\_vimrc
-|4,39,121,32,1509068350,"~\\_vimrc"
--'  121  32  ~\_vimrc
-|4,39,121,32,1509068350,"~\\_vimrc"
--'  121  32  ~\_vimrc
-|4,39,121,32,1509068350,"~\\_vimrc"
--'  121  32  ~\_vimrc
-|4,39,121,32,1509068350,"~\\_vimrc"
+-'  229  62  ~\_vimrc
+|4,39,229,62,1509084170,"~\\_vimrc"
+-'  46  1  ~\_vimrc
+|4,39,46,1,1509083852,"~\\_vimrc"
+-'  45  1  ~\_vimrc
+|4,39,45,1,1509083851,"~\\_vimrc"
+-'  44  1  ~\_vimrc
+|4,39,44,1,1509083851,"~\\_vimrc"
+-'  43  0  ~\_vimrc
+|4,39,43,0,1509083851,"~\\_vimrc"
+-'  28  22  ~\_vimrc
+|4,39,28,22,1509083850,"~\\_vimrc"
+-'  95  16  ~\_vimrc
+|4,39,95,16,1509083849,"~\\_vimrc"
+-'  2  0  ~\_vimrc
+|4,39,2,0,1509083845,"~\\_vimrc"
 -'  1  0  ~\_vimrc
-|4,39,1,0,1509068302,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509068302,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509068302,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509068302,"~\\_vimrc"
--'  44  2  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,44,2,1509068256,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  44  2  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,44,2,1509068256,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  44  2  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,44,2,1509068256,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,1,0,1509068246,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  121  34  ~\_vimrc
-|4,39,121,34,1509068237,"~\\_vimrc"
--'  121  34  ~\_vimrc
-|4,39,121,34,1509068237,"~\\_vimrc"
--'  121  34  ~\_vimrc
-|4,39,121,34,1509068237,"~\\_vimrc"
--'  121  34  ~\_vimrc
-|4,39,121,34,1509068237,"~\\_vimrc"
--'  121  34  ~\_vimrc
-|4,39,121,34,1509068237,"~\\_vimrc"
--'  121  34  ~\_vimrc
-|4,39,121,34,1509068237,"~\\_vimrc"
--'  121  34  ~\_vimrc
-|4,39,121,34,1509068237,"~\\_vimrc"
--'  121  34  ~\_vimrc
-|4,39,121,34,1509068237,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509068204,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509068204,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509068204,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509068204,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509068204,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509068204,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509068204,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509068204,"~\\_vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  121  31  ~\vimrc
-|4,39,121,31,1509068039,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
--'  1  0  ~\vimrc
-|4,39,1,0,1509067951,"~\\vimrc"
+|4,39,1,0,1509083836,"~\\_vimrc"
+-'  83  4  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,83,4,1509081377,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  83  4  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,83,4,1509081377,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  4  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,4,0,1509081345,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  4  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,4,0,1509081345,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  104  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,104,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  95  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,95,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  86  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,86,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  77  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,77,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,69,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  61  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,61,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  53  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,53,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  45  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,45,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  37  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,37,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  106  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,106,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  104  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,104,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  95  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,95,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  86  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,86,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  77  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,77,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  69  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,69,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  61  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,61,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  53  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,53,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  45  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,45,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  37  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,37,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  106  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,106,0,1509081341,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  113  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,113,0,1509081330,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  113  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,113,0,1509081330,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  84  4  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,84,4,1509081300,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  84  4  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,84,4,1509081300,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  79  4  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,79,4,1509081295,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  79  4  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,79,4,1509081295,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509081273,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,1,0,1509081273,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  25  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,25,0,1509081245,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  25  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,25,0,1509081245,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  93  91  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,93,91,1509081222,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  93  91  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,93,91,1509081222,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  89  4  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,89,4,1509081201,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  89  4  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,89,4,1509081201,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  88  2  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,88,2,1509081197,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  88  2  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,88,2,1509081197,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,115,0,1509081067,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  115  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+|4,39,115,0,1509081067,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\ObjectFactory.java"
+-'  88  12  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,88,12,1509075810,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  88  12  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,88,12,1509075810,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  88  12  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,88,12,1509075810,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  88  12  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,88,12,1509075810,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  93  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,93,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  91  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,91,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  89  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,89,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  84  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,84,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  72  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,72,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  62  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,62,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  58  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,58,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  54  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,54,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  50  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,50,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  46  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,46,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  42  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,42,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  38  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,38,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  35  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,35,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,1,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  93  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,93,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  91  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,91,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  89  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,89,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  84  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,84,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  72  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,72,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  62  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,62,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  58  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,58,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  54  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,54,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  50  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,50,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  46  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,46,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  42  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,42,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  38  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,38,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  35  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,35,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,1,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  93  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,93,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  91  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,91,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  89  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,89,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  84  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,84,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  72  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,72,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  62  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,62,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  58  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,58,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  54  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,54,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  50  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,50,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  46  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,46,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  42  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,42,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  38  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,38,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  35  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,35,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  1  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,1,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  93  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,93,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  91  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,91,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
+-'  89  0  D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+|4,39,89,0,1509075741,"D:\\File\\Java_workspace\\CourseManagementWSClientProject\\src\\main\\java\\snippets\\jee\\ws\\soap\\client\\CourseManagementServiceService.java"
 
 # 文件内的标记历史记录 (从新到旧):
 
+> ~\_vimrc
+	*	1509084169	0
+	"	229	62
+	^	229	63
+	.	229	56
+	+	1	0
+	+	33	24
+	+	8	2
+	+	8	1
+	+	4	1
+	+	6	1
+	+	4	2
+	+	8	2
+	+	4	0
+	+	6	0
+	+	8	0
+	+	8	1
+	+	8	31
+	+	8	0
+	+	8	3
+	+	1	0
+	+	8	0
+	+	20	0
+	+	61	0
+	+	67	0
+	+	76	11
+	+	85	0
+	+	97	0
+	+	8	0
+	+	48	0
+	+	104	0
+	+	129	0
+	+	33	0
+	+	1	0
+	+	24	30
+	+	31	14
+	+	30	0
+	+	26	6
+	+	27	4
+	+	33	0
+	+	28	6
+	+	26	6
+	+	43	0
+	+	26	6
+	+	44	1
+	+	42	0
+	+	37	18
+	+	38	23
+	+	39	4
+	+	41	4
+	+	42	0
+	+	30	0
+	+	123	0
+	+	119	7
+	+	29	6
+	+	119	7
+	+	121	0
+	+	122	31
+	+	121	0
+	+	122	0
+	+	121	32
+	+	122	0
+	+	229	56
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
+	*	1509081366	0
+	"	83	4
+	.	83	0
+	+	83	0
+	+	84	0
+	+	88	0
+	+	89	0
+	+	92	0
+	+	93	0
+	+	83	0
+	+	115	0
+	+	83	0
+	+	115	0
+	+	106	0
+	+	83	0
+	+	97	0
+	+	83	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
+	*	1509075799	0
+	"	88	12
+	.	1	0
+	+	70	0
+	+	1	0
+
+> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCourseResponse.java
+	*	1509075700	0
+	"	54	0
+	.	35	0
+	+	1	0
+	+	35	0
+
 > D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-	*	1509068535	0
-	"	74	40
-	^	1	0
-	.	206	0
-	+	152	0
-	+	153	0
-	+	154	0
-	+	155	0
-	+	156	0
+	*	1509072915	0
+	"	1	0
+	^	204	43
+	.	203	0
 	+	149	0
 	+	150	0
 	+	151	0
@@ -611,67 +705,35 @@ $tb_info
 	+	1	0
 	+	2	0
 	+	206	0
+	+	204	43
+	+	63	0
+	+	192	0
+	+	199	0
+	+	203	0
 
-> ~\_vimrc
-	*	1509068347	0
-	"	121	32
-	^	121	32
-	.	122	0
-	+	1	0
-	+	33	24
-	+	8	2
-	+	8	1
-	+	4	1
-	+	6	1
-	+	4	2
-	+	8	2
+> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\error\hint.jsp
+	*	1509069852	0
+	"	14	4
+	^	14	4
+	.	14	0
+	+	3	0
+	+	14	0
+
+> D:\360Downloads\hrs1706\src\hibernate.cfg.xml
+	*	1509068897	0
+	"	24	0
+	.	9	0
+	+	34	0
+	+	7	0
+	+	8	0
+	+	9	0
+
+> D:\360Downloads\hrs1706\src\Candidate.java
+	*	1509068788	0
+	"	7	0
+	.	7	0
 	+	4	0
-	+	6	0
-	+	8	0
-	+	8	1
-	+	8	31
-	+	8	0
-	+	8	3
-	+	1	0
-	+	8	0
-	+	20	0
-	+	61	0
-	+	67	0
-	+	76	11
-	+	85	0
-	+	97	0
-	+	8	0
-	+	48	0
-	+	104	0
-	+	129	0
-	+	33	0
-	+	1	0
-	+	24	30
-	+	31	14
-	+	30	0
-	+	26	6
-	+	27	4
-	+	33	0
-	+	28	6
-	+	26	6
-	+	43	0
-	+	26	6
-	+	44	1
-	+	42	0
-	+	37	18
-	+	38	23
-	+	39	4
-	+	41	4
-	+	42	0
-	+	30	0
-	+	123	0
-	+	119	7
-	+	29	6
-	+	119	7
-	+	121	0
-	+	122	31
-	+	121	0
-	+	122	0
+	+	7	0
 
 > ~\vimrc
 	*	1509068036	0
@@ -696,10 +758,6 @@ $tb_info
 	"	115	0
 	.	1	0
 	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
-	*	1509010601	0
-	"	1	0
 
 > D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
 	*	1509010544	0
@@ -727,12 +785,6 @@ $tb_info
 	.	1	0
 	+	1	0
 
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCourseResponse.java
-	*	1509010459	0
-	"	1	0
-	.	1	0
-	+	1	0
-
 > D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCourse.java
 	*	1509010426	0
 	"	1	0
@@ -743,10 +795,6 @@ $tb_info
 	^	52	1
 	.	1	0
 	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
-	*	1509010389	0
-	"	1	0
 
 > D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\CourseManagementServiceService.java
 	*	1509010387	0
@@ -2080,27 +2128,3 @@ $tb_info
 	^	1	7
 	.	1	6
 	+	1	6
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\UserDAO.java
-	*	1508313214	0
-	"	5	40
-	^	5	40
-	.	5	39
-	+	3	55
-	+	5	39
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\UserDAO
-	*	1508313132	0
-	"	1	6
-	^	1	7
-	.	1	6
-	+	1	6
-
-> D:\File\Java_workspace\houseManagement\src\main\java\snippets\jee\persistence\LoginLogDAO.java
-	*	1508313068	0
-	"	4	0
-	^	4	1
-	.	4	0
-	+	1	33
-	+	3	64
-	+	4	0
