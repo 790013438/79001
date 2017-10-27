@@ -1,25 +1,25 @@
-" ÎÄ¼şÀàĞÍÕì²â
+" æ–‡ä»¶ç±»å‹ä¾¦æµ‹
 
-" ¿ªÆôÎÄ¼şÀàĞÍÕì²â
+" å¼€å¯æ–‡ä»¶ç±»å‹ä¾¦æµ‹
 filetype on
-" ¸ù¾İÕì²âµ½µÄ²»Í¬ÀàĞÍ¼ÓÔØ¶ÔÓ¦µÄ²å¼ş
+" æ ¹æ®ä¾¦æµ‹åˆ°çš„ä¸åŒç±»å‹åŠ è½½å¯¹åº”çš„æ’ä»¶
 filetype plugin on
 
-" ¿ªÆôÊµÊ±ËÑË÷¹¦ÄÜ
+" å¼€å¯å®æ—¶æœç´¢åŠŸèƒ½
 set incsearch
 
-" ËÑË÷Ê±´óĞ¡Ğ´²»Ãô¸Ğ
+" æœç´¢æ—¶å¤§å°å†™ä¸æ•æ„Ÿ
 set ignorecase
 
-" ¹Ø±Õ¼æÈİÄ£Ê½
+" å…³é—­å…¼å®¹æ¨¡å¼
 set nocompatible
 
-" vim ×ÔÉíÃüÁîĞĞÄ£Ê½ÖÇÄÜ²¹È«
+" vim è‡ªèº«å‘½ä»¤è¡Œæ¨¡å¼æ™ºèƒ½è¡¥å…¨
 set wildmenu
 
 
 " >>>>
-" ²å¼ş°²×°
+" æ’ä»¶å®‰è£…
 
 call plug#begin('~/.vim/plugged')
 
@@ -33,7 +33,7 @@ call plug#end()
 filetype plugin indent on
 " <<<<
 
-" ÅäÉ«·½°¸
+" é…è‰²æ–¹æ¡ˆ
 if has('gui_running')
     set background=light
 else
@@ -45,16 +45,16 @@ colorscheme solarized
 "colorscheme molokai
 "colorscheme phd
 
-" ½ûÖ¹¹â±êÉÁË¸
+" ç¦æ­¢å…‰æ ‡é—ªçƒ
 set gcr=a:block-blinkon0
 
-" ½ûÖ¹ÏÔÊ¾¹ö¶¯Ìõ
+" ç¦æ­¢æ˜¾ç¤ºæ»šåŠ¨æ¡
 set guioptions-=l
 set guioptions-=L
 set guioptions-=r
 set guioptions-=R
 
-" ½ûÖ¹ÏÔÊ¾²Ëµ¥ºÍ¹¤¾ßÌõ
+" ç¦æ­¢æ˜¾ç¤ºèœå•å’Œå·¥å…·æ¡
 set guioptions-=m
 set guioptions-=T
 
@@ -64,127 +64,127 @@ noremap <F11> <ESC>:call libcallnr('gvim_fullscreen.dll', 'ToggleFullscreen',0)<
 noremap <F12> <ESC>:call libcallnr('gvim_fullscreen.dll', 'ToggleTransparency', "247,180")<cr>
 "233
 
-" ¸¨ÖúĞÅÏ¢
+" è¾…åŠ©ä¿¡æ¯
 
-" ×ÜÊÇÏÔÊ¾×´Ì¬À¸
+" æ€»æ˜¯æ˜¾ç¤ºçŠ¶æ€æ 
 set laststatus=2
 
-" ÏÔÊ¾¹â±êµ±Ç°Î»ÖÃ
+" æ˜¾ç¤ºå…‰æ ‡å½“å‰ä½ç½®
 set ruler
 
-" ¿ªÆôĞĞºÅÏÔÊ¾
+" å¼€å¯è¡Œå·æ˜¾ç¤º
 set relativenumber
 
-" ¸ßÁÁÏÔÊ¾µ±Ç°ĞĞ/ÁĞ
+" é«˜äº®æ˜¾ç¤ºå½“å‰è¡Œ/åˆ—
 set cursorline
 set cursorcolumn
 
-" ¸ßÁÁÏÔÊ¾ËÑË÷½á¹û
+" é«˜äº®æ˜¾ç¤ºæœç´¢ç»“æœ
 set hlsearch
 
-" ÆäËûÃÀ»¯
+" å…¶ä»–ç¾åŒ–
 
-" ÉèÖÃ gvim ÏÔÊ¾×ÖÌå
+" è®¾ç½® gvim æ˜¾ç¤ºå­—ä½“
 "set guifont=Inconsolata,Courier\ new,YaHei,Consolas,Hybrid:10
 set guifont=Courier_new:h10,Consolas:h11
 
-" ½ûÖ¹ÕÛĞĞ
+" ç¦æ­¢æŠ˜è¡Œ
 set nowrap
 
-" ÉèÖÃ×´Ì¬À¸Ö÷Ìâ·ç¸ñ
+" è®¾ç½®çŠ¶æ€æ ä¸»é¢˜é£æ ¼
 let g:Powerline_colorscheme='solarized256'
 
-" Óï·¨·ÖÎö
+" è¯­æ³•åˆ†æ
 
-" ¿ªÆôÓï·¨¸ßÁÁ¹¦ÄÜ
+" å¼€å¯è¯­æ³•é«˜äº®åŠŸèƒ½
 syntax enable
-" ÔÊĞíÓÃÖ¸¶¨Óï·¨¸ßÁÁÅäÉ«·½°¸Ìæ»»Ä¬ÈÏ·½°¸
+" å…è®¸ç”¨æŒ‡å®šè¯­æ³•é«˜äº®é…è‰²æ–¹æ¡ˆæ›¿æ¢é»˜è®¤æ–¹æ¡ˆ
 syntax on
 
 " >>
-" Ëõ½ø
+" ç¼©è¿›
 
-" ×ÔÊÊÓ¦²»Í¬ÓïÑÔµÄÖÇÄÜËõ½ø
+" è‡ªé€‚åº”ä¸åŒè¯­è¨€çš„æ™ºèƒ½ç¼©è¿›
 filetype indent on
 
-" ½«ÖÆ±í·ûÀ©Õ¹Îª¿Õ¸ñ
+" å°†åˆ¶è¡¨ç¬¦æ‰©å±•ä¸ºç©ºæ ¼
 set expandtab
-" ÉèÖÃ±à¼­Ê±ÖÆ±í·ûÕ¼ÓÃ¿Õ¸ñÊı
+" è®¾ç½®ç¼–è¾‘æ—¶åˆ¶è¡¨ç¬¦å ç”¨ç©ºæ ¼æ•°
 set tabstop=4
-" ÉèÖÃ¸ñÊ½»¯Ê±ÖÆ±í·ûÕ¼ÓÃ¿Õ¸ñÊı
+" è®¾ç½®æ ¼å¼åŒ–æ—¶åˆ¶è¡¨ç¬¦å ç”¨ç©ºæ ¼æ•°
 set shiftwidth=4
-" ÈÃ vim °ÑÁ¬ĞøÊıÁ¿µÄ¿Õ¸ñÊÓÎªÒ»¸öÖÆ±í·û
+" è®© vim æŠŠè¿ç»­æ•°é‡çš„ç©ºæ ¼è§†ä¸ºä¸€ä¸ªåˆ¶è¡¨ç¬¦
 set softtabstop=4
 
 set list
 
-let g:indentguides_spacechar = '©ª'
-let g:indentguides_tabchar = '|
+let g:indentguides_spacechar = 'Â·'
+let g:indentguides_tabchar = '|'
 " >>
-" ½Ó¿ÚÓëÊµÏÖ¿ìËÙÇĞ»»
+" æ¥å£ä¸å®ç°å¿«é€Ÿåˆ‡æ¢
 
-" *.cpp ºÍ *.h ¼äÇĞ»»
+" *.cpp å’Œ *.h é—´åˆ‡æ¢
 nmap <silent> <Leader>sw :FSHere<cr>
 
-" ±êÇ©ÁĞ±í
+" æ ‡ç­¾åˆ—è¡¨
 
-" ÉèÖÃ tagbar ×Ó´°¿ÚµÄÎ»ÖÃ³öÏÖÔÚÖ÷±à¼­ÇøµÄ×ó±ß
+" è®¾ç½® tagbar å­çª—å£çš„ä½ç½®å‡ºç°åœ¨ä¸»ç¼–è¾‘åŒºçš„å·¦è¾¹
 let tagbar_left=1
-" ÉèÖÃÏÔÊ¾£¯Òş²Ø±êÇ©ÁĞ±í×Ó´°¿ÚµÄ¿ì½İ¼ü¡£ËÙ¼Ç£ºidentifier list by tag
+" è®¾ç½®æ˜¾ç¤ºï¼éšè—æ ‡ç­¾åˆ—è¡¨å­çª—å£çš„å¿«æ·é”®ã€‚é€Ÿè®°ï¼šidentifier list by tag
 nnoremap <Leader>ilt :TagbarToggle<CR>
-" ÉèÖÃ±êÇ©×Ó´°¿ÚµÄ¿í¶È
+" è®¾ç½®æ ‡ç­¾å­çª—å£çš„å®½åº¦
 let tagbar_width=32
-" tagbar ×Ó´°¿ÚÖĞ²»ÏÔÊ¾ÈßÓà°ïÖúĞÅÏ¢
+" tagbar å­çª—å£ä¸­ä¸æ˜¾ç¤ºå†—ä½™å¸®åŠ©ä¿¡æ¯
 let g:tagbar_compact=1
-" ÉèÖÃ ctags ¶ÔÄÄĞ©´úÂë±êÊ¶·ûÉú³É±êÇ©
+" è®¾ç½® ctags å¯¹å“ªäº›ä»£ç æ ‡è¯†ç¬¦ç”Ÿæˆæ ‡ç­¾
 
 
 
 " <<
 
 " >>
-" ´úÂëµ¼º½
+" ä»£ç å¯¼èˆª
  
-" »ùÓÚ±êÇ©µÄ´úÂëµ¼º½
+" åŸºäºæ ‡ç­¾çš„ä»£ç å¯¼èˆª
 
-" ÉèÖÃ²å¼ş indexer µ÷ÓÃ ctags µÄ²ÎÊı
-" Ä¬ÈÏ --c++-kinds=+p+l£¬ÖØĞÂÉèÖÃÎª --c++-kinds=+l+p+x+c+d+e+f+g+m+n+s+t+u+v
-" Ä¬ÈÏ --fields=+iaS ²»Âú×ã YCM ÒªÇó£¬Ğè¸ÄÎª --fields=+iaSl
+" è®¾ç½®æ’ä»¶ indexer è°ƒç”¨ ctags çš„å‚æ•°
+" é»˜è®¤ --c++-kinds=+p+lï¼Œé‡æ–°è®¾ç½®ä¸º --c++-kinds=+l+p+x+c+d+e+f+g+m+n+s+t+u+v
+" é»˜è®¤ --fields=+iaS ä¸æ»¡è¶³ YCM è¦æ±‚ï¼Œéœ€æ”¹ä¸º --fields=+iaSl
 let g:indexer_ctagsCommandLineOptions="--c++-kinds=+l+p+x+c+d+e+f+g+m+n+s+t+u+v --fields=+iaSl --extra=+q"
 
-" ÕıÏò±éÀúÍ¬Ãû±êÇ©
+" æ­£å‘éå†åŒåæ ‡ç­¾
 nmap <Leader>tn :tnext<CR>
-" ·´Ïò±éÀúÍ¬Ãû±êÇ©
+" åå‘éå†åŒåæ ‡ç­¾
 nmap <Leader>tp :tprevious<CR>
 
-" »ùÓÚÓïÒåµÄ´úÂëµ¼º½
+" åŸºäºè¯­ä¹‰çš„ä»£ç å¯¼èˆª
 
 nnoremap <leader>jc :YcmCompleter GoToDeclaration<CR>
-" Ö»ÄÜÊÇ #include »òÒÑ´ò¿ªµÄÎÄ¼ş
+" åªèƒ½æ˜¯ #include æˆ–å·²æ‰“å¼€çš„æ–‡ä»¶
 nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
 
 " <<
 
 " >>
-" ²éÕÒ
+" æŸ¥æ‰¾
 
-" Ê¹ÓÃ ctrlsf.vim ²å¼şÔÚ¹¤³ÌÄÚÈ«¾Ö²éÕÒ¹â±êËùÔÚ¹Ø¼ü×Ö£¬ÉèÖÃ¿ì½İ¼ü¡£¿ì½İ¼üËÙ¼Ç·¨£ºsearch in project
+" ä½¿ç”¨ ctrlsf.vim æ’ä»¶åœ¨å·¥ç¨‹å†…å…¨å±€æŸ¥æ‰¾å…‰æ ‡æ‰€åœ¨å…³é”®å­—ï¼Œè®¾ç½®å¿«æ·é”®ã€‚å¿«æ·é”®é€Ÿè®°æ³•ï¼šsearch in project
 nnoremap <Leader>sp :CtrlSF<CR>
 
 " <<
 
 " >>
-" ÄÚÈİÌæ»»
+" å†…å®¹æ›¿æ¢
 
-" ¿ì½İÌæ»»
+" å¿«æ·æ›¿æ¢
 let g:multi_cursor_next_key='<S-n>'
 let g:multi_cursor_skip_key='<S-k>'
 
-" ¾«×¼Ìæ»»
-" Ìæ»»º¯Êı¡£²ÎÊıËµÃ÷£º
-" confirm£ºÊÇ·ñÌæ»»Ç°ÖğÒ»È·ÈÏ
-" wholeword£ºÊÇ·ñÕû´ÊÆ¥Åä
-" replace£º±»Ìæ»»×Ö·û´®
+" ç²¾å‡†æ›¿æ¢
+" æ›¿æ¢å‡½æ•°ã€‚å‚æ•°è¯´æ˜ï¼š
+" confirmï¼šæ˜¯å¦æ›¿æ¢å‰é€ä¸€ç¡®è®¤
+" wholewordï¼šæ˜¯å¦æ•´è¯åŒ¹é…
+" replaceï¼šè¢«æ›¿æ¢å­—ç¬¦ä¸²
 function! Replace(confirm, wholeword, replace)
     wa
     let flag = ''
@@ -202,101 +202,101 @@ function! Replace(confirm, wholeword, replace)
     let replace = escape(a:replace, '/\&~')
     execute 'argdo %s/' . search . '/' . replace . '/' . flag . '| update'
 endfunction
-" ²»È·ÈÏ¡¢·ÇÕû´Ê
+" ä¸ç¡®è®¤ã€éæ•´è¯
 nnoremap <Leader>R :call Replace(0, 0, input('Replace '.expand('<cword>').' with: '))<CR>
-" ²»È·ÈÏ¡¢Õû´Ê
+" ä¸ç¡®è®¤ã€æ•´è¯
 nnoremap <Leader>rw :call Replace(0, 1, input('Replace '.expand('<cword>').' with: '))<CR>
-" È·ÈÏ¡¢·ÇÕû´Ê
+" ç¡®è®¤ã€éæ•´è¯
 nnoremap <Leader>rc :call Replace(1, 0, input('Replace '.expand('<cword>').' with: '))<CR>
-" È·ÈÏ¡¢Õû´Ê
+" ç¡®è®¤ã€æ•´è¯
 nnoremap <Leader>rcw :call Replace(1, 1, input('Replace '.expand('<cword>').' with: '))<CR>
 nnoremap <Leader>rwc :call Replace(1, 1, input('Replace '.expand('<cword>').' with: '))<CR>
 
 " <<
 
-" Ä£°å²¹È«
-" UltiSnips µÄ tab ¼üÓë YCM ³åÍ»£¬ÖØĞÂÉè¶¨
+" æ¨¡æ¿è¡¥å…¨
+" UltiSnips çš„ tab é”®ä¸ YCM å†²çªï¼Œé‡æ–°è®¾å®š
 let g:UltiSnipsSnippetDirectories=["mysnippets"]
 let g:UltiSnipsExpandTrigger="<leader><tab>"
 let g:UltiSnipsJumpForwardTrigger="<leader><tab>"
 let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
 
 " >>
-" YCM ²¹È«
+" YCM è¡¥å…¨
 
-" YCM ²¹È«²Ëµ¥ÅäÉ«
-" ²Ëµ¥
+" YCM è¡¥å…¨èœå•é…è‰²
+" èœå•
 highlight Pmenu ctermfg=2 ctermbg=3 guifg=#005f87 guibg=#EEE8D5
-" Ñ¡ÖĞÏî
+" é€‰ä¸­é¡¹
 highlight PmenuSel ctermfg=2 ctermbg=3 guifg=#AFD700 guibg=#106900
 
-" ²¹È«¹¦ÄÜÔÚ×¢ÊÍÖĞÍ¬ÑùÓĞĞ§
+" è¡¥å…¨åŠŸèƒ½åœ¨æ³¨é‡Šä¸­åŒæ ·æœ‰æ•ˆ
 let g:ycm_complete_in_comments=1
 
-" ÔÊĞí vim ¼ÓÔØ .ycm_extra_conf.py ÎÄ¼ş£¬²»ÔÙÌáÊ¾
+" å…è®¸ vim åŠ è½½ .ycm_extra_conf.py æ–‡ä»¶ï¼Œä¸å†æç¤º
 let g:ycm_confirm_extra_conf=0
 
-" ¿ªÆô YCM ±êÇ©²¹È«ÒıÇæ
+" å¼€å¯ YCM æ ‡ç­¾è¡¥å…¨å¼•æ“
 let g:ycm_collect_identifiers_from_tags_files=0
 
-" YCM ¼¯³É OmniCppComplete ²¹È«ÒıÇæ£¬ÉèÖÃÆä¿ì½İ¼ü
+" YCM é›†æˆ OmniCppComplete è¡¥å…¨å¼•æ“ï¼Œè®¾ç½®å…¶å¿«æ·é”®
 inoremap <leader>; <C-x><C-o>
 
-" ²¹È«ÄÚÈİ²»ÒÔ·Ö¸î×Ó´°¿ÚĞÎÊ½³öÏÖ£¬Ö»ÏÔÊ¾²¹È«ÁĞ±í
+" è¡¥å…¨å†…å®¹ä¸ä»¥åˆ†å‰²å­çª—å£å½¢å¼å‡ºç°ï¼Œåªæ˜¾ç¤ºè¡¥å…¨åˆ—è¡¨
 set completeopt-=preview
 
-" ´ÓµÚÒ»¸ö¼üÈë×Ö·û¾Í¿ªÊ¼ÂŞÁĞÆ¥ÅäÏî
+" ä»ç¬¬ä¸€ä¸ªé”®å…¥å­—ç¬¦å°±å¼€å§‹ç½—åˆ—åŒ¹é…é¡¹
 let g:ycm_min_num_of_chars_for_completion=1
 
-" ½ûÖ¹»º´æÆ¥ÅäÏî£¬Ã¿´Î¶¼ÖØĞÂÉú³ÉÆ¥ÅäÏî
+" ç¦æ­¢ç¼“å­˜åŒ¹é…é¡¹ï¼Œæ¯æ¬¡éƒ½é‡æ–°ç”ŸæˆåŒ¹é…é¡¹
 let g:ycm_cache_omnifunc=0
 
-" Óï·¨¹Ø¼ü×Ö²¹È«
+" è¯­æ³•å…³é”®å­—è¡¥å…¨
 let g:ycm_seed_identifiers_with_syntax=1
 
 " <<
  
 " >>
-" ÓÉ½Ó¿Ú¿ìËÙÉú³ÉÊµÏÖ¿ò¼Ü
+" ç”±æ¥å£å¿«é€Ÿç”Ÿæˆå®ç°æ¡†æ¶
 
-" ³ÉÔ±º¯ÊıµÄÊµÏÖË³ĞòÓëÉùÃ÷Ë³ĞòÒ»ÖÂ
+" æˆå‘˜å‡½æ•°çš„å®ç°é¡ºåºä¸å£°æ˜é¡ºåºä¸€è‡´
 let g:disable_protodef_sorting=1
 
 
  
-" ÆôÓÃ:ManÃüÁî²é¿´¸÷ÀàmanĞÅÏ¢
+" å¯ç”¨:Manå‘½ä»¤æŸ¥çœ‹å„ç±»manä¿¡æ¯
 source $VIMRUNTIME/ftplugin/man.vim
 
-" ¶¨Òå:ManÃüÁî²é¿´¸÷ÀàmanĞÅÏ¢µÄ¿ì½İ¼ü
+" å®šä¹‰:Manå‘½ä»¤æŸ¥çœ‹å„ç±»manä¿¡æ¯çš„å¿«æ·é”®
 nmap <Leader>man :Man 3 <cword><CR>
 
 " <<
 
 " >>
-" ¹¤³ÌÎÄ¼şä¯ÀÀ
+" å·¥ç¨‹æ–‡ä»¶æµè§ˆ
 
-" Ê¹ÓÃ NERDTree ²å¼ş²é¿´¹¤³ÌÎÄ¼ş¡£ÉèÖÃ¿ì½İ¼ü£¬ËÙ¼Ç£ºfile list
+" ä½¿ç”¨ NERDTree æ’ä»¶æŸ¥çœ‹å·¥ç¨‹æ–‡ä»¶ã€‚è®¾ç½®å¿«æ·é”®ï¼Œé€Ÿè®°ï¼šfile list
 nmap <Leader>fl :NERDTreeToggle<CR>
-" ÉèÖÃ NERDTree ×Ó´°¿Ú¿í¶È
+" è®¾ç½® NERDTree å­çª—å£å®½åº¦
 let NERDTreeWinSize=22
-" ÉèÖÃ NERDTree ×Ó´°¿ÚÎ»ÖÃ
+" è®¾ç½® NERDTree å­çª—å£ä½ç½®
 let NERDTreeWinPos="right"
-" ÏÔÊ¾Òş²ØÎÄ¼ş
+" æ˜¾ç¤ºéšè—æ–‡ä»¶
 let NERDTreeShowHidden=1
-" NERDTree ×Ó´°¿ÚÖĞ²»ÏÔÊ¾ÈßÓà°ïÖúĞÅÏ¢
+" NERDTree å­çª—å£ä¸­ä¸æ˜¾ç¤ºå†—ä½™å¸®åŠ©ä¿¡æ¯
 let NERDTreeMinimalUI=1
-" É¾³ıÎÄ¼şÊ±×Ô¶¯É¾³ıÎÄ¼ş¶ÔÓ¦ buffer
+" åˆ é™¤æ–‡ä»¶æ—¶è‡ªåŠ¨åˆ é™¤æ–‡ä»¶å¯¹åº” buffer
 let NERDTreeAutoDeleteBuffer=1
 
 " <<
 
 " >>
-" ¶àÎÄµµ±à¼­
+" å¤šæ–‡æ¡£ç¼–è¾‘
  
-" ÏÔÊ¾/Òş²Ø MiniBufExplorer ´°¿Ú
+" æ˜¾ç¤º/éšè— MiniBufExplorer çª—å£
 map <Leader>bl :MBEToggle<cr>
 
-" buffer ÇĞ»»¿ì½İ¼ü
+" buffer åˆ‡æ¢å¿«æ·é”®
 map <C-Tab> :MBEbn<cr>
 map <C-S-Tab> :MBEbp<cr>
 
@@ -304,45 +304,45 @@ map <C-S-Tab> :MBEbp<cr>
 
 
 " >>
-" »·¾³»Ö¸´
+" ç¯å¢ƒæ¢å¤
 
-" ÉèÖÃ»·¾³±£´æÏî
+" è®¾ç½®ç¯å¢ƒä¿å­˜é¡¹
 set sessionoptions="blank,globals,localoptions,tabpages,sesdir,folds,help,options,resize,winpos,winsize"
 
-" ±£´æ undo ÀúÊ·¡£±ØĞëÏÈĞĞ´´½¨ .undo_history/
+" ä¿å­˜ undo å†å²ã€‚å¿…é¡»å…ˆè¡Œåˆ›å»º .undo_history/
 " set undodir=~/.undo_history/
 set undodir=D:\programming\gvim_8.0.0003_x64\vim/.undo_history/
 set undofile
 
-" ±£´æ¿ì½İ¼ü
+" ä¿å­˜å¿«æ·é”®
 "map <leader>ss :mksession! my.vim<cr> :wviminfo! my.viminfo<cr>
 map <leader>ss :mksession! my.vim<cr>
 
-" »Ö¸´¿ì½İ¼ü
+" æ¢å¤å¿«æ·é”®
 "map <leader>rs :source my.vim<cr> :rviminfo my.viminfo<cr>
 map <leader>rs :source my.vim<cr>
 
 " <<
  
-" ÉèÖÃ¿ì½İ¼üÊµÏÖÒ»¼ü±àÒë¼°ÔËĞĞ
+" è®¾ç½®å¿«æ·é”®å®ç°ä¸€é”®ç¼–è¯‘åŠè¿è¡Œ
 nmap <Leader>m :wa<CR> :cd build/<CR> :!rm -rf main<CR> :!cmake CMakeLists.txt<CR>:make<CR><CR> :cw<CR> :cd ..<CR>
 nmap <Leader>g :wa<CR>:cd build/<CR>:!rm -rf main<CR>:!cmake CMakeLists.txt<CR>:make<CR><CR>:cw<CR>:cd ..<CR>:!build/main<CR>
 
 " >>
-" ¿ìËÙÑ¡ÖĞ½á¶Ô·ûÄÚµÄÎÄ±¾
+" å¿«é€Ÿé€‰ä¸­ç»“å¯¹ç¬¦å†…çš„æ–‡æœ¬
  
-" ¿ì½İ¼ü
+" å¿«æ·é”®
 map <SPACE> <Plug>(wildfire-fuel)
 vmap <S-SPACE> <Plug>(wildfire-water)
 
-" ÊÊÓÃÓÚÄÄĞ©½á¶Ô·û
+" é€‚ç”¨äºå“ªäº›ç»“å¯¹ç¬¦
 let g:wildfire_objects = ["i'", 'i"', "i)", "i]", "i}", "i>", "ip"]
 
 " <<
 
-" µ÷ÓÃ gundo Ê÷
+" è°ƒç”¨ gundo æ ‘
 nnoremap <Leader>ud :GundoToggle<CR>
-" 20170512¸ü¸Äencoding
+" 20170512æ›´æ”¹encoding
 "Lang $ Encoding{{{
 set fileencodings=utf8,gbk2312,gbk,gb18030,cp936
 set encoding=utf8
