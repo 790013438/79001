@@ -26,6 +26,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'Valloric/YouCompleteMe'
 Plug 'altercation/vim-colors-solarized'
+Plug 'thaerkh/vim-indentguides'
 
 call plug#end()
 
@@ -116,6 +117,9 @@ set shiftwidth=4
 set softtabstop=4
 
 set list
+
+let g:indentguides_spacechar = '┆'
+let g:indentguides_tabchar = '|
 " >>
 " 接口与实现快速切换
 

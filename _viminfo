@@ -20,16 +20,18 @@
 $tb_info
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1509067607,,"wq"
+:w
+|2,0,1509067549,,"w"
+:q！
+|2,0,1509066985,,"q！"
+:q
+|2,0,1509066979,,"q"
 :set colorcolumn=+1
 |2,0,1509066588,,"set colorcolumn=+1"
 :set colorcolumn=80
 |2,0,1509066570,,"set colorcolumn=80"
-:wq
-|2,0,1509066311,,"wq"
-:w
-|2,0,1509066287,,"w"
-:q
-|2,0,1509010328,,"q"
 :PlugInstall
 |2,0,1508893287,,"PlugInstall"
 :wq!
@@ -118,8 +120,6 @@ $tb_info
 |2,0,1505437659,,"set relativnumber"
 :w courses.scss
 |2,0,1505352794,,"w courses.scss"
-:set realtivenumber
-|2,0,1505271670,,"set realtivenumber"
 
 # Search String History (newest to oldest):
 ?/plug
@@ -281,36 +281,92 @@ $tb_info
 |3,1,36,0,1,0,1509066163,"	"
 
 # 文件标记:
-'0  28  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,48,28,0,1509066592,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'1  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,49,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'2  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,50,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'3  16  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,51,16,0,1509065569,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'4  16  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,52,16,0,1509065569,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'5  16  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,53,16,0,1509065569,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'6  16  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,54,16,0,1509065569,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
-'7  118  7  ~\_vimrc
-|4,55,118,7,1509065555,"~\\_vimrc"
-'8  141  0  ~\_vimrc
-|4,56,141,0,1509065353,"~\\_vimrc"
-'9  142  0  ~\_vimrc
-|4,57,142,0,1509065353,"~\\_vimrc"
+'0  122  30  ~\_vimrc
+|4,48,122,30,1509067608,"~\\_vimrc"
+'1  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,49,1,0,1509067004,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'2  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,50,1,0,1509066837,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'3  28  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,51,28,0,1509066592,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'4  28  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,52,28,0,1509066592,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'5  28  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,53,28,0,1509066592,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'6  28  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,54,28,0,1509066592,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'7  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,55,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'8  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,56,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+'9  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,57,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 
 # 跳转列表 (从新到旧):
+-'  122  30  ~\_vimrc
+|4,39,122,30,1509067608,"~\\_vimrc"
+-'  121  0  ~\_vimrc
+|4,39,121,0,1509067603,"~\\_vimrc"
+-'  29  5  ~\_vimrc
+|4,39,29,5,1509067547,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1509067531,"~\\_vimrc"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,1,0,1509067004,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,1,0,1509067004,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  2  4  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,2,4,1509066905,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  2  4  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,2,4,1509066905,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,1,0,1509066837,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,1,0,1509066837,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  28  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,28,0,1509066592,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  28  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,28,0,1509066592,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  28  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,28,0,1509066592,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  28  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,28,0,1509066592,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  28  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,28,0,1509066592,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  28  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,28,0,1509066592,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,1,0,1509066544,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,1,0,1509066544,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  201  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,201,12,1509066311,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  191  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,191,47,1509066282,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  191  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,191,47,1509066282,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  191  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,191,47,1509066282,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  191  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,191,47,1509066282,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  191  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,191,47,1509066282,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  191  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,191,47,1509066282,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  191  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,191,47,1509066282,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  191  47  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
@@ -319,6 +375,30 @@ $tb_info
 |4,39,206,12,1509066278,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  206  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,206,12,1509066278,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  206  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,206,12,1509066278,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  206  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,206,12,1509066278,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  206  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,206,12,1509066278,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  206  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,206,12,1509066278,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  206  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,206,12,1509066278,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  206  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,206,12,1509066278,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  194  42  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,194,42,1509066171,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  194  42  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,194,42,1509066171,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  194  42  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,194,42,1509066171,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  194  42  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,194,42,1509066171,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  194  42  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,194,42,1509066171,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  194  42  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,194,42,1509066171,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  194  42  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,194,42,1509066171,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  194  42  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
@@ -327,6 +407,30 @@ $tb_info
 |4,39,130,25,1509065969,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  130  25  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,130,25,1509065969,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  130  25  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,130,25,1509065969,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  130  25  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,130,25,1509065969,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  130  25  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,130,25,1509065969,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  130  25  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,130,25,1509065969,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  130  25  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,130,25,1509065969,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  130  25  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,130,25,1509065969,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  189  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,189,12,1509065967,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  189  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,189,12,1509065967,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  189  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,189,12,1509065967,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  189  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,189,12,1509065967,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  189  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,189,12,1509065967,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  189  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,189,12,1509065967,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  189  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,189,12,1509065967,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  189  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
@@ -339,6 +443,42 @@ $tb_info
 |4,39,162,55,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  183  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,183,20,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  162  55  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,162,55,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  183  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,183,20,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  162  55  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,162,55,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  183  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,183,20,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  162  55  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,162,55,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  183  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,183,20,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  162  55  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,162,55,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  183  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,183,20,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  162  55  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,162,55,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  183  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,183,20,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  162  55  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,162,55,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  183  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,183,20,1509065949,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  185  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,185,12,1509065861,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  185  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,185,12,1509065861,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  185  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,185,12,1509065861,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  185  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,185,12,1509065861,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  185  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,185,12,1509065861,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  185  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,185,12,1509065861,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  185  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,185,12,1509065861,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  185  12  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
@@ -347,177 +487,88 @@ $tb_info
 |4,39,186,20,1509065860,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  186  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,186,20,1509065860,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  186  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,186,20,1509065860,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  186  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,186,20,1509065860,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  186  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,186,20,1509065860,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  186  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,186,20,1509065860,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  186  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,186,20,1509065860,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
+-'  186  20  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
+|4,39,186,20,1509065860,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  184  72  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,184,72,1509065743,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
 -'  184  72  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
 |4,39,184,72,1509065743,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,1,0,1509065577,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  16  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,16,0,1509065569,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  16  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,16,0,1509065569,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  16  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,16,0,1509065569,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  118  7  ~\_vimrc
-|4,39,118,7,1509065555,"~\\_vimrc"
--'  118  7  ~\_vimrc
-|4,39,118,7,1509065555,"~\\_vimrc"
--'  118  7  ~\_vimrc
-|4,39,118,7,1509065555,"~\\_vimrc"
--'  118  7  ~\_vimrc
-|4,39,118,7,1509065555,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509065484,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509065484,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509065484,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509065484,"~\\_vimrc"
--'  1  0  D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-|4,39,1,0,1509065444,"D:\\File\\Java_workspace\\houseManagement\\src\\main\\webapp\\WEB-INF\\jsp\\pub.jsp"
--'  141  0  ~\_vimrc
-|4,39,141,0,1509065353,"~\\_vimrc"
--'  142  0  ~\_vimrc
-|4,39,142,0,1509065353,"~\\_vimrc"
--'  141  0  ~\_vimrc
-|4,39,141,0,1509065353,"~\\_vimrc"
--'  141  0  ~\_vimrc
-|4,39,141,0,1509065353,"~\\_vimrc"
--'  142  0  ~\_vimrc
-|4,39,142,0,1509065353,"~\\_vimrc"
--'  141  0  ~\_vimrc
-|4,39,141,0,1509065353,"~\\_vimrc"
--'  141  0  ~\_vimrc
-|4,39,141,0,1509065353,"~\\_vimrc"
--'  142  0  ~\_vimrc
-|4,39,142,0,1509065353,"~\\_vimrc"
--'  141  0  ~\_vimrc
-|4,39,141,0,1509065353,"~\\_vimrc"
--'  141  0  ~\_vimrc
-|4,39,141,0,1509065353,"~\\_vimrc"
--'  142  0  ~\_vimrc
-|4,39,142,0,1509065353,"~\\_vimrc"
--'  141  0  ~\_vimrc
-|4,39,141,0,1509065353,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  30  5  ~\_vimrc
-|4,39,30,5,1509023243,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1509023024,"~\\_vimrc"
--'  28  0  ~\_vimrc
-|4,39,28,0,1509023023,"~\\_vimrc"
--'  27  0  ~\_vimrc
-|4,39,27,0,1509023023,"~\\_vimrc"
--'  26  0  ~\_vimrc
-|4,39,26,0,1509023023,"~\\_vimrc"
--'  28  0  ~\_vimrc
-|4,39,28,0,1509023023,"~\\_vimrc"
--'  27  0  ~\_vimrc
-|4,39,27,0,1509023023,"~\\_vimrc"
--'  26  0  ~\_vimrc
-|4,39,26,0,1509023023,"~\\_vimrc"
--'  28  0  ~\_vimrc
-|4,39,28,0,1509023023,"~\\_vimrc"
--'  27  0  ~\_vimrc
-|4,39,27,0,1509023023,"~\\_vimrc"
--'  26  0  ~\_vimrc
-|4,39,26,0,1509023023,"~\\_vimrc"
--'  28  0  ~\_vimrc
-|4,39,28,0,1509023023,"~\\_vimrc"
--'  27  0  ~\_vimrc
-|4,39,27,0,1509023023,"~\\_vimrc"
--'  26  0  ~\_vimrc
-|4,39,26,0,1509023023,"~\\_vimrc"
--'  28  0  ~\_vimrc
-|4,39,28,0,1509023023,"~\\_vimrc"
--'  27  0  ~\_vimrc
-|4,39,27,0,1509023023,"~\\_vimrc"
--'  26  0  ~\_vimrc
-|4,39,26,0,1509023023,"~\\_vimrc"
--'  28  0  ~\_vimrc
-|4,39,28,0,1509023023,"~\\_vimrc"
--'  27  0  ~\_vimrc
-|4,39,27,0,1509023023,"~\\_vimrc"
--'  26  0  ~\_vimrc
-|4,39,26,0,1509023023,"~\\_vimrc"
--'  28  0  ~\_vimrc
-|4,39,28,0,1509023023,"~\\_vimrc"
--'  27  0  ~\_vimrc
-|4,39,27,0,1509023023,"~\\_vimrc"
--'  26  0  ~\_vimrc
-|4,39,26,0,1509023023,"~\\_vimrc"
--'  28  0  ~\_vimrc
-|4,39,28,0,1509023023,"~\\_vimrc"
--'  27  0  ~\_vimrc
-|4,39,27,0,1509023023,"~\\_vimrc"
--'  26  0  ~\_vimrc
-|4,39,26,0,1509023023,"~\\_vimrc"
--'  28  0  ~\_vimrc
-|4,39,28,0,1509023023,"~\\_vimrc"
--'  27  0  ~\_vimrc
-|4,39,27,0,1509023023,"~\\_vimrc"
--'  26  0  ~\_vimrc
-|4,39,26,0,1509023023,"~\\_vimrc"
 
 # 文件内的标记历史记录 (从新到旧):
 
+> ~\_vimrc
+	*	1509067605	0
+	"	122	30
+	^	122	31
+	.	121	0
+	+	1	0
+	+	33	24
+	+	8	2
+	+	8	1
+	+	4	1
+	+	6	1
+	+	4	2
+	+	8	2
+	+	4	0
+	+	6	0
+	+	8	0
+	+	8	1
+	+	8	31
+	+	8	0
+	+	8	3
+	+	1	0
+	+	8	0
+	+	20	0
+	+	61	0
+	+	67	0
+	+	76	11
+	+	85	0
+	+	97	0
+	+	8	0
+	+	48	0
+	+	104	0
+	+	129	0
+	+	33	0
+	+	1	0
+	+	24	30
+	+	31	14
+	+	30	0
+	+	26	6
+	+	27	4
+	+	33	0
+	+	28	6
+	+	26	6
+	+	43	0
+	+	26	6
+	+	44	1
+	+	42	0
+	+	37	18
+	+	38	23
+	+	39	4
+	+	41	4
+	+	42	0
+	+	30	0
+	+	123	0
+	+	119	7
+	+	29	6
+	+	119	7
+	+	121	0
+
 > D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-	*	1509066588	0
-	"	28	0
-	^	201	12
-	.	191	47
-	+	145	0
-	+	146	0
-	+	147	0
-	+	148	0
-	+	149	0
-	+	150	0
-	+	151	0
+	*	1509067000	0
+	"	1	0
+	^	1	0
+	.	2	0
 	+	152	0
 	+	153	0
 	+	154	0
@@ -611,61 +662,12 @@ $tb_info
 	+	205	0
 	+	206	0
 	+	191	47
-
-> ~\_vimrc
-	*	1509065554	0
-	"	118	7
-	^	118	8
-	.	118	7
 	+	1	0
-	+	32	24
-	+	8	2
-	+	8	1
-	+	4	1
-	+	6	1
-	+	4	2
-	+	8	2
-	+	4	0
-	+	6	0
-	+	8	0
-	+	8	1
-	+	8	31
-	+	8	0
-	+	8	3
+	+	2	0
 	+	1	0
-	+	8	0
-	+	20	0
-	+	60	0
-	+	66	0
-	+	75	11
-	+	84	0
-	+	96	0
-	+	8	0
-	+	47	0
-	+	103	0
-	+	125	0
-	+	32	0
+	+	2	0
 	+	1	0
-	+	24	30
-	+	30	14
-	+	29	0
-	+	26	6
-	+	27	4
-	+	32	0
-	+	28	6
-	+	26	6
-	+	42	0
-	+	26	6
-	+	43	1
-	+	41	0
-	+	36	18
-	+	37	23
-	+	38	4
-	+	40	4
-	+	41	0
-	+	29	0
-	+	119	0
-	+	118	7
+	+	2	0
 
 > D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\package-info.java
 	*	1509010647	0
