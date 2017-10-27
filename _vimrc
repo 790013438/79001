@@ -115,6 +115,7 @@ set shiftwidth=4
 " 让 vim 把连续数量的空格视为一个制表符
 set softtabstop=4
 
+set list
 " >>
 " 接口与实现快速切换
 
