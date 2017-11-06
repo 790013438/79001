@@ -33,17 +33,6 @@ call plug#end()
 filetype plugin indent on
 " <<<<
 
-" 配色方案
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
-
-colorscheme solarized
-"colorscheme gruvbox
-"colorscheme molokai
-"colorscheme phd
 
 " 禁止光标闪烁
 set gcr=a:block-blinkon0
@@ -74,10 +63,6 @@ set ruler
 
 " 开启行号显示
 set relativenumber
-
-" 高亮显示当前行/列
-set cursorline
-set cursorcolumn
 
 " 高亮显示搜索结果
 set hlsearch
@@ -226,7 +211,7 @@ let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
 
 " YCM 补全菜单配色
 " 菜单
-highlight Pmenu ctermfg=2 ctermbg=3 guifg=#fdf6e3 guibg=#6c71c4
+highlight Pmenu ctermfg=2 ctermbg=3 guifg=#eee8d5 guibg=#6c71c4
 " 选中项
 highlight PmenuSel ctermfg=2 ctermbg=3 guifg=#AFD700 guibg=#106900
 

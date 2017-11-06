@@ -1,0 +1,17 @@
+" 配色方案
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
+
+colorscheme solarized
+"colorscheme gruvbox
+"colorscheme molokai
+"colorscheme phd
+
+" 高亮显示当前行/列
+set cursorline
+set cursorcolumn
+
+

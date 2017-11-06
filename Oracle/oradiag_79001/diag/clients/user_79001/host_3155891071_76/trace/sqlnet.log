@@ -1,0 +1,294 @@
+Mon Nov 06 17:13:31 2017
+Create Relation ADR_CONTROL
+Create Relation ADR_INVALIDATION
+Create Relation INC_METER_IMPT_DEF
+Create Relation INC_METER_PK_IMPTS
+Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag]
+Mon Nov 06 19:13:59 2017
+Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:14:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+Mon Nov 06 19:19:09 2017
+Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+Mon Nov 06 19:20:13 2017
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\app\79001\product\11.2.0\dbhome_1\bin\sqlplus.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:20:13
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+Mon Nov 06 19:20:58 2017
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\app\79001\product\11.2.0\dbhome_1\bin\sqlplus.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:20:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+Mon Nov 06 19:22:35 2017
+Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+Mon Nov 06 19:23:37 2017
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\app\79001\product\11.2.0\dbhome_1\bin\sqlplus.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:23:37
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+Mon Nov 06 19:25:59 2017
+Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+Mon Nov 06 19:26:57 2017
+Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:26:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+Mon Nov 06 19:27:11 2017
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:27:11
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+Mon Nov 06 19:27:22 2017
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:27:22
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+Mon Nov 06 19:28:42 2017
+Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:28:43
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+Mon Nov 06 19:28:56 2017
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:28:56
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:29:04
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+Mon Nov 06 19:29:57 2017
+Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:29:59
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+Mon Nov 06 19:30:08 2017
+
+
+***********************************************************************
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 06-11月-2017 19:30:08
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    
+TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    
+TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0

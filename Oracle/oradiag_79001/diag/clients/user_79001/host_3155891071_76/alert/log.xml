@@ -1,0 +1,1240 @@
+<msg time='2017-11-06T17:13:31.422+08:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1941:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-5LK7LMI' host_addr='fe80::6d01:8ad5:d40f:9286%6'
+ version='1'>
+ <txt>Create Relation ADR_CONTROL
+ </txt>
+</msg>
+<msg time='2017-11-06T17:13:31.507+08:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1941:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-5LK7LMI' host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>Create Relation ADR_INVALIDATION
+ </txt>
+</msg>
+<msg time='2017-11-06T17:13:31.573+08:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1941:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-5LK7LMI' host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>Create Relation INC_METER_IMPT_DEF
+ </txt>
+</msg>
+<msg time='2017-11-06T17:13:31.667+08:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1941:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-5LK7LMI' host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>Create Relation INC_METER_PK_IMPTS
+ </txt>
+</msg>
+<msg time='2017-11-06T17:13:31.730+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag]
+ </txt>
+</msg>
+<msg time='2017-11-06T19:13:59.290+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.462+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.462+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.493+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.493+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:14:00
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.509+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.509+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.509+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.525+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.525+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.525+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.540+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.540+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.540+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.540+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:14:00.556+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2017-11-06T19:19:09.098+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.506+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.506+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\app\79001\product\11.2.0\dbhome_1\bin\sqlplus.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.506+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.506+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:20:13
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.521+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.521+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.521+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.521+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.537+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.537+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.537+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.553+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.553+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.553+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:13.553+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.306+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.306+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\app\79001\product\11.2.0\dbhome_1\bin\sqlplus.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.322+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.337+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:20:58
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.337+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.353+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.353+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.353+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.368+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.368+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.368+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.368+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.384+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.384+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:20:58.384+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2017-11-06T19:22:35.148+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.814+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.814+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\app\79001\product\11.2.0\dbhome_1\bin\sqlplus.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.814+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.814+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:23:37
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.830+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.830+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.845+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.845+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.845+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.861+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.861+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.861+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.877+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.877+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:23:37.877+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2017-11-06T19:25:59.281+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:57.210+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.388+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.388+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.404+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.419+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:26:58
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.419+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.419+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.419+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.435+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.435+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.435+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.451+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.451+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.451+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.451+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:26:58.466+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.780+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.780+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.796+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.811+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:27:11
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.827+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.827+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.827+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.827+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.843+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.843+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.843+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.843+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.858+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.858+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:11.858+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.420+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.420+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.420+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.420+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:27:22
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.435+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.435+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.435+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.435+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.451+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.451+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.451+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.451+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.466+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.466+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:27:22.466+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:42.333+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.481+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.497+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.497+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.513+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:28:43
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.513+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.513+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.513+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.528+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.528+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.528+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.544+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.544+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.544+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.544+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:43.560+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.861+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.861+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.876+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.876+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:28:56
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.892+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.892+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.892+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.892+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.908+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.908+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.908+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.908+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.923+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.923+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:28:56.923+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.526+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.526+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.541+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.573+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:29:04
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.573+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.573+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.573+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.588+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.588+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.588+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.588+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.604+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.604+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.604+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:04.604+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:57.798+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>Directory does not exist for read/write [D:\app\79001\product\11.2.0\dbhome_1\log] [D:\app\79001\product\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:58.985+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:58.985+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.001+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.017+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:29:59
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.017+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.032+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.032+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.032+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.048+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.048+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.048+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.048+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.064+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.064+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:29:59.064+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.208+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.208+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=D:\Program?Files\PLSQL?Developer\plsqldev.exe)(HOST=DESKTOP-5LK7LMI)(USER=79001))))
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.208+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.208+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Time: 06-11月-2017 19:30:08
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.224+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.224+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.224+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns main err code: 12541
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.239+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.239+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-12541: TNS: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.239+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.239+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt main err code: 511
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.255+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.255+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>TNS-00511: 无监听程序
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.255+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt secondary err code: 61
+ </txt>
+</msg>
+<msg time='2017-11-06T19:30:08.270+08:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-5LK7LMI'
+ host_addr='fe80::6d01:8ad5:d40f:9286%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
