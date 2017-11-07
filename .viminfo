@@ -15,13 +15,31 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1508642488,,"wq"
+|2,0,1510017588,,"wq"
+:w A.java
+|2,0,1510017429,,"w A.java"
+:w Str.java
+|2,0,1510017333,,"w Str.java"
+:q
+|2,0,1510016695,,"q"
+:echo $VIM
+|2,0,1510016682,,"echo $VIM"
+:echo $MYVIMRC
+|2,0,1510016636,,"echo $MYVIMRC"
+:echo $HOME
+|2,0,1510016630,,"echo $HOME"
+:echo $home
+|2,0,1510016623,,"echo $home"
+:echo $hoome
+|2,0,1510016618,,"echo $hoome"
+:echo $myvimrc
+|2,0,1510016613,,"echo $myvimrc"
+:echo $MYvimrc
+|2,0,1510016603,,"echo $MYvimrc"
 :wwq
 |2,0,1508642484,,"wwq"
 :q!
 |2,0,1508640947,,"q!"
-:q
-|2,0,1508640945,,"q"
 :w
 |2,0,1508462480,,"w"
 :colorscheme
@@ -65,32 +83,148 @@
 |3,1,36,0,1,0,1508642480,"mdui"
 
 # 文件标记:
-'0  75  10  /d/users/79001/git/blog/_config.yml
-|4,48,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
-'1  75  10  /d/users/79001/git/blog/_config.yml
-|4,49,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
-'2  75  14  /d/users/79001/git/blog/_config.yml
-|4,50,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
-'3  75  14  /d/users/79001/git/blog/_config.yml
-|4,51,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
-'4  422  14  /d/users/79001/git/blog/themes/next/_config.yml
-|4,52,422,14,1508640947,"/d/users/79001/git/blog/themes/next/_config.yml"
-'5  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,53,399,25,1508639637,"/d/users/79001/git/blog/themes/next/_config.yml"
-'6  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,54,399,25,1508639637,"/d/users/79001/git/blog/themes/next/_config.yml"
-'7  8  58  /d/users/79001/git/blog/_config.yml
-|4,55,8,58,1508638845,"/d/users/79001/git/blog/_config.yml"
-'8  8  58  /d/users/79001/git/blog/_config.yml
-|4,56,8,58,1508638845,"/d/users/79001/git/blog/_config.yml"
-'9  8  58  /d/users/79001/git/blog/_config.yml
-|4,57,8,58,1508638845,"/d/users/79001/git/blog/_config.yml"
+'0  7  43  ~/Str.java
+|4,48,7,43,1510017588,"~/Str.java"
+'1  1  12  ~/Str.java
+|4,49,1,12,1510017381,"~/Str.java"
+'2  1  12  ~/str.java
+|4,50,1,12,1510017381,"~/str.java"
+'3  1  0  /Str.java
+|4,51,1,0,1510016573,"/Str.java"
+'4  75  10  /d/users/79001/git/blog/_config.yml
+|4,52,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+'5  75  10  /d/users/79001/git/blog/_config.yml
+|4,53,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+'6  75  14  /d/users/79001/git/blog/_config.yml
+|4,54,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+'7  75  14  /d/users/79001/git/blog/_config.yml
+|4,55,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+'8  422  14  /d/users/79001/git/blog/themes/next/_config.yml
+|4,56,422,14,1508640947,"/d/users/79001/git/blog/themes/next/_config.yml"
+'9  399  25  /d/users/79001/git/blog/themes/next/_config.yml
+|4,57,399,25,1508639637,"/d/users/79001/git/blog/themes/next/_config.yml"
 
 # 跳转列表 (从新到旧):
+-'  7  43  ~/Str.java
+|4,39,7,43,1510017588,"~/Str.java"
+-'  8  0  ~/Str.java
+|4,39,8,0,1510017460,"~/Str.java"
+-'  9  0  ~/Str.java
+|4,39,9,0,1510017451,"~/Str.java"
+-'  1  0  ~/Str.java
+|4,39,1,0,1510017409,"~/Str.java"
+-'  1  12  ~/str.java
+|4,39,1,12,1510017381,"~/str.java"
+-'  1  0  /Str.java
+|4,39,1,0,1510016573,"/Str.java"
+-'  1  0  /Str.java
+|4,39,1,0,1510016573,"/Str.java"
+-'  1  0  /Str.java
+|4,39,1,0,1510016573,"/Str.java"
+-'  1  0  /Str.java
+|4,39,1,0,1510016573,"/Str.java"
+-'  1  0  /Str.java
+|4,39,1,0,1510016573,"/Str.java"
+-'  1  0  /Str.java
+|4,39,1,0,1510016573,"/Str.java"
+-'  1  0  /Str.java
+|4,39,1,0,1510016573,"/Str.java"
+-'  1  0  /Str.java
+|4,39,1,0,1510016573,"/Str.java"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
 -'  75  10  /d/users/79001/git/blog/_config.yml
 |4,39,75,10,1508642488,"/d/users/79001/git/blog/_config.yml"
 -'  75  10  /d/users/79001/git/blog/_config.yml
 |4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  10  /d/users/79001/git/blog/_config.yml
+|4,39,75,10,1508642103,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
+-'  75  14  /d/users/79001/git/blog/_config.yml
+|4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
 -'  75  14  /d/users/79001/git/blog/_config.yml
 |4,39,75,14,1508641024,"/d/users/79001/git/blog/_config.yml"
 -'  74  27  /d/users/79001/git/blog/_config.yml
@@ -99,196 +233,98 @@
 |4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
 -'  74  27  /d/users/79001/git/blog/_config.yml
 |4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
--'  8  58  /d/users/79001/git/blog/_config.yml
-|4,39,8,58,1508641009,"/d/users/79001/git/blog/_config.yml"
--'  8  58  /d/users/79001/git/blog/_config.yml
-|4,39,8,58,1508641009,"/d/users/79001/git/blog/_config.yml"
--'  8  58  /d/users/79001/git/blog/_config.yml
-|4,39,8,58,1508641009,"/d/users/79001/git/blog/_config.yml"
--'  422  14  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,422,14,1508640947,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  422  14  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,422,14,1508640947,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  422  14  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,422,14,1508640947,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  422  14  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,422,14,1508640947,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  422  14  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,422,14,1508640947,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  422  14  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,422,14,1508640947,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  422  14  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,422,14,1508640947,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  422  14  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,422,14,1508640947,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  237  15  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,237,15,1508639685,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  237  15  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,237,15,1508639685,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  237  15  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,237,15,1508639685,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  237  15  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,237,15,1508639685,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  237  15  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,237,15,1508639685,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  237  15  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,237,15,1508639685,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  237  15  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,237,15,1508639685,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  237  15  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,237,15,1508639685,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  236  30  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,236,30,1508639684,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  236  30  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,236,30,1508639684,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  236  30  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,236,30,1508639684,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  236  30  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,236,30,1508639684,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  236  30  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,236,30,1508639684,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  236  30  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,236,30,1508639684,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  236  30  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,236,30,1508639684,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  236  30  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,236,30,1508639684,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  423  0  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,423,0,1508639666,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  423  0  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,423,0,1508639666,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  423  0  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,423,0,1508639666,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  423  0  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,423,0,1508639666,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  423  0  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,423,0,1508639666,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  423  0  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,423,0,1508639666,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  423  0  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,423,0,1508639666,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  423  0  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,423,0,1508639666,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639664,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639664,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639664,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639664,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639664,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639664,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639664,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639664,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639637,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639637,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639637,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639637,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639637,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639637,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639637,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  399  25  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,399,25,1508639637,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  400  37  /d/users/79001/git/blog/themes/next/_config.yml
-|4,39,400,37,1508639625,"/d/users/79001/git/blog/themes/next/_config.yml"
--'  8  58  /d/users/79001/git/blog/_config.yml
-|4,39,8,58,1508638845,"/d/users/79001/git/blog/_config.yml"
--'  8  58  /d/users/79001/git/blog/_config.yml
-|4,39,8,58,1508638845,"/d/users/79001/git/blog/_config.yml"
--'  8  58  /d/users/79001/git/blog/_config.yml
-|4,39,8,58,1508638845,"/d/users/79001/git/blog/_config.yml"
--'  8  58  /d/users/79001/git/blog/_config.yml
-|4,39,8,58,1508638845,"/d/users/79001/git/blog/_config.yml"
--'  7  9  /d/users/79001/git/blog/_config.yml
-|4,39,7,9,1508638645,"/d/users/79001/git/blog/_config.yml"
--'  7  9  /d/users/79001/git/blog/_config.yml
-|4,39,7,9,1508638645,"/d/users/79001/git/blog/_config.yml"
--'  7  9  /d/users/79001/git/blog/_config.yml
-|4,39,7,9,1508638645,"/d/users/79001/git/blog/_config.yml"
--'  7  9  /d/users/79001/git/blog/_config.yml
-|4,39,7,9,1508638645,"/d/users/79001/git/blog/_config.yml"
--'  7  9  /d/users/79001/git/blog/_config.yml
-|4,39,7,9,1508638645,"/d/users/79001/git/blog/_config.yml"
--'  7  9  /d/users/79001/git/blog/_config.yml
-|4,39,7,9,1508638645,"/d/users/79001/git/blog/_config.yml"
--'  7  9  /d/users/79001/git/blog/_config.yml
-|4,39,7,9,1508638645,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508638622,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508638622,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508638622,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508638622,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508638622,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508638622,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508638622,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508464484,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508464484,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508464484,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508464484,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508464484,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508464484,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508464484,"/d/users/79001/git/blog/_config.yml"
--'  6  11  /d/users/79001/git/blog/_config.yml
-|4,39,6,11,1508464484,"/d/users/79001/git/blog/_config.yml"
--'  75  10  /d/users/79001/git/blog/_config.yml
-|4,39,75,10,1508462413,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
+-'  74  27  /d/users/79001/git/blog/_config.yml
+|4,39,74,27,1508641012,"/d/users/79001/git/blog/_config.yml"
 
 # 文件内的标记历史记录 (从新到旧):
+
+> ~/Str.java
+	*	1510017585	0
+	"	7	43
+	^	7	43
+	.	7	42
+	+	1	18
+	+	9	0
+	+	8	0
+	+	2	41
+	+	3	68
+	+	4	43
+	+	6	67
+	+	7	42
+
+> /Str.java
+	*	1510016571	0
+	"	1	0
 
 > /d/users/79001/git/blog/_config.yml
 	*	1508642487	0

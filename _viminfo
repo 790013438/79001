@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/colorschem
+~MSle0~/intellij
 
 # Last Substitute Search Pattern:
 ~MSle0&course
@@ -21,11 +21,21 @@ $tb_info
 
 # Command Line History (newest to oldest):
 :q!
-|2,0,1509972619,,"q!"
+|2,0,1510016485,,"q!"
+:w Str.java
+|2,0,1510016480,,"w Str.java"
 :wq
-|2,0,1509972597,,"wq"
+|2,0,1509976155,,"wq"
 :w
-|2,0,1509972591,,"w"
+|2,0,1509976100,,"w"
+:w!
+|2,0,1509972300,,"w!"
+:q
+|2,0,1509973197,,"q"
+:colorscheme default
+|2,0,1509972530,,"colorscheme default"
+:colorscheme
+|2,0,1509972523,,"colorscheme"
 :echo $mygvimrc
 |2,0,1509972585,,"echo $mygvimrc"
 :echo $MyVIMRc
@@ -36,20 +46,12 @@ $tb_info
 |2,0,1509972545,,"echo $MyVimrc"
 :!git log
 |2,0,1509972076,,"!git log"
-:colorscheme default
-|2,0,1509972025,,"colorscheme default"
-:colorscheme
-|2,0,1509972016,,"colorscheme"
 :wq!
 |2,0,1509971880,,"wq!"
-:q
-|2,0,1509971876,,"q"
 :!git log --graph
 |2,0,1509971726,,"!git log --graph"
 :git log --graph
 |2,0,1509971716,,"git log --graph"
-:w!
-|2,0,1509969970,,"w!"
 :w e:/oracleÊü•ËØ¢.md
 |2,0,1509962546,,"w e:/oracleÊü•ËØ¢.md"
 :w E:/oracle.txt
@@ -118,10 +120,18 @@ $tb_info
 |2,0,1507814237,,"bd 2"
 :db 2
 |2,0,1507727969,,"db 2"
-:exit
-|2,0,1507715006,,"exit"
 
 # Search String History (newest to oldest):
+?/sid
+|2,1,1509968402,47,"sid"
+?/Host
+|2,1,1509968364,47,"Host"
+?/sid_name
+|2,1,1509968289,47,"sid_name"
+?/host
+|2,1,1509968257,47,"host"
+?/localhost
+|2,1,1509972925,47,"localhost"
 ?/colorschem
 |2,1,1509972424,47,"colorschem"
 ?/intellij
@@ -212,16 +222,6 @@ $tb_info
 |2,1,1509072792,47,"houeType"
 ?/addhouse
 |2,1,1509072777,47,"addhouse"
-? \t
-|2,1,1509072743,,"\\t"
-?/set
-|2,1,1509069700,47,"set"
-?/auto
-|2,1,1509069391,47,"auto"
-?/indent
-|2,1,1509069359,47,"indent"
-?/plug
-|2,1,1509023020,47,"plug"
 
 # Expression History (newest to oldest):
 =<div></div>
@@ -237,16 +237,21 @@ $tb_info
 
 # ÂØÑÂ≠òÂô®:
 "0	LINE	0
-	f50ea7d9c3d3905e3682af6f5c0776802bbdd4d1		branch 'master' of https://github.com/790013438/lansee175
-|3,0,0,1,1,0,1509971589,"f50ea7d9c3d3905e3682af6f5c0776802bbdd4d1		branch 'master' of https://github.com/790013438/lansee175"
-""1	CHAR	0
+	      (ORACLE_HOME = D:\app\79001\product\11.2.0\dbhome_1)
+	      (PROGRAM = extproc)
+	      (ENVS = "EXTPROC_DLLS=ONLY:D:\app\79001\product\11.2.0\dbhome_1\bin\oraclr11.dll")
+|3,0,0,1,3,0,1509973897,"      (ORACLE_HOME = D:\\app\\79001\\product\\11.2.0\\dbhome_1)","      (PROGRAM = extproc)","      (ENVS = \"EXTPROC_DLLS=ONLY:D:\\app\\79001\\product\\11.2.0\\dbhome_1\\bin\\oraclr11.dll\")"
+""1	LINE	0
+	class
+|3,1,1,1,1,0,1510016462,"class"
+"2	CHAR	0
 	" È´ò‰∫ÆÊòæÁ§∫ÂΩìÂâçË°å/Âàó
 	set cursorline
 	set cursorcolumn
 	
 	
-|3,1,1,0,5,0,1509972479,"\" È´ò‰∫ÆÊòæÁ§∫ÂΩìÂâçË°å/Âàó","set cursorline","set cursorcolumn","",""
-"2	CHAR	0
+|3,0,2,0,5,0,1509972479,"\" È´ò‰∫ÆÊòæÁ§∫ÂΩìÂâçË°å/Âàó","set cursorline","set cursorcolumn","",""
+"3	CHAR	0
 	" ÈÖçËâ≤ÊñπÊ°à
 	if has('gui_running')
 	    set background=light
@@ -259,30 +264,25 @@ $tb_info
 	"colorscheme molokai
 	"colorscheme phd
 	
-|3,0,2,0,12,0,1509972445,"\" ÈÖçËâ≤ÊñπÊ°à","if has('gui_running')","    set background=light","else","    set background=dark","endif","","colorscheme solarized","\"colorscheme gruvbox","\"colorscheme molokai","\"colorscheme phd",""
-"3	LINE	0
-	
-|3,0,3,1,1,0,1509972038,""
+|3,0,3,0,12,0,1509972445,"\" ÈÖçËâ≤ÊñπÊ°à","if has('gui_running')","    set background=light","else","    set background=dark","endif","","colorscheme solarized","\"colorscheme gruvbox","\"colorscheme molokai","\"colorscheme phd",""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1509971669,""
+|3,0,4,1,1,0,1509972038,""
 "5	LINE	0
-	    ```
-|3,0,5,1,1,0,1509971664,"    ```"
-"6	LINE	0
-	    select t1.*, t2.* from emp t1, dept t2 where t1.deptno=t2.deptno;
-|3,0,6,1,1,0,1509971663,"    select t1.*, t2.* from emp t1, dept t2 where t1.deptno=t2.deptno;"
-"7	LINE	0
 	
-|3,0,7,1,1,0,1509971663,""
+|3,0,5,1,1,0,1509971669,""
+"6	LINE	0
+	    ```
+|3,0,6,1,1,0,1509971664,"    ```"
+"7	LINE	0
+	    select t1.*, t2.* from emp t1, dept t2 where t1.deptno=t2.deptno;
+|3,0,7,1,1,0,1509971663,"    select t1.*, t2.* from emp t1, dept t2 where t1.deptno=t2.deptno;"
 "8	LINE	0
-	    ```sql
-|3,0,8,1,1,0,1509971661,"    ```sql"
+	
+|3,0,8,1,1,0,1509971663,""
 "9	LINE	0
-	[remote "790013438"]
-		url = https://790013438.github.com
-		fetch = +refs/heads/*:refs/remotes/790013438/*
-|3,0,9,1,3,0,1509970054,"[remote \"790013438\"]","	url = https://790013438.github.com","	fetch = +refs/heads/*:refs/remotes/790013438/*"
+	    ```sql
+|3,0,9,1,1,0,1509971661,"    ```sql"
 "a	CHAR	0
 	odiÄkbÄkb<div></div>2a2@aSdÄkb<><>i/div:w2F<adiv:w71GS<div></div>:wÄ˝bÄ˝aki class = main:wj2F>
 |3,0,10,0,1,0,1501496725,"odiÄkbÄkb<div></div>2a2@aSdÄkb<><>i/div:w2F<adiv:w71GS<div></div>:wÄ˝bÄ˝aki class = main:wj2F>"
@@ -300,232 +300,276 @@ $tb_info
 <putpltbTnfafatafaFatafaÄ˝bÄ˝a:hleÄkbÄkbelp usr_02.txxtÄkbÄkbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:Ä˝2Ä˝4Ä˝bÄ˝a:q
 |3,0,29,0,1,0,1500516520,"putpltbTnfafatafaFatafaÄ˝bÄ˝a:hleÄkbÄkbelp usr_02.txxtÄkbÄkbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:Ä˝2Ä˝4Ä˝bÄ˝a:q"
 "-	CHAR	0
-	lansee175
-|3,0,36,0,1,0,1509972190,"lansee175"
+	*
+|3,0,36,0,1,0,1509976096,"*"
 
 # Êñá‰ª∂Ê†áËÆ∞:
-'0  67  0  ~\_vimrc
-|4,48,67,0,1509972597,"~\\_vimrc"
-'1  15  15  ~\_gvimrc
-|4,49,15,15,1509972593,"~\\_gvimrc"
-'2  1  98  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,50,1,98,1509972502,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
-'3  1  100  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,51,1,100,1509972195,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
-'4  1  0  D:\360Downloads\ssm1706\.git\config
-|4,52,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
-'5  1  40  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,53,1,40,1509971887,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
-'6  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,54,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
-'7  13  25  E:\uDisk\CC\lansee\lansee175\.git\config
-|4,55,13,25,1509970379,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\config"
-'8  9  44  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\config
-|4,56,9,44,1509970330,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\config"
-'9  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\config
-|4,57,1,0,1509970125,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\config"
+'0  110  0  ~\.viminfo
+|4,48,110,0,1510018022,"~\\.viminfo"
+'1  1  12  ~\str.java
+|4,49,1,12,1510016485,"~\\str.java"
+'2  1  0  E:\oracle.txt
+|4,50,1,0,1509976159,"E:\\oracle.txt"
+'3  28  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,51,28,0,1509976155,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+'4  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,52,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+'5  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,53,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+'6  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,54,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+'7  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,55,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+'8  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,56,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+'9  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,57,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
 
 # Ë∑≥ËΩ¨ÂàóË°® (‰ªéÊñ∞Âà∞Êóß):
--'  67  0  ~\_vimrc
-|4,39,67,0,1509972597,"~\\_vimrc"
--'  67  0  ~\_vimrc
-|4,39,67,0,1509972597,"~\\_vimrc"
--'  67  0  ~\_vimrc
-|4,39,67,0,1509972597,"~\\_vimrc"
--'  15  15  ~\_gvimrc
-|4,39,15,15,1509972593,"~\\_gvimrc"
--'  15  15  ~\_gvimrc
-|4,39,15,15,1509972593,"~\\_gvimrc"
--'  15  15  ~\_gvimrc
-|4,39,15,15,1509972593,"~\\_gvimrc"
--'  1  98  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,98,1509972502,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  98  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,98,1509972502,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  98  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,98,1509972502,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  13  0  ~\_gvimrc
-|4,39,13,0,1509972483,"~\\_gvimrc"
--'  13  0  ~\_gvimrc
-|4,39,13,0,1509972483,"~\\_gvimrc"
--'  13  0  ~\_gvimrc
-|4,39,13,0,1509972483,"~\\_gvimrc"
--'  12  0  ~\_gvimrc
-|4,39,12,0,1509972450,"~\\_gvimrc"
--'  12  0  ~\_gvimrc
-|4,39,12,0,1509972450,"~\\_gvimrc"
--'  12  0  ~\_gvimrc
-|4,39,12,0,1509972450,"~\\_gvimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509972424,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509972424,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1509972424,"~\\_vimrc"
--'  1  0  ~\_gvimrc
-|4,39,1,0,1509972382,"~\\_gvimrc"
--'  1  0  ~\_gvimrc
-|4,39,1,0,1509972382,"~\\_gvimrc"
--'  1  0  ~\_gvimrc
-|4,39,1,0,1509972382,"~\\_gvimrc"
--'  1  100  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,100,1509972195,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  100  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,100,1509972195,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  100  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,100,1509972195,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  100  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,100,1509972195,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  100  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,100,1509972195,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  100  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,100,1509972195,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  100  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,100,1509972195,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  100  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,100,1509972195,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  100  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,100,1509972195,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  0  D:\360Downloads\ssm1706\.git\config
-|4,39,1,0,1509971904,"D:\\360Downloads\\ssm1706\\.git\\config"
--'  1  40  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,40,1509971887,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  40  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,40,1509971887,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  40  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,40,1509971887,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  40  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,40,1509971887,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  40  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,40,1509971887,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  40  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,40,1509971887,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  40  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,40,1509971887,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  40  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,40,1509971887,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  40  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-|4,39,1,40,1509971887,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  1  0  E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-|4,39,1,0,1509970401,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\FETCH_HEAD"
--'  13  25  E:\uDisk\CC\lansee\lansee175\.git\config
-|4,39,13,25,1509970379,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\config"
--'  13  25  E:\uDisk\CC\lansee\lansee175\.git\config
-|4,39,13,25,1509970379,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\config"
--'  13  25  E:\uDisk\CC\lansee\lansee175\.git\config
-|4,39,13,25,1509970379,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\config"
--'  13  25  E:\uDisk\CC\lansee\lansee175\.git\config
-|4,39,13,25,1509970379,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\config"
--'  13  25  E:\uDisk\CC\lansee\lansee175\.git\config
-|4,39,13,25,1509970379,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\config"
--'  13  25  E:\uDisk\CC\lansee\lansee175\.git\config
-|4,39,13,25,1509970379,"E:\\uDisk\\CC\\lansee\\lansee175\\.git\\config"
+-'  110  0  ~\.viminfo
+|4,39,110,0,1510018022,"~\\.viminfo"
+-'  1  0  ~\.viminfo
+|4,39,1,0,1510017992,"~\\.viminfo"
+-'  1  12  ~\str.java
+|4,39,1,12,1510016485,"~\\str.java"
+-'  1  12  ~\str.java
+|4,39,1,12,1510016485,"~\\str.java"
+-'  1  0  E:\oracle.txt
+|4,39,1,0,1509976159,"E:\\oracle.txt"
+-'  1  0  E:\oracle.txt
+|4,39,1,0,1509976159,"E:\\oracle.txt"
+-'  1  0  E:\oracle.txt
+|4,39,1,0,1509976159,"E:\\oracle.txt"
+-'  1  0  E:\oracle.txt
+|4,39,1,0,1509976159,"E:\\oracle.txt"
+-'  28  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,28,0,1509976155,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  28  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,28,0,1509976155,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  28  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,28,0,1509976155,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  28  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,28,0,1509976155,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  12  5  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,12,5,1509976124,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  12  5  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,12,5,1509976124,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  12  5  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,12,5,1509976124,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  12  5  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,12,5,1509976124,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  10  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,10,0,1509976114,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  10  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,10,0,1509976114,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  10  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,10,0,1509976114,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  10  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,10,0,1509976114,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  1  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,1,0,1509974653,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  1  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,1,0,1509974653,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  1  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,1,0,1509974653,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  1  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+|4,39,1,0,1509974653,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
+-'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
 
 # Êñá‰ª∂ÂÜÖÁöÑÊ†áËÆ∞ÂéÜÂè≤ËÆ∞ÂΩï (‰ªéÊñ∞Âà∞Êóß):
+
+> ~\.viminfo
+	*	1510018020	0
+	"	110	0
+
+> ~\str.java
+	*	1510016481	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+
+> E:\oracle.txt
+	*	1509976157	0
+	"	1	0
+
+> D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+	*	1509976150	0
+	"	28	0
+	^	10	3
+	.	28	0
+	+	25	9
+	+	15	10
+	+	14	17
+	+	12	8
+	+	11	104
+	+	20	10
+	+	19	18
+	+	24	10
+	+	23	21
+	+	26	139
+	+	27	13
+	+	9	2
+	+	10	0
+	+	11	0
+	+	12	0
+	+	25	0
+	+	28	0
+
+> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+	*	1509974014	0
+	"	1	105
 
 > ~\_vimrc
 	*	1509972595	0
@@ -609,6 +653,12 @@ $tb_info
 	*	1509972497	0
 	"	1	98
 
+> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+	*	1509972334	0
+	"	21	6
+	.	21	0
+	+	21	0
+
 > D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
 	*	1509972194	0
 	"	1	100
@@ -655,23 +705,6 @@ $tb_info
 > ~\Desktop\GitHubLog.txt
 	*	1509955337	0
 	"	1	0
-
-> D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-	*	1509954961	0
-	"	27	16
-	^	27	16
-	.	27	13
-	+	25	9
-	+	15	10
-	+	14	17
-	+	12	8
-	+	11	104
-	+	20	10
-	+	19	18
-	+	24	10
-	+	23	21
-	+	26	139
-	+	27	13
 
 > ~\Desktop\replay_pid13164.log
 	*	1509954073	0
@@ -1702,39 +1735,3 @@ $tb_info
 	+	7	0
 	+	8	0
 	+	9	0
-
-> D:\360Downloads\hrs1706\src\Candidate.java
-	*	1509068788	0
-	"	7	0
-	.	7	0
-	+	4	0
-	+	7	0
-
-> ~\vimrc
-	*	1509068036	0
-	"	121	31
-	.	121	0
-	+	1	0
-	+	121	0
-
-> E:\courseService.xml
-	*	1509010250	0
-	"	43	13
-	^	1	0
-	.	9	0
-	+	1	0
-	+	1	4
-	+	1	0
-	+	9	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\bark.java
-	*	1509010213	0
-	"	45	0
-	.	1	0
-	+	1	0
-	+	62	0
-	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\dona.jav
-	*	1509009973	0
-	"	1	0
