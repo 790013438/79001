@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/intellij
+~MSle0~/font
 
 # Last Substitute Search Pattern:
 ~MSle0&course
@@ -20,108 +20,142 @@
 $tb_info
 
 # Command Line History (newest to oldest):
+:w
+|2,0,1510225962,,"w"
 :q!
-|2,0,1510016485,,"q!"
+|2,0,1510225983,,"q!"
+:wq
+|2,0,1510225923,,"wq"
+:!q
+|2,0,1510225896,,"!q"
+:q
+|2,0,1510221427,,"q"
+:echo $HOME
+|2,0,1510221409,,"echo $HOME"
+:echo $font
+|2,0,1510221403,,"echo $font"
+:echo $guifont
+|2,0,1510221398,,"echo $guifont"
+:set guifont=Cambria
+|2,0,1510206909,,"set guifont=Cambria"
+:set guifont=Calibri:18
+|2,0,1510206879,,"set guifont=Calibri:18"
+:set guifont=Arial:14
+|2,0,1510206852,,"set guifont=Arial:14"
+:set guifont=宋体:18
+|2,0,1510206783,,"set guifont=宋体:18"
+:set guifont=Console:18
+|2,0,1510206757,,"set guifont=Console:18"
+:set guifont=Courier:18
+|2,0,1510206733,,"set guifont=Courier:18"
+:colorscheme elflord
+|2,0,1510214550,,"colorscheme elflord"
+:colorscheme desert
+|2,0,1510214544,,"colorscheme desert"
+:colorscheme delek
+|2,0,1510214536,,"colorscheme delek"
+:colorscheme darkblue
+|2,0,1510214529,,"colorscheme darkblue"
+:colorscheme blue
+|2,0,1510214521,,"colorscheme blue"
+:!git stash
+|2,0,1510210173,,"!git stash"
+:git stash
+|2,0,1510210168,,"git stash"
+:!git status
+|2,0,1510210153,,"!git status"
+:!git add .
+|2,0,1510210099,,"!git add ."
+:!git statuss
+|2,0,1510210075,,"!git statuss"
+:set font=Courier:15
+|2,0,1510206441,,"set font=Courier:15"
+:set cursorline
+|2,0,1510188854,,"set cursorline"
+:!java StringEqualTest
+|2,0,1510188800,,"!java StringEqualTest"
+:set number
+|2,0,1510188619,,"set number"
+:set smartindent
+|2,0,1510138910,,"set smartindent"
+:VimballList
+|2,0,1510139709,,"VimballList"
+:highlight
+|2,0,1510139593,,"highlight"
+:set autoindent
+|2,0,1510139209,,"set autoindent"
+:set relativenumber false
+|2,0,1510139030,,"set relativenumber false"
+:set relativenumber
+|2,0,1510139015,,"set relativenumber"
+:ww
+|2,0,1510125094,,"ww"
+:open c:\users\79001\阅读记录.md
+|2,0,1510101672,,"open c:\\users\\79001\\阅读记录.md"
+:! dir
+|2,0,1510101599,,"! dir"
+:!pwd
+|2,0,1510101588,,"!pwd"
+:!dir /users/79001
+|2,0,1510101578,,"!dir /users/79001"
+:! dir /c/users/79001
+|2,0,1510101561,,"! dir /c/users/79001"
+:!dir $HOME
+|2,0,1510101541,,"!dir $HOME"
+:!dir ../
+|2,0,1510101526,,"!dir ../"
+:!dir
+|2,0,1510101450,,"!dir"
+:exit
+|2,0,1510101436,,"exit"
+:open 阅读记录.md
+|2,0,1510101429,,"open 阅读记录.md"
+:!ipconfig
+|2,0,1510040171,,"!ipconfig"
+:!ipconfig/all
+|2,0,1510040135,,"!ipconfig/all"
+:w E:/简历
+|2,0,1510033860,,"w E:/简历"
+:menu menupath command
+|2,0,1510015281,,"menu menupath command"
 :w Str.java
 |2,0,1510016480,,"w Str.java"
-:wq
-|2,0,1509976155,,"wq"
-:w
-|2,0,1509976100,,"w"
-:w!
-|2,0,1509972300,,"w!"
-:q
-|2,0,1509973197,,"q"
-:colorscheme default
-|2,0,1509972530,,"colorscheme default"
-:colorscheme
-|2,0,1509972523,,"colorscheme"
-:echo $mygvimrc
-|2,0,1509972585,,"echo $mygvimrc"
-:echo $MyVIMRc
-|2,0,1509972570,,"echo $MyVIMRc"
-:echo $MyGVimrc
-|2,0,1509972558,,"echo $MyGVimrc"
-:echo $MyVimrc
-|2,0,1509972545,,"echo $MyVimrc"
-:!git log
-|2,0,1509972076,,"!git log"
-:wq!
-|2,0,1509971880,,"wq!"
-:!git log --graph
-|2,0,1509971726,,"!git log --graph"
-:git log --graph
-|2,0,1509971716,,"git log --graph"
-:w e:/oracle查询.md
-|2,0,1509962546,,"w e:/oracle查询.md"
-:w E:/oracle.txt
-|2,0,1509959825,,"w E:/oracle.txt"
-:echo $Vim
-|2,0,1509938644,,"echo $Vim"
-:echo $MyVIMRC
-|2,0,1509938122,,"echo $MyVIMRC"
-:echo $HOME
-|2,0,1509938106,,"echo $HOME"
-:echo $VIM
-|2,0,1509938631,,"echo $VIM"
-:JG
-|2,0,1509087545,,"JG"
-:ret
-|2,0,1509085458,,"ret"
-:retab
-|2,0,1509085441,,"retab"
-:%s/\t/ /gc
-|2,0,1509072743,,"%s/\\t/ /gc"
-:PlugInstall
-|2,0,1509067685,,"PlugInstall"
-:q！
-|2,0,1509066985,,"q！"
-:set colorcolumn=+1
-|2,0,1509066588,,"set colorcolumn=+1"
-:set colorcolumn=80
-|2,0,1509066570,,"set colorcolumn=80"
-:colorscheme solarized
-|2,0,1508746386,,"colorscheme solarized"
-:colorshcme solarized
-|2,0,1508746378,,"colorshcme solarized"
-:colorscheme gruvbox
-|2,0,1508746338,,"colorscheme gruvbox"
-:set background=light
-|2,0,1508746283,,"set background=light"
-:set background=dark
-|2,0,1508746275,,"set background=dark"
-:w MyExceptionAdvice.java
-|2,0,1508666750,,"w MyExceptionAdvice.java"
-:Plug install
-|2,0,1508489091,,"Plug install"
-:%s/-/*/gc
-|2,0,1508415898,,"%s/-/*/gc"
-:set relativenumber
-|2,0,1508375304,,"set relativenumber"
-:echo $MYVIMRC
-|2,0,1508330240,,"echo $MYVIMRC"
-:%s/\r//gc
-|2,0,1508319462,,"%s/\\r//gc"
-:wq README.md
-|2,0,1508314660,,"wq README.md"
-:colorscheme blue
-|2,0,1508314529,,"colorscheme blue"
-:w BaseDAOAdapter.java
-|2,0,1508313298,,"w BaseDAOAdapter.java"
-:w UserDAO.java
-|2,0,1508313123,,"w UserDAO.java"
-:set relativenumbe
-|2,0,1508287335,,"set relativenumbe"
-:retable
-|2,0,1508222245,,"retable"
-:G
-|2,0,1508074022,,"G"
-:bd 2
-|2,0,1507814237,,"bd 2"
-:db 2
-|2,0,1507727969,,"db 2"
 
 # Search String History (newest to oldest):
+?/font
+|2,1,1510225910,47,"font"
+?/16
+|2,1,1510214135,47,"16"
+?/requirepass
+|2,1,1510212709,47,"requirepass"
+?/astore
+|2,1,1510188892,47,"astore"
+?/relativenumber
+|2,1,1510188702,47,"relativenumber"
+?/indent
+|2,1,1510138813,47,"indent"
+?/}
+|2,1,1510125832,47,"}"
+? \<catch\>
+|2,1,1510125826,,"\\<catch\\>"
+? }
+|2,1,1510125823,,"}"
+?/ycm
+|2,1,1510106210,47,"ycm"
+?/color
+|2,1,1510106195,47,"color"
+?/description
+|2,1,1510040061,47,"description"
+?/address_list
+|2,1,1510040022,47,"address_list"
+?/address
+|2,1,1510039808,47,"address"
+?/cgdb
+|2,1,1510039795,47,"cgdb"
+?/Listener
+|2,1,1510039651,47,"Listener"
+?/Listener=
+|2,1,1510039644,47,"Listener="
 ?/sid
 |2,1,1509968402,47,"sid"
 ?/Host
@@ -188,40 +222,6 @@ $tb_info
 |2,1,1509088588,47,"junit"
 ?/spring-test
 |2,1,1509088580,47,"spring-test"
-?/spring-orm
-|2,1,1509088568,47,"spring-orm"
-?/spring-
-|2,1,1509084401,47,"spring-"
-?/spring-context-support
-|2,1,1509084386,47,"spring-context-support"
-?/spring-webmvc
-|2,1,1509084374,47,"spring-webmvc"
-?/org.spring
-|2,1,1509084339,47,"org.spring"
-?/commons
-|2,1,1509084313,47,"commons"
-?/mysql
-|2,1,1509084306,47,"mysql"
-?/org.hibernate
-|2,1,1509084275,47,"org.hibernate"
-?/jstl
-|2,1,1509084262,47,"jstl"
-?/servlet.jsp
-|2,1,1509083362,47,"servlet.jsp"
-?/color
-|2,1,1509083845,47,"color"
-?/cities
-|2,1,1509072841,47,"cities"
-?/id
-|2,1,1509072832,47,"id"
-?/detail
-|2,1,1509072830,47,"detail"
-?/applicationScope
-|2,1,1509072800,47,"applicationScope"
-?/houeType
-|2,1,1509072792,47,"houeType"
-?/addhouse
-|2,1,1509072777,47,"addhouse"
 
 # Expression History (newest to oldest):
 =<div></div>
@@ -237,55 +237,66 @@ $tb_info
 
 # 寄存器:
 "0	LINE	0
-	      (ORACLE_HOME = D:\app\79001\product\11.2.0\dbhome_1)
-	      (PROGRAM = extproc)
-	      (ENVS = "EXTPROC_DLLS=ONLY:D:\app\79001\product\11.2.0\dbhome_1\bin\oraclr11.dll")
-|3,0,0,1,3,0,1509973897,"      (ORACLE_HOME = D:\\app\\79001\\product\\11.2.0\\dbhome_1)","      (PROGRAM = extproc)","      (ENVS = \"EXTPROC_DLLS=ONLY:D:\\app\\79001\\product\\11.2.0\\dbhome_1\\bin\\oraclr11.dll\")"
+	    
+|3,0,0,1,1,0,1510125516,"    "
 ""1	LINE	0
-	class
-|3,1,1,1,1,0,1510016462,"class"
+	
+|3,1,1,1,1,0,1510225920,""
 "2	CHAR	0
-	" 高亮显示当前行/列
-	set cursorline
-	set cursorcolumn
+	" 设置 gvim 显示字体
+	"set guifont=Inconsolata,Courier\ new,YaHei,Consolas,Hybrid:10
+	set guifont=Courier_new:h10,Consolas:h11
 	
-	
-|3,0,2,0,5,0,1509972479,"\" 高亮显示当前行/列","set cursorline","set cursorcolumn","",""
+|3,0,2,0,4,0,1510225917,"\" 设置 gvim 显示字体","\"set guifont=Inconsolata,Courier\\ new,YaHei,Consolas,Hybrid:10","set guifont=Courier_new:h10,Consolas:h11",""
 "3	CHAR	0
-	" 配色方案
-	if has('gui_running')
-	    set background=light
-	else
-	    set background=dark
-	endif
 	
-	colorscheme solarized
-	"colorscheme gruvbox
-	"colorscheme molokai
-	"colorscheme phd
 	
-|3,0,3,0,12,0,1509972445,"\" 配色方案","if has('gui_running')","    set background=light","else","    set background=dark","endif","","colorscheme solarized","\"colorscheme gruvbox","\"colorscheme molokai","\"colorscheme phd",""
+	" 高亮显示搜索结果
+	set hlsearch
+	
+	" 其他美化
+	
+	"
+|3,0,3,0,8,0,1510225865,"","","\" 高亮显示搜索结果","set hlsearch","","\" 其他美化","","\""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1509972038,""
+	    public static void main ()
+|3,0,4,1,1,0,1510217090,"    public static void main ()"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1509971669,""
+	    public static void main ()
+|3,0,5,1,1,0,1510215949,"    public static void main ()"
 "6	LINE	0
-	    ```
-|3,0,6,1,1,0,1509971664,"    ```"
-"7	LINE	0
-	    select t1.*, t2.* from emp t1, dept t2 where t1.deptno=t2.deptno;
-|3,0,7,1,1,0,1509971663,"    select t1.*, t2.* from emp t1, dept t2 where t1.deptno=t2.deptno;"
-"8	LINE	0
 	
-|3,0,8,1,1,0,1509971663,""
+|3,0,6,1,1,0,1510215938,""
+"7	LINE	0
+	            this.
+|3,0,7,1,1,0,1510215881,"            this."
+"8	LINE	0
+	<?xml version="1.0" encoding="UTF-8"?>
+	<Diagram>
+	  <ID>JAVA</ID>
+	  <OriginalElement />
+	  <nodes />
+	  <notes />
+	  <edges />
+	  <settings layout="Hierarchic Group" zoom="1.0" x="533.0" y="289.0" />
+	  <SelectedNodes />
+	  <Categories />
+	  <SCOPE>All</SCOPE>
+	  <VISIBILITY>public</VISIBILITY>
+	</Diagram>
+	
+|3,0,8,1,14,0,1510196398,"<?xml version=\"1.0\" encoding=\"UTF-8\"?>","<Diagram>","  <ID>JAVA</ID>","  <OriginalElement />","  <nodes />","  <notes />","  <edges />","  <settings layout=\"Hierarchic Group\" zoom=\"1.0\" x=\"533.0\" y=\"289.0\" />","  <SelectedNodes />","  <Categories />","  <SCOPE>All</SCOPE>","  <VISIBILITY>public</VISIBILITY>","</Diagram>",""
 "9	LINE	0
-	    ```sql
-|3,0,9,1,1,0,1509971661,"    ```sql"
+	<?xml version="1.0" encoding="UTF-8"?>
+	2
+	<Diagram>
+|3,0,9,1,3,0,1510192968,"<?xml version=\"1.0\" encoding=\"UTF-8\"?>","2","<Diagram>"
 "a	CHAR	0
 	odi�kb�kb<div></div>2a2@aSd�kb<><>i/div:w2F<adiv:w71GS<div></div>:w��b��aki class = main:wj2F>
 |3,0,10,0,1,0,1501496725,"odi�kb�kb<div></div>2a2@aSd�kb<><>i/div:w2F<adiv:w71GS<div></div>:w��b��aki class = main:wj2F>"
+"b	CHAR	0
+	b
+|3,0,11,0,1,0,1510040184,"b"
 "c	CHAR	0
 	w
 |3,0,12,0,1,0,1509972094,"w"
@@ -300,282 +311,249 @@ $tb_info
 <putpltbTnfafatafaFatafa��b��a:hle�kb�kbelp usr_02.txxt�kb�kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:��2��4��b��a:q
 |3,0,29,0,1,0,1500516520,"putpltbTnfafatafaFatafa��b��a:hle�kb�kbelp usr_02.txxt�kb�kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:��2��4��b��a:q"
 "-	CHAR	0
-	*
-|3,0,36,0,1,0,1509976096,"*"
+	127.0.0.1
+|3,0,36,0,1,0,1510208345,"127.0.0.1"
 
 # 文件标记:
-'0  110  0  ~\.viminfo
-|4,48,110,0,1510018022,"~\\.viminfo"
-'1  1  12  ~\str.java
-|4,49,1,12,1510016485,"~\\str.java"
-'2  1  0  E:\oracle.txt
-|4,50,1,0,1509976159,"E:\\oracle.txt"
-'3  28  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,51,28,0,1509976155,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
-'4  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,52,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
-'5  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,53,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
-'6  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,54,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
-'7  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,55,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
-'8  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,56,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
-'9  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,57,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+'0  1  0  ~\_gvimrc
+|4,48,1,0,1510226209,"~\\_gvimrc"
+'1  1  0  ~\_gvimrc
+|4,49,1,0,1510226206,"~\\_gvimrc"
+'2  1  0  ~\_vimrc
+|4,50,1,0,1510225923,"~\\_vimrc"
+'3  66  9  ~\_vimrc
+|4,51,66,9,1510225901,"~\\_vimrc"
+'4  66  9  ~\_vimrc
+|4,52,66,9,1510225901,"~\\_vimrc"
+'5  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,53,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+'6  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,54,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+'7  26  33  D:\Users\79001\IdeaProjects\petSitterGradle\exam\src\main\java\snippets\thread\ThreadApp.java
+|4,55,26,33,1510217040,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\exam\\src\\main\\java\\snippets\\thread\\ThreadApp.java"
+'8  1  0  D:\Program Files\Redis\.git\config
+|4,56,1,0,1510210262,"D:\\Program Files\\Redis\\.git\\config"
+'9  1048  0  D:\Program Files\Redis\redis.windows.conf
+|4,57,1048,0,1510209351,"D:\\Program Files\\Redis\\redis.windows.conf"
 
 # 跳转列表 (从新到旧):
--'  110  0  ~\.viminfo
-|4,39,110,0,1510018022,"~\\.viminfo"
--'  1  0  ~\.viminfo
-|4,39,1,0,1510017992,"~\\.viminfo"
--'  1  12  ~\str.java
-|4,39,1,12,1510016485,"~\\str.java"
--'  1  12  ~\str.java
-|4,39,1,12,1510016485,"~\\str.java"
--'  1  0  E:\oracle.txt
-|4,39,1,0,1509976159,"E:\\oracle.txt"
--'  1  0  E:\oracle.txt
-|4,39,1,0,1509976159,"E:\\oracle.txt"
--'  1  0  E:\oracle.txt
-|4,39,1,0,1509976159,"E:\\oracle.txt"
--'  1  0  E:\oracle.txt
-|4,39,1,0,1509976159,"E:\\oracle.txt"
--'  28  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,28,0,1509976155,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  28  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,28,0,1509976155,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  28  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,28,0,1509976155,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  28  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,28,0,1509976155,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  12  5  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,12,5,1509976124,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  12  5  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,12,5,1509976124,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  12  5  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,12,5,1509976124,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  12  5  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,12,5,1509976124,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  10  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,10,0,1509976114,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  10  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,10,0,1509976114,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  10  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,10,0,1509976114,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  10  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,10,0,1509976114,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,1,0,1509974653,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,1,0,1509974653,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,1,0,1509974653,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  1  0  D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-|4,39,1,0,1509974653,"D:\\Users\\79001\\git\\blog\\source\\_posts\\vim-personalization.md"
--'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  105  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,105,1509974015,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509974011,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  21  6  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,21,6,1509973912,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509973883,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  5  37  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,5,37,1509973197,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-|4,39,1,0,1509972925,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
--'  1  0  D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-|4,39,1,0,1509972869,"D:\\app\\79001\\product\\11.2.0\\dbhome_1\\NETWORK\\ADMIN\\listener.ora"
+-'  1  0  ~\_gvimrc
+|4,39,1,0,1510226209,"~\\_gvimrc"
+-'  1  0  ~\_gvimrc
+|4,39,1,0,1510226207,"~\\_gvimrc"
+-'  20  0  ~\_gvimrc
+|4,39,20,0,1510225961,"~\\_gvimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1510225923,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1510225923,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1510225923,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1510225923,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1510225923,"~\\_vimrc"
+-'  73  0  ~\_vimrc
+|4,39,73,0,1510225921,"~\\_vimrc"
+-'  73  0  ~\_vimrc
+|4,39,73,0,1510225921,"~\\_vimrc"
+-'  73  0  ~\_vimrc
+|4,39,73,0,1510225921,"~\\_vimrc"
+-'  73  0  ~\_vimrc
+|4,39,73,0,1510225921,"~\\_vimrc"
+-'  73  0  ~\_vimrc
+|4,39,73,0,1510225921,"~\\_vimrc"
+-'  66  9  ~\_vimrc
+|4,39,66,9,1510225901,"~\\_vimrc"
+-'  66  9  ~\_vimrc
+|4,39,66,9,1510225901,"~\\_vimrc"
+-'  66  9  ~\_vimrc
+|4,39,66,9,1510225901,"~\\_vimrc"
+-'  66  9  ~\_vimrc
+|4,39,66,9,1510225901,"~\\_vimrc"
+-'  66  9  ~\_vimrc
+|4,39,66,9,1510225901,"~\\_vimrc"
+-'  66  9  ~\_vimrc
+|4,39,66,9,1510225901,"~\\_vimrc"
+-'  66  9  ~\_vimrc
+|4,39,66,9,1510225901,"~\\_vimrc"
+-'  66  9  ~\_vimrc
+|4,39,66,9,1510225901,"~\\_vimrc"
+-'  66  9  ~\_vimrc
+|4,39,66,9,1510225901,"~\\_vimrc"
+-'  66  9  ~\_vimrc
+|4,39,66,9,1510225901,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1510225535,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1510225535,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1510225535,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1510225535,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1510225535,"~\\_vimrc"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  170  10  D:\Program Files\Redis\redis.windows.conf
+|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
 
 # 文件内的标记历史记录 (从新到旧):
 
-> ~\.viminfo
-	*	1510018020	0
-	"	110	0
-
-> ~\str.java
-	*	1510016481	0
-	"	1	12
-	^	1	13
-	.	1	12
-	+	1	12
-
-> E:\oracle.txt
-	*	1509976157	0
+> ~\_gvimrc
+	*	1510226207	0
 	"	1	0
-
-> D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-	*	1509976150	0
-	"	28	0
-	^	10	3
-	.	28	0
-	+	25	9
-	+	15	10
-	+	14	17
-	+	12	8
-	+	11	104
-	+	20	10
-	+	19	18
-	+	24	10
-	+	23	21
-	+	26	139
-	+	27	13
-	+	9	2
-	+	10	0
-	+	11	0
-	+	12	0
-	+	25	0
-	+	28	0
-
-> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-	*	1509974014	0
-	"	1	105
+	^	17	10
+	.	17	0
+	+	1	0
+	+	13	0
+	+	15	15
+	+	17	0
 
 > ~\_vimrc
-	*	1509972595	0
-	"	67	0
-	^	214	49
-	.	68	0
+	*	1510225921	0
+	"	1	0
+	.	73	0
 	+	1	0
 	+	33	24
 	+	8	2
@@ -597,12 +575,12 @@ $tb_info
 	+	50	0
 	+	56	0
 	+	65	11
-	+	70	0
-	+	82	0
+	+	66	10
+	+	79	0
 	+	8	0
 	+	37	0
-	+	89	0
-	+	114	0
+	+	86	0
+	+	111	0
 	+	33	0
 	+	1	0
 	+	24	30
@@ -622,42 +600,487 @@ $tb_info
 	+	36	4
 	+	36	0
 	+	30	0
-	+	108	0
-	+	104	7
+	+	105	0
+	+	101	7
 	+	29	6
-	+	104	7
-	+	106	0
-	+	107	31
-	+	106	0
-	+	107	0
-	+	106	32
-	+	107	0
-	+	214	56
-	+	106	15
-	+	106	0
-	+	214	42
-	+	106	0
+	+	101	7
+	+	103	0
+	+	104	31
+	+	103	0
+	+	104	0
+	+	103	32
+	+	104	0
+	+	211	56
+	+	103	15
+	+	103	0
+	+	211	42
+	+	103	0
 	+	37	0
-	+	68	0
+	+	66	10
+	+	211	2
+	+	213	2
+	+	66	10
+	+	66	0
+	+	73	0
 
-> ~\_gvimrc
-	*	1509972591	0
-	"	15	15
-	^	15	16
-	.	15	15
+> D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
+	*	1510217170	0
+	"	9	28
+	^	9	44
+	.	9	43
+	+	5	31
+	+	10	0
+	+	5	40
+	+	6	51
+	+	7	28
+	+	8	45
+	+	9	43
+
+> D:\Users\79001\IdeaProjects\petSitterGradle\exam\src\main\java\snippets\thread\ThreadApp.java
+	*	1510215968	0
+	"	26	33
+	^	26	33
+	.	26	32
+	+	7	48
+	+	23	0
+	+	15	0
+	+	12	42
+	+	15	0
+	+	13	30
+	+	22	0
+	+	21	0
+	+	19	44
+	+	20	24
+	+	23	5
+	+	25	31
+	+	27	0
+	+	25	40
+	+	26	32
+
+> D:\Program Files\Redis\redis.windows.conf
+	*	1510214550	0
+	"	170	10
+	^	56	17
+	.	56	16
+	+	56	16
+
+> D:\Program Files\Redis\.git\config
+	*	1510210232	0
+	"	1	0
+
+> D:\Program Files\Redis\.gitignore
+	*	1510207912	0
+	"	1	0
+	^	1	0
+	.	1	0
 	+	1	0
+
+> E:\StringEqualTest.java
+	*	1510206458	0
+	"	1	0
+	^	19	0
+	.	19	0
+	+	1	3
+	+	3	41
+	+	19	0
+
+> D:\Users\79001\IdeaProjects\petSitterGradle\exam\algorithm.uml
+	*	1510197322	0
+	"	107	10
+	.	1	0
+	+	118	0
+	+	1	0
+
+> D:\Users\79001\IdeaProjects\petSitterGradle\exam\video.uml
+	*	1510196591	0
+	"	50	0
+
+> ~\.IntelliJIdea2017.2\system\log\idea.log
+	*	1510194984	0
+	"	36	0
+
+> ~\阅读记录.md
+	*	1510189493	0
+	"	5	64
+	^	5	64
+	.	5	2
+	+	4	2
+	+	7	31
+	+	10	9
+	+	9	0
+	+	10	15
+	+	9	8
+	+	5	2
+
+> D:\Users\79001\git\blog\source\_posts\面试题.md
+	*	1510143239	0
+	"	18	53
+	^	18	53
+	.	18	52
+	+	52	0
+	+	51	0
+	+	42	48
+	+	33	0
+	+	6	0
+	+	17	0
+	+	20	25
+	+	21	0
+	+	20	24
+	+	40	23
+	+	41	22
+	+	42	23
+	+	43	22
+	+	49	11
+	+	45	15
+	+	47	31
+	+	48	36
+	+	45	26
+	+	46	25
+	+	20	1
+	+	19	31
+	+	48	35
+	+	19	57
+	+	50	33
+	+	86	6
+	+	54	18
+	+	85	4
+	+	75	0
+	+	84	0
+	+	78	45
+	+	77	0
+	+	76	77
+	+	79	49
+	+	80	53
+	+	81	30
+	+	74	0
+	+	73	12
+	+	82	34
+	+	82	41
+	+	83	33
+	+	83	0
+	+	86	4
+	+	87	19
+	+	112	6
+	+	112	0
+	+	99	0
+	+	91	54
+	+	96	8
+	+	95	11
+	+	107	0
+	+	100	45
+	+	101	8
+	+	107	0
+	+	101	48
+	+	98	80
+	+	102	51
+	+	101	32
+	+	102	25
+	+	104	36
+	+	106	45
+	+	107	24
+	+	109	12
+	+	107	31
+	+	108	35
+	+	111	0
+	+	101	0
+	+	111	0
+	+	119	6
+	+	118	4
+	+	114	40
+	+	114	0
+	+	115	86
+	+	116	33
+	+	110	12
+	+	101	0
+	+	111	0
+	+	112	0
+	+	2	0
+	+	67	20
+	+	66	0
+	+	71	0
+	+	69	39
+	+	70	28
+	+	66	0
+	+	57	0
+	+	66	0
+	+	45	26
+	+	66	0
+	+	60	27
+	+	59	29
+	+	66	0
+	+	65	12
+	+	65	0
+	+	63	28
+	+	62	46
+	+	63	34
+	+	64	30
+	+	18	52
+
+> D:\Users\79001\git\blog\source\_posts\vim-personalization.md
+	*	1510141984	0
+	"	31	2
+	^	30	4
+	.	31	1
+	+	25	9
+	+	15	10
+	+	14	17
+	+	12	8
+	+	11	104
+	+	20	10
+	+	19	18
+	+	24	10
+	+	23	21
+	+	26	139
+	+	27	13
+	+	9	2
+	+	10	0
+	+	11	0
+	+	12	0
+	+	25	0
+	+	28	0
+	+	29	116
+	+	30	36
+	+	31	1
+
+> E:\ThreadTest.java
+	*	1510139074	0
+	"	19	9
+	^	19	9
+	.	19	0
+	+	1	0
+	+	1	41
+	+	1	35
+	+	1	0
+	+	1	45
+	+	1	20
+	+	1	27
+	+	1	28
+	+	1	35
+	+	1	0
+	+	1	32
+	+	1	26
+	+	1	28
+	+	1	0
+	+	1	18
+	+	32	0
+	+	31	0
+	+	20	0
+	+	3	54
+	+	30	0
+	+	22	41
+	+	23	36
+	+	24	44
+	+	25	44
+	+	26	20
+	+	29	0
+	+	27	20
+	+	28	31
 	+	13	0
-	+	15	15
+	+	7	52
+	+	10	0
+	+	8	31
+	+	10	0
+	+	8	36
+	+	9	39
+	+	12	0
+	+	11	41
+	+	16	0
+	+	14	31
+	+	15	35
+	+	19	0
+	+	17	31
+	+	18	38
+	+	19	0
+
+> D:\Users\79001\git\blog\.gitignore
+	*	1510138002	0
+	"	8	0
+	.	9	0
+	+	9	0
+
+> D:\Users\79001\git\blog\source\_posts\线程.md
+	*	1510121312	0
+	"	1	0
+
+> D:\Users\79001\IdeaProjects\petSitterGradle\container\src\main\java\snippets\jee\repositories\stub\StubAbstractRepo.java
+	*	1510106620	0
+	"	34	35
+	^	34	35
+	.	34	34
+	+	18	0
+	+	15	33
+	+	16	48
+	+	17	26
+	+	19	41
+	+	24	36
+	+	29	30
+	+	34	34
+
+> C:\WINDOWS\system32\阅读记录.md
+	*	1510101429	0
+	"	1	0
+
+> D:\Users\79001\git\blog\source\_posts\阅读记录.md
+	*	1510047914	0
+	"	1	0
+
+> D:\Users\79001\git\blog\source\_posts\oracle查询.md
+	*	1510047903	0
+	"	172	20
+	^	157	4
+	.	176	0
+	+	100	33
+	+	101	59
+	+	102	12
+	+	104	0
+	+	97	17
+	+	109	24
+	+	98	5
+	+	103	2
+	+	105	5
+	+	110	2
+	+	114	34
+	+	112	5
+	+	115	2
+	+	116	28
+	+	118	42
+	+	116	27
+	+	118	0
+	+	116	28
+	+	117	0
+	+	119	0
+	+	118	58
+	+	121	86
+	+	126	2
+	+	124	52
+	+	123	16
+	+	125	36
+	+	124	34
+	+	123	29
+	+	127	3
+	+	127	4
+	+	128	0
+	+	127	81
+	+	129	33
+	+	130	4
+	+	133	34
+	+	135	34
+	+	130	33
+	+	136	32
+	+	142	2
+	+	141	24
+	+	137	19
+	+	139	0
+	+	137	24
+	+	141	30
+	+	138	22
+	+	140	27
+	+	141	14
+	+	142	0
+	+	141	13
+	+	143	5
+	+	152	6
+	+	151	15
+	+	143	47
+	+	151	18
+	+	146	0
+	+	145	22
+	+	147	22
+	+	151	63
+	+	148	31
+	+	152	4
+	+	163	3
+	+	161	41
+	+	160	31
+	+	161	58
+	+	163	0
+	+	160	7
+	+	158	53
+	+	159	9
+	+	158	33
+	+	157	29
+	+	160	19
+	+	161	0
+	+	160	18
+	+	159	12
+	+	160	30
+	+	161	67
+	+	162	22
+	+	156	10
+	+	157	0
+	+	176	6
+	+	166	3
+	+	165	4
+	+	164	14
+	+	167	36
+	+	168	46
+	+	169	40
+	+	170	33
+	+	171	54
+	+	172	85
+	+	176	15
+	+	172	83
+	+	173	20
+	+	174	31
+	+	175	33
+	+	173	16
+	+	176	16
+	+	157	0
+	+	176	0
+
+> D:\Program Files (x86)\NetSarang\solarized_light.xcs
+	*	1510045153	0
+	"	23	20
+	.	1	0
+	+	1	0
+
+> D:\Program Files (x86)\NetSarang\isayme.xcs
+	*	1510044461	0
+	"	23	11
+	.	1	0
+	+	1	0
+
+> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
+	*	1510042196	0
+	"	1	0
+	^	21	53
+	.	21	0
+	+	21	0
+	+	22	0
+	+	21	0
+
+> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\sqlnet.ora
+	*	1510040881	0
+	"	1	0
+
+> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
+	*	1510039857	0
+	"	30	7
+	.	21	0
+	+	21	0
+
+> D:\79001\Documents\ali.pem
+	*	1510030921	0
+	"	23	0
+
+> ~\.viminfo
+	*	1510018020	0
+	"	110	0
+
+> ~\str.java
+	*	1510016481	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+
+> E:\oracle.txt
+	*	1509976157	0
+	"	1	0
 
 > E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
 	*	1509972497	0
 	"	1	98
-
-> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-	*	1509972334	0
-	"	21	6
-	.	21	0
-	+	21	0
 
 > D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
 	*	1509972194	0
@@ -1456,282 +1879,3 @@ $tb_info
 	"	21	5
 	.	1	0
 	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementServiceService.java
-	*	1509153819	0
-	"	1	0
-	.	71	0
-	+	70	0
-	+	1	0
-	+	71	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\CourseManagementServiceService.java
-	*	1509153816	0
-	"	94	0
-	.	1	0
-	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementService.java
-	*	1509153760	0
-	"	10	26
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\CourseManagementService.java
-	*	1509153749	0
-	"	45	172
-	.	21	0
-	+	1	0
-	+	21	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\Course.java
-	*	1509153697	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\Course.java
-	*	1509153691	0
-	"	97	0
-	.	1	0
-	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWS\src\main\java\snippets\jee\ws\soap\Courses.java
-	*	1509109788	0
-	"	1	0
-	^	14	4
-	.	14	4
-	+	15	0
-	+	7	34
-	+	5	0
-	+	2	0
-	+	1	28
-	+	10	0
-	+	14	0
-	+	12	42
-	+	13	36
-	+	14	4
-
-> D:\File\Java_workspace\CourseManagementWS\src\main\java\snippets\jee\ws\soap\CourseManagementService.java
-	*	1509109780	0
-	"	26	34
-	^	26	34
-	.	26	33
-	+	8	75
-	+	9	72
-	+	16	0
-	+	25	55
-	+	10	44
-	+	16	17
-	+	26	33
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\README.md
-	*	1509106112	0
-	"	3	4
-	^	3	4
-	.	3	3
-	+	3	74
-	+	4	0
-	+	2	14
-	+	1	0
-	+	7	2
-	+	6	64
-	+	7	0
-	+	6	64
-	+	3	3
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\_GetCourse.java
-	*	1509104347	0
-	"	1	0
-	.	1	0
-	+	1	0
-	+	50	0
-	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWS\src\main\java\snippets\jee\ws\soap\g.xml
-	*	1509104190	0
-	"	25	5
-	.	6	0
-	+	1	0
-	+	6	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\test\CouseManagementWSClient.java
-	*	1509102787	0
-	"	4	0
-	^	11	62
-	.	11	61
-	+	12	0
-	+	5	41
-	+	6	84
-	+	10	39
-	+	11	61
-
-> E:\1.xml
-	*	1509102768	0
-	"	25	5
-	^	35	12
-	.	6	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	6	0
-
-> D:\programming\gvim_8.0.0003_x64\vim\vim80\doc\term.txt
-	*	1509102605	0
-	"	283	8
-
-> D:\programming\gvim_8.0.0003_x64\vim\vim80\doc\message.txt
-	*	1509102385	0
-	"	771	17
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\CourseManagementService.class
-	*	1509101821	0
-	"	1	0
-
-> D:\File\Java_workspace\house1706\pom.xml
-	*	1509088847	0
-	"	125	0
-	.	2	0
-	+	2	0
-
-> D:\File\Java_workspace\houseManagement\pom.xml
-	*	1509088817	0
-	"	104	24
-	^	50	23
-	.	50	22
-	+	2	0
-	+	21	0
-	+	59	0
-	+	104	0
-	+	103	0
-	+	21	0
-	+	67	29
-	+	108	0
-	+	50	22
-
-> D:\File\Java_workspace\house1706\src\main\java\com\qfedu\house\controller\MyExceptionAdvice.java
-	*	1509085470	0
-	"	9	0
-	.	9	0
-	+	9	0
-
-> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\pub.jsp
-	*	1509072915	0
-	"	1	0
-	^	204	43
-	.	203	0
-	+	149	0
-	+	150	0
-	+	151	0
-	+	152	0
-	+	153	0
-	+	154	0
-	+	155	0
-	+	157	0
-	+	146	0
-	+	147	0
-	+	148	0
-	+	149	0
-	+	150	0
-	+	151	0
-	+	152	0
-	+	153	0
-	+	154	0
-	+	155	0
-	+	156	0
-	+	158	0
-	+	159	0
-	+	163	0
-	+	164	0
-	+	165	0
-	+	166	0
-	+	167	0
-	+	168	0
-	+	169	0
-	+	170	0
-	+	163	0
-	+	170	0
-	+	171	0
-	+	172	0
-	+	173	0
-	+	174	0
-	+	175	0
-	+	176	0
-	+	177	0
-	+	178	0
-	+	179	0
-	+	180	0
-	+	181	0
-	+	182	0
-	+	183	0
-	+	184	0
-	+	185	0
-	+	184	0
-	+	185	0
-	+	185	147
-	+	183	0
-	+	185	0
-	+	186	0
-	+	185	0
-	+	186	0
-	+	185	0
-	+	186	0
-	+	187	0
-	+	186	0
-	+	187	0
-	+	189	0
-	+	167	0
-	+	189	0
-	+	183	0
-	+	185	0
-	+	186	0
-	+	187	0
-	+	189	0
-	+	191	0
-	+	192	0
-	+	193	0
-	+	194	0
-	+	195	0
-	+	196	24
-	+	197	0
-	+	198	26
-	+	197	60
-	+	196	51
-	+	195	50
-	+	194	43
-	+	199	0
-	+	200	0
-	+	201	0
-	+	202	0
-	+	203	0
-	+	204	0
-	+	205	0
-	+	206	0
-	+	191	47
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	206	0
-	+	204	43
-	+	63	0
-	+	192	0
-	+	199	0
-	+	203	0
-
-> D:\File\Java_workspace\houseManagement\src\main\webapp\WEB-INF\jsp\error\hint.jsp
-	*	1509069852	0
-	"	14	4
-	^	14	4
-	.	14	0
-	+	3	0
-	+	14	0
-
-> D:\360Downloads\hrs1706\src\hibernate.cfg.xml
-	*	1509068897	0
-	"	24	0
-	.	9	0
-	+	34	0
-	+	7	0
-	+	8	0
-	+	9	0

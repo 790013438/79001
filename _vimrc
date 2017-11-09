@@ -63,15 +63,12 @@ set ruler
 
 " 开启行号显示
 set relativenumber
+set number
 
 " 高亮显示搜索结果
 set hlsearch
 
 " 其他美化
-
-" 设置 gvim 显示字体
-"set guifont=Inconsolata,Courier\ new,YaHei,Consolas,Hybrid:10
-set guifont=Courier_new:h10,Consolas:h11
 
 " 禁止折行
 set nowrap
@@ -211,9 +208,9 @@ let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
 
 " YCM 补全菜单配色
 " 菜单
-highlight Pmenu ctermfg=2 ctermbg=3 guifg=#eee8d5 guibg=#6c71c4
+" highlight Pmenu ctermfg=2 ctermbg=3 guifg=#eee8d5 guibg=#6c71c4
 " 选中项
-highlight PmenuSel ctermfg=2 ctermbg=3 guifg=#AFD700 guibg=#106900
+" highlight PmenuSel ctermfg=2 ctermbg=3 guifg=#AFD700 guibg=#106900
 
 " 补全功能在注释中同样有效
 let g:ycm_complete_in_comments=1
