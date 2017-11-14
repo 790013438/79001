@@ -330,20 +330,8 @@ set fileencodings=utf8,gbk2312,gbk,gb18030,cp936
 set encoding=utf8
 set langmenu=zh_CN.UTF-8
 let $LANG = 'en_us.UTF-8'
-language message zh_CN.GBK
 "}}}
 
-
-"2
-"Youcompleteme fix
-let g:ycm_global_ycm_extra_conf = 'D:\programming\gvim_8.0.0003_x64\vim\vimfiles\bundle\YouCompleteMe\third_party\ycmd\cpp\ycm/.ycm_extra_conf.py'
-"233
-
-"2
-" FINDING FILES:
-" Search down into subfolders
-" Provides tab-completion for all file-related tasks
-set path+='D:\File\Java_workspace'
 
 " Display all matching files when we tab complete
 set wildmenu
