@@ -33,6 +33,9 @@ call plug#end()
 filetype plugin indent on
 " <<<<
 
+colorscheme shine
+colorscheme gruvbox
+
 
 " 禁止光标闪烁
 set gcr=a:block-blinkon0
