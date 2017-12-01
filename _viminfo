@@ -11,117 +11,151 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/font
+~MSle0~/vue
 
 # Last Substitute Search Pattern:
-~MSle0&course
+~MSle0&\r
 
 # Last Substitute String:
-$tb_info
+$
 
 # Command Line History (newest to oldest):
-:w
-|2,0,1510225962,,"w"
-:q!
-|2,0,1510225983,,"q!"
 :wq
-|2,0,1510225923,,"wq"
-:!q
-|2,0,1510225896,,"!q"
+|2,0,1512108009,,"wq"
 :q
-|2,0,1510221427,,"q"
-:echo $HOME
-|2,0,1510221409,,"echo $HOME"
-:echo $font
-|2,0,1510221403,,"echo $font"
-:echo $guifont
-|2,0,1510221398,,"echo $guifont"
-:set guifont=Cambria
-|2,0,1510206909,,"set guifont=Cambria"
-:set guifont=Calibri:18
-|2,0,1510206879,,"set guifont=Calibri:18"
-:set guifont=Arial:14
-|2,0,1510206852,,"set guifont=Arial:14"
-:set guifont=宋体:18
-|2,0,1510206783,,"set guifont=宋体:18"
-:set guifont=Console:18
-|2,0,1510206757,,"set guifont=Console:18"
-:set guifont=Courier:18
-|2,0,1510206733,,"set guifont=Courier:18"
-:colorscheme elflord
-|2,0,1510214550,,"colorscheme elflord"
-:colorscheme desert
-|2,0,1510214544,,"colorscheme desert"
-:colorscheme delek
-|2,0,1510214536,,"colorscheme delek"
-:colorscheme darkblue
-|2,0,1510214529,,"colorscheme darkblue"
-:colorscheme blue
-|2,0,1510214521,,"colorscheme blue"
-:!git stash
-|2,0,1510210173,,"!git stash"
-:git stash
-|2,0,1510210168,,"git stash"
-:!git status
-|2,0,1510210153,,"!git status"
-:!git add .
-|2,0,1510210099,,"!git add ."
-:!git statuss
-|2,0,1510210075,,"!git statuss"
-:set font=Courier:15
-|2,0,1510206441,,"set font=Courier:15"
-:set cursorline
-|2,0,1510188854,,"set cursorline"
-:!java StringEqualTest
-|2,0,1510188800,,"!java StringEqualTest"
-:set number
-|2,0,1510188619,,"set number"
-:set smartindent
-|2,0,1510138910,,"set smartindent"
-:VimballList
-|2,0,1510139709,,"VimballList"
-:highlight
-|2,0,1510139593,,"highlight"
-:set autoindent
-|2,0,1510139209,,"set autoindent"
-:set relativenumber false
-|2,0,1510139030,,"set relativenumber false"
-:set relativenumber
-|2,0,1510139015,,"set relativenumber"
-:ww
-|2,0,1510125094,,"ww"
-:open c:\users\79001\阅读记录.md
-|2,0,1510101672,,"open c:\\users\\79001\\阅读记录.md"
-:! dir
-|2,0,1510101599,,"! dir"
-:!pwd
-|2,0,1510101588,,"!pwd"
-:!dir /users/79001
-|2,0,1510101578,,"!dir /users/79001"
-:! dir /c/users/79001
-|2,0,1510101561,,"! dir /c/users/79001"
-:!dir $HOME
-|2,0,1510101541,,"!dir $HOME"
-:!dir ../
-|2,0,1510101526,,"!dir ../"
-:!dir
-|2,0,1510101450,,"!dir"
-:exit
-|2,0,1510101436,,"exit"
+|2,0,1512107362,,"q"
+:w launch.bat
+|2,0,1512107360,,"w launch.bat"
+:w
+|2,0,1512106928,,"w"
+:colorscheme shine
+|2,0,1512106836,,"colorscheme shine"
+:echo $VIMRUNTIME
+|2,0,1512008362,,"echo $VIMRUNTIME"
+:version
+|2,0,1512008326,,"version"
 :open 阅读记录.md
-|2,0,1510101429,,"open 阅读记录.md"
-:!ipconfig
-|2,0,1510040171,,"!ipconfig"
-:!ipconfig/all
-|2,0,1510040135,,"!ipconfig/all"
-:w E:/简历
-|2,0,1510033860,,"w E:/简历"
-:menu menupath command
-|2,0,1510015281,,"menu menupath command"
-:w Str.java
-|2,0,1510016480,,"w Str.java"
+|2,0,1512002022,,"open 阅读记录.md"
+:PlugInstall
+|2,0,1511956273,,"PlugInstall"
+:echo has('python')
+|2,0,1511941930,,"echo has('python')"
+:python print(1)
+|2,0,1511941924,,"python print(1)"
+:set guifont=*
+|2,0,1511873267,,"set guifont=*"
+:echo has('win64')
+|2,0,1511865866,,"echo has('win64')"
+:echo system('file -L /proc/' . getpid() . '/exe' ) =~ "64-bit"
+|2,0,1511865625,,"echo system('file -L /proc/' . getpid() . '/exe' ) =~ \"64-bit\""
+:echo system('file -L "' . exepath(v:progpath) . '"') =~ "64-bit"
+|2,0,1511865600,,"echo system('file -L \"' . exepath(v:progpath) . '\"') =~ \"64-bit\""
+:q!
+|2,0,1511868320,,"q!"
+:sh
+|2,0,1511868158,,"sh"
+:PlugClean
+|2,0,1511859146,,"PlugClean"
+:PlugStatus
+|2,0,1511859123,,"PlugStatus"
+:PlugUpgrade
+|2,0,1511859088,,"PlugUpgrade"
+:PlugUpdate
+|2,0,1511857603,,"PlugUpdate"
+:open ~/阅读记录.md
+|2,0,1511854955,,"open ~/阅读记录.md"
+:python print "Hello"
+|2,0,1511848214,,"python print \"Hello\""
+:help E887
+|2,0,1511848187,,"help E887"
+:help python-dynamic
+|2,0,1511846012,,"help python-dynamic"
+:help dyn
+|2,0,1511845984,,"help dyn"
+:python print('hi')
+|2,0,1511845948,,"python print('hi')"
+:search python\d*.dll\c
+|2,0,1511846273,,"search python\\d*.dll\\c"
+:python import sys
+|2,0,1511838733,,"python import sys"
+:py print('py2')
+|2,0,1511838608,,"py print('py2')"
+:has('python')
+|2,0,1511838188,,"has('python')"
+:echo $VIMRUNTIM
+|2,0,1511746789,,"echo $VIMRUNTIM"
+:so $VIMRUNTIME/syntax/hitest.vim
+|2,0,1511599289,,"so $VIMRUNTIME/syntax/hitest.vim"
+:so $VIMRUNTIME/syntax/hittest.vim
+|2,0,1511599272,,"so $VIMRUNTIME/syntax/hittest.vim"
+:colorscheme delek
+|2,0,1511600046,,"colorscheme delek"
+:colorscheme gruvbox
+|2,0,1511599887,,"colorscheme gruvbox"
+:%s/\r//gc
+|2,0,1511580496,,"%s/\\r//gc"
+:set smartindent
+|2,0,1511570392,,"set smartindent"
+:s
+|2,0,1511398281,,"s"
+:match pandocStrikeoutHeading /dependency/
+|2,0,1511346502,,"match pandocStrikeoutHeading /dependency/"
+:match pandocStrikeoutHeading /denpendency/
+|2,0,1511346475,,"match pandocStrikeoutHeading /denpendency/"
+:match gitcommitDiscardedFile /dependency/
+|2,0,1511343358,,"match gitcommitDiscardedFile /dependency/"
+:%s/getReq/httpGet/gc
+|2,0,1511343985,,"%s/getReq/httpGet/gc"
+:%s/client/httpClient/gc
+|2,0,1511343893,,"%s/client/httpClient/gc"
+:match Todo /dependency/
+|2,0,1511334948,,"match Todo /dependency/"
+:javac Test.java
+|2,0,1511313389,,"javac Test.java"
+:s:sh
+|2,0,1511312071,,"s:sh"
+:%/cal/calendar/gc
+|2,0,1511312054,,"%/cal/calendar/gc"
+:echo $shell
+|2,0,1511000641,,"echo $shell"
+:echo $SHELL
+|2,0,1511000632,,"echo $SHELL"
 
 # Search String History (newest to oldest):
+?/vue
+|2,1,1512025690,47,"vue"
+?/unistd.h
+|2,1,1512012384,47,"unistd.h"
+?/plug
+|2,1,1511956905,47,"plug"
+?/e887
+|2,1,1511848268,47,"e887"
+?/python
+|2,1,1511846117,47,"python"
+? \r
+|2,1,1511580496,,"\\r"
+?/return
+|2,1,1511317079,47,"return"
+? getReq
+|2,1,1511343985,,"getReq"
+? client
+|2,1,1511343893,,"client"
+? sh
+|2,1,1511312071,,"sh"
+? time
+|2,1,1511224987,,"time"
+?/@REquestMapping
+|2,1,1511149956,47,"@REquestMapping"
+?/vim
+|2,1,1510899800,47,"vim"
+?/###
+|2,1,1510736137,47,"###"
+?/spring
+|2,1,1510818930,47,"spring"
+?/springboot
+|2,1,1510818192,47,"springboot"
+? dt
+|2,1,1510793685,,"dt"
 ?/font
 |2,1,1510225910,47,"font"
 ?/16
@@ -188,40 +222,6 @@ $tb_info
 |2,1,1509367538,47,"topic"
 ?/queueReceiver
 |2,1,1509367515,47,"queueReceiver"
-?/CourseQueueReceiver
-|2,1,1509364124,47,"CourseQueueReceiver"
-?/addCourse
-|2,1,1509346591,47,"addCourse"
-?/session
-|2,1,1509283027,47,"session"
-?/target
-|2,1,1509192036,47,"target"
-?/build
-|2,1,1509192000,47,"build"
-?/courses
-|2,1,1509109739,47,"courses"
-?/@WebService
-|2,1,1509108163,47,"@WebService"
-?/xs:complexType name="getCourse"
-|2,1,1509103456,47,"xs:complexType name=\"getCourse\""
-?/getCourse
-|2,1,1509103070,47,"getCourse"
-?/xs:complex
-|2,1,1509102489,47,"xs:complex"
-?/xs:complexType
-|2,1,1509102474,47,"xs:complexType"
-?/K
-|2,1,1509102688,47,"K"
-?/jackson-databind
-|2,1,1509088691,47,"jackson-databind"
-?/hibernate-validator
-|2,1,1509088671,47,"hibernate-validator"
-?/commons-codec
-|2,1,1509088642,47,"commons-codec"
-?/junit
-|2,1,1509088588,47,"junit"
-?/spring-test
-|2,1,1509088580,47,"spring-test"
 
 # Expression History (newest to oldest):
 =<div></div>
@@ -231,75 +231,105 @@ $tb_info
 
 # Input Line History (newest to oldest):
 @y
-|2,3,1496373841,,"y"
+|2,3,1511859208,,"y"
+@n
+|2,3,1511857489,,"n"
 
 # Debug Line History (newest to oldest):
 
 # 寄存器:
-"0	LINE	0
-	    
-|3,0,0,1,1,0,1510125516,"    "
-""1	LINE	0
+"1	LINE	0
+	::
+|3,0,1,1,1,0,1512106866,"::"
+"2	LINE	0
+	ECHO OFF
+	ECHO Hello World
+|3,0,2,1,2,0,1512106475,"ECHO OFF","ECHO Hello World"
+"3	LINE	0
+	Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+	Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe 
+	Build flags: 
+	Id flags:  
 	
-|3,1,1,1,1,0,1510225920,""
-"2	CHAR	0
-	" 设置 gvim 显示字体
-	"set guifont=Inconsolata,Courier\ new,YaHei,Consolas,Hybrid:10
-	set guifont=Courier_new:h10,Consolas:h11
-	
-|3,0,2,0,4,0,1510225917,"\" 设置 gvim 显示字体","\"set guifont=Inconsolata,Courier\\ new,YaHei,Consolas,Hybrid:10","set guifont=Courier_new:h10,Consolas:h11",""
-"3	CHAR	0
+	The output was:
+	1
 	
 	
-	" 高亮显示搜索结果
-	set hlsearch
+	Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+	Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe 
+	Build flags: 
+	Id flags: -c 
 	
-	" 其他美化
+	The output was:
+	1
 	
-	"
-|3,0,3,0,8,0,1510225865,"","","\" 高亮显示搜索结果","set hlsearch","","\" 其他美化","","\""
+	
+	Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+	Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe 
+	Build flags: 
+	Id flags: -Aa 
+	
+	The output was:
+	1
+	
+	
+	Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+	Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe 
+	Build flags: 
+	Id flags: -D__CLASSIC_C__ 
+	
+	The output was:
+	1
+	
+	
+	Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+	Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe 
+	Build flags: 
+	Id flags:  
+	
+	The output was:
+	1
+	
+	
+	Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+	Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe 
+	Build flags: 
+	Id flags: -c 
+	
+|3,0,3,1,50,0,1512021764,"Compiling the C compiler identification source file \"CMakeCCompilerId.c\" failed.","Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe ","Build flags: ","Id flags:  ","","The output was:","1","","","Compiling the C compiler identification source file \"CMakeCCompilerId.c\" failed.","Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe ","Build flags: ","Id flags: -c ","","The output was:","1","","",>84
+|<"Compiling the C compiler identification source file \"CMakeCCompilerId.c\" failed.","Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe ","Build flags: ","Id flags: -Aa ","","The output was:","1","","","Compiling the C compiler identification source file \"CMakeCCompilerId.c\" failed.","Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe ","Build flags: ","Id flags: -D__CLASSIC_C__ ","","The output was:","1","","","Compiling the C compiler identification source file \"CMakeCCompilerId.c\" failed.",>46
+|<"Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe ","Build flags: ","Id flags:  ","","The output was:","1","","","Compiling the C compiler identification source file \"CMakeCCompilerId.c\" failed.","Compiler: D:/git-sdk-64/mingw64/bin/gcc.exe ","Build flags: ","Id flags: -c ",""
 "4	LINE	0
-	    public static void main ()
-|3,0,4,1,1,0,1510217090,"    public static void main ()"
+	
+|3,0,4,1,1,0,1511957025,""
 "5	LINE	0
-	    public static void main ()
-|3,0,5,1,1,0,1510215949,"    public static void main ()"
+	
+|3,0,5,1,1,0,1511957025,""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1510215938,""
+|3,0,6,1,1,0,1511956748,""
 "7	LINE	0
-	            this.
-|3,0,7,1,1,0,1510215881,"            this."
-"8	LINE	0
-	<?xml version="1.0" encoding="UTF-8"?>
-	<Diagram>
-	  <ID>JAVA</ID>
-	  <OriginalElement />
-	  <nodes />
-	  <notes />
-	  <edges />
-	  <settings layout="Hierarchic Group" zoom="1.0" x="533.0" y="289.0" />
-	  <SelectedNodes />
-	  <Categories />
-	  <SCOPE>All</SCOPE>
-	  <VISIBILITY>public</VISIBILITY>
-	</Diagram>
 	
-|3,0,8,1,14,0,1510196398,"<?xml version=\"1.0\" encoding=\"UTF-8\"?>","<Diagram>","  <ID>JAVA</ID>","  <OriginalElement />","  <nodes />","  <notes />","  <edges />","  <settings layout=\"Hierarchic Group\" zoom=\"1.0\" x=\"533.0\" y=\"289.0\" />","  <SelectedNodes />","  <Categories />","  <SCOPE>All</SCOPE>","  <VISIBILITY>public</VISIBILITY>","</Diagram>",""
+	pcublicc cla
+|3,0,7,1,2,0,1511956715,"","pcublicc cla"
+"8	LINE	0
+	publicc cla
+|3,0,8,1,1,0,1511956387,"publicc cla"
 "9	LINE	0
-	<?xml version="1.0" encoding="UTF-8"?>
-	2
-	<Diagram>
-|3,0,9,1,3,0,1510192968,"<?xml version=\"1.0\" encoding=\"UTF-8\"?>","2","<Diagram>"
+	     * 
+|3,0,9,1,1,0,1511917435,"     * "
 "a	CHAR	0
 	odi�kb�kb<div></div>2a2@aSd�kb<><>i/div:w2F<adiv:w71GS<div></div>:w��b��aki class = main:wj2F>
-|3,0,10,0,1,0,1501496725,"odi�kb�kb<div></div>2a2@aSd�kb<><>i/div:w2F<adiv:w71GS<div></div>:w��b��aki class = main:wj2F>"
+|3,0,10,0,1,0,1511599291,"odi�kb�kb<div></div>2a2@aSd�kb<><>i/div:w2F<adiv:w71GS<div></div>:w��b��aki class = main:wj2F>"
 "b	CHAR	0
 	b
 |3,0,11,0,1,0,1510040184,"b"
 "c	CHAR	0
 	w
 |3,0,12,0,1,0,1509972094,"w"
+"d	CHAR	0
+	true;
+|3,0,13,0,1,0,1511571788,"true;"
 "k	CHAR	0
 	kkkjkjkj@@@k��Xkjkj
 |3,0,20,0,1,0,1509971833,"kkkjkjkj@@@k��Xkjkj"
@@ -311,249 +341,379 @@ $tb_info
 <putpltbTnfafatafaFatafa��b��a:hle�kb�kbelp usr_02.txxt�kb�kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:��2��4��b��a:q
 |3,0,29,0,1,0,1500516520,"putpltbTnfafatafaFatafa��b��a:hle�kb�kbelp usr_02.txxt�kb�kbtjjjj0jjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkk0vt:f:��2��4��b��a:q"
 "-	CHAR	0
-	127.0.0.1
-|3,0,36,0,1,0,1510208345,"127.0.0.1"
+	 
+|3,0,36,0,1,0,1512107770," "
 
 # 文件标记:
-'0  1  0  ~\_gvimrc
-|4,48,1,0,1510226209,"~\\_gvimrc"
-'1  1  0  ~\_gvimrc
-|4,49,1,0,1510226206,"~\\_gvimrc"
-'2  1  0  ~\_vimrc
-|4,50,1,0,1510225923,"~\\_vimrc"
-'3  66  9  ~\_vimrc
-|4,51,66,9,1510225901,"~\\_vimrc"
-'4  66  9  ~\_vimrc
-|4,52,66,9,1510225901,"~\\_vimrc"
-'5  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,53,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
-'6  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,54,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
-'7  26  33  D:\Users\79001\IdeaProjects\petSitterGradle\exam\src\main\java\snippets\thread\ThreadApp.java
-|4,55,26,33,1510217040,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\exam\\src\\main\\java\\snippets\\thread\\ThreadApp.java"
-'8  1  0  D:\Program Files\Redis\.git\config
-|4,56,1,0,1510210262,"D:\\Program Files\\Redis\\.git\\config"
-'9  1048  0  D:\Program Files\Redis\redis.windows.conf
-|4,57,1048,0,1510209351,"D:\\Program Files\\Redis\\redis.windows.conf"
+'0  1  0  ~\阅读记录.md
+|4,48,1,0,1512108275,"~\\阅读记录.md"
+'1  1  0  ~\阅读记录.md
+|4,49,1,0,1512108077,"~\\阅读记录.md"
+'2  1  0  ~\阅读记录.md
+|4,50,1,0,1512108044,"~\\阅读记录.md"
+'3  1  0  ~\阅读记录.md
+|4,51,1,0,1512108016,"~\\阅读记录.md"
+'4  1  0  ~\阅读记录.md
+|4,52,1,0,1512108016,"~\\阅读记录.md"
+'5  2  74  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,53,2,74,1512108009,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+'6  1  0  ~\阅读记录.md
+|4,54,1,0,1512107894,"~\\阅读记录.md"
+'7  1  0  ~\阅读记录.md
+|4,55,1,0,1512107894,"~\\阅读记录.md"
+'8  1  0  ~\阅读记录.md
+|4,56,1,0,1512107894,"~\\阅读记录.md"
+'9  1  0  ~\阅读记录.md
+|4,57,1,0,1512107894,"~\\阅读记录.md"
 
 # 跳转列表 (从新到旧):
--'  1  0  ~\_gvimrc
-|4,39,1,0,1510226209,"~\\_gvimrc"
--'  1  0  ~\_gvimrc
-|4,39,1,0,1510226207,"~\\_gvimrc"
--'  20  0  ~\_gvimrc
-|4,39,20,0,1510225961,"~\\_gvimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1510225923,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1510225923,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1510225923,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1510225923,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1510225923,"~\\_vimrc"
--'  73  0  ~\_vimrc
-|4,39,73,0,1510225921,"~\\_vimrc"
--'  73  0  ~\_vimrc
-|4,39,73,0,1510225921,"~\\_vimrc"
--'  73  0  ~\_vimrc
-|4,39,73,0,1510225921,"~\\_vimrc"
--'  73  0  ~\_vimrc
-|4,39,73,0,1510225921,"~\\_vimrc"
--'  73  0  ~\_vimrc
-|4,39,73,0,1510225921,"~\\_vimrc"
--'  66  9  ~\_vimrc
-|4,39,66,9,1510225901,"~\\_vimrc"
--'  66  9  ~\_vimrc
-|4,39,66,9,1510225901,"~\\_vimrc"
--'  66  9  ~\_vimrc
-|4,39,66,9,1510225901,"~\\_vimrc"
--'  66  9  ~\_vimrc
-|4,39,66,9,1510225901,"~\\_vimrc"
--'  66  9  ~\_vimrc
-|4,39,66,9,1510225901,"~\\_vimrc"
--'  66  9  ~\_vimrc
-|4,39,66,9,1510225901,"~\\_vimrc"
--'  66  9  ~\_vimrc
-|4,39,66,9,1510225901,"~\\_vimrc"
--'  66  9  ~\_vimrc
-|4,39,66,9,1510225901,"~\\_vimrc"
--'  66  9  ~\_vimrc
-|4,39,66,9,1510225901,"~\\_vimrc"
--'  66  9  ~\_vimrc
-|4,39,66,9,1510225901,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1510225535,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1510225535,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1510225535,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1510225535,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1510225535,"~\\_vimrc"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  9  28  D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-|4,39,9,28,1510218031,"D:\\Users\\79001\\IdeaProjects\\petSitterGradle\\RedisExample\\src\\test\\java\\snippets\\redis\\LinkTest.java"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
--'  170  10  D:\Program Files\Redis\redis.windows.conf
-|4,39,170,10,1510217311,"D:\\Program Files\\Redis\\redis.windows.conf"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512108275,"~\\阅读记录.md"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512108077,"~\\阅读记录.md"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512108044,"~\\阅读记录.md"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512108016,"~\\阅读记录.md"
+-'  2  74  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,74,1512108009,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  74  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,74,1512108009,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  74  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,74,1512108009,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  74  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,74,1512108009,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  74  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,74,1512108009,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  74  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,74,1512108009,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  74  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,74,1512108009,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  74  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,74,1512108009,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107998,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107998,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107998,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107998,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107998,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107998,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107998,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107998,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512107894,"~\\阅读记录.md"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512107894,"~\\阅读记录.md"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512107781,"~\\阅读记录.md"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512107781,"~\\阅读记录.md"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  11  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,11,1512107773,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,1,0,1512107740,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512107720,"~\\阅读记录.md"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512107720,"~\\阅读记录.md"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512107720,"~\\阅读记录.md"
+-'  1  0  ~\阅读记录.md
+|4,39,1,0,1512107720,"~\\阅读记录.md"
+-'  2  40  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,40,1512107711,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  40  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,40,1512107711,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  40  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,40,1512107711,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  40  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,40,1512107711,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  40  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,40,1512107711,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  40  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,40,1512107711,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  40  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,40,1512107711,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
+-'  2  40  ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+|4,39,2,40,1512107711,"~\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\launch.bat"
 
 # 文件内的标记历史记录 (从新到旧):
 
-> ~\_gvimrc
-	*	1510226207	0
+> ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\launch.bat
+	*	1512108008	0
+	"	2	74
+	^	2	75
+	.	2	74
+	+	2	74
+
+> ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\lanch.bat
+	*	1512107360	0
 	"	1	0
-	^	17	10
-	.	17	0
+
+> E:\hello_world.bat
+	*	1512106931	0
+	"	7	53
+	^	7	54
+	.	7	53
+	+	10	4
+	+	8	17
+	+	9	0
+	+	1	57
+	+	2	7
+	+	3	33
+	+	5	34
+	+	7	53
+
+> E:\hello_world.ba
+	*	1512106297	0
+	"	1	0
+
+> ~\阅读记录.md
+	*	1512105779	0
+	"	1	0
+	^	19	49
+	.	19	2
+	+	4	2
+	+	22	31
+	+	25	9
+	+	24	0
+	+	25	15
+	+	24	8
+	+	5	2
+	+	6	70
+	+	7	2
+	+	35	22
+	+	37	0
+	+	44	0
+	+	41	37
+	+	42	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	41	0
+	+	30	9
+	+	35	4
+	+	8	2
+	+	21	0
+	+	9	44
+	+	37	0
+	+	37	75
+	+	36	6
+	+	35	0
+	+	31	16
+	+	32	6
+	+	10	0
+	+	11	2
+	+	39	3
+	+	38	5
+	+	39	4
+	+	32	15
+	+	37	0
+	+	33	0
+	+	12	72
+	+	34	0
+	+	35	0
+	+	34	6
+	+	37	5
+	+	45	0
+	+	40	7
+	+	41	5
+	+	13	2
+	+	2	0
+	+	14	2
+	+	2	0
+	+	48	1
+	+	21	0
+	+	49	4
+	+	51	6
+	+	15	2
+	+	16	2
+	+	17	2
+	+	18	6
+	+	20	0
+	+	18	4
+	+	28	6
+	+	29	4
+	+	19	2
+
+> ~\.vim\build\CMakeFiles\CMakeError.log
+	*	1512021764	0
+	"	1	0
+	.	1	0
 	+	1	0
-	+	13	0
-	+	15	15
-	+	17	0
+
+> ~\.vim\build\CMakeFiles\CMakeOutput.log
+	*	1512021617	0
+	"	1	0
+
+> D:\git-sdk-64\usr\include\python2.7\Python.h
+	*	1512013107	0
+	"	43	12
+
+> D:\git-sdk-64\usr\include\python2.7\unistd.h
+	*	1512013045	0
+	"	6	21
+	.	1	0
+	+	1	0
+
+> ~\阅读记录.mc
+	*	1512002051	0
+	"	1	0
+
+> E:\阅读记录.md
+	*	1512002051	0
+	"	1	0
+
+> E:\阅读记录.mc
+	*	1512002011	0
+	"	1	0
+
+> D:\Users\79001\IdeaProjects\mooc\mooccommon\src\main\java\snippets\cipher\ThyCiphers.java
+	*	1511957046	0
+	"	4	0
+	^	4	36
+	.	4	35
+	+	6	0
+	+	5	0
+	+	4	35
 
 > ~\_vimrc
-	*	1510225921	0
-	"	1	0
-	.	73	0
+	*	1511956917	0
+	"	33	9
+	^	39	30
+	.	39	29
 	+	1	0
 	+	33	24
 	+	8	2
@@ -572,15 +732,15 @@ $tb_info
 	+	1	0
 	+	8	0
 	+	20	0
-	+	50	0
-	+	56	0
-	+	65	11
-	+	66	10
-	+	79	0
+	+	54	0
+	+	60	0
+	+	69	11
+	+	70	10
+	+	83	0
 	+	8	0
-	+	37	0
-	+	86	0
-	+	111	0
+	+	41	0
+	+	90	0
+	+	115	0
 	+	33	0
 	+	1	0
 	+	24	30
@@ -591,236 +751,255 @@ $tb_info
 	+	33	0
 	+	28	6
 	+	26	6
-	+	36	0
+	+	40	0
 	+	26	6
-	+	36	1
-	+	36	0
-	+	36	18
-	+	36	23
-	+	36	4
-	+	36	0
-	+	30	0
-	+	105	0
-	+	101	7
-	+	29	6
-	+	101	7
-	+	103	0
-	+	104	31
-	+	103	0
-	+	104	0
-	+	103	32
-	+	104	0
-	+	211	56
-	+	103	15
-	+	103	0
-	+	211	42
-	+	103	0
-	+	37	0
-	+	66	10
-	+	211	2
-	+	213	2
-	+	66	10
-	+	66	0
-	+	73	0
-
-> D:\Users\79001\IdeaProjects\petSitterGradle\RedisExample\src\test\java\snippets\redis\LinkTest.java
-	*	1510217170	0
-	"	9	28
-	^	9	44
-	.	9	43
-	+	5	31
-	+	10	0
-	+	5	40
-	+	6	51
-	+	7	28
-	+	8	45
-	+	9	43
-
-> D:\Users\79001\IdeaProjects\petSitterGradle\exam\src\main\java\snippets\thread\ThreadApp.java
-	*	1510215968	0
-	"	26	33
-	^	26	33
-	.	26	32
-	+	7	48
-	+	23	0
-	+	15	0
-	+	12	42
-	+	15	0
-	+	13	30
-	+	22	0
-	+	21	0
-	+	19	44
-	+	20	24
-	+	23	5
-	+	25	31
-	+	27	0
-	+	25	40
-	+	26	32
-
-> D:\Program Files\Redis\redis.windows.conf
-	*	1510214550	0
-	"	170	10
-	^	56	17
-	.	56	16
-	+	56	16
-
-> D:\Program Files\Redis\.git\config
-	*	1510210232	0
-	"	1	0
-
-> D:\Program Files\Redis\.gitignore
-	*	1510207912	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-
-> E:\StringEqualTest.java
-	*	1510206458	0
-	"	1	0
-	^	19	0
-	.	19	0
-	+	1	3
-	+	3	41
-	+	19	0
-
-> D:\Users\79001\IdeaProjects\petSitterGradle\exam\algorithm.uml
-	*	1510197322	0
-	"	107	10
-	.	1	0
-	+	118	0
-	+	1	0
-
-> D:\Users\79001\IdeaProjects\petSitterGradle\exam\video.uml
-	*	1510196591	0
-	"	50	0
-
-> ~\.IntelliJIdea2017.2\system\log\idea.log
-	*	1510194984	0
-	"	36	0
-
-> ~\阅读记录.md
-	*	1510189493	0
-	"	5	64
-	^	5	64
-	.	5	2
-	+	4	2
-	+	7	31
-	+	10	9
-	+	9	0
-	+	10	15
-	+	9	8
-	+	5	2
-
-> D:\Users\79001\git\blog\source\_posts\面试题.md
-	*	1510143239	0
-	"	18	53
-	^	18	53
-	.	18	52
-	+	52	0
-	+	51	0
-	+	42	48
-	+	33	0
-	+	6	0
-	+	17	0
-	+	20	25
-	+	21	0
-	+	20	24
+	+	40	1
+	+	40	0
+	+	40	18
 	+	40	23
-	+	41	22
-	+	42	23
-	+	43	22
-	+	49	11
-	+	45	15
-	+	47	31
-	+	48	36
-	+	45	26
-	+	46	25
-	+	20	1
-	+	19	31
-	+	48	35
-	+	19	57
-	+	50	33
-	+	86	6
-	+	54	18
-	+	85	4
-	+	75	0
-	+	84	0
-	+	78	45
+	+	40	4
+	+	40	0
+	+	30	0
+	+	109	0
+	+	105	7
+	+	29	6
+	+	105	7
+	+	107	0
+	+	108	31
+	+	107	0
+	+	108	0
+	+	107	32
+	+	108	0
+	+	215	56
+	+	107	15
+	+	107	0
+	+	215	42
+	+	107	0
+	+	41	0
+	+	70	10
+	+	215	2
+	+	217	2
+	+	70	10
+	+	70	0
 	+	77	0
-	+	76	77
-	+	79	49
-	+	80	53
-	+	81	30
-	+	74	0
-	+	73	12
-	+	82	34
-	+	82	41
-	+	83	33
-	+	83	0
-	+	86	4
-	+	87	19
-	+	112	6
-	+	112	0
-	+	99	0
-	+	91	54
-	+	96	8
-	+	95	11
-	+	107	0
-	+	100	45
-	+	101	8
-	+	107	0
-	+	101	48
-	+	98	80
-	+	102	51
-	+	101	32
-	+	102	25
-	+	104	36
-	+	106	45
-	+	107	24
-	+	109	12
-	+	107	31
-	+	108	35
-	+	111	0
-	+	101	0
-	+	111	0
-	+	119	6
-	+	118	4
-	+	114	40
-	+	114	0
-	+	115	86
-	+	116	33
-	+	110	12
-	+	101	0
-	+	111	0
-	+	112	0
+	+	37	12
+	+	1	0
+	+	37	19
+	+	36	16
+	+	38	0
+	+	39	29
+
+> D:\Users\79001\IdeaProjects\mooc\mooccommon\src\main\java\snippets\cipher\ThyCipher.java
+	*	1511956786	0
+	"	7	42
+	^	7	42
+	.	7	41
 	+	2	0
-	+	67	20
-	+	66	0
-	+	71	0
-	+	69	39
-	+	70	28
-	+	66	0
-	+	57	0
-	+	66	0
-	+	45	26
-	+	66	0
-	+	60	27
-	+	59	29
-	+	66	0
-	+	65	12
-	+	65	0
-	+	63	28
-	+	62	46
-	+	63	34
-	+	64	30
-	+	18	52
+	+	8	0
+	+	5	41
+	+	7	41
+
+> D:\Users\79001\IdeaProjects\mooc\mooccommon\src\main\java\snippets\cipher\CipherAlgorithmNotSupportedException.java
+	*	1511956417	0
+	"	4	0
+	^	4	0
+	.	4	0
+	+	3	76
+	+	5	0
+	+	4	0
+
+> D:\Users\79001\IdeaProjects\mooc\mooccommon\pom.xml
+	*	1511954460	0
+	"	19	32
+	^	19	33
+	.	19	32
+	+	2	109
+	+	2	0
+	+	4	0
+	+	4	125
+	+	4	108
+	+	4	136
+	+	4	108
+	+	4	133
+	+	4	137
+	+	4	145
+	+	4	108
+	+	4	186
+	+	4	133
+	+	4	0
+	+	20	17
+	+	6	0
+	+	7	0
+	+	19	32
+
+> E:\obb\src\Fulfill.java
+	*	1511917460	0
+	"	32	14
+	^	32	15
+	.	32	15
+	+	1	29
+	+	4	13
+	+	8	0
+	+	6	36
+	+	23	0
+	+	16	38
+	+	52	0
+	+	29	28
+	+	28	6
+	+	27	31
+	+	36	40
+	+	27	31
+	+	29	0
+	+	30	0
+	+	29	4
+	+	39	0
+	+	38	35
+	+	35	6
+	+	34	16
+	+	40	40
+	+	43	54
+	+	47	0
+	+	46	20
+	+	52	1
+	+	51	0
+	+	50	37
+	+	6	0
+	+	5	24
+	+	10	0
+	+	9	36
+	+	23	0
+	+	7	0
+	+	15	3
+	+	14	35
+	+	13	21
+	+	14	16
+	+	13	21
+	+	21	6
+	+	19	30
+	+	22	24
+	+	20	78
+	+	9	38
+	+	34	0
+	+	33	7
+	+	33	0
+	+	32	7
+	+	33	0
+	+	32	15
+
+> E:\obb\Fulfill.java
+	*	1511917384	0
+	"	27	0
+
+> D:\Users\79001\IdeaProjects\mooc\mooccourse\pom.xml
+	*	1511876909	0
+	"	21	38
+	^	21	38
+	.	21	37
+	+	15	17
+	+	24	0
+	+	17	32
+	+	24	0
+	+	23	0
+	+	18	20
+	+	22	0
+	+	19	37
+	+	20	34
+	+	21	37
+
+> D:\360Downloads\mooc1706\mooc1706common\pom.xml
+	*	1511876497	0
+	"	19	0
+
+> D:\360Downloads\mooc1706\mooc1706\pom.xml
+	*	1511872898	0
+	"	93	0
+
+> D:\Users\79001\IdeaProjects\mooc\mooc\pom.xml
+	*	1511868318	0
+	"	27	9
+	^	27	10
+	.	27	10
+	+	11	0
+	+	10	15
+	+	27	10
+
+> C:\WINDOWS\system32\401836ea
+	*	1511857517	0
+	"	12	21
+	.	1	0
+	+	1	0
+
+> D:\Python27\阅读记录.md
+	*	1511854987	0
+	"	1	0
+
+> C:\WINDOWS\system32\~\阅读记录.md
+	*	1511854955	0
+	"	1	0
+
+> D:\programming\gvim_8.0.0003_x64\vim\vim80\doc\if_pyth.txt
+	*	1511848434	0
+	"	49	14
+
+> E:\a.txt
+	*	1511846127	0
+	"	1	803
+
+> D:\programming\gvim_8.0.0003_x64\vim\vim80\doc\various.txt
+	*	1511845984	0
+	"	459	7
+
+> D:\360Downloads\house\src\main\java\com\qfedu\house\cipher\ThyCiphers.java
+	*	1511752938	0
+	"	26	0
+
+> D:\360Downloads\house\src\main\java\com\qfedu\house\cipher\ThyCipher.java
+	*	1511752924	0
+	"	1	0
+
+> D:\360Downloads\house\src\main\java\com\qfedu\house\cipher\CipherAlgorithmNotSupportedException.java
+	*	1511752920	0
+	"	1	0
+
+> D:\360Downloads\house\House_create_and_init.sql
+	*	1511752894	0
+	"	101	0
+
+> D:\360Downloads\house\pom.xml
+	*	1511752853	0
+	"	1	0
+
+> D:\Program Files\Git\mingw64\etc\gitconfig
+	*	1511746958	0
+	"	12	1
+	.	13	0
+	+	13	4
+	+	13	0
+
+> ~\.vim\plugged\YouCompleteMe\e.java
+	*	1511664255	0
+	"	3	29
+	^	3	29
+	.	3	28
+	+	6	0
+	+	5	0
+	+	2	37
+	+	4	16
+	+	3	28
+
+> C:\ProgramData\chocolatey\logs\chocolatey.log
+	*	1511661061	0
+	"	595	0
+
+> C:\WINDOWS\system32\(C:\ProgramData\chocolatey\logs\chocolatey.log
+	*	1511661044	0
+	"	1	0
 
 > D:\Users\79001\git\blog\source\_posts\vim-personalization.md
-	*	1510141984	0
-	"	31	2
-	^	30	4
-	.	31	1
+	*	1511607834	0
+	"	61	0
+	^	70	0
+	.	73	32
 	+	25	9
 	+	15	10
 	+	14	17
@@ -841,1041 +1020,894 @@ $tb_info
 	+	29	116
 	+	30	36
 	+	31	1
-
-> E:\ThreadTest.java
-	*	1510139074	0
-	"	19	9
-	^	19	9
-	.	19	0
-	+	1	0
-	+	1	41
-	+	1	35
-	+	1	0
-	+	1	45
-	+	1	20
-	+	1	27
-	+	1	28
-	+	1	35
-	+	1	0
-	+	1	32
-	+	1	26
-	+	1	28
-	+	1	0
-	+	1	18
+	+	49	6
+	+	48	32
+	+	50	219
+	+	50	0
+	+	51	2
+	+	52	127
+	+	55	2
+	+	54	13
+	+	56	199
+	+	59	2
+	+	58	43
+	+	60	3
+	+	48	4
+	+	60	4
 	+	32	0
-	+	31	0
-	+	20	0
-	+	3	54
-	+	30	0
-	+	22	41
-	+	23	36
-	+	24	44
-	+	25	44
-	+	26	20
-	+	29	0
-	+	27	20
-	+	28	31
-	+	13	0
-	+	7	52
-	+	10	0
-	+	8	31
-	+	10	0
-	+	8	36
-	+	9	39
-	+	12	0
-	+	11	41
-	+	16	0
-	+	14	31
-	+	15	35
-	+	19	0
-	+	17	31
-	+	18	38
-	+	19	0
+	+	60	4
+	+	64	2
+	+	63	12
+	+	61	41
+	+	65	25
+	+	75	3
+	+	74	33
+	+	76	0
+	+	72	2
+	+	69	2
+	+	68	20
+	+	70	110
+	+	73	32
 
-> D:\Users\79001\git\blog\.gitignore
-	*	1510138002	0
-	"	8	0
-	.	9	0
-	+	9	0
-
-> D:\Users\79001\git\blog\source\_posts\线程.md
-	*	1510121312	0
-	"	1	0
-
-> D:\Users\79001\IdeaProjects\petSitterGradle\container\src\main\java\snippets\jee\repositories\stub\StubAbstractRepo.java
-	*	1510106620	0
-	"	34	35
-	^	34	35
-	.	34	34
-	+	18	0
-	+	15	33
-	+	16	48
-	+	17	26
-	+	19	41
-	+	24	36
-	+	29	30
-	+	34	34
-
-> C:\WINDOWS\system32\阅读记录.md
-	*	1510101429	0
-	"	1	0
-
-> D:\Users\79001\git\blog\source\_posts\阅读记录.md
-	*	1510047914	0
-	"	1	0
-
-> D:\Users\79001\git\blog\source\_posts\oracle查询.md
-	*	1510047903	0
-	"	172	20
-	^	157	4
-	.	176	0
-	+	100	33
-	+	101	59
-	+	102	12
-	+	104	0
-	+	97	17
-	+	109	24
-	+	98	5
-	+	103	2
-	+	105	5
-	+	110	2
-	+	114	34
-	+	112	5
-	+	115	2
-	+	116	28
-	+	118	42
-	+	116	27
-	+	118	0
-	+	116	28
-	+	117	0
-	+	119	0
-	+	118	58
-	+	121	86
-	+	126	2
-	+	124	52
-	+	123	16
-	+	125	36
-	+	124	34
-	+	123	29
-	+	127	3
-	+	127	4
-	+	128	0
-	+	127	81
-	+	129	33
-	+	130	4
-	+	133	34
-	+	135	34
-	+	130	33
-	+	136	32
-	+	142	2
-	+	141	24
-	+	137	19
-	+	139	0
-	+	137	24
-	+	141	30
-	+	138	22
-	+	140	27
-	+	141	14
-	+	142	0
-	+	141	13
-	+	143	5
-	+	152	6
-	+	151	15
-	+	143	47
-	+	151	18
-	+	146	0
-	+	145	22
-	+	147	22
-	+	151	63
-	+	148	31
-	+	152	4
-	+	163	3
-	+	161	41
-	+	160	31
-	+	161	58
-	+	163	0
-	+	160	7
-	+	158	53
-	+	159	9
-	+	158	33
-	+	157	29
-	+	160	19
-	+	161	0
-	+	160	18
-	+	159	12
-	+	160	30
-	+	161	67
-	+	162	22
-	+	156	10
-	+	157	0
-	+	176	6
-	+	166	3
-	+	165	4
-	+	164	14
-	+	167	36
-	+	168	46
-	+	169	40
-	+	170	33
-	+	171	54
-	+	172	85
-	+	176	15
-	+	172	83
-	+	173	20
-	+	174	31
-	+	175	33
-	+	173	16
-	+	176	16
-	+	157	0
-	+	176	0
-
-> D:\Program Files (x86)\NetSarang\solarized_light.xcs
-	*	1510045153	0
-	"	23	20
-	.	1	0
-	+	1	0
-
-> D:\Program Files (x86)\NetSarang\isayme.xcs
-	*	1510044461	0
-	"	23	11
-	.	1	0
-	+	1	0
-
-> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\tnsnames.ora
-	*	1510042196	0
-	"	1	0
-	^	21	53
-	.	21	0
-	+	21	0
+> C:\WINDOWS\system32\Highlight test
+	*	1511607828	0
+	"	9	14
+	^	215	27
+	.	47	0
 	+	22	0
-	+	21	0
+	+	27	0
+	+	36	0
+	+	47	0
 
-> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\sqlnet.ora
-	*	1510040881	0
+> ~\.vimrc
+	*	1511599903	0
 	"	1	0
 
-> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\listener.ora
-	*	1510039857	0
-	"	30	7
-	.	21	0
-	+	21	0
+> D:\Python27\Lib\distutils\distutils.cfg
+	*	1511586623	0
+	"	2	15
+	^	2	16
+	.	2	15
+	+	1	5
+	+	2	15
 
-> D:\79001\Documents\ali.pem
-	*	1510030921	0
-	"	23	0
-
-> ~\.viminfo
-	*	1510018020	0
-	"	110	0
-
-> ~\str.java
-	*	1510016481	0
-	"	1	12
-	^	1	13
-	.	1	12
-	+	1	12
-
-> E:\oracle.txt
-	*	1509976157	0
-	"	1	0
-
-> E:\uDisk\CC\lansee\lansee175\.git\FETCH_HEAD
-	*	1509972497	0
-	"	1	98
-
-> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\FETCH_HEAD
-	*	1509972194	0
-	"	1	100
-	^	1	101
-	.	1	100
-	+	1	97
-	+	2	0
+> D:\Users\79001\git\learningvuejs\HelloWorld.html
+	*	1511581301	0
+	"	14	20
+	^	7	27
+	.	7	26
+	+	15	17
+	+	19	0
+	+	16	19
+	+	18	33
 	+	1	0
 	+	2	0
-	+	1	40
-	+	2	0
-	+	1	97
-	+	2	0
-	+	1	100
-
-> E:\uDisk\CC\lansee\lansee175\.git\config
-	*	1509970376	0
-	"	13	25
-
-> D:\app\79001\product\11.2.0\dbhome_1\NETWORK\ADMIN\.git\config
-	*	1509970329	0
-	"	9	44
-	^	9	44
-	.	9	43
-	+	8	14
-	+	8	44
-	+	8	41
-	+	8	14
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
 	+	8	0
-	+	7	1
-	+	8	17
-	+	13	0
-	+	2	0
-	+	9	43
+	+	9	0
+	+	10	0
+	+	11	0
+	+	15	0
+	+	16	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	12	20
+	+	14	0
+	+	13	44
+	+	17	21
+	+	18	10
+	+	7	26
 
-> D:\360Downloads\ssm1706\.git\config
-	*	1509969551	0
+> D:\Users\79001\git\learningvuejs\.gitignore
+	*	1511580322	0
+	"	60	0
+
+> E:\obb\src\Assert.java
+	*	1511572536	0
+	"	5	41
+	^	5	41
+	.	5	40
+	+	9	0
+	+	8	0
+	+	3	40
+	+	6	18
+	+	4	18
+	+	6	9
+	+	7	31
+	+	6	17
+	+	4	16
+	+	6	8
+	+	6	9
+	+	6	18
+	+	5	8
+	+	6	8
+	+	5	39
+	+	6	0
+	+	5	40
+
+> D:\79001\pdf\.git\config
+	*	1511571809	0
 	"	1	0
 
-> ~\AppData\Local\Temp\OraInstall2017-11-06_04-10-58PM\installActions2017-11-06_04-10-58PM.log
-	*	1509956971	0
-	"	22	0
-
-> ~\Desktop\GitHubLog.txt
-	*	1509955337	0
+> E:\obb\FlappyBird\README.md
+	*	1511414177	0
 	"	1	0
 
-> ~\Desktop\replay_pid13164.log
-	*	1509954073	0
-	"	1	0
+> D:\360Downloads\serviceaccessor\src\main\java\com\qfedu\App3.java
+	*	1511406148	0
+	"	7	0
 
-> D:\360Downloads\database\welcome.html
-	*	1509952875	0
+> C:\Program Files\Java\jdk1.8.0_101\THIRDPARTYLICENSEREADME.txt
+	*	1511356103	0
+	"	212	0
+
+> E:\obb\Test.java
+	*	1511353588	0
+	"	11	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> E:\obb\src\Join.java
+	*	1511353514	0
+	"	6	52
+	^	6	55
+	.	6	52
+	+	11	0
+	+	10	0
+	+	3	40
+	+	4	41
+	+	7	46
+	+	8	19
+	+	9	39
+	+	6	52
+
+> D:\360Downloads\serviceaccessor\src\main\java\com\qfedu\Highlight test
+	*	1511352476	0
+	"	244	0
+	^	264	27
+	.	22	11
+	+	47	0
+	+	22	11
+
+> D:\360Downloads\serviceaccessor\pom.xml
+	*	1511352458	0
 	"	11	0
 
-> E:\总结.txt
-	*	1509951490	0
-	"	1	0
+> D:\360Downloads\serviceaccessor\src\main\java\com\qfedu\DataModel.java
+	*	1511350324	0
+	"	15	25
 
-> E:\fab922a8-736e-4cb5-a666-4fd849a3049a.txt
-	*	1509951474	0
-	"	1	0
+> D:\360Downloads\serviceaccessor\src\main\java\com\qfedu\App2.java
+	*	1511348248	0
+	"	20	0
 
-> D:\programming\gvim_8.0.0003_x64\vim\vim80\vimrc_example.vim
-	*	1509938722	0
-	"	58	0
-
-> D:\Users\79001\git\blog\source\_posts\tutorial.md
-	*	1509930083	0
-	"	9	2
-	^	9	3
-	.	9	2
-	+	4	21
-	+	9	2
-
-> D:\Users\79001\IdeaProjects\petSitterGradle\settings.gradle
-	*	1509880642	0
-	"	8	51
-	^	8	52
-	.	3	12
-	+	6	60
-	+	7	39
-	+	8	50
-	+	11	36
-	+	2	0
-	+	3	12
-
-> D:\Users\79001\IdeaProjects\SpringDeveloper\core\src\main\java\snippets\jee\base\AbstractEntity.java
-	*	1509801185	0
-	"	30	12
-	^	32	28
-	.	32	28
-	+	5	16
-	+	7	15
-	+	11	49
-	+	12	28
-	+	13	12
-	+	23	6
-	+	22	126
-	+	34	49
-	+	36	40
-	+	37	12
-	+	19	12
-	+	41	22
-	+	45	6
-	+	44	102
-	+	49	0
-	+	48	31
-	+	58	6
-	+	54	41
-	+	54	123
-	+	55	36
-	+	57	42
-	+	54	0
-	+	27	6
-	+	26	125
-	+	29	47
-	+	31	40
-	+	32	28
-
-> D:\Users\79001\IdeaProjects\SpringDeveloper\core\build.gradle
-	*	1509799307	0
-	"	18	90
-	^	18	90
-	.	18	89
-	+	29	59
-	+	9	24
-	+	10	24
-	+	14	81
-	+	19	1
-	+	24	0
-	+	21	45
-	+	22	46
-	+	23	40
-	+	15	85
-	+	16	84
-	+	1	0
-	+	13	83
-	+	16	98
-	+	17	85
-	+	18	89
-
-> D:\Users\79001\IdeaProjects\SpringDeveloper\core\settings.gradle
-	*	1509784051	0
-	"	1	0
-
-> D:\Users\79001\IdeaProjects\SpringDeveloper\.gitignore
-	*	1509778619	0
-	"	90	0
-
-> D:\Users\79001\IdeaProjects\SpringDeveloper\core\pom.xml
-	*	1509776849	0
-	"	1	0
-	.	2	0
-	+	2	0
-
-> D:\Users\79001\IdeaProjects\SpringDeveloper\.idea\workspace.xml
-	*	1509757039	0
-	"	1	0
-
-> D:\Users\79001\IdeaProjects\SpringDeveloper\.idea\modules.xml
-	*	1509757029	0
-	"	1	0
-
-> D:\Users\79001\IdeaProjects\SpringDeveloper\.idea\misc.xml
-	*	1509757015	0
-	"	1	0
-
-> D:\Users\79001\IdeaProjects\SpringDeveloper\.idea\encodings.xml
-	*	1509757002	0
-	"	1	0
-
-> D:\Users\79001\IdeaProjects\SpringDeveloper\.idea\compiler.xml
-	*	1509756991	0
-	"	1	0
-
-> D:\File\Java_workspace\CourseManagement\pom.xml
-	*	1509629444	0
-	"	33	12
-
-> D:\File\Java_workspace\CourseManagementJPA\pom.xml
-	*	1509612919	0
-	"	55	12
-	.	48	0
-	+	48	0
-
-> D:\Users\79001\git\blog\source\_posts\hello-world.md
-	*	1509523538	0
-	"	20	2
-
-> D:\Users\79001\git\blog\source\_posts\https.md
-	*	1509523246	0
-	"	23	16
-	^	16	116
-	.	23	15
-	+	11	2
-	+	10	0
-	+	9	3
-	+	13	27
-	+	8	0
-	+	21	2
-	+	16	80
-	+	17	0
+> D:\Users\79001\IdeaProjects\Exam\consumeREST\src\main\java\snippets\App.java
+	*	1511346920	0
+	"	17	46
+	^	17	47
+	.	17	47
 	+	19	0
-	+	16	278
-	+	16	0
-	+	16	116
-	+	23	15
-
-> ~\.keystore
-	*	1509521221	0
-	"	2	0
-
-> D:\File\Java_workspace\CourseManagementStandalone\src\main\java\snippets\jee\profile\CourseManagement.java
-	*	1509450244	0
-	"	26	40
-	^	26	40
-	.	26	39
-	+	27	0
-	+	5	61
-	+	9	77
-	+	24	0
-	+	12	43
-	+	23	0
-	+	13	35
-	+	14	0
-	+	13	57
-	+	14	23
-	+	16	0
-	+	15	25
-	+	14	53
-	+	18	50
-	+	19	66
-	+	20	46
-	+	22	85
-	+	26	39
-
-> D:\File\Java_workspace\CourseManagementStandalone\src\main\java\snippets\jee\profile\bean\CourseBean.java
-	*	1509449522	0
-	"	6	41
-	^	6	42
-	.	6	41
+	+	5	59
+	+	6	28
+	+	7	55
+	+	8	38
+	+	9	35
 	+	7	0
-	+	6	41
-
-> D:\File\Java_workspace\CourseManagementStandalone\src\main\java\snippets\jee\profile\service\CourseService.java
-	*	1509449415	0
-	"	8	37
-	^	8	38
-	.	8	37
-	+	9	0
-	+	8	37
-
-> D:\File\Java_workspace\CourseManagementStandalone\src\main\java\snippets\jee\profile\dao\CourseDAO.java
-	*	1509449075	0
-	"	16	32
-	^	16	33
-	.	16	32
-	+	17	0
-	+	9	0
+	+	9	60
 	+	8	0
-	+	13	0
-	+	11	27
-	+	10	48
-	+	12	31
-	+	16	32
-
-> D:\File\Java_workspace\CourseManagementStandalone\src\main\java\snippets\jee\profile\dto\CourseDTO.java
-	*	1509448675	0
-	"	9	0
-	^	9	0
-	.	9	0
 	+	9	0
-
-> D:\File\Java_workspace\CourseManagementStandalone\pom.xml
-	*	1509448273	0
-	"	14	31
-	^	14	31
-	.	14	30
-	+	2	0
-	+	12	31
-	+	15	0
-	+	13	30
-	+	14	30
-
-> D:\File\Java_workspace\CourseManagementJMSWeb\src\snippets\jee\jms\servlet\JMSReceiverInitServlet.java
-	*	1509437178	0
-	"	36	75
-	^	36	75
-	.	36	74
-	+	3	65
-	+	43	0
-	+	12	0
-	+	11	15
-	+	27	0
-	+	15	40
-	+	18	24
-	+	24	20
-	+	26	0
-	+	24	27
-	+	25	54
-	+	23	67
-	+	42	0
-	+	41	0
-	+	38	38
-	+	39	38
-	+	40	27
-	+	17	48
-	+	30	50
-	+	32	82
-	+	33	68
-	+	37	0
-	+	47	0
-	+	50	0
-	+	48	39
-	+	49	39
-	+	47	0
-	+	51	0
-	+	21	0
-	+	20	62
-	+	35	73
-	+	36	74
-
-> D:\File\Java_workspace\CourseManagementJMSWeb\src\snippets\jee\jms\CourseTopicSubscriber.java
-	*	1509436854	0
-	"	45	37
-	^	57	35
-	.	57	34
-	+	7	24
-	+	37	0
-	+	11	44
-	+	16	112
-	+	19	78
-	+	20	63
-	+	22	66
-	+	23	61
-	+	36	0
-	+	26	54
-	+	35	0
-	+	33	28
-	+	34	0
-	+	33	35
-	+	30	86
-	+	32	20
-	+	45	146
-	+	22	19
-	+	47	43
-	+	48	59
-	+	62	0
-	+	61	0
-	+	55	29
-	+	60	0
-	+	58	34
-	+	59	39
-	+	57	34
-
-> D:\File\Java_workspace\drawing\src\com\qfedu\DrawingFrame.java
-	*	1509436253	0
-	"	35	27
-	^	35	28
-	.	35	27
-	+	12	0
-	+	29	20
-	+	12	29
-	+	29	36
-	+	31	0
-	+	27	23
-	+	28	35
-	+	30	0
-	+	29	10
-	+	30	39
-	+	31	29
-	+	19	26
-	+	24	0
-	+	23	0
-	+	20	21
-	+	22	23
-	+	19	0
-	+	18	22
-	+	32	0
-	+	48	25
-	+	55	20
-	+	54	24
-	+	35	27
-
-> D:\File\Java_workspace\CourseManagementJMSWeb\src\snippets\jee\jms\CourseQueueReceiver.java
-	*	1509367671	0
-	"	68	17
-	^	64	71
-	.	64	70
-	+	56	0
-	+	11	42
-	+	13	9
-	+	13	0
-	+	12	0
-	+	18	112
-	+	29	78
-	+	30	23
-	+	31	63
-	+	35	59
-	+	37	60
-	+	55	0
-	+	39	21
-	+	54	0
-	+	40	49
-	+	53	0
-	+	51	35
-	+	52	43
-	+	44	87
-	+	49	22
-	+	50	137
-	+	55	10
-	+	71	0
-	+	72	0
-	+	70	0
-	+	59	30
-	+	69	0
-	+	67	34
-	+	68	39
-	+	66	34
-	+	59	0
-	+	25	31
-	+	25	0
-	+	27	47
-	+	21	0
-	+	24	0
-	+	23	47
-	+	31	0
-	+	47	0
-	+	45	31
-	+	46	51
-	+	65	0
-	+	63	45
-	+	64	70
-
-> D:\File\Java_workspace\CourseManagementJMSWeb\src\snippets\jee\jms\CourseTopicPublisher.java
-	*	1509366758	0
-	"	31	23
-	^	31	23
-	.	31	22
-	+	7	23
-	+	16	0
-	+	11	112
-	+	13	27
-	+	14	78
-	+	15	63
-	+	26	0
-	+	22	0
-	+	19	29
-	+	21	30
-	+	24	0
-	+	22	27
-	+	23	35
-	+	20	16
-	+	25	8
-	+	21	0
-	+	32	0
-	+	28	64
-	+	29	0
-	+	28	74
-	+	29	60
-	+	30	68
-	+	31	22
-
-> D:\File\Java_workspace\Downloads\Java EE Development, Second Edition_Code\Chapter 10\CourseManagementJMSWeb\src\packt\jee\eclipse\jms\servlet\JMSReceiverInitServlet.java
-	*	1509364062	0
-	"	14	0
-
-> D:\File\Java_workspace\Downloads\Java EE Development, Second Edition_Code\Chapter 10\CourseManagementJMSWeb\src\packt\jee\eclipse\jms\CourseQueueReceiver.java
-	*	1509362266	0
-	"	8	0
-
-> D:\File\Java_workspace\CourseManagementJMSWeb\src\snippets\jee\jms\jsp_beans\CourseJSPBean.java
-	*	1509349485	0
-	"	48	39
-	^	46	61
-	.	46	60
-	+	29	69
-	+	32	52
-	+	35	63
-	+	41	0
-	+	37	36
-	+	39	55
-	+	40	70
-	+	50	0
-	+	44	36
-	+	47	24
-	+	49	0
-	+	47	31
-	+	48	38
-	+	46	60
-
-> D:\File\Java_workspace\CourseManagementJMSWeb\WebContent\addCourse.jsp
-	*	1509349457	0
-	"	5	9
-	^	21	57
-	.	21	56
-	+	22	1
-	+	22	0
-	+	21	56
-
-> D:\File\Java_workspace\Downloads\Java EE Development, Second Edition_Code\Chapter 10\CourseManagementJMSWeb\src\packt\jee\eclipse\jms\jsp_beans\CourseJSPBean.java
-	*	1509344656	0
-	"	47	0
-	.	10	0
-	+	10	0
-
-> E:\obb\存储过程.sql
-	*	1509329084	0
-	"	10	0
-	.	5	0
-	+	1	0
-	+	5	0
-
-> D:\File\Java_workspace\Downloads\Java EE Development, Second Edition_Code\Chapter 10\CourseManagementJMSWeb\src\packt\jee\eclipse\jms\CourseQueueSender.java
-	*	1509283902	0
-	"	7	0
-	.	16	0
-	+	16	0
-
-> D:\File\Java_workspace\CourseManagementJMSWeb\src\snippets\jee\jms\CourseQueueSender.java
-	*	1509283322	0
-	"	41	30
-	^	41	30
-	.	41	29
-	+	19	0
-	+	21	0
-	+	11	0
-	+	9	21
-	+	11	19
-	+	11	0
-	+	10	0
-	+	11	59
-	+	13	111
-	+	16	78
-	+	17	64
-	+	6	16
-	+	20	0
+	+	10	77
+	+	14	70
 	+	18	0
-	+	29	0
-	+	28	0
-	+	22	29
-	+	25	24
-	+	27	0
-	+	25	34
-	+	24	34
-	+	26	35
+	+	15	53
+	+	16	46
+	+	17	47
+
+> E:\obb\Char.java
+	*	1511318350	0
+	"	17	0
+	^	67	40
+	.	1	0
+	+	80	10
+	+	64	76
+	+	65	27
+	+	75	40
+	+	70	24
+	+	68	11
+	+	69	35
+	+	55	44
+	+	57	62
+	+	1	19
+	+	58	61
+	+	59	26
+	+	58	26
+	+	59	70
+	+	60	44
+	+	62	40
+	+	63	43
+	+	78	21
+	+	76	57
+	+	77	89
+	+	79	20
+	+	80	9
+	+	82	22
+	+	83	0
+	+	85	35
+	+	84	0
+	+	88	26
+	+	67	37
 	+	1	0
-	+	35	0
-	+	34	25
-	+	42	0
-	+	37	53
-	+	39	54
-	+	40	68
-	+	41	29
 
-> D:\File\Java_workspace\CourseManagementJMSWeb\WebContent\WEB-INF\views\addCourse.jsp
-	*	1509281492	0
-	"	37	36
-	^	37	37
-	.	44	62
-	+	1	82
-	+	2	59
-	+	3	12
-	+	4	6
-	+	5	16
-	+	9	16
-	+	8	0
-	+	6	46
-	+	7	24
-	+	49	0
-	+	10	36
-	+	11	134
-	+	11	157
-	+	11	134
-	+	11	170
-	+	11	161
+> E:\obb\src\Char.java
+	*	1511315138	0
+	"	15	42
+	^	15	45
+	.	15	42
+	+	1	19
+	+	18	0
+	+	17	0
+	+	3	40
+	+	4	28
+	+	5	30
+	+	4	30
 	+	11	0
-	+	14	103
-	+	16	69
-	+	17	83
-	+	18	89
-	+	20	49
-	+	21	38
-	+	22	81
-	+	25	23
-	+	27	35
-	+	28	25
-	+	28	28
-	+	28	47
-	+	28	40
-	+	28	44
-	+	48	0
-	+	29	19
-	+	47	12
-	+	30	20
-	+	35	0
-	+	31	28
-	+	32	24
-	+	34	0
-	+	33	59
-	+	35	0
-	+	36	20
-	+	41	0
-	+	37	31
-	+	38	24
-	+	38	64
-	+	40	0
-	+	39	37
-	+	38	24
-	+	39	62
-	+	42	20
-	+	46	0
-	+	43	36
-	+	45	0
-	+	43	34
-	+	44	62
+	+	9	29
+	+	10	51
+	+	16	0
+	+	14	27
+	+	17	0
+	+	15	26
+	+	7	19
+	+	15	42
 
-> D:\File\Java_workspace\CourseManagementJMSWeb\WebContent\WEB-INF\web.xml
-	*	1509192929	0
-	"	1	0
-	.	3	0
+> E:\obb\src\Test.java
+	*	1511313734	0
+	"	3	27
+	^	6	61
+	.	6	58
+	+	11	0
+	+	10	0
+	+	3	40
+	+	4	41
+	+	7	46
+	+	8	19
+	+	9	39
+	+	6	58
+
+> E:\obb\src\YesterdayCurrent.java
+	*	1511312433	0
+	"	2	30
+	^	2	31
+	.	2	30
+	+	20	0
+	+	4	30
 	+	3	0
+	+	1	25
+	+	6	31
+	+	19	0
+	+	6	40
+	+	8	37
+	+	10	34
+	+	18	35
+	+	14	10
+	+	13	16
+	+	2	30
 
-> D:\File\Java_workspace\CourseManagementJMSWeb\WebContent\WEB-INF\glassfish-web.xml
-	*	1509192910	0
+> E:\obb\src\DateFormatTest.java
+	*	1511311045	0
+	"	3	41
+	^	3	42
+	.	3	41
+	+	18	0
+	+	1	33
+	+	17	0
+	+	8	40
+	+	9	72
+	+	11	48
+	+	17	0
+	+	12	0
+	+	4	21
+	+	11	38
+	+	13	16
+	+	14	79
+	+	16	51
+	+	1	0
+	+	2	26
+	+	3	41
+
+> D:\Users\79001\IdeaProjects\Exam\consumeREST\src\main\java\snippets\Client.java
+	*	1511268095	0
+	"	34	19
+	^	34	20
+	.	34	19
+	+	41	0
+	+	5	40
+	+	6	100
+	+	41	0
+	+	6	66
+	+	39	20
+	+	40	0
+	+	39	27
+	+	24	0
+	+	22	48
+	+	23	55
+	+	24	39
+	+	32	0
+	+	30	57
+	+	31	70
+	+	38	85
+	+	30	27
+	+	30	151
+	+	30	27
+	+	47	0
+	+	45	51
+	+	46	51
+	+	32	55
+	+	35	40
+	+	36	49
+	+	8	60
+	+	9	63
+	+	18	0
+	+	17	8
+	+	16	14
+	+	12	50
+	+	15	33
+	+	17	25
+	+	21	0
+	+	17	43
+	+	19	21
+	+	25	42
+	+	27	20
+	+	26	25
+	+	29	0
+	+	27	53
+	+	30	0
+	+	28	52
+	+	34	19
+
+> D:\360Downloads\serviceaccessor\src\main\java\com\qfedu\App.java
+	*	1511267266	0
+	"	8	0
+	^	12	27
+	.	12	0
+	+	12	0
+
+> E:\e.java
+	*	1511266793	0
+	"	73	0
+	.	1	0
+	+	1	0
+	+	1	70
+	+	1	0
+	+	1	62
+	+	1	149
+	+	1	148
+	+	1	0
+	+	1	148
+	+	1	0
+
+> D:\360Downloads\serviceaccessor\src\main\java\com\qfedu\NewsModel.java
+	*	1511261547	0
 	"	1	0
 
-> D:\File\Java_workspace\CourseManagementJMSWeb\src\snippets\jee\jms\jsp\beans\CourseJSPBean.java
-	*	1509192655	0
-	"	30	0
-	^	30	0
-	.	30	0
-	+	15	0
-	+	14	31
-	+	17	39
+> D:\Users\79001\IdeaProjects\Exam\consumeREST\src\main\java\snippets\News.java
+	*	1511261543	0
+	"	7	25
+	^	7	26
+	.	7	25
+	+	2	0
+	+	8	0
+	+	7	25
+
+> D:\Users\79001\IdeaProjects\Exam\consumeREST\src\main\java\snippets\DataModel.java
+	*	1511261404	0
+	"	4	0
+	^	7	28
+	.	7	27
+	+	8	0
+	+	7	27
+
+> D:\360Downloads\helloboot1706\src\main\java\com\qfedu\view\AirIndexExcelView.java
+	*	1511254532	0
+	"	16	0
+
+> D:\360Downloads\helloboot1706\src\main\java\com\qfedu\App.java
+	*	1511254520	0
+	"	69	0
+	.	52	0
+	+	52	0
+
+> D:\Users\79001\IdeaProjects\masterspringmvc\src\main\java\snippets\controller\TweetController.java
+	*	1511227201	0
+	"	26	1
+	^	24	26
+	.	24	25
+	+	22	64
+	+	23	41
+	+	24	25
+
+> E:\obb\src\CalendarMonth.java
+	*	1511225205	0
+	"	7	0
+	^	7	76
+	.	7	76
+	+	9	0
+	+	8	0
+	+	5	40
+	+	7	50
+	+	6	0
+	+	7	0
+	+	2	0
+	+	1	25
+	+	8	0
+	+	7	76
+
+> E:\简历
+	*	1511170214	0
+	"	1	0
+
+> D:\Users\79001\IdeaProjects\masterspringmvc\src\main\java\snippets\controller\HelloController.java
+	*	1511153169	0
+	"	1	0
+	^	10	23
+	.	10	22
+	+	11	0
+	+	5	4
+	+	5	0
+	+	3	10
+	+	5	0
+	+	6	21
+	+	10	0
+	+	9	28
+	+	10	22
+
+> D:\Users\79001\IdeaProjects\snippets\src\main\java\snippets\SayServer.java
+	*	1511145125	0
+	"	12	35
+	^	12	36
+	.	12	0
+	+	14	0
+	+	3	23
+	+	13	0
+	+	10	36
+	+	11	27
+	+	12	0
+
+> D:\Users\79001\IdeaProjects\snippets\src\main\webapp\echo.html
+	*	1511143907	0
+	"	1	0
+
+> D:\programming\apache-tomcat-9.0.0.M15\webapps\examples\websocket\echo.xhtml
+	*	1511143840	0
+	"	51	0
+	.	139	0
+	+	133	0
+	+	139	0
+
+> E:\obb\EchoAnnotation.java
+	*	1511143744	0
+	"	5	26
+	^	5	27
+	.	5	26
+	+	1	33
+	+	6	0
+	+	20	0
+	+	7	24
 	+	19	0
-	+	18	26
-	+	21	29
-	+	23	0
-	+	22	34
-	+	27	0
-	+	25	38
-	+	26	32
+	+	11	62
+	+	18	0
+	+	12	27
+	+	14	52
+	+	13	16
+	+	14	0
+	+	17	0
+	+	15	33
+	+	14	0
+	+	16	35
+	+	3	29
+	+	2	30
+	+	5	26
+
+> E:\obb\echo.html
+	*	1511143707	0
+	"	10	33
+	^	16	27
+	.	10	33
+	+	1	5
+	+	1	6
+	+	1	22
+	+	1	6
+	+	2	10
+	+	5	0
+	+	4	51
+	+	6	10
+	+	6	22
+	+	3	28
+	+	19	0
+	+	7	39
+	+	8	16
+	+	18	0
+	+	9	62
+	+	12	0
+	+	10	37
+	+	11	71
+	+	12	13
+	+	13	63
+	+	14	45
+	+	17	13
+	+	15	70
+	+	16	26
+	+	10	33
+
+> D:\programming\apache-tomcat-9.0.0.M15\webapps\examples\WEB-INF\classes\websocket\chat\ChatAnnotation.java
+	*	1511143584	0
+	"	31	0
+
+> E:\obb\EchoAnnoation.java
+	*	1511142385	0
+	"	1	0
+
+> E:\obb\mastering-spring-mvc4\src\main\resources\templates\resultPage.html
+	*	1510990099	0
+	"	10	6
+
+> E:\obb\mastering-spring-mvc4\src\main\resources\application.properties
+	*	1510990044	0
+	"	1	27
+
+> E:\obb\mastering-spring-mvc4\src\main\java\masterSpringMvc\controller\HelloController.java
+	*	1510989942	0
+	"	1	0
+
+> E:\obb\mastering-spring-mvc4\src\main\java\masterSpringMvc\MasterSpringMvcApplication.java
+	*	1510989909	0
+	"	12	0
+
+> D:\Users\79001\IdeaProjects\masterspringmvc\src\main\resources\templates\resultPage.html
+	*	1510971544	0
+	"	8	48
+	^	8	48
+	.	8	47
+	+	2	49
+	+	5	25
+	+	8	47
+
+> D:\Users\79001\git\790013438.github.io\.git\config
+	*	1510887895	0
+	"	1	0
+
+> E:\obb\src\.git\config
+	*	1510882698	0
+	"	9	42
+	^	9	43
+	.	9	42
+	+	9	42
+
+> E:\obb\src\MilliSecondTest.java
+	*	1510880023	0
+	"	1	25
+	^	1	26
+	.	1	25
+	+	11	0
+	+	10	0
+	+	9	0
+	+	5	40
+	+	9	0
+	+	8	0
+	+	7	68
+	+	2	0
+	+	1	25
+
+> E:\obb\src\DateTest.java
+	*	1510879750	0
+	"	31	0
+	^	26	12
+	.	26	11
 	+	31	0
 	+	30	0
-
-> D:\File\Java_workspace\CourseManagementJMSWeb\.gitignore
-	*	1509192055	0
-	"	36	31
-	^	36	32
-	.	3	0
+	+	6	41
+	+	10	39
+	+	7	0
 	+	3	0
-
-> D:\360Downloads\.gitignore
-	*	1509192039	0
-	"	23	1
-	^	1	0
-	.	23	0
+	+	1	26
+	+	5	0
+	+	6	26
+	+	11	15
+	+	11	86
+	+	10	48
+	+	11	57
+	+	30	0
+	+	12	49
+	+	15	59
+	+	16	54
+	+	15	27
+	+	16	27
+	+	17	56
+	+	15	63
+	+	14	28
+	+	22	38
+	+	21	0
+	+	22	0
+	+	15	59
+	+	2	30
+	+	18	28
+	+	23	56
+	+	18	25
 	+	23	0
+	+	24	55
+	+	25	8
+	+	26	29
+	+	27	49
+	+	28	51
+	+	29	53
+	+	26	11
 
-> D:\File\Java_workspace\CourseManagementJMSWeb\pom.xml
-	*	1509191515	0
-	"	14	0
-	.	2	0
-	+	2	0
+> D:\Users\79001\IdeaProjects\masterspringmvc\src\main\java\snippets\MasterSpringMvcApplication.java
+	*	1510824033	0
+	"	1	0
 
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\test\CourseManagementWSClient.java
-	*	1509155177	0
-	"	12	62
-	^	12	62
-	.	12	61
-	+	13	0
-	+	5	41
+> D:\Users\79001\IdeaProjects\masterspringmvc\build.gradle
+	*	1510818988	0
+	"	30	0
+	.	12	0
+	+	11	0
 	+	10	0
-	+	7	85
-	+	9	102
-	+	7	68
-	+	11	39
-	+	12	61
+	+	12	0
 
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\package-info.java
-	*	1509154085	0
-	"	2	35
-	^	2	36
-	.	1	0
-	+	1	0
+> D:\360Downloads\helloboot1706\src\main\resources\application.properties
+	*	1510812964	0
+	"	7	28
+	^	7	28
+	.	7	27
+	+	4	44
+	+	7	27
+
+> D:\360Downloads\interview\src\main\java\com\qfedu\Exam6.java
+	*	1510795974	0
+	"	1	0
+
+> E:\obb\src\OctoCat.txt
+	*	1510794613	0
+	"	1	0
+
+> ~\AppData\Local\Temp\$tutor$
+	*	1510751994	0
+	"	1	0
+	a	1	0
+
+> E:\obb\src\hello.java
+	*	1510750479	0
+	"	1	0
+
+> D:\Users\79001\git\blog\source\_posts\json.md
+	*	1510733980	0
+	"	12	36
+	^	12	37
+	.	12	36
+	+	3	12
+	+	14	5
+	+	5	29
+	+	4	21
+	+	6	3
+	+	2	12
+	+	15	2
+	+	7	5
+	+	14	4
+	+	14	0
+	+	14	2
+	+	14	5
+	+	15	0
+	+	14	0
+	+	8	16
+	+	14	0
+	+	8	37
+	+	13	4
+	+	11	16
+	+	10	31
+	+	11	55
+	+	12	36
+
+> E:\Hello.java
+	*	1510708415	0
+	"	3	5
+	^	1	25
+	.	1	24
+	+	23	0
+	+	23	31
+	+	23	0
+	+	23	40
+	+	23	13
+	+	23	0
+	+	23	33
+	+	23	0
+	+	23	32
+	+	23	4
+	+	23	0
+	+	23	32
+	+	23	0
+	+	23	32
+	+	23	10
+	+	23	0
+	+	23	20
+	+	23	18
+	+	23	0
+	+	16	0
+	+	5	40
+	+	4	0
+	+	5	4
+	+	16	45
+	+	16	49
+	+	16	46
+	+	16	0
+	+	7	50
+	+	7	0
+	+	16	0
+	+	7	0
+	+	22	0
+	+	18	49
+	+	19	55
+	+	20	28
+	+	21	66
+	+	9	0
+	+	7	26
+	+	8	0
+	+	6	24
+	+	8	31
+	+	13	0
+	+	10	45
+	+	11	64
+	+	12	33
+	+	15	43
 	+	2	0
-	+	1	0
+	+	1	24
 
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\package-info.java
-	*	1509154078	0
-	"	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\ObjectFactory.java
-	*	1509154059	0
-	"	61	0
-	.	1	0
-	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\ObjectFactory.java
-	*	1509154054	0
-	"	1	0
-	^	102	8
-	.	113	0
-	+	83	0
-	+	84	0
-	+	88	0
-	+	89	0
-	+	92	0
-	+	93	0
-	+	83	0
-	+	115	0
-	+	83	0
-	+	115	0
-	+	106	0
-	+	83	0
+> D:\Users\79001\IdeaProjects\petSitterGradle\exam\src\main\java\snippets\reflection\ReflectionExample.java
+	*	1510666421	0
+	"	113	65
+	^	113	65
+	.	113	65
+	+	10	40
+	+	13	44
+	+	18	0
+	+	15	45
+	+	16	69
+	+	17	28
+	+	37	0
+	+	21	62
+	+	22	40
+	+	23	24
+	+	22	19
+	+	24	65
+	+	25	40
+	+	37	0
+	+	25	72
+	+	27	16
+	+	26	0
+	+	27	23
+	+	26	31
+	+	27	43
+	+	28	59
+	+	29	65
+	+	30	36
+	+	31	31
+	+	33	26
+	+	32	26
+	+	117	0
+	+	34	32
+	+	35	25
+	+	36	32
+	+	37	20
+	+	39	0
+	+	37	40
+	+	38	32
+	+	40	20
+	+	46	6
+	+	45	23
+	+	47	52
+	+	68	0
+	+	49	65
+	+	48	0
+	+	67	0
+	+	51	40
+	+	53	35
+	+	54	64
+	+	55	39
+	+	56	48
+	+	57	39
+	+	65	0
+	+	61	53
+	+	62	26
+	+	63	39
+	+	64	55
+	+	66	35
+	+	66	19
+	+	66	34
+	+	67	0
+	+	66	34
+	+	68	0
+	+	73	6
+	+	71	35
+	+	72	23
+	+	74	47
 	+	97	0
-	+	83	0
-	+	82	0
-	+	83	0
-	+	80	85
-	+	83	0
-	+	89	92
-	+	92	0
-	+	98	84
-	+	101	0
-	+	107	93
-	+	110	0
-	+	83	0
-	+	102	8
-	+	101	83
-	+	102	0
-	+	84	0
-	+	85	0
-	+	86	0
-	+	93	0
+	+	117	0
+	+	75	49
+	+	77	29
+	+	97	0
+	+	96	0
+	+	78	45
+	+	81	35
+	+	82	57
+	+	83	63
+	+	84	37
+	+	85	47
+	+	86	65
 	+	94	0
-	+	95	0
-	+	103	0
-	+	104	0
-	+	111	0
-	+	112	0
-	+	113	0
+	+	90	52
+	+	91	24
+	+	92	39
+	+	93	57
+	+	97	0
+	+	95	33
+	+	97	0
+	+	102	6
+	+	101	23
+	+	103	42
+	+	116	0
+	+	103	45
+	+	116	0
+	+	115	0
+	+	113	59
+	+	106	28
+	+	109	36
+	+	110	64
+	+	111	37
+	+	112	48
+	+	113	66
+	+	113	65
 
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCoursesResponse.java
-	*	1509154037	0
-	"	69	0
-	.	1	0
-	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCoursesResponse.java
-	*	1509154030	0
-	"	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCourses.java
-	*	1509154011	0
-	"	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCourses.java
-	*	1509154007	0
-	"	32	0
-	.	1	0
-	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCourseResponse.java
-	*	1509153975	0
-	"	1	0
-	.	35	0
-	+	1	0
-	+	35	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCourseResponse.java
-	*	1509153972	0
-	"	61	0
-	.	1	0
-	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\GetCourse.java
-	*	1509153950	0
-	"	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\GetCourse.java
-	*	1509153943	0
-	"	23	0
-	.	1	0
-	+	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\client\Courses.java
-	*	1509153902	0
-	"	1	0
-
-> D:\File\Java_workspace\CourseManagementWSClientProject\src\main\java\snippets\jee\ws\soap\Courses.java
-	*	1509153901	0
-	"	21	5
-	.	1	0
-	+	1	0
+> E:\echarts.html
+	*	1510656053	0
+	"	35	35
+	^	35	35
+	.	35	34
+	+	38	6
+	+	3	10
+	+	6	0
+	+	4	29
+	+	5	8
+	+	7	10
+	+	37	0
+	+	9	55
+	+	10	39
+	+	36	0
+	+	12	0
+	+	15	0
+	+	11	54
+	+	8	22
+	+	15	26
+	+	32	0
+	+	14	44
+	+	18	0
+	+	17	43
+	+	19	0
+	+	18	18
+	+	22	17
+	+	21	30
+	+	25	0
+	+	24	87
+	+	27	26
+	+	31	0
+	+	28	30
+	+	30	0
+	+	29	31
+	+	30	47
+	+	32	13
+	+	34	56
+	+	35	34

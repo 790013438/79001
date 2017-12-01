@@ -11,65 +11,167 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/themes
+~MSle0~/container
+
+# Last Substitute Search Pattern:
+~MSle0&title
+
+# Last Substitute String:
+$gender
 
 # Command Line History (newest to oldest):
-:exit
-|2,0,1510214038,,"exit"
-:version
-|2,0,1510213643,,"version"
-:q
-|2,0,1510213620,,"q"
-:!java StringEqualTest.java
-|2,0,1510103352,,"!java StringEqualTest.java"
-:w
-|2,0,1510103337,,"w"
 :wq
-|2,0,1510023376,,"wq"
-:echo has("python")
-|2,0,1510018637,,"echo has(\"python\")"
-:!python2 --version
-|2,0,1510018598,,"!python2 --version"
-:!python --version
-|2,0,1510018581,,"!python --version"
-:PlugInstall
-|2,0,1510018268,,"PlugInstall"
-:PluginInstall
-|2,0,1510018243,,"PluginInstall"
-:PlugInStall
-|2,0,1510018233,,"PlugInStall"
-:w A.java
-|2,0,1510017429,,"w A.java"
-:w Str.java
-|2,0,1510017333,,"w Str.java"
-:echo $VIM
-|2,0,1510016682,,"echo $VIM"
-:echo $MYVIMRC
-|2,0,1510016636,,"echo $MYVIMRC"
-:echo $HOME
-|2,0,1510016630,,"echo $HOME"
-:echo $home
-|2,0,1510016623,,"echo $home"
-:echo $hoome
-|2,0,1510016618,,"echo $hoome"
-:echo $myvimrc
-|2,0,1510016613,,"echo $myvimrc"
-:echo $MYvimrc
-|2,0,1510016603,,"echo $MYvimrc"
-:wwq
-|2,0,1508642484,,"wwq"
+|2,0,1512136045,,"wq"
+:w
+|2,0,1512136007,,"w"
+:sh
+|2,0,1512135932,,"sh"
 :q!
-|2,0,1508640947,,"q!"
-:colorscheme
-|2,0,1508303994,,"colorscheme"
-:colorscheme peachpuff
-|2,0,1508303986,,"colorscheme peachpuff"
-:colorscheme default
-|2,0,1508303973,,"colorscheme default"
-:colorscheme blue
-|2,0,1508303966,,"colorscheme blue"
+|2,0,1512134496,,"q!"
+:q
+|2,0,1512133652,,"q"
+:%s/title/gender/gc
+|2,0,1512124776,,"%s/title/gender/gc"
+:PlugInstall
+|2,0,1512116078,,"PlugInstall"
+:wh
+|2,0,1512109563,,"wh"
+:set shell?
+|2,0,1512092303,,"set shell?"
+:diff origin
+|2,0,1512090258,,"diff origin"
+:diff
+|2,0,1512090242,,"diff"
+:YcmRestar
+|2,0,1512045581,,"YcmRestar"
+:let g:ycm_path_to_python_interpreter = '/c/python27/python.exe'
+|2,0,1512045575,,"let g:ycm_path_to_python_interpreter = '/c/python27/python.exe'"
+:RestartYCM
+|2,0,1512045517,,"RestartYCM"
+:let g:ycm_path_to_python_interpreter = 'c:/python/python.exe'
+|2,0,1512045500,,"let g:ycm_path_to_python_interpreter = 'c:/python/python.exe'"
+:let g:ycm_path_to_python_interpreter = '\d\python27\python.exe'
+|2,0,1512043754,,"let g:ycm_path_to_python_interpreter = '\\d\\python27\\python.exe'"
+:set guifont=*
+|2,0,1512033189,,"set guifont=*"
+:echo has('python')
+|2,0,1512028807,,"echo has('python')"
+:%s/\r//gc
+|2,0,1512026778,,"%s/\\r//gc"
+:python print(1)
+|2,0,1512011643,,"python print(1)"
+:PlugUpdate
+|2,0,1512008622,,"PlugUpdate"
+:python print('hi')
+|2,0,1512002862,,"python print('hi')"
+:YcomRestart
+|2,0,1511954275,,"YcomRestart"
+:YcmRestartServer
+|2,0,1511954255,,"YcmRestartServer"
+:YcmRestart
+|2,0,1511954222,,"YcmRestart"
+:echo $PYTHON
+|2,0,1511935629,,"echo $PYTHON"
+:echo $VIM
+|2,0,1511935624,,"echo $VIM"
+:echo $VIMRUNTIME
+|2,0,1511935617,,"echo $VIMRUNTIME"
+:echo $PYTHONRUNTIME
+|2,0,1511935577,,"echo $PYTHONRUNTIME"
+:version
+|2,0,1511925489,,"version"
+:python
+|2,0,1511870117,,"python"
+:open /D/Users/79001/IdeaProjects/mooc/mooc/pom.xml
+|2,0,1511868244,,"open /D/Users/79001/IdeaProjects/mooc/mooc/pom.xml"
+:open /d/user/79001/IdeaProject/mooc/mooc/pom.xml
+|2,0,1511868206,,"open /d/user/79001/IdeaProject/mooc/mooc/pom.xml"
+:PlugClean
+|2,0,1511866163,,"PlugClean"
+:echo has('win32')
+|2,0,1511866044,,"echo has('win32')"
+:help feature-list
+|2,0,1511866019,,"help feature-list"
+:help has()
+|2,0,1511865957,,"help has()"
+:echo has('win64')
+|2,0,1511865906,,"echo has('win64')"
+:echo uname
+|2,0,1511865894,,"echo uname"
+:echo has('uname64')
+|2,0,1511865886,,"echo has('uname64')"
+:echo system('file -L /proc/' . getpid() . '/exe' ) =~ "64-bit"
+|2,0,1511865743,,"echo system('file -L /proc/' . getpid() . '/exe' ) =~ \"64-bit\""
+:py print(1)
+|2,0,1511857692,,"py print(1)"
+:python print('hello')
+|2,0,1511851977,,"python print('hello')"
+:py print(3)
+|2,0,1511849907,,"py print(3)"
+:39
+|2,0,1511849568,,"39"
+:python print(sys.version)
+|2,0,1511848445,,"python print(sys.version)"
+:python import sys
+|2,0,1511848342,,"python import sys"
+:help E887
+|2,0,1511848140,,"help E887"
+:py
+|2,0,1511847932,,"py"
+:echo $PATH
+|2,0,1511841060,,"echo $PATH"
 
 # Search String History (newest to oldest):
+?/ulti
+|2,1,1512134098,47,"ulti"
+?/utill
+|2,1,1512134084,47,"utill"
+?/snips
+|2,1,1512134079,47,"snips"
+?/ycm_
+|2,1,1512134053,47,"ycm_"
+?/container
+|2,1,1512132456,47,"container"
+?/i
+|2,1,1512132251,47,"i"
+? title
+|2,1,1512124776,,"title"
+?/plug
+|2,1,1512115791,47,"plug"
+?/namespace boost
+|2,1,1512033098,47,"namespace boost"
+?/libclang.dll
+|2,1,1512032030,47,"libclang.dll"
+?/libclang
+|2,1,1512032002,47,"libclang"
+? \r
+|2,1,1512026778,,"\\r"
+?/cmake_cxx_flags
+|2,1,1512020177,47,"cmake_cxx_flags"
+?/set(
+|2,1,1512020093,47,"set("
+?/findpythonlibraries
+|2,1,1512007234,47,"findpythonlibraries"
+?/python
+|2,1,1512006911,47,"python"
+?/findpythonlibs
+|2,1,1512005144,47,"findpythonlibs"
+?/ycm
+|2,1,1511935658,47,"ycm"
+?/py
+|2,1,1511927171,47,"py"
+?/p
+|2,1,1511926740,47,"p"
+?/64
+|2,1,1511866028,47,"64"
+?/ 
+|2,1,1511665561,47," "
+?/(
+|2,1,1511665465,47,"("
+?/youcom
+|2,1,1510889183,47,"youcom"
+?/ymd
+|2,1,1510889176,47,"ymd"
 ?/themes
 |2,1,1508641009,47,"themes"
 ?/thems
@@ -96,239 +198,1085 @@
 # Debug Line History (newest to oldest):
 
 # 寄存器:
-""1	LINE	0
-	    
-|3,1,1,1,1,0,1510102986,"    "
+"0	LINE	0
+	html
+|3,0,0,1,1,0,1512134467,"html"
+"1	LINE	0
+	Uss
+|3,0,1,1,1,0,1512135638,"Uss"
 "2	LINE	0
+	html
+|3,0,2,1,1,0,1512134451,"html"
+"3	LINE	0
+	let g:ycm_key_list_select_completion = ['<Down>']
+|3,0,3,1,1,0,1512134248,"let g:ycm_key_list_select_completion = ['<Down>']"
+"4	LINE	0
 	
-|3,0,2,1,1,0,1510023369,""
-"-	CHAR	0
-	mdui
-|3,0,36,0,1,0,1508642480,"mdui"
+|3,0,4,1,1,0,1512126273,""
+"5	LINE	0
+	��提交。
+|3,0,5,1,1,0,1512126271,"��提交。"
+"6	LINE	0
+	            <div class="form-group">
+|3,0,6,1,1,0,1512125917,"            <div class=\"form-group\">"
+"7	CHAR	0
+	
+	                <h1 v-show="gender == 'male'"></h1>
+	                <h1 v-show="gender == 'female'">Hello, Miss {{ name }}</h1>
+	            
+|3,0,7,0,4,0,1512125451,"","                <h1 v-show=\"gender == 'male'\"></h1>","                <h1 v-show=\"gender == 'female'\">Hello, Miss {{ name }}</h1>","            "
+"8	LINE	0
+	            </form>
+|3,0,8,1,1,0,1512125409,"            </form>"
+"9	LINE	0
+	            <form class="form-inline">
+|3,0,9,1,1,0,1512125406,"            <form class=\"form-inline\">"
+"z	CHAR	0
+	Qvisual
+|3,0,35,0,1,0,1511598009,"Qvisual"
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1512136005," "
 
 # 文件标记:
-'0  18  43  /e/StringEqualTest.java
-|4,48,18,43,1510103851,"/e/StringEqualTest.java"
-'1  18  43  /e/StringEqualTest.java
-|4,49,18,43,1510103367,"/e/StringEqualTest.java"
-'2  2  2  ~/阅读记录.md
-|4,50,2,2,1510023376,"~/阅读记录.md"
-'3  7  36  ~/Str.java
-|4,51,7,36,1510022612,"~/Str.java"
-'4  7  43  ~/Str.java
-|4,52,7,43,1510017588,"~/Str.java"
-'5  1  12  ~/Str.java
-|4,53,1,12,1510017381,"~/Str.java"
-'6  1  12  ~/Str.java
-|4,54,1,12,1510017381,"~/Str.java"
-'7  1  12  ~/Str.java
-|4,55,1,12,1510017381,"~/Str.java"
-'8  1  12  ~/str.java
-|4,56,1,12,1510017381,"~/str.java"
-'9  1  0  /Str.java
-|4,57,1,0,1510016573,"/Str.java"
+'0  5  2  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,48,5,2,1512136045,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+'1  56  25  ~/.vimrc
+|4,49,56,25,1512134496,"~/.vimrc"
+'2  1  0  /d/Users/79001/git/learningvuejs/Range_v-for.html
+|4,50,1,0,1512134442,"/d/Users/79001/git/learningvuejs/Range_v-for.html"
+'3  1  0  /d/Users/79001/git/learningvuejs/Range_v-for.html
+|4,51,1,0,1512134442,"/d/Users/79001/git/learningvuejs/Range_v-for.html"
+'4  56  23  ~/.vimrc
+|4,52,56,23,1512134390,"~/.vimrc"
+'5  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,53,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+'6  21  100  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,54,21,100,1512133627,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+'7  14  100  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,55,14,100,1512133627,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+'8  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,56,8,48,1512132683,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+'9  1  0  /d/Users/79001/git/learningvuejs/Install
+|4,57,1,0,1512132005,"/d/Users/79001/git/learningvuejs/Install"
 
 # 跳转列表 (从新到旧):
--'  18  43  /e/StringEqualTest.java
-|4,39,18,43,1510103851,"/e/StringEqualTest.java"
--'  18  43  /e/StringEqualTest.java
-|4,39,18,43,1510103851,"/e/StringEqualTest.java"
--'  18  43  /e/StringEqualTest.java
-|4,39,18,43,1510103851,"/e/StringEqualTest.java"
--'  18  43  /e/StringEqualTest.java
-|4,39,18,43,1510103851,"/e/StringEqualTest.java"
--'  18  43  /e/StringEqualTest.java
-|4,39,18,43,1510103367,"/e/StringEqualTest.java"
--'  18  43  /e/StringEqualTest.java
-|4,39,18,43,1510103367,"/e/StringEqualTest.java"
--'  18  43  /e/StringEqualTest.java
-|4,39,18,43,1510103367,"/e/StringEqualTest.java"
--'  18  43  /e/StringEqualTest.java
-|4,39,18,43,1510103367,"/e/StringEqualTest.java"
--'  20  0  /e/StringEqualTest.java
-|4,39,20,0,1510102984,"/e/StringEqualTest.java"
--'  20  0  /e/StringEqualTest.java
-|4,39,20,0,1510102984,"/e/StringEqualTest.java"
--'  20  0  /e/StringEqualTest.java
-|4,39,20,0,1510102984,"/e/StringEqualTest.java"
--'  20  0  /e/StringEqualTest.java
-|4,39,20,0,1510102984,"/e/StringEqualTest.java"
--'  20  0  /e/StringEqualTest.java
-|4,39,20,0,1510102984,"/e/StringEqualTest.java"
--'  20  0  /e/StringEqualTest.java
-|4,39,20,0,1510102984,"/e/StringEqualTest.java"
--'  20  0  /e/StringEqualTest.java
-|4,39,20,0,1510102984,"/e/StringEqualTest.java"
--'  20  0  /e/StringEqualTest.java
-|4,39,20,0,1510102984,"/e/StringEqualTest.java"
--'  22  0  /e/StringEqualTest.java
-|4,39,22,0,1510102966,"/e/StringEqualTest.java"
--'  22  0  /e/StringEqualTest.java
-|4,39,22,0,1510102966,"/e/StringEqualTest.java"
--'  22  0  /e/StringEqualTest.java
-|4,39,22,0,1510102966,"/e/StringEqualTest.java"
--'  22  0  /e/StringEqualTest.java
-|4,39,22,0,1510102966,"/e/StringEqualTest.java"
--'  22  0  /e/StringEqualTest.java
-|4,39,22,0,1510102966,"/e/StringEqualTest.java"
--'  22  0  /e/StringEqualTest.java
-|4,39,22,0,1510102966,"/e/StringEqualTest.java"
--'  22  0  /e/StringEqualTest.java
-|4,39,22,0,1510102966,"/e/StringEqualTest.java"
--'  22  0  /e/StringEqualTest.java
-|4,39,22,0,1510102966,"/e/StringEqualTest.java"
--'  1  0  /e/StringEqualTest.java
-|4,39,1,0,1510102950,"/e/StringEqualTest.java"
--'  1  0  /e/StringEqualTest.java
-|4,39,1,0,1510102950,"/e/StringEqualTest.java"
--'  1  0  /e/StringEqualTest.java
-|4,39,1,0,1510102950,"/e/StringEqualTest.java"
--'  1  0  /e/StringEqualTest.java
-|4,39,1,0,1510102950,"/e/StringEqualTest.java"
--'  1  0  /e/StringEqualTest.java
-|4,39,1,0,1510102950,"/e/StringEqualTest.java"
--'  1  0  /e/StringEqualTest.java
-|4,39,1,0,1510102950,"/e/StringEqualTest.java"
--'  1  0  /e/StringEqualTest.java
-|4,39,1,0,1510102950,"/e/StringEqualTest.java"
--'  1  0  /e/StringEqualTest.java
-|4,39,1,0,1510102950,"/e/StringEqualTest.java"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  2  2  ~/阅读记录.md
-|4,39,2,2,1510023376,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  1  0  ~/阅读记录.md
-|4,39,1,0,1510023289,"~/阅读记录.md"
--'  7  36  ~/Str.java
-|4,39,7,36,1510022612,"~/Str.java"
--'  7  36  ~/Str.java
-|4,39,7,36,1510022612,"~/Str.java"
--'  7  36  ~/Str.java
-|4,39,7,36,1510022612,"~/Str.java"
+-'  5  2  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,5,2,1512136045,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  4  44  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,4,44,1512136005,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  1  10  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,1,10,1512135927,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  19  26  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,19,26,1512135896,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  23  27  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,23,27,1512135805,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  6  0  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,6,0,1512135586,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  56  25  ~/.vimrc
+|4,39,56,25,1512134496,"~/.vimrc"
+-'  56  25  ~/.vimrc
+|4,39,56,25,1512134496,"~/.vimrc"
+-'  1  0  /d/Users/79001/git/learningvuejs/Range_v-for.html
+|4,39,1,0,1512134451,"/d/Users/79001/git/learningvuejs/Range_v-for.html"
+-'  1  0  /d/Users/79001/git/learningvuejs/Range_v-for.html
+|4,39,1,0,1512134451,"/d/Users/79001/git/learningvuejs/Range_v-for.html"
+-'  1  0  /d/Users/79001/git/learningvuejs/Range_v-for.html
+|4,39,1,0,1512134442,"/d/Users/79001/git/learningvuejs/Range_v-for.html"
+-'  1  0  /d/Users/79001/git/learningvuejs/Range_v-for.html
+|4,39,1,0,1512134442,"/d/Users/79001/git/learningvuejs/Range_v-for.html"
+-'  56  23  ~/.vimrc
+|4,39,56,23,1512134390,"~/.vimrc"
+-'  56  23  ~/.vimrc
+|4,39,56,23,1512134390,"~/.vimrc"
+-'  166  7  ~/.vimrc
+|4,39,166,7,1512134208,"~/.vimrc"
+-'  166  7  ~/.vimrc
+|4,39,166,7,1512134208,"~/.vimrc"
+-'  166  7  ~/.vimrc
+|4,39,166,7,1512134208,"~/.vimrc"
+-'  166  7  ~/.vimrc
+|4,39,166,7,1512134208,"~/.vimrc"
+-'  41  40  ~/.vimrc
+|4,39,41,40,1512134198,"~/.vimrc"
+-'  41  40  ~/.vimrc
+|4,39,41,40,1512134198,"~/.vimrc"
+-'  41  40  ~/.vimrc
+|4,39,41,40,1512134198,"~/.vimrc"
+-'  41  40  ~/.vimrc
+|4,39,41,40,1512134198,"~/.vimrc"
+-'  165  7  ~/.vimrc
+|4,39,165,7,1512134102,"~/.vimrc"
+-'  165  7  ~/.vimrc
+|4,39,165,7,1512134102,"~/.vimrc"
+-'  165  7  ~/.vimrc
+|4,39,165,7,1512134102,"~/.vimrc"
+-'  165  7  ~/.vimrc
+|4,39,165,7,1512134102,"~/.vimrc"
+-'  30  13  ~/.vimrc
+|4,39,30,13,1512134101,"~/.vimrc"
+-'  30  13  ~/.vimrc
+|4,39,30,13,1512134101,"~/.vimrc"
+-'  30  13  ~/.vimrc
+|4,39,30,13,1512134101,"~/.vimrc"
+-'  30  13  ~/.vimrc
+|4,39,30,13,1512134101,"~/.vimrc"
+-'  128  0  ~/.vimrc
+|4,39,128,0,1512134079,"~/.vimrc"
+-'  128  0  ~/.vimrc
+|4,39,128,0,1512134079,"~/.vimrc"
+-'  128  0  ~/.vimrc
+|4,39,128,0,1512134079,"~/.vimrc"
+-'  128  0  ~/.vimrc
+|4,39,128,0,1512134079,"~/.vimrc"
+-'  204  6  ~/.vimrc
+|4,39,204,6,1512134058,"~/.vimrc"
+-'  204  6  ~/.vimrc
+|4,39,204,6,1512134058,"~/.vimrc"
+-'  204  6  ~/.vimrc
+|4,39,204,6,1512134058,"~/.vimrc"
+-'  204  6  ~/.vimrc
+|4,39,204,6,1512134058,"~/.vimrc"
+-'  201  6  ~/.vimrc
+|4,39,201,6,1512134057,"~/.vimrc"
+-'  321  6  ~/.vimrc
+|4,39,321,6,1512134057,"~/.vimrc"
+-'  217  6  ~/.vimrc
+|4,39,217,6,1512134057,"~/.vimrc"
+-'  214  6  ~/.vimrc
+|4,39,214,6,1512134057,"~/.vimrc"
+-'  201  6  ~/.vimrc
+|4,39,201,6,1512134057,"~/.vimrc"
+-'  321  6  ~/.vimrc
+|4,39,321,6,1512134057,"~/.vimrc"
+-'  217  6  ~/.vimrc
+|4,39,217,6,1512134057,"~/.vimrc"
+-'  214  6  ~/.vimrc
+|4,39,214,6,1512134057,"~/.vimrc"
+-'  201  6  ~/.vimrc
+|4,39,201,6,1512134057,"~/.vimrc"
+-'  321  6  ~/.vimrc
+|4,39,321,6,1512134057,"~/.vimrc"
+-'  217  6  ~/.vimrc
+|4,39,217,6,1512134057,"~/.vimrc"
+-'  214  6  ~/.vimrc
+|4,39,214,6,1512134057,"~/.vimrc"
+-'  201  6  ~/.vimrc
+|4,39,201,6,1512134057,"~/.vimrc"
+-'  321  6  ~/.vimrc
+|4,39,321,6,1512134057,"~/.vimrc"
+-'  217  6  ~/.vimrc
+|4,39,217,6,1512134057,"~/.vimrc"
+-'  214  6  ~/.vimrc
+|4,39,214,6,1512134057,"~/.vimrc"
+-'  211  6  ~/.vimrc
+|4,39,211,6,1512134056,"~/.vimrc"
+-'  211  6  ~/.vimrc
+|4,39,211,6,1512134056,"~/.vimrc"
+-'  211  6  ~/.vimrc
+|4,39,211,6,1512134056,"~/.vimrc"
+-'  211  6  ~/.vimrc
+|4,39,211,6,1512134056,"~/.vimrc"
+-'  31  6  ~/.vimrc
+|4,39,31,6,1512134053,"~/.vimrc"
+-'  31  6  ~/.vimrc
+|4,39,31,6,1512134053,"~/.vimrc"
+-'  31  6  ~/.vimrc
+|4,39,31,6,1512134053,"~/.vimrc"
+-'  31  6  ~/.vimrc
+|4,39,31,6,1512134053,"~/.vimrc"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512133652,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  21  100  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,21,100,1512133627,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  14  100  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,14,100,1512133627,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  14  100  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,14,100,1512133627,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  14  100  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,14,100,1512133627,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  14  100  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,14,100,1512133627,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  14  100  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,14,100,1512133627,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  14  100  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,14,100,1512133627,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  1  14  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,1,14,1512133589,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  1  14  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,1,14,1512133589,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  1  14  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,1,14,1512133589,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  1  14  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,1,14,1512133589,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  1  14  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,1,14,1512133589,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  1  14  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,1,14,1512133589,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  7  0  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,7,0,1512133470,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  2  0  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,2,0,1512133470,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  2  0  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,2,0,1512133470,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  2  0  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,2,0,1512133470,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  2  0  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,2,0,1512133470,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  2  0  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,2,0,1512133470,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  2  0  /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+|4,39,2,0,1512133470,"/d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512132683,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512132683,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512132683,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512132683,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512132683,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
+-'  8  48  /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+|4,39,8,48,1512132683,"/d/Users/79001/git/learningvuejs/Use_Bootstrap.html"
 
 # 文件内的标记历史记录 (从新到旧):
+
+> /d/Users/79001/git/learningvuejs/.git/COMMIT_EDITMSG
+	*	1512136027	0
+	"	5	2
+	^	5	3
+	.	5	2
+	+	31	9
+	+	36	37
+	+	36	36
+	+	37	37
+	+	38	0
+	+	15	31
+	+	31	0
+	+	24	0
+	+	36	49
+	+	36	38
+	+	36	89
+	+	36	74
+	+	25	22
+	+	31	0
+	+	15	0
+	+	15	99
+	+	36	19
+	+	34	6
+	+	36	0
+	+	37	3
+	+	38	21
+	+	15	9
+	+	21	72
+	+	40	15
+	+	43	2
+	+	42	19
+	+	41	6
+	+	24	67
+	+	15	10
+	+	20	0
+	+	30	44
+	+	15	28
+	+	31	17
+	+	34	0
+	+	35	6
+	+	37	2
+	+	31	16
+	+	36	45
+	+	18	0
+	+	15	20
+	+	16	0
+	+	28	44
+	+	30	11
+	+	20	0
+	+	30	37
+	+	29	1
+	+	8	18
+	+	34	2
+	+	32	23
+	+	8	5
+	+	8	0
+	+	14	16
+	+	8	6
+	+	12	22
+	+	8	30
+	+	10	19
+	+	11	0
+	+	7	21
+	+	21	78
+	+	22	6
+	+	25	2
+	+	24	21
+	+	26	30
+	+	7	62
+	+	6	14
+	+	18	0
+	+	21	74
+	+	21	100
+	+	1	9
+	+	20	2
+	+	19	0
+	+	17	53
+	+	19	20
+	+	21	20
+	+	17	15
+	+	21	71
+	+	21	70
+	+	22	6
+	+	24	2
+	+	23	31
+	+	19	25
+	+	1	33
+	+	6	0
+	+	1	10
+	+	6	0
+	+	1	33
+	+	2	0
+	+	4	44
+	+	6	0
+	+	4	44
+	+	3	6
+	+	6	0
+	+	5	2
+
+> ~/.vimrc
+	*	1512134494	0
+	"	56	25
+	^	56	25
+	.	56	24
+	+	147	0
+	+	154	0
+	+	200	0
+	+	203	0
+	+	206	0
+	+	24	28
+	+	320	4
+	+	320	0
+	+	321	61
+	+	30	21
+	+	31	23
+	+	31	0
+	+	41	45
+	+	45	40
+	+	41	0
+	+	53	34
+	+	56	24
+
+> /d/Users/79001/git/learningvuejs/Range_v-for.html
+	*	1512134485	0
+	"	7	13
+	^	7	14
+	.	7	13
+	+	1	0
+	+	10	0
+	+	7	13
+
+> /d/Users/79001/git/learningvuejs/Use_Bootstrap.html
+	*	1512133651	0
+	"	8	48
+	^	8	48
+	.	8	49
+	+	1	6
+	+	2	16
+	+	6	16
+	+	12	20
+	+	13	14
+	+	13	12
+	+	2	10
+	+	3	88
+	+	4	29
+	+	11	4
+	+	7	31
+	+	8	42
+	+	12	72
+	+	13	35
+	+	14	17
+	+	15	26
+	+	16	19
+	+	17	0
+	+	9	31
+	+	8	49
+
+> /d/Users/79001/git/learningvuejs/Install
+	*	1512132002	0
+	"	1	0
+
+> /d/Users/79001/git/learningvuejs/Greetings-user.html
+	*	1512131391	0
+	"	3	0
+	^	19	28
+	.	19	27
+	+	1	6
+	+	2	16
+	+	6	16
+	+	38	0
+	+	27	12
+	+	37	0
+	+	27	12
+	+	28	12
+	+	28	29
+	+	28	32
+	+	28	31
+	+	28	36
+	+	38	0
+	+	27	72
+	+	2	10
+	+	3	28
+	+	4	88
+	+	6	10
+	+	7	19
+	+	25	32
+	+	7	35
+	+	9	108
+	+	9	106
+	+	9	109
+	+	9	93
+	+	28	37
+	+	9	104
+	+	20	42
+	+	20	51
+	+	21	36
+	+	22	42
+	+	23	52
+	+	22	38
+	+	9	124
+	+	9	25
+	+	9	68
+	+	9	94
+	+	9	68
+	+	9	36
+	+	20	36
+	+	20	24
+	+	24	25
+	+	20	0
+	+	20	41
+	+	20	25
+	+	21	61
+	+	23	76
+	+	9	92
+	+	21	44
+	+	22	39
+	+	23	43
+	+	28	32
+	+	7	0
+	+	26	0
+	+	7	0
+	+	8	49
+	+	9	64
+	+	18	21
+	+	28	38
+	+	28	40
+	+	9	68
+	+	20	0
+	+	21	0
+	+	22	0
+	+	28	12
+	+	28	39
+	+	28	0
+	+	33	28
+	+	20	0
+	+	24	0
+	+	20	0
+	+	9	114
+	+	9	68
+	+	10	25
+	+	11	63
+	+	12	67
+	+	13	65
+	+	14	64
+	+	17	61
+	+	18	48
+	+	20	0
+	+	24	0
+	+	20	0
+	+	12	49
+	+	33	25
+	+	22	0
+	+	19	27
+
+> /d/Users/79001/git/learningvuejs/v-else.html
+	*	1512113702	0
+	"	7	20
+	^	7	20
+	.	7	19
+	+	7	19
+
+> /d/Users/79001/git/learningvuejs/template_v-if.html
+	*	1512094661	0
+	"	14	16
+	^	14	16
+	.	14	16
+	+	1	6
+	+	1	10
+	+	1	19
+	+	1	10
+	+	1	30
+	+	1	28
+	+	1	72
+	+	1	21
+	+	1	6
+	+	1	0
+	+	22	12
+	+	23	17
+	+	24	20
+	+	27	0
+	+	26	59
+	+	24	22
+	+	27	13
+	+	26	44
+	+	7	24
+	+	8	20
+	+	11	19
+	+	12	33
+	+	13	32
+	+	13	50
+	+	15	0
+	+	6	13
+	+	16	0
+	+	19	13
+	+	7	0
+	+	6	8
+	+	8	52
+	+	9	50
+	+	10	46
+	+	16	16
+	+	16	17
+	+	17	16
+	+	15	0
+	+	13	37
+	+	14	16
+
+> /e/obb/Fulfill.java
+	*	1512091780	0
+	"	20	0
+
+> /d/Users/79001/git/learningvuejs/v-show.html
+	*	1512049564	0
+	"	7	20
+	^	7	20
+	.	7	19
+	+	1	6
+	+	2	10
+	+	3	23
+	+	5	10
+	+	15	4
+	+	16	12
+	+	5	10
+	+	6	22
+	+	8	31
+	+	17	17
+	+	18	20
+	+	19	19
+	+	20	27
+	+	14	13
+	+	14	0
+	+	14	16
+	+	20	42
+	+	14	0
+	+	12	0
+	+	13	14
+	+	1	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	8	0
+	+	12	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	23	13
+	+	7	39
+	+	8	28
+	+	24	0
+	+	9	25
+	+	8	37
+	+	9	37
+	+	10	44
+	+	7	16
+	+	8	17
+	+	7	0
+	+	7	19
+
+> /d/Users/79001/git/learningvuejs/.gitignore
+	*	1512045602	0
+	"	60	0
+	^	60	5
+	.	60	4
+	+	60	0
+	+	61	0
+	+	60	4
+
+> ~/.vim/ming-plugged/YouCompleteMe/third_party/ycmd/cpp/ycm/ycm_core.cpp
+	*	1512033190	0
+	"	234	0
+
+> ~/.vim/ming-plugged/YouCompleteMe/third_party/ycmd/cpp/CMakeLists.txt
+	*	1512032977	0
+	"	259	0
+	^	259	0
+	.	259	0
+	+	255	180
+	+	255	73
+	+	256	39
+	+	259	42
+	+	256	72
+	+	259	0
+
+> ~/.vim/ming-plugged/YouCompleteMe/third_party/ycmd/cpp/ycm/CMakeLists.txt
+	*	1512032221	0
+	"	483	26
+	^	483	27
+	.	483	27
+	+	483	27
+
+> ~/.vim/ming-plugged/YouCompleteMe/third_party/ycmd/cpp/BoostParts/boost/detail/interlocked.hpp
+	*	1512023764	0
+	"	196	0
+	^	196	55
+	.	196	54
+	+	196	54
+
+> /e/a.java
+	*	1512011762	0
+	"	4	35
+	^	4	35
+	.	5	0
+	+	9	0
+	+	8	0
+	+	6	41
+	+	7	32
+	+	6	0
+	+	2	44
+	+	5	0
+	+	3	38
+	+	5	0
+	+	4	35
+	+	5	0
+
+> ~/.vim/ming-plugged/YouCompleteMe/third_party/ycmd/PYTHON_USED_DURING_BUILDING
+	*	1512011612	0
+	"	1	2
+	^	1	2
+	.	1	2
+	+	1	2
+
+> ~/.vim/ming-plugged/YouCompleteMe/third_party/ycmd/build.py
+	*	1512009269	0
+	"	176	0
+	^	176	58
+	.	176	0
+	+	177	63
+	+	177	0
+	+	235	0
+	+	177	0
+	+	176	0
+
+> ~/.vim/ming-plugged/YouCompleteMe/third_part/ycmd/build.py
+	*	1512009016	0
+	"	1	0
+
+> /e/a.txt
+	*	1512006955	0
+	"	474	55
+
+> /usr/bin/python2.7.dll
+	*	1512003680	0
+	"	1	0
+
+> /e/obb/src/Fulfill.java
+	*	1512003122	0
+	"	34	32
+	^	34	32
+	.	34	31
+	+	24	40
+	+	24	6
+	+	24	25
+	+	24	6
+	+	24	44
+	+	24	47
+	+	24	0
+	+	24	56
+	+	24	0
+	+	25	6
+	+	24	55
+	+	26	24
+	+	25	40
+	+	24	18
+	+	24	0
+	+	26	0
+	+	25	0
+	+	24	46
+	+	24	0
+	+	18	0
+	+	30	15
+	+	29	15
+	+	30	20
+	+	29	15
+	+	30	62
+	+	24	0
+	+	26	0
+	+	28	6
+	+	34	31
+
+> ~/.vim/plugged/YouCompleteMe/third_party/ycmd/PYTHON_USED_DURING_BUILDING
+	*	1511956290	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> /d/Users/79001/IdeaProjects/mooc/mooccommon/src/main/java/snippets/cipher/CipherAlgorithmNotSupportedException
+	*	1511955789	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> /d/Users/79001/IdeaProjects/mooc/mooccommon/.vimrc
+	*	1511954554	0
+	"	1	0
+
+> /d/Users/79001/IdeaProjects/mooc/mooccommon/pom.xml
+	*	1511954376	0
+	"	19	0
+	^	19	0
+	.	19	0
+	+	19	0
+
+> ~/_vimrc
+	*	1511927177	0
+	"	221	36
+
+> /d/Users/79001/IdeaProjects/mooc/mooc/pom.xml
+	*	1511869026	0
+	"	16	29
+	^	16	29
+	.	16	28
+	+	12	51
+	+	13	69
+	+	14	67
+	+	15	13
+	+	16	28
+
+> /usr/share/vim/vim80/doc/eval.txt
+	*	1511866044	0
+	"	8530	3
+
+> ~/.bash_history
+	*	1511856564	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /usr/share/vim/vim80/autoload/pythoncomplete.vim
+	*	1511849523	0
+	"	1	0
+
+> /usr/share/vim/vim80/pythoncomplete.vim
+	*	1511849461	0
+	"	1	0
+
+> /usr/share/vim/vim80/doc/if_pyth.txt
+	*	1511848149	0
+	"	34	22
+
+> /d/Users/79001/IdeaProjects/mooc1706-my/a.txt
+	*	1511841475	0
+	"	1	773
+
+> /e/obb/src/.git/COMMIT_EDITMSG
+	*	1511833170	0
+	"	11	0
+	^	4	33
+	.	4	30
+	+	1	114
+	+	17	33
+	+	1	33
+	+	12	30
+	+	10	1
+	+	1	74
+	+	12	24
+	+	5	54
+	+	1	39
+	+	5	1
+	+	4	30
+
+> /e/obb/src/FullFill.java
+	*	1511832326	0
+	"	1	0
+
+> /d/Users/79001/IdeaProjects/mooc1706-my/.git/COMMIT_EDITMSG
+	*	1511790185	0
+	"	1	34
+	^	19	21
+	.	19	18
+	+	1	35
+	+	19	18
+
+> /d/Users/79001/git/learningvuejs/HomeWork.html
+	*	1511768152	0
+	"	18	23
+	^	18	23
+	.	18	22
+	+	1	6
+	+	1	16
+	+	31	28
+	+	33	10
+	+	33	59
+	+	33	32
+	+	33	10
+	+	33	79
+	+	33	26
+	+	33	31
+	+	33	36
+	+	33	22
+	+	33	45
+	+	33	32
+	+	33	29
+	+	31	14
+	+	33	38
+	+	31	0
+	+	33	10
+	+	33	41
+	+	33	27
+	+	33	34
+	+	33	10
+	+	33	0
+	+	34	0
+	+	1	6
+	+	1	16
+	+	1	39
+	+	1	6
+	+	1	37
+	+	1	23
+	+	1	0
+	+	6	10
+	+	19	21
+	+	19	0
+	+	19	75
+	+	3	88
+	+	7	31
+	+	8	28
+	+	9	35
+	+	19	16
+	+	19	21
+	+	19	30
+	+	19	0
+	+	19	28
+	+	19	17
+	+	9	38
+	+	10	75
+	+	10	20
+	+	10	61
+	+	10	40
+	+	10	37
+	+	10	80
+	+	10	0
+	+	11	54
+	+	12	45
+	+	13	101
+	+	17	71
+	+	18	28
+	+	19	4
+	+	20	0
+	+	22	7
+	+	23	20
+	+	25	52
+	+	18	22
+
+> /d/Users/79001/git/learningvuejs/HelloWorld.html
+	*	1511676179	0
+	"	21	0
+	.	21	0
+	+	1	6
+	+	1	0
+	+	1	10
+	+	1	24
+	+	1	10
+	+	1	19
+	+	1	20
+	+	1	38
+	+	1	59
+	+	1	12
+	+	1	7
+	+	1	15
+	+	1	17
+	+	1	46
+	+	1	6
+	+	7	7
+	+	12	9
+	+	2	0
+	+	8	0
+	+	2	0
+	+	8	0
+	+	9	0
+	+	8	0
+	+	6	0
+	+	12	0
+	+	19	0
+	+	6	0
+	+	21	0
+
+> /d/Users/79001/git/learningvuejs/.git/rebase-merge/git-rebase-todo
+	*	1511675944	0
+	"	1	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/.bashrc
+	*	1511665569	0
+	"	1	621
+	^	1	673
+	.	1	672
+	+	1	672
+
+> /d/Users/79001/git/learningvuejs/HelloWordl.html
+	*	1511598699	0
+	"	1	0
+
+> /etc/bash.bashrc
+	*	1511592486	0
+	"	61	27
+	^	61	27
+	.	61	26
+	+	61	26
+
+> /e/obb/src/Join.java
+	*	1511573519	0
+	"	1	0
+
+> /e/obb/src/Poly.java
+	*	1511573403	0
+	"	16	50
+	^	16	51
+	.	16	50
+	+	4	1
+	+	2	44
+	+	3	39
+	+	2	46
+	+	9	0
+	+	7	43
+	+	8	43
+	+	18	0
+	+	17	0
+	+	13	40
+	+	16	33
+	+	8	45
+	+	7	45
+	+	6	24
+	+	15	28
+	+	16	50
+
+> /e/obb/FlappyBird/.git/COMMIT_EDITMSG
+	*	1511414628	0
+	"	63	0
+	^	1	7
+	.	1	0
+	+	1	0
+
+> /e/obb/FlappyBird/.git/rebase-merge/git-rebase-todo
+	*	1511414389	0
+	"	1	0
+
+> /e/obb/src/Overload.java
+	*	1511402677	0
+	"	21	0
+	^	19	39
+	.	19	38
+	+	21	0
+	+	20	0
+	+	8	41
+	+	9	0
+	+	6	0
+	+	3	39
+	+	4	33
+	+	5	19
+	+	11	15
+	+	10	16
+	+	11	19
+	+	9	23
+	+	10	23
+	+	11	17
+	+	12	38
+	+	10	20
+	+	10	0
+	+	12	0
+	+	14	36
+	+	17	38
+	+	16	0
+	+	18	39
+	+	15	36
+	+	19	38
+
+> /e/obb/src/MilliSecondTest.java
+	*	1511139961	0
+	"	2	22
+	^	2	23
+	.	2	22
+	+	9	53
+	+	10	61
+	+	2	22
+
+> /e/obb/src/.git/rebase-merge/git-rebase-todo
+	*	1510968776	0
+	"	1	0
+	^	2	78
+	.	2	75
+	+	1	0
+	+	2	75
+
+> /usr/share/vim/vim80/syntax/Highlight test
+	*	1510888101	0
+	"	60	0
+	^	60	36
+	.	46	0
+	+	46	0
+
+> /etc/profile
+	*	1510887343	0
+	"	180	0
+
+> /etc/invironment
+	*	1510887190	0
+	"	1	0
+
+> /e/obb/src/.git/config
+	*	1510883655	0
+	"	1	0
 
 > /e/StringEqualTest.java
 	*	1510103790	0
