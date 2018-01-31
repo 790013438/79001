@@ -27,6 +27,7 @@ Plug 'morhetz/gruvbox'
 Plug 'Valloric/YouCompleteMe'
 Plug 'altercation/vim-colors-solarized'
 Plug 'thaerkh/vim-indentguides'
+Plug 'kshenoy/vim-signature'
 
 call plug#end()
 
