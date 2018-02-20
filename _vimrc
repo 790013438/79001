@@ -341,3 +341,25 @@ let $LANG = 'en_us.UTF-8'
 set wildmenu
 " 
 "233
+
+"=====[ Highlight matches when jumping to next ]=============
+
+    " This rewires n and N to do the highlighing...
+    nnoremap <silent> n   n:call HLNext(0.4)<cr>
+    nnoremap <silent> N   N:call HLNext(0.4)<cr>
+
+
+    " EITHER blink the line containing the match...
+    function! HLNext (blinktime)
+        set invcursorline
+        redraw
+        exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
+        set invcursorline
+        redraw
+    endfunction
+
+"====[ Make tabs, trailing whitespace, and non-breaking spaces visible ]======
+
+    exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
+    set list
+
