@@ -340,3 +340,15 @@ let g:ycm_path_to_python_interpreter = '/d/python27/python.exe'
 
     exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
     set list
+
+"-----------------Mappings-----------"
+nmap ,ev :e $MYVIMRC<CR>
+
+"---------------Auto-Commands---------------"
+
+"Automatically source the Vimrc file on save.
+
+augroup autosourcing
+    autocmd!
+    autocmd BufWritePost .vimrc source %
+augroup END

@@ -59,9 +59,6 @@ noremap <F12> <ESC>:call libcallnr('gvim_fullscreen.dll', 'ToggleTransparency', 
 
 " 辅助信息
 
-" 总是显示状态栏
-set laststatus=2
-
 " 显示光标当前位置
 set ruler
 
@@ -130,7 +127,7 @@ let g:tagbar_compact=1
 
 " >>
 " 代码导航
- 
+
 " 基于标签的代码导航
 
 " 设置插件 indexer 调用 ctags 的参数
@@ -172,21 +169,21 @@ let g:multi_cursor_skip_key='<S-k>'
 " wholeword：是否整词匹配
 " replace：被替换字符串
 function! Replace(confirm, wholeword, replace)
-    wa
-    let flag = ''
-    if a:confirm
-        let flag .= 'gec'
-    else
-        let flag .= 'ge'
-    endif
-    let search = ''
-    if a:wholeword
-        let search .= '\<' . escape(expand('<cword>'), '/\.*$^~[') . '\>'
-    else
-        let search .= expand('<cword>')
-    endif
-    let replace = escape(a:replace, '/\&~')
-    execute 'argdo %s/' . search . '/' . replace . '/' . flag . '| update'
+wa
+let flag = ''
+if a:confirm
+    let flag .= 'gec'
+else
+    let flag .= 'ge'
+endif
+let search = ''
+if a:wholeword
+    let search .= '\<' . escape(expand('<cword>'), '/\.*$^~[') . '\>'
+else
+    let search .= expand('<cword>')
+endif
+let replace = escape(a:replace, '/\&~')
+execute 'argdo %s/' . search . '/' . replace . '/' . flag . '| update'
 endfunction
 " 不确认、非整词
 nnoremap <Leader>R :call Replace(0, 0, input('Replace '.expand('<cword>').' with: '))<CR>
@@ -241,7 +238,7 @@ let g:ycm_cache_omnifunc=0
 let g:ycm_seed_identifiers_with_syntax=1
 
 " <<
- 
+
 " >>
 " 由接口快速生成实现框架
 
@@ -249,7 +246,7 @@ let g:ycm_seed_identifiers_with_syntax=1
 let g:disable_protodef_sorting=1
 
 
- 
+
 " 启用:Man命令查看各类man信息
 source $VIMRUNTIME/ftplugin/man.vim
 
@@ -278,7 +275,7 @@ let NERDTreeAutoDeleteBuffer=1
 
 " >>
 " 多文档编辑
- 
+
 " 显示/隐藏 MiniBufExplorer 窗口
 map <Leader>bl :MBEToggle<cr>
 
@@ -309,14 +306,14 @@ map <leader>ss :mksession! my.vim<cr>
 map <leader>rs :source my.vim<cr>
 
 " <<
- 
+
 " 设置快捷键实现一键编译及运行
 nmap <Leader>m :wa<CR> :cd build/<CR> :!rm -rf main<CR> :!cmake CMakeLists.txt<CR>:make<CR><CR> :cw<CR> :cd ..<CR>
 nmap <Leader>g :wa<CR>:cd build/<CR>:!rm -rf main<CR>:!cmake CMakeLists.txt<CR>:make<CR><CR>:cw<CR>:cd ..<CR>:!build/main<CR>
 
 " >>
 " 快速选中结对符内的文本
- 
+
 " 快捷键
 map <SPACE> <Plug>(wildfire-fuel)
 vmap <S-SPACE> <Plug>(wildfire-water)
@@ -344,22 +341,100 @@ set wildmenu
 
 "=====[ Highlight matches when jumping to next ]=============
 
-    " This rewires n and N to do the highlighing...
-    nnoremap <silent> n   n:call HLNext(0.4)<cr>
-    nnoremap <silent> N   N:call HLNext(0.4)<cr>
+" This rewires n and N to do the highlighing...
+nnoremap <silent> n   n:call HLNext(0.4)<cr>
+nnoremap <silent> N   N:call HLNext(0.4)<cr>
 
 
-    " EITHER blink the line containing the match...
-    function! HLNext (blinktime)
-        set invcursorline
-        redraw
-        exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
-        set invcursorline
-        redraw
-    endfunction
+" EITHER blink the line containing the match...
+function! HLNext (blinktime)
+    set invcursorline
+    redraw
+"       exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
+    set invcursorline
+    redraw
+endfunction
 
 "====[ Make tabs, trailing whitespace, and non-breaking spaces visible ]======
 
-    exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
-    set list
+exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
+set list
 
+"====[ Make the 81st column stand out ]====================
+
+" OR ELSE just the 81st column of wide lines...
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%81v', 100)
+
+let mapleader = ','
+"The default leader is \, but a comma is much butter.
+
+"---------------Mappings---------------"
+
+"Make it easy to edit the Vimrc file
+nmap <Leader>ev :tabedit $MYVIMRC<cr>
+
+"--------------- Personal highlighting ---------------"
+"====[ :so $VIMRUNTIME/syntax/hitest.vim ]=============
+"match ErrorMsg /^Error/
+"match ErrorMsg /\%>81v.\+/
+"match errorMsg /[^\t]\zs\t\+/
+"match errorMsg /[\t]/
+" Preventing errors caused by IP address
+"match errorMsg /\(2[5][6-9]\|2[6-9][0-9]\|[3-9][0-9][0-9]\)[.][0-9]\{1,3\}[.][0-9]\{1,3\}[.][0-9]\{1,3\}\|[0-9]\{1,3\}[.]\(2[5][6-9]\|2[6-9][0-9]\|[3-9][0-9][0-9]\)[.][0-9]\{1,3\}[.][0-9]\{1,3\}\|[0-9]\{1,3\}[.][0-9]\{1,3\}[.]\(2[5][6-9]\|\2[6-9][0-9]|[3-9][0-9][0-9]\)[.][0-9]\{1,3\}\|[0-9]\{1,3\}[.][0-9]\{1,3\}[.][0-9]\{1,3\}[.]\(2[5][6-9]\|2[6-9][0-9]\|[3-9][0-9][0-9]\)/
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v]\ [%p%%]\ [LEN=%L]
+set laststatus=2
+
+map <silent> <A-F2> :if &guioptions =~# 'T' <Bar>
+     \set guioptions-=T <Bar>
+     \set guioptions-=m <bar>
+ \else <Bar>
+     \set guioptions+=T <Bar>
+     \set guioptions+=m <Bar>
+ \endif<CR>
+
+"------------------- Modifying tabs -------------------"
+"function! ShortTabLine()
+"    let ret = ''
+"    for i in range(tabpagenr('$'))
+"    " select the color group for highlighting active tab
+"        if i + 1 == tabpagenr()
+"            let ret .= '%#errorMsg#'
+"        else
+"            let ret .= '%#TabLine#'
+"        endif
+"        " find the buffername for the tablabel
+"        let buflist = tabpagebuflist(i+1)
+"        let winnr = tabpagewinnr(i+1)
+"        let buffername = bufname(buflist[winnr – 1])
+"        let filename = fnamemodify(buffername,':t')
+"        " check if there is no name
+"        if filename == ''
+"            let filename = 'noname'
+"        endif
+"        " only show the first 6 letters of the name and
+"        " .. if the filename is more than 8 letters long
+"        if strlen(filename) >=8
+"            let ret .= '['. filename[0:5].'..]'
+"        else
+"            let ret .= '['.filename.']'
+"        endif
+"    endfor
+"    " after the last tab fill with TabLineFill and reset tab page #
+"    let ret .= '%#TabLineFill#%T'
+"    return ret
+"endfunction
+"set tabline=%!ShortTabLine()
+
+"----------- gui tab tool tip -----------"
+"function! InfoGuiTooltip()
+"    "get widow count"
+"    let wincount = tabpagewinnr(tabpagenr(), '$')
+"    let bufferlist=''
+"    "get name for active buffers in windows"
+"    for i in tabpagebuflist()
+"        let bufferlist .= '['.fnamemodify(bufname(i),':t').'] '
+"    endfor
+"    return bufname($).' windows: '.wincount.' ' .bufferlist ' '
+"endfunction
+"set guitabtooltip=%!InfoGuiTooltip()
