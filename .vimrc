@@ -29,6 +29,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'thaerkh/vim-indentguides'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
@@ -331,7 +332,7 @@ let g:ycm_path_to_python_interpreter = '/d/python27/python.exe'
     function! HLNext (blinktime)
         set invcursorline
         redraw
-        exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
+"       exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
         set invcursorline
         redraw
     endfunction
@@ -342,7 +343,7 @@ let g:ycm_path_to_python_interpreter = '/d/python27/python.exe'
     set list
 
 "-----------------Mappings-----------"
-nmap ,ev :e $MYVIMRC<CR>
+nmap <Leader>ev :e $MYVIMRC<CR>
 
 "---------------Auto-Commands---------------"
 
@@ -352,3 +353,6 @@ augroup autosourcing
     autocmd!
     autocmd BufWritePost .vimrc source %
 augroup END
+
+set splitbelow
+set splitright

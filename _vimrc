@@ -28,6 +28,7 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'altercation/vim-colors-solarized'
 Plug 'thaerkh/vim-indentguides'
 Plug 'kshenoy/vim-signature'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
@@ -438,3 +439,6 @@ map <silent> <A-F2> :if &guioptions =~# 'T' <Bar>
 "    return bufname($).' windows: '.wincount.' ' .bufferlist ' '
 "endfunction
 "set guitabtooltip=%!InfoGuiTooltip()
+
+set splitbelow
+set splitright
