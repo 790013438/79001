@@ -218,7 +218,7 @@ let g:ycm_cache_omnifunc=0
 let g:ycm_seed_identifiers_with_syntax=1
 
 " <<
- 
+
 " >>
 " 由接口快速生成实现框架
 
@@ -226,36 +226,13 @@ let g:ycm_seed_identifiers_with_syntax=1
 let g:disable_protodef_sorting=1
 
 
- 
+
 " 启用:Man命令查看各类man信息
 source $VIMRUNTIME/ftplugin/man.vim
 
 " 定义:Man命令查看各类man信息的快捷键
 nmap <Leader>man :Man 3 <cword><CR>
 
-" <<
-
-" >>
-" 工程文件浏览
-
-" 使用 NERDTree 插件查看工程文件。设置快捷键，速记：file list
-nmap <Leader>fl :NERDTreeToggle<CR>
-" 设置 NERDTree 子窗口宽度
-let NERDTreeWinSize=22
-" 设置 NERDTree 子窗口位置
-let NERDTreeWinPos="right"
-" 显示隐藏文件
-let NERDTreeShowHidden=1
-" NERDTree 子窗口中不显示冗余帮助信息
-let NERDTreeMinimalUI=1
-" 删除文件时自动删除文件对应 buffer
-let NERDTreeAutoDeleteBuffer=1
-
-" <<
-
-" >>
-" 多文档编辑
- 
 " 显示/隐藏 MiniBufExplorer 窗口
 map <Leader>bl :MBEToggle<cr>
 
@@ -286,14 +263,14 @@ map <leader>ss :mksession! my.vim<cr>
 map <leader>rs :source my.vim<cr>
 
 " <<
- 
+
 " 设置快捷键实现一键编译及运行
 nmap <Leader>m :wa<CR> :cd build/<CR> :!rm -rf main<CR> :!cmake CMakeLists.txt<CR>:make<CR><CR> :cw<CR> :cd ..<CR>
 nmap <Leader>g :wa<CR>:cd build/<CR>:!rm -rf main<CR>:!cmake CMakeLists.txt<CR>:make<CR><CR>:cw<CR>:cd ..<CR>:!build/main<CR>
 
 " >>
 " 快速选中结对符内的文本
- 
+
 " 快捷键
 map <SPACE> <Plug>(wildfire-fuel)
 vmap <S-SPACE> <Plug>(wildfire-water)
@@ -316,7 +293,7 @@ let $LANG = 'en_us.UTF-8'
 
 " Display all matching files when we tab complete
 set wildmenu
-" 
+"
 "233
 
 let g:ycm_path_to_python_interpreter = '/d/python27/python.exe'
@@ -343,7 +320,12 @@ let g:ycm_path_to_python_interpreter = '/d/python27/python.exe'
     set list
 
 "-----------------Mappings-----------"
-nmap <Leader>ev :e $MYVIMRC<CR>
+nmap <Leader>ev :tabedit $MYVIMRC<CR>
+
+"Make NERDTreeToogle easier to toggle.
+nmap <A-1> :NERDTreeToggle<CR>
+" 显示隐藏文件
+let NERDTreeShowHidden=1
 
 "---------------Auto-Commands---------------"
 

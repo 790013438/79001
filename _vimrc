@@ -254,41 +254,12 @@ source $VIMRUNTIME/ftplugin/man.vim
 " 定义:Man命令查看各类man信息的快捷键
 nmap <Leader>man :Man 3 <cword><CR>
 
-" <<
-
-" >>
-" 工程文件浏览
-
-" 使用 NERDTree 插件查看工程文件。设置快捷键，速记：file list
-nmap <Leader>fl :NERDTreeToggle<CR>
-" 设置 NERDTree 子窗口宽度
-let NERDTreeWinSize=22
-" 设置 NERDTree 子窗口位置
-let NERDTreeWinPos="right"
-" 显示隐藏文件
-let NERDTreeShowHidden=1
-" NERDTree 子窗口中不显示冗余帮助信息
-let NERDTreeMinimalUI=1
-" 删除文件时自动删除文件对应 buffer
-let NERDTreeAutoDeleteBuffer=1
-
-" <<
-
-" >>
-" 多文档编辑
-
 " 显示/隐藏 MiniBufExplorer 窗口
 map <Leader>bl :MBEToggle<cr>
 
 " buffer 切换快捷键
 map <C-Tab> :MBEbn<cr>
 map <C-S-Tab> :MBEbp<cr>
-
-" <<
-
-
-" >>
-" 环境恢复
 
 " 设置环境保存项
 set sessionoptions="blank,globals,localoptions,tabpages,sesdir,folds,help,options,resize,winpos,winsize"
@@ -374,6 +345,11 @@ let mapleader = ','
 
 "Make it easy to edit the Vimrc file
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
+
+"Make NERDTreeToogle easier to toggle.
+nmap <A-1> :NERDTreeToggle<CR>
+" 显示隐藏文件
+let NERDTreeShowHidden=1
 
 "--------------- Personal highlighting ---------------"
 "====[ :so $VIMRUNTIME/syntax/hitest.vim ]=============
