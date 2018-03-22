@@ -29,6 +29,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'thaerkh/vim-indentguides'
 Plug 'kshenoy/vim-signature'
 Plug 'scrooloose/nerdtree'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 call plug#end()
 
@@ -347,9 +348,12 @@ let mapleader = ','
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
 
 "Make NERDTreeToogle easier to toggle.
-nmap <A-1> :NERDTreeToggle<CR>
+nmap <M-1> :NERDTreeToggle<CR>
 " 显示隐藏文件
 let NERDTreeShowHidden=1
+
+" 模糊搜索
+nmap <M-2> :FZF<CR>
 
 "--------------- Personal highlighting ---------------"
 "====[ :so $VIMRUNTIME/syntax/hitest.vim ]=============
