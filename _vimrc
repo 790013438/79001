@@ -30,13 +30,14 @@ Plug 'thaerkh/vim-indentguides'
 Plug 'kshenoy/vim-signature'
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'iCyMind/NeoSolarized'
 
 call plug#end()
 
 filetype plugin indent on
 " <<<<
 
-colorscheme shine
+colorscheme NeoSolarized
 colorscheme gruvbox
 
 
