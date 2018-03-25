@@ -16,6 +16,10 @@ set cursorcolumn
 
 " 设置 gvim 显示字体
 "set guifont=Inconsolata,Courier\ new,YaHei,Consolas,Hybrid:10
+set langmenu=utf8
+let $LANG = 'en_us.UTF-8'
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
 set guifont=Courier_new:h10,Consolas:h11
 
 "------------------- Modifying tabs -------------------"

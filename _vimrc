@@ -303,7 +303,8 @@ nnoremap <Leader>ud :GundoToggle<CR>
 "Lang $ Encoding{{{
 set fileencodings=utf8,gbk2312,gbk,gb18030,cp936
 set encoding=utf8
-set langmenu=zh_CN.UTF-8
+set termencoding=utf8
+set langmenu=cn.UTF-8
 let $LANG = 'en_us.UTF-8'
 "}}}
 
@@ -340,7 +341,7 @@ set list
 highlight ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 100)
 
-let mapleader = ','
+"let mapleader = ','
 "The default leader is \, but a comma is much butter.
 
 "---------------Mappings---------------"
