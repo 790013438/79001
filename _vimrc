@@ -31,6 +31,7 @@ Plug 'kshenoy/vim-signature'
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'iCyMind/NeoSolarized'
+Plug 'posva/vim-vue'
 
 call plug#end()
 

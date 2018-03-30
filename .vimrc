@@ -30,6 +30,7 @@ Plug 'thaerkh/vim-indentguides'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'scrooloose/nerdtree'
+Plug 'posva/vim-vue'
 
 call plug#end()
 
