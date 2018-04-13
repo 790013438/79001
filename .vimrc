@@ -324,7 +324,7 @@ let g:ycm_path_to_python_interpreter = '/d/python27/python.exe'
 nmap <Leader>ev :tabedit $MYVIMRC<CR>
 
 "Make NERDTreeToogle easier to toggle.
-nmap <A-1> :NERDTreeToggle<CR>
+nmap <M-1> :NERDTreeToggle<CR>
 " 显示隐藏文件
 let NERDTreeShowHidden=1
 

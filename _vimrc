@@ -425,3 +425,9 @@ map <silent> <A-F2> :if &guioptions =~# 'T' <Bar>
 
 set splitbelow
 set splitright
+
+nmap <M-p> :b
+" ============ 在浏览器中打开当前文件  ============"
+nnoremap <silent> <F5> :update<Bar>silent !start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "file://%:p"<CR>
+" ============ 在文件夹中打开当前文件  ============"
+map <silent> <F4> :silent !explorer %:p:h:gs?\/?\\\\\\?<CR>
