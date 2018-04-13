@@ -32,14 +32,15 @@ Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'iCyMind/NeoSolarized'
 Plug 'posva/vim-vue'
+Plug 'junegunn/vim-slash'
+
 
 call plug#end()
 
 filetype plugin indent on
-" <<<<
 
 colorscheme NeoSolarized
-colorscheme gruvbox
+"colorscheme gruvbox
 
 
 " 禁止光标闪烁
@@ -315,21 +316,21 @@ set wildmenu
 " 
 "233
 
-"=====[ Highlight matches when jumping to next ]=============
-
-" This rewires n and N to do the highlighing...
-nnoremap <silent> n   n:call HLNext(0.4)<cr>
-nnoremap <silent> N   N:call HLNext(0.4)<cr>
-
-
-" EITHER blink the line containing the match...
-function! HLNext (blinktime)
-    set invcursorline
-    redraw
-"       exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
-    set invcursorline
-    redraw
-endfunction
+""=====[ Highlight matches when jumping to next ]=============
+"
+"" This rewires n and N to do the highlighing...
+"nnoremap <silent> n   n:call HLNext(0.4)<cr>
+"nnoremap <silent> N   N:call HLNext(0.4)<cr>
+"
+"
+"" EITHER blink the line containing the match...
+"function! HLNext (blinktime)
+"    set invcursorline
+"    redraw
+""       exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
+"    set invcursorline
+"    redraw
+"endfunction
 
 "====[ Make tabs, trailing whitespace, and non-breaking spaces visible ]======
 
@@ -431,3 +432,9 @@ nmap <M-p> :b
 nnoremap <silent> <F5> :update<Bar>silent !start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "file://%:p"<CR>
 " ============ 在文件夹中打开当前文件  ============"
 map <silent> <F4> :silent !explorer %:p:h:gs?\/?\\\\\\?<CR>
+
+" ============ 闪烁 ============"
+if has('timers')
+  " Blink 2 times with 50ms interval
+  noremap <expr> <plug>(slash-after) 'zz'.slash#blink(2, 50)
+endif
