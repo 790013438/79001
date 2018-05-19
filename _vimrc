@@ -9,7 +9,9 @@ filetype plugin on
 set incsearch
 
 " 搜索时大小写不敏感
-set ignorecase
+set smartcase
+set smartindent
+set smarttab
 
 " 关闭兼容模式
 set nocompatible
@@ -33,6 +35,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'iCyMind/NeoSolarized'
 Plug 'posva/vim-vue'
 Plug 'junegunn/vim-slash'
+Plug 'chr4/nginx.vim'
 
 
 call plug#end()
@@ -443,4 +446,4 @@ set cursorline
 set cursorcolumn
 
 "========= 折叠HTML ========="
-set foldmethod=syntax
+"set foldmethod=syntax
