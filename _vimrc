@@ -1,5 +1,3 @@
-" 文件类型侦测
-
 " 开启文件类型侦测
 filetype on
 " 根据侦测到的不同类型加载对应的插件
@@ -9,6 +7,7 @@ filetype plugin on
 set incsearch
 
 " 搜索时大小写不敏感
+set ignorecase
 set smartcase
 set smartindent
 set smarttab
@@ -47,7 +46,7 @@ colorscheme NeoSolarized
 
 
 " 禁止光标闪烁
-set gcr=a:block-blinkon0
+"set gcr=a:block-blinkon0
 
 " 禁止显示滚动条
 set guioptions-=l
@@ -447,3 +446,5 @@ set cursorcolumn
 
 "========= 折叠HTML ========="
 "set foldmethod=syntax
+"========= 折叠Java ========="
+autocmd FileType java :set fmr=/**,*/ fdm=marker fdc=1

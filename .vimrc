@@ -55,7 +55,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
 " 禁止光标闪烁
-set gcr=a:block-blinkon0
+" set gcr=a:block-blinkon0
 
 " 禁止显示滚动条
 set guioptions-=l
