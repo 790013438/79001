@@ -1,5 +1,12 @@
-" 开启文件类型侦测
-filetype on
+" 关闭兼容模式
+set nocompatible
+
+" enable syntax and plugins (for netrw)
+syntax enable
+filetype plugin on
+
+" 提示js
+set omnifunc=javascriptcomplete#CompleteJS
 " 根据侦测到的不同类型加载对应的插件
 filetype plugin on
 
@@ -9,14 +16,8 @@ set incsearch
 " 搜索时大小写不敏感
 set ignorecase
 set smartcase
-"set smartindent
+set smartindent
 set smarttab
-
-" 关闭兼容模式
-set nocompatible
-
-" vim 自身命令行模式智能补全
-set wildmenu
 
 " 插件安装
 
@@ -73,8 +74,6 @@ let g:Powerline_colorscheme='solarized256'
 
 " 语法分析
 
-" 开启语法高亮功能
-syntax enable
 " 允许用指定语法高亮配色方案替换默认方案
 syntax on
 
@@ -107,8 +106,6 @@ let $LANG = 'en_us.UTF-8'
 
 " Display all matching files when we tab complete
 set wildmenu
-" 
-"233
 
 ""=====[ Highlight matches when jumping to next ]=============
 "
@@ -239,10 +236,14 @@ set cursorcolumn
 "========= 折叠HTML ========="
 "set foldmethod=syntax
 "========= 折叠Java ========="
-autocmd FileType java :set fmr=/**,*/ fdm=marker fdc=1
+" autocmd FileType java :set fmr=/**,*/ fdm=marker fdc=1
+set foldmethod=indent
 
 "========= 提高性能 ========="
 set nocursorcolumn
 set nocursorline
 set norelativenumber
 syntax sync minlines=256
+
+set wildmode=list:longest,full
+
