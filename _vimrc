@@ -19,6 +19,9 @@ set smartcase
 set smartindent
 set smarttab
 
+" 不自动换行
+set nowrap
+
 " 插件安装
 
 call plug#begin('~/.vim/plugged')
@@ -64,16 +67,6 @@ set number
 " 高亮显示搜索结果
 set hlsearch
 
-" 其他美化
-
-" 禁止折行
-set nowrap
-
-" 设置状态栏主题风格
-let g:Powerline_colorscheme='solarized256'
-
-" 语法分析
-
 " 允许用指定语法高亮配色方案替换默认方案
 syntax on
 
@@ -88,11 +81,6 @@ set tabstop=4
 set shiftwidth=4
 " 让 vim 把连续数量的空格视为一个制表符
 set softtabstop=4
-
-set list
-
-let g:indentguides_spacechar = '·'
-let g:indentguides_tabchar = '|'
 
 " 20170512更改encoding
 "Lang $ Encoding{{{
@@ -128,6 +116,9 @@ set wildmenu
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
 set list
 
+let g:indentguides_spacechar = '·'
+let g:indentguides_tabchar = '|'
+
 "====[ Make the 81st column stand out ]====================
 
 " OR ELSE just the 81st column of wide lines...
@@ -149,6 +140,21 @@ let NERDTreeShowHidden=1
 
 " 模糊搜索
 nmap <M-2> :FZF<CR>
+" Customize fzf colors to match your color scheme
+let g:fzf_colors =
+\ { 'fg':      ['fg', 'Normal'],
+  \ 'bg':      ['bg', 'Normal'],
+  \ 'hl':      ['fg', 'Comment'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'Statement'],
+  \ 'info':    ['fg', 'PreProc'],
+  \ 'border':  ['fg', 'Ignore'],
+  \ 'prompt':  ['fg', 'Conditional'],
+  \ 'pointer': ['fg', 'Exception'],
+  \ 'marker':  ['fg', 'Keyword'],
+  \ 'spinner': ['fg', 'Label'],
+  \ 'header':  ['fg', 'Comment'] }
 
 "--------------- Personal highlighting ---------------"
 "====[ :so $VIMRUNTIME/syntax/hitest.vim ]=============
@@ -234,10 +240,10 @@ set cursorline
 set cursorcolumn
 
 "========= 折叠HTML ========="
-"set foldmethod=syntax
+set foldmethod=syntax
 "========= 折叠Java ========="
 " autocmd FileType java :set fmr=/**,*/ fdm=marker fdc=1
-set foldmethod=indent
+"set foldmethod=indent
 
 "========= 提高性能 ========="
 set nocursorcolumn

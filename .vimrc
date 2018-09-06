@@ -24,11 +24,11 @@ set wildmenu
 call plug#begin('~/.vim/ming-plugged')
 
 Plug 'morhetz/gruvbox'
-Plug 'Valloric/YouCompleteMe'
+"Plug 'Valloric/YouCompleteMe'
 Plug 'altercation/vim-colors-solarized'
 Plug 'thaerkh/vim-indentguides'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+"Plug 'SirVer/ultisnips'
+"Plug 'honza/vim-snippets'
 Plug 'scrooloose/nerdtree'
 Plug 'posva/vim-vue'
 
@@ -339,3 +339,7 @@ augroup END
 
 set splitbelow
 set splitright
+set norelativenumber
+set nocursorline
+set nocursorcolumn
+syntax sync minlines=256

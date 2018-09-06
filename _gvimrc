@@ -33,3 +33,8 @@ set guifont=Courier_new:h10,Consolas:h11
 "    endif
 "    return ret
 "endfunction
+
+set nocursorcolumn
+set nocursorline
+set norelativenumber
+syntax sync minlines=256
