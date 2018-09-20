@@ -1,14 +1,17 @@
 " 配色方案
 set background=light
 
-colorscheme NeoSolarized
+"colorscheme NeoSolarized
+"colorscheme solarized
 "colorscheme gruvbox
 "colorscheme molokai
 "colorscheme phd
 
-" 高亮显示当前行/列
-set cursorline
-set cursorcolumn
+let  g:solarized_termcolors  =  256
+let  g:solarized_termtrans   =  1
+let  g:solarized_degrade     =  1
+let  g:solarized_italic      =  0
+
 
 " 设置 gvim 显示字体
 "set guifont=Inconsolata,Courier\ new,YaHei,Consolas,Hybrid:10
@@ -38,3 +41,6 @@ set nocursorcolumn
 set nocursorline
 set norelativenumber
 syntax sync minlines=256
+
+" 窗口大小
+set lines=49 columns=98

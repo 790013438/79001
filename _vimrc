@@ -38,14 +38,22 @@ Plug 'iCyMind/NeoSolarized'
 Plug 'posva/vim-vue'
 Plug 'junegunn/vim-slash'
 Plug 'chr4/nginx.vim'
-
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'sonph/onehalf'
+Plug 'jnurmine/Zenburn'
+Plug 'junegunn/vim-easy-align'
 
 call plug#end()
 
 filetype plugin indent on
 
-colorscheme NeoSolarized
-"colorscheme gruvbox
+if has("gui_running")
+  colorscheme NeoSolarized
+  "colorscheme papercolor
+  "colorscheme gruvbox
+else
+  colorscheme papercolor
+endif
 
 " 禁止显示滚动条
 set guioptions-=l
@@ -251,5 +259,11 @@ set nocursorline
 set norelativenumber
 syntax sync minlines=256
 
-set wildmode=list:longest,full
+" set wildmode=list:longest,full
 
+" vim-easy-align
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap gc <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap gc <Plug>(EasyAlign)
