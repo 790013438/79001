@@ -1,3 +1,7 @@
+" vim8.0开始的默认vim，patch 7.4.2111
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
+
 " 关闭兼容模式
 set nocompatible
 
@@ -34,6 +38,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'kshenoy/vim-signature'
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 Plug 'iCyMind/NeoSolarized'
 Plug 'posva/vim-vue'
 Plug 'junegunn/vim-slash'
@@ -69,7 +74,6 @@ set guioptions-=T
 set ruler
 
 " 开启行号显示
-set relativenumber
 set number
 
 " 高亮显示搜索结果
@@ -145,24 +149,6 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 nmap <M-1> :NERDTreeToggle<CR>
 " 显示隐藏文件
 let NERDTreeShowHidden=1
-
-" 模糊搜索
-nmap <M-2> :FZF<CR>
-" Customize fzf colors to match your color scheme
-let g:fzf_colors =
-\ { 'fg':      ['fg', 'Normal'],
-  \ 'bg':      ['bg', 'Normal'],
-  \ 'hl':      ['fg', 'Comment'],
-  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
-  \ 'hl+':     ['fg', 'Statement'],
-  \ 'info':    ['fg', 'PreProc'],
-  \ 'border':  ['fg', 'Ignore'],
-  \ 'prompt':  ['fg', 'Conditional'],
-  \ 'pointer': ['fg', 'Exception'],
-  \ 'marker':  ['fg', 'Keyword'],
-  \ 'spinner': ['fg', 'Label'],
-  \ 'header':  ['fg', 'Comment'] }
 
 "--------------- Personal highlighting ---------------"
 "====[ :so $VIMRUNTIME/syntax/hitest.vim ]=============
@@ -249,6 +235,7 @@ set cursorcolumn
 
 "========= 折叠HTML ========="
 set foldmethod=syntax
+set foldlevelstart=99
 "========= 折叠Java ========="
 " autocmd FileType java :set fmr=/**,*/ fdm=marker fdc=1
 "set foldmethod=indent
@@ -261,9 +248,118 @@ syntax sync minlines=256
 
 " set wildmode=list:longest,full
 
+" toggle fullscreen mode by pressing F11
+noremap <f11> <esc>:call libcallnr('gvim_fullscreen.dll', 'ToggleFullscreen', 0)<cr>
+" toggle window transparency to 247 or 180 by pressing F12
+noremap <f12> <esc>:call libcallnr('gvim_fullscreen.dll', 'ToggleTransparency', "247,180")<cr>
+
 " vim-easy-align
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap gc <Plug>(EasyAlign)
 
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap gc <Plug>(EasyAlign)
+
+" 提高启动速度
+set viminfo='20,<50,s10
+
+" fzf
+set rtp+=C:/ProgramData/chocolatey/lib/fzf/tools
+set rtp+=C:/ProgramData/chocolatey/bin
+set rtp+=~/.fzf
+augroup fzf
+  autocmd!
+augroup END
+
+" 模糊搜索
+nmap <M-2> :FZF<CR>
+
+" Key mapping
+
+" History of file opened
+nnoremap <leader>h :History<cr>
+
+" Buffers opens
+nnoremap <leader>b :Buffers<cr>
+
+" Files recursively from pwd
+nnoremap <leader>f :Files<cr>
+
+" Ex commands
+nnoremap <leader>c :Commands<cr>
+" Ex command history. <C-e> to modify the command
+nnoremap <leader>: :History:<cr>
+
+nnoremap <leader>a :Rgi<space><cr>
+
+"" --column: Show column number
+" --line-number: Show line number
+" --no-heading: Do not show file headings in results
+" --fixed-strings: Search term as a literal string
+" --ignore-case: Case insensitive search
+" --no-ignore: Do not respect .gitignore, etc...
+" --hidden: Search hidden files and folders
+" --follow: Follow symlinks
+" --glob: Additional conditions for search (in this case ignore everything in the .git/ folder)
+
+" ripgrep command to search in multiple files
+autocmd fzf VimEnter * command! -nargs=* Rg
+  \ call fzf#vim#Ag(
+  \   'rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>), 1,
+  \   <bang>0 ? fzf#vim#with_preview('up:60%')
+  \           : fzf#vim#with_preview('right:50%:hidden', '?'),
+  \   <bang>0)
+
+" ripgrep - ignore the files defined in ignore files (.gitignore...)
+autocmd fzf VimEnter * command! -nargs=* Rgi
+  \ call fzf#vim#grep(
+  \   'rg --column --line-number --no-heading --fixed-strings --ignore-case --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>), 1,
+  \   <bang>0 ? fzf#vim#with_preview('up:60%')
+  \           : fzf#vim#with_preview('right:50%:hidden', '?'),
+  \   <bang>0)
+
+" ripgrep - ignore the files defined in ignore files (.gitignore...) and doesn't ignore case
+autocmd fzf VimEnter * command! -nargs=* Rgic
+  \ call fzf#vim#grep(
+  \   'rg --column --line-number --no-heading --fixed-strings --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>), 1,
+  \   <bang>0 ? fzf#vim#with_preview('up:60%')
+  \           : fzf#vim#with_preview('right:50%:hidden', '?'),
+  \   <bang>0)
+
+" ripgrep - ignore the files defined in ignore files (.gitignore...) and doesn't ignore case
+autocmd fzf VimEnter * command! -nargs=* Rgir
+  \ call fzf#vim#grep(
+  \   'rg --column --line-number --no-heading --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>), 1,
+  \   <bang>0 ? fzf#vim#with_preview('up:60%')
+  \           : fzf#vim#with_preview('right:50%:hidden', '?'),
+  \   <bang>0)
+
+" ripgrep - ignore the files defined in ignore files (.gitignore...) and doesn't ignore case and activate regex search
+autocmd fzf VimEnter * command! -nargs=* Rgr
+  \ call fzf#vim#grep(
+  \   'rg --column --line-number --no-heading --hidden --no-ignore --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>), 1,
+  \   <bang>0 ? fzf#vim#with_preview('up:60%')
+  \           : fzf#vim#with_preview('right:50%:hidden', '?'),
+  \   <bang>0)
+
+" Customize fzf colors to match your color scheme
+let g:fzf_colors =
+\ { 'fg':      ['fg', 'Normal'],
+  \ 'bg':      ['bg', 'Normal'],
+  \ 'hl':      ['fg', 'Comment'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'Statement'],
+  \ 'info':    ['fg', 'PreProc'],
+  \ 'border':  ['fg', 'Ignore'],
+  \ 'prompt':  ['fg', 'Conditional'],
+  \ 'pointer': ['fg', 'Exception'],
+  \ 'marker':  ['fg', 'Keyword'],
+  \ 'spinner': ['fg', 'Label'],
+  \ 'header':  ['fg', 'Comment'] }
+
+let g:fzf_action = {
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-b': 'split',
+  \ 'ctrl-v': 'vsplit'
+  \ }
