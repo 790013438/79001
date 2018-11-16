@@ -18,8 +18,7 @@ filetype plugin on
 set incsearch
 
 " 搜索时大小写不敏感
-set ignorecase
-set smartcase
+set ignorecase smartcase
 set smartindent
 set smarttab
 
@@ -44,7 +43,6 @@ Plug 'posva/vim-vue'
 Plug 'junegunn/vim-slash'
 Plug 'chr4/nginx.vim'
 Plug 'NLKNguyen/papercolor-theme'
-Plug 'sonph/onehalf'
 Plug 'jnurmine/Zenburn'
 Plug 'junegunn/vim-easy-align'
 
@@ -53,8 +51,8 @@ call plug#end()
 filetype plugin indent on
 
 if has("gui_running")
-  colorscheme NeoSolarized
-  "colorscheme papercolor
+  "colorscheme NeoSolarized
+  colorscheme papercolor
   "colorscheme gruvbox
 else
   colorscheme papercolor
@@ -290,7 +288,7 @@ nnoremap <leader>c :Commands<cr>
 " Ex command history. <C-e> to modify the command
 nnoremap <leader>: :History:<cr>
 
-nnoremap <leader>a :Rgi<space><cr>
+nnoremap <leader>r :Rgi<space><cr>
 
 "" --column: Show column number
 " --line-number: Show line number
@@ -363,3 +361,5 @@ let g:fzf_action = {
   \ 'ctrl-b': 'split',
   \ 'ctrl-v': 'vsplit'
   \ }
+
+nnoremap <Leader>gf :Rgi <C-R><C-W><CR>
