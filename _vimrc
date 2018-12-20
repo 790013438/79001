@@ -2,17 +2,15 @@
 unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
 
-" 关闭兼容模式
-set nocompatible
+" 关闭兼容模式 默认的配置中有，不重复
+" set nocompatible
 
 " enable syntax and plugins (for netrw)
 syntax enable
-filetype plugin on
+filetype plugin indent on
 
 " 提示js
 set omnifunc=javascriptcomplete#CompleteJS
-" 根据侦测到的不同类型加载对应的插件
-filetype plugin on
 
 " 开启实时搜索功能
 set incsearch
@@ -29,11 +27,11 @@ set nowrap
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
 "Plug 'Valloric/YouCompleteMe'
 Plug 'altercation/vim-colors-solarized'
 Plug 'thaerkh/vim-indentguides'
-Plug 'pangloss/vim-javascript'
+"Plug 'pangloss/vim-javascript'
 Plug 'kshenoy/vim-signature'
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -41,14 +39,13 @@ Plug 'junegunn/fzf.vim'
 Plug 'iCyMind/NeoSolarized'
 Plug 'posva/vim-vue'
 Plug 'junegunn/vim-slash'
-Plug 'chr4/nginx.vim'
+"Plug 'chr4/nginx.vim'
 Plug 'NLKNguyen/papercolor-theme'
-Plug 'jnurmine/Zenburn'
+"Plug 'jnurmine/Zenburn'
 Plug 'junegunn/vim-easy-align'
+Plug 'chrisbra/matchit'
 
 call plug#end()
-
-filetype plugin indent on
 
 if has("gui_running")
   "colorscheme NeoSolarized
@@ -81,7 +78,6 @@ set hlsearch
 syntax on
 
 " 自适应不同语言的智能缩进
-filetype indent on
 
 " 将制表符扩展为空格
 set expandtab
@@ -123,7 +119,7 @@ set wildmenu
 
 "====[ Make tabs, trailing whitespace, and non-breaking spaces visible ]======
 
-exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
+exec "set listchars=trail:\uB7,nbsp:~"
 set list
 
 let g:indentguides_spacechar = '·'
@@ -363,3 +359,9 @@ let g:fzf_action = {
   \ }
 
 nnoremap <Leader>gf :Rgi <C-R><C-W><CR>
+
+" 保存后也可以撤销
+set backup
+
+" 加载matchit，调整ifelse
+" packadd matchit
