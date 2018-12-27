@@ -43,4 +43,7 @@ set norelativenumber
 syntax sync minlines=256
 
 " 窗口大小
-set lines=49 columns=98
+set lines=49 columns=128
+set equalalways
+" 设置最小的高度，大小合适就好
+set winheight=16
