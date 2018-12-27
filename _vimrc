@@ -119,7 +119,7 @@ set wildmenu
 
 "====[ Make tabs, trailing whitespace, and non-breaking spaces visible ]======
 
-exec "set listchars=trail:\uB7,nbsp:~"
+exec "set listchars=tab:>-,trail:\uB7,nbsp:~"
 set list
 
 let g:indentguides_spacechar = '·'
@@ -224,11 +224,8 @@ if has('timers')
   noremap <expr> <plug>(slash-after) 'zz'.slash#blink(2, 50)
 endif
 
-set cursorline
-set cursorcolumn
-
 "========= 折叠HTML ========="
-set foldmethod=syntax
+set foldmethod=manual
 set foldlevelstart=99
 "========= 折叠Java ========="
 " autocmd FileType java :set fmr=/**,*/ fdm=marker fdc=1
@@ -361,7 +358,13 @@ let g:fzf_action = {
 nnoremap <Leader>gf :Rgi <C-R><C-W><CR>
 
 " 保存后也可以撤销
-set backup
+set writebackup
 
 " 加载matchit，调整ifelse
 " packadd matchit
+" 当移到最右边时，展示遮挡的字符
+set sidescroll=10
+" 移动到其他文件时，自动保存
+set autowrite
+" 显示修改的部分
+set scrollbind
