@@ -9,9 +9,6 @@ source $VIMRUNTIME/defaults.vim
 syntax enable
 filetype plugin indent on
 
-" 提示js
-set omnifunc=javascriptcomplete#CompleteJS
-
 " 开启实时搜索功能
 set incsearch
 
@@ -44,6 +41,8 @@ Plug 'NLKNguyen/papercolor-theme'
 "Plug 'jnurmine/Zenburn'
 Plug 'junegunn/vim-easy-align'
 Plug 'chrisbra/matchit'
+Plug 'bartlomiejdanek/vim-dart'
+"Plug 'vim-scripts/vim-javacomplete2'
 
 call plug#end()
 
@@ -53,6 +52,12 @@ if has("gui_running")
   "colorscheme gruvbox
 else
   colorscheme papercolor
+endif
+
+" 提示代码
+if has("autocmd")
+  autocmd FileType java setlocal omnifunc=javacomplete#Complete
+  autocmd Filetype java setlocal completefunc=javacomplete#CompleteParamsInfo
 endif
 
 " 禁止显示滚动条
@@ -366,5 +371,32 @@ set writebackup
 set sidescroll=10
 " 移动到其他文件时，自动保存
 set autowrite
-" 显示修改的部分
-set scrollbind
+" 两个窗口同时滚动，不需要
+"set scrollbind
+
+" 设置对齐 影响区分tab 暂时不要
+"set shiftround
+
+" 关闭modeline
+set nomodeline
+
+" 添加session
+set sessionoptions+=resize,unix,slash
+
+" 设置尝试的文本格式
+set fileformats=unix,dos
+
+" 显示匹配的括号
+set showmatch
+" 设置匹配停留的时间
+set matchtime=1
+
+" 设置建议推断大小写
+set infercase
+
+" 注释
+iabbrev #b /****************************************
+iabbrev #e <Space>****************************************/
+
+" 设置格式
+set formatoptions=croqln
