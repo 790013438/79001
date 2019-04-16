@@ -398,5 +398,5 @@ set infercase
 iabbrev #b /****************************************
 iabbrev #e <Space>****************************************/
 
-" 设置格式
-set formatoptions=croqln
+" 设置格式 合并行时，去除注释
+set formatoptions=croqlnmMj

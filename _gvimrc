@@ -46,4 +46,8 @@ syntax sync minlines=256
 set lines=49 columns=128
 set equalalways
 " 设置最小的高度，大小合适就好
-set winheight=16
+set winheight=12
+
+highlight GuiColorColumn guibg=#afd7ff
+call matchadd('GuiColorColumn', '\%81v', 100)
+

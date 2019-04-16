@@ -1,3 +1,4 @@
+source $VIMRUNTIME/defaults.vim
 " 文件类型侦测
 
 " 开启文件类型侦测
@@ -342,4 +343,4 @@ set splitright
 set norelativenumber
 set nocursorline
 set nocursorcolumn
-syntax sync minlines=256
+set showcmd
