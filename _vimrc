@@ -364,6 +364,7 @@ nnoremap <Leader>gf :Rgi <C-R><C-W><CR>
 
 " 保存后也可以撤销
 set writebackup
+set backupcopy=no
 
 " 加载matchit，调整ifelse
 " packadd matchit
@@ -377,8 +378,7 @@ set autowrite
 " 设置对齐 影响区分tab 暂时不要
 "set shiftround
 
-" 关闭modeline
-set nomodeline
+set modeline
 
 " 添加session
 set sessionoptions+=resize,unix,slash
@@ -387,9 +387,9 @@ set sessionoptions+=resize,unix,slash
 set fileformats=unix,dos
 
 " 显示匹配的括号
-set showmatch
+"set showmatch
 " 设置匹配停留的时间
-set matchtime=1
+"set matchtime=0.5
 
 " 设置建议推断大小写
 set infercase
@@ -400,3 +400,19 @@ iabbrev #e <Space>****************************************/
 
 " 设置格式 合并行时，去除注释
 set formatoptions=croqlnmMj
+
+" 启用sql语法高亮
+let g:sql_type_default = 'sqlanywhere'
+
+" 配置模板
+if has("autocmd")
+  augroup templates
+    autocmd BufNewFile *.vue 0r ~/.vim/templates/skeleton.vue
+  augroup END
+endif
+
+" 设置滚动的间隔距离3个
+set scrolloff=3         " keep 3 lines when scrolling
+
+set visualbell t_vb=    " turn off error beep/flash
+set novisualbell        " turn off visual bell
