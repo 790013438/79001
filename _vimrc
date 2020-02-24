@@ -2,28 +2,13 @@
 unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
 
-" 关闭兼容模式 默认的配置中有，不重复
-" set nocompatible
-
-" enable syntax and plugins (for netrw)
-syntax enable
-filetype plugin indent on
-
-" 开启实时搜索功能
-set incsearch
-
-" 搜索时大小写不敏感
-set ignorecase smartcase
+" 视情况缩进
 set smartindent
 set smarttab
-
-" 不自动换行
-set nowrap
 
 " 插件安装
 
 call plug#begin('~/.vim/plugged')
-
 "Plug 'morhetz/gruvbox'
 "Plug 'Valloric/YouCompleteMe'
 Plug 'altercation/vim-colors-solarized'
@@ -34,31 +19,25 @@ Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'iCyMind/NeoSolarized'
+Plug 'ayu-theme/ayu-vim'
 Plug 'posva/vim-vue'
 Plug 'junegunn/vim-slash'
 "Plug 'chr4/nginx.vim'
-Plug 'NLKNguyen/papercolor-theme'
+"Plug 'NLKNguyen/papercolor-theme'
 "Plug 'jnurmine/Zenburn'
 Plug 'junegunn/vim-easy-align'
-Plug 'chrisbra/matchit'
+"Plug 'chrisbra/matchit'
 Plug 'bartlomiejdanek/vim-dart'
 "Plug 'vim-scripts/vim-javacomplete2'
-
 call plug#end()
 
-if has("gui_running")
-  "colorscheme NeoSolarized
-  colorscheme papercolor
-  "colorscheme gruvbox
-else
-  colorscheme papercolor
-endif
-
-" 提示代码
-if has("autocmd")
-  autocmd FileType java setlocal omnifunc=javacomplete#Complete
-  autocmd Filetype java setlocal completefunc=javacomplete#CompleteParamsInfo
-endif
+"if has("gui_running")
+"  colorscheme NeoSolarized
+"  "colorscheme papercolor
+"  "colorscheme gruvbox
+"else
+"  colorscheme papercolor
+"endif
 
 " 禁止显示滚动条
 set guioptions-=l
@@ -69,20 +48,6 @@ set guioptions-=R
 " 禁止显示菜单和工具条
 set guioptions-=m
 set guioptions-=T
-
-" 显示光标当前位置
-set ruler
-
-" 开启行号显示
-set number
-
-" 高亮显示搜索结果
-set hlsearch
-
-" 允许用指定语法高亮配色方案替换默认方案
-syntax on
-
-" 自适应不同语言的智能缩进
 
 " 将制表符扩展为空格
 set expandtab
@@ -102,44 +67,19 @@ set langmenu=cn.UTF-8
 let $LANG = 'en_us.UTF-8'
 "}}}
 
-
-" Display all matching files when we tab complete
-set wildmenu
-
-""=====[ Highlight matches when jumping to next ]=============
-"
-"" This rewires n and N to do the highlighing...
-"nnoremap <silent> n   n:call HLNext(0.4)<cr>
-"nnoremap <silent> N   N:call HLNext(0.4)<cr>
-"
-"
-"" EITHER blink the line containing the match...
-"function! HLNext (blinktime)
-"    set invcursorline
-"    redraw
-""       exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
-"    set invcursorline
-"    redraw
-"endfunction
-
 "====[ Make tabs, trailing whitespace, and non-breaking spaces visible ]======
 
 exec "set listchars=tab:>-,trail:\uB7,nbsp:~"
 set list
 
+" 设置缩进对齐符号
 let g:indentguides_spacechar = '·'
 let g:indentguides_tabchar = '|'
 
 "====[ Make the 81st column stand out ]====================
-
 " OR ELSE just the 81st column of wide lines...
 highlight ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 100)
-
-"let mapleader = ','
-"The default leader is \, but a comma is much butter.
-
-"---------------Mappings---------------"
 
 "Make it easy to edit the Vimrc file
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
@@ -168,62 +108,15 @@ map <silent> <A-F2> :if &guioptions =~# 'T' <Bar>
      \set guioptions+=m <Bar>
  \endif<CR>
 
-"------------------- Modifying tabs -------------------"
-"function! ShortTabLine()
-"    let ret = ''
-"    for i in range(tabpagenr('$'))
-"    " select the color group for highlighting active tab
-"        if i + 1 == tabpagenr()
-"            let ret .= '%#errorMsg#'
-"        else
-"            let ret .= '%#TabLine#'
-"        endif
-"        " find the buffername for the tablabel
-"        let buflist = tabpagebuflist(i+1)
-"        let winnr = tabpagewinnr(i+1)
-"        let buffername = bufname(buflist[winnr – 1])
-"        let filename = fnamemodify(buffername,':t')
-"        " check if there is no name
-"        if filename == ''
-"            let filename = 'noname'
-"        endif
-"        " only show the first 6 letters of the name and
-"        " .. if the filename is more than 8 letters long
-"        if strlen(filename) >=8
-"            let ret .= '['. filename[0:5].'..]'
-"        else
-"            let ret .= '['.filename.']'
-"        endif
-"    endfor
-"    " after the last tab fill with TabLineFill and reset tab page #
-"    let ret .= '%#TabLineFill#%T'
-"    return ret
-"endfunction
-"set tabline=%!ShortTabLine()
-
-"----------- gui tab tool tip -----------"
-"function! InfoGuiTooltip()
-"    "get widow count"
-"    let wincount = tabpagewinnr(tabpagenr(), '$')
-"    let bufferlist=''
-"    "get name for active buffers in windows"
-"    for i in tabpagebuflist()
-"        let bufferlist .= '['.fnamemodify(bufname(i),':t').'] '
-"    endfor
-"    return bufname($).' windows: '.wincount.' ' .bufferlist ' '
-"endfunction
-"set guitabtooltip=%!InfoGuiTooltip()
-
 set splitbelow
 set splitright
 
-nmap <M-p> :b
 " ============ 在浏览器中打开当前文件  ============"
 nnoremap <silent> <F5> :update<Bar>silent !start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "file://%:p"<CR>
 " ============ 在文件夹中打开当前文件  ============"
 map <silent> <F4> :silent !explorer %:p:h:gs?\/?\\\\\\?<CR>
 
-" ============ 闪烁 ============"
+" ============ 查找时闪烁 ============"
 if has('timers')
   " Blink 2 times with 50ms interval
   noremap <expr> <plug>(slash-after) 'zz'.slash#blink(2, 50)
@@ -232,9 +125,6 @@ endif
 "========= 折叠HTML ========="
 set foldmethod=manual
 set foldlevelstart=99
-"========= 折叠Java ========="
-" autocmd FileType java :set fmr=/**,*/ fdm=marker fdc=1
-"set foldmethod=indent
 
 "========= 提高性能 ========="
 set nocursorcolumn
@@ -242,22 +132,12 @@ set nocursorline
 set norelativenumber
 syntax sync minlines=256
 
-" set wildmode=list:longest,full
-
-" toggle fullscreen mode by pressing F11
-noremap <f11> <esc>:call libcallnr('gvim_fullscreen.dll', 'ToggleFullscreen', 0)<cr>
-" toggle window transparency to 247 or 180 by pressing F12
-noremap <f12> <esc>:call libcallnr('gvim_fullscreen.dll', 'ToggleTransparency', "247,180")<cr>
-
 " vim-easy-align
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap gc <Plug>(EasyAlign)
 
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap gc <Plug>(EasyAlign)
-
-" 提高启动速度
-set viminfo='20,<50,s10
 
 " fzf
 set rtp+=C:/ProgramData/chocolatey/lib/fzf/tools
@@ -269,23 +149,13 @@ augroup END
 
 " 模糊搜索
 nmap <M-2> :FZF<CR>
-
 " Key mapping
-
 " History of file opened
 nnoremap <leader>h :History<cr>
-
 " Buffers opens
 nnoremap <leader>b :Buffers<cr>
-
 " Files recursively from pwd
 nnoremap <leader>f :Files<cr>
-
-" Ex commands
-nnoremap <leader>c :Commands<cr>
-" Ex command history. <C-e> to modify the command
-nnoremap <leader>: :History:<cr>
-
 nnoremap <leader>r :Rgi<space><cr>
 
 "" --column: Show column number
@@ -297,7 +167,6 @@ nnoremap <leader>r :Rgi<space><cr>
 " --hidden: Search hidden files and folders
 " --follow: Follow symlinks
 " --glob: Additional conditions for search (in this case ignore everything in the .git/ folder)
-
 " ripgrep command to search in multiple files
 autocmd fzf VimEnter * command! -nargs=* Rg
   \ call fzf#vim#Ag(
@@ -365,34 +234,17 @@ nnoremap <Leader>gf :Rgi <C-R><C-W><CR>
 " 保存后也可以撤销
 set writebackup
 set backupcopy=no
-
-" 加载matchit，调整ifelse
-" packadd matchit
 " 当移到最右边时，展示遮挡的字符
 set sidescroll=10
 " 移动到其他文件时，自动保存
 set autowrite
-" 两个窗口同时滚动，不需要
-"set scrollbind
-
-" 设置对齐 影响区分tab 暂时不要
-"set shiftround
-
-set modeline
+" 设置尝试的文本格式
+set fileformats=unix,dos
+" 设置建议推断大小写
+set infercase
 
 " 添加session
 set sessionoptions+=resize,unix,slash
-
-" 设置尝试的文本格式
-set fileformats=unix,dos
-
-" 显示匹配的括号
-"set showmatch
-" 设置匹配停留的时间
-"set matchtime=0.5
-
-" 设置建议推断大小写
-set infercase
 
 " 注释
 iabbrev #b /****************************************
@@ -401,18 +253,49 @@ iabbrev #e <Space>****************************************/
 " 设置格式 合并行时，去除注释
 set formatoptions=croqlnmMj
 
-" 启用sql语法高亮
+" java提示代码
+if has("autocmd")
+  autocmd FileType java setlocal omnifunc=javacomplete#Complete
+  autocmd Filetype java setlocal completefunc=javacomplete#CompleteParamsInfo
+endif
+
+" sql启用语法高亮
 let g:sql_type_default = 'sqlanywhere'
 
-" 配置模板
+" vue配置模板
 if has("autocmd")
   augroup templates
     autocmd BufNewFile *.vue 0r ~/.vim/templates/skeleton.vue
   augroup END
 endif
 
-" 设置滚动的间隔距离3个
+
+" http://vimdoc.sourceforge.net/htmldoc/starting.html#vimrc
+
+"set nocompatible        " use vim defaults
 set scrolloff=3         " keep 3 lines when scrolling
+set ai                  " set auto-indenting on for programming
+
+set showcmd             " display incomplete commands
+set nobackup            " do not keep a backup file
+set number              " show line numbers
+set ruler               " show the current row and column
+
+set hlsearch            " highlight searches
+set incsearch           " do incremental searching
+set showmatch           " jump to matches when entering regexp
+set ignorecase          " ignore case when searching
+set smartcase           " no ignorecase if Uppercase char present
 
 set visualbell t_vb=    " turn off error beep/flash
 set novisualbell        " turn off visual bell
+
+set backspace=indent,eol,start  " make that backspace key work the way it should
+set runtimepath=$VIMRUNTIME     " turn off user scripts, https://github.com/igrigorik/vimgolf/issues/129
+
+syntax on               " turn syntax highlighting on by default
+filetype on             " detect type of file
+filetype indent on      " load indent file for specific file type
+
+set t_RV=               " http://bugs.debian.org/608242, http://groups.google.com/group/vim_dev/browse_thread/thread/9770ea844cec3282
+
