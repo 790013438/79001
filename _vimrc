@@ -1,53 +1,43 @@
 " vim8.0开始的默认vim，patch 7.4.2111
 unlet! skip_defaults_vim
+" 不用msvim
+let g:skip_loading_mswin=1
 source $VIMRUNTIME/defaults.vim
 
 " 视情况缩进
-set smartindent
-set smarttab
+"set smartindent
+"set smarttab
+
+" 增减字母
+"set nrformats+=alpha
 
 " 插件安装
 
 call plug#begin('~/.vim/plugged')
-"Plug 'morhetz/gruvbox'
-"Plug 'Valloric/YouCompleteMe'
-Plug 'altercation/vim-colors-solarized'
-Plug 'thaerkh/vim-indentguides'
-"Plug 'pangloss/vim-javascript'
+""Plug 'Valloric/YouCompleteMe'
+""Plug 'chrisbra/matchit'
+""Plug 'jnurmine/Zenburn'
+""Plug 'morhetz/gruvbox'
+""Plug 'pangloss/vim-javascript'
+""Plug 'vim-scripts/vim-javacomplete2'
+""Plug 'altercation/vim-colors-solarized'
+""Plug 'chr4/nginx.vim'
+""Plug 'iCyMind/NeoSolarized'
+""Plug 'junegunn/vim-slash'
+""Plug 'scrooloose/nerdtree'
 Plug 'kshenoy/vim-signature'
-Plug 'scrooloose/nerdtree'
+""Plug 'vim-scripts/ShowMarks'
+""Plug 'jacquesbh/vim-showmarks'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'bartlomiejdanek/vim-dart'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'iCyMind/NeoSolarized'
-Plug 'ayu-theme/ayu-vim'
-Plug 'posva/vim-vue'
-Plug 'junegunn/vim-slash'
-"Plug 'chr4/nginx.vim'
-"Plug 'NLKNguyen/papercolor-theme'
-"Plug 'jnurmine/Zenburn'
 Plug 'junegunn/vim-easy-align'
-"Plug 'chrisbra/matchit'
-Plug 'bartlomiejdanek/vim-dart'
-"Plug 'vim-scripts/vim-javacomplete2'
+Plug 'posva/vim-vue'
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+Plug 'thaerkh/vim-indentguides'
 call plug#end()
 
-"if has("gui_running")
-"  colorscheme NeoSolarized
-"  "colorscheme papercolor
-"  "colorscheme gruvbox
-"else
-"  colorscheme papercolor
-"endif
-
-" 禁止显示滚动条
-set guioptions-=l
-set guioptions-=L
-set guioptions-=r
-set guioptions-=R
-
-" 禁止显示菜单和工具条
-set guioptions-=m
-set guioptions-=T
 
 " 将制表符扩展为空格
 set expandtab
@@ -84,10 +74,6 @@ call matchadd('ColorColumn', '\%81v', 100)
 "Make it easy to edit the Vimrc file
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
 
-"Make NERDTreeToogle easier to toggle.
-nmap <M-1> :NERDTreeToggle<CR>
-" 显示隐藏文件
-let NERDTreeShowHidden=1
 
 "--------------- Personal highlighting ---------------"
 "====[ :so $VIMRUNTIME/syntax/hitest.vim ]=============
@@ -97,8 +83,11 @@ let NERDTreeShowHidden=1
 "match errorMsg /[\t]/
 " Preventing errors caused by IP address
 "match errorMsg /\(2[5][6-9]\|2[6-9][0-9]\|[3-9][0-9][0-9]\)[.][0-9]\{1,3\}[.][0-9]\{1,3\}[.][0-9]\{1,3\}\|[0-9]\{1,3\}[.]\(2[5][6-9]\|2[6-9][0-9]\|[3-9][0-9][0-9]\)[.][0-9]\{1,3\}[.][0-9]\{1,3\}\|[0-9]\{1,3\}[.][0-9]\{1,3\}[.]\(2[5][6-9]\|\2[6-9][0-9]|[3-9][0-9][0-9]\)[.][0-9]\{1,3\}\|[0-9]\{1,3\}[.][0-9]\{1,3\}[.][0-9]\{1,3\}[.]\(2[5][6-9]\|2[6-9][0-9]\|[3-9][0-9][0-9]\)/
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v]\ [%p%%]\ [LEN=%L]
+set statusline=[FORMAT=%{&ff}]\ [TYPE=%y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v]\ [%p%%]\ [LEN=%L]
 set laststatus=2
+if has("statusline")
+    set statusline+=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%k\ %-14.(%l,%c%V%)\ %P
+ endif
 
 map <silent> <A-F2> :if &guioptions =~# 'T' <Bar>
      \set guioptions-=T <Bar>
@@ -245,6 +234,8 @@ set infercase
 
 " 添加session
 set sessionoptions+=resize,unix,slash
+" 设置书签记录
+set viminfo='1000,f1
 
 " 注释
 iabbrev #b /****************************************
@@ -291,11 +282,24 @@ set visualbell t_vb=    " turn off error beep/flash
 set novisualbell        " turn off visual bell
 
 set backspace=indent,eol,start  " make that backspace key work the way it should
-set runtimepath=$VIMRUNTIME     " turn off user scripts, https://github.com/igrigorik/vimgolf/issues/129
+"set runtimepath=$VIMRUNTIME     " turn off user scripts, https://github.com/igrigorik/vimgolf/issues/129
 
 syntax on               " turn syntax highlighting on by default
 filetype on             " detect type of file
 filetype indent on      " load indent file for specific file type
 
 set t_RV=               " http://bugs.debian.org/608242, http://groups.google.com/group/vim_dev/browse_thread/thread/9770ea844cec3282
+silent! vunmap <C-X>
+silent! unmap Q
+vmap <C-Del> <Nop>
+vmap <S-Del> <Nop>
+vmap <C-Insert> <Nop>
+vmap <S-Insert> <Nop>
+map <S-Insert> <Nop>
+set nosmartindent
+set noautoindent
+
+let g:netrw_liststyle = 3
+
+au BufNewFile,BufRead *.sql   set sw=2
 
